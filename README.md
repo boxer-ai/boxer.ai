@@ -1,4 +1,4 @@
-# ${1:Project Name}
+# Banker.ai
 we're iterating..
 
 ## Installation
