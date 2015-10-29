@@ -15,10 +15,19 @@ SPIDER_MODULES = ['vcspider.spiders']
 NEWSPIDER_MODULE = 'vcspider.spiders'
 DOWNLOAD_HANDLERS = {'s3': None,}
 
+DEPTH_LIMIT = 2
+
 ITEM_PIPELINES = {
-'vcspider.pipelines.VcspiderPipeline': 300,
+'vcspider.pipelines.VcspiderPipeline': 200,
+'vcspider.pipelines.MySqlPipeline': 300,
 }
 
+MYSQL_GSA_CONFIG = {
+    'user': 'root',
+    'password': 'nycdsa1!',
+    'host': '173.194.225.231',
+    'database': 'test'
+}
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'vcspider (+http://www.yourdomain.com)'
