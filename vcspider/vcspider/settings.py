@@ -27,6 +27,8 @@ MYSQL_GSJ_PASSWORD = 'nycdsa1!'
 MYSQL_GSJ_HOST = '173.194.225.231'
 MYSQL_GSJ_DB = 'test'
 
+MYSQL_TABLE = 'vctest'
+
 MYSQL_GSJ_CONFIG = {
     'user': 'root',
     'password': 'nycdsa1!',

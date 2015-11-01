@@ -21,7 +21,7 @@ class MySqlPipeline(object):
 
     def __init__(self):
 
-        config = settings['MYSQL_GSA_CONFIG']
+        config = settings['MYSQL_GSJ_CONFIG']
         self.con = msc.connect(**config)
 
         self.cur = self.con.cursor()
@@ -31,7 +31,7 @@ class MySqlPipeline(object):
 
         dc = dict(item)
         for key in dc.keys(): # strip out bs list structure
-            dc[key] = ''.join(dc[key]).encode('utf-8')
+            dc[key] = ''.join(dc[key])#.encode('utf-8')
 
         sql = self.get_update_query() if self.check_key(item) else self.get_insert_query()
 
@@ -52,7 +52,7 @@ class MySqlPipeline(object):
             return True
 
     def get_update_query(self):
-        return "UPDATE vctest2 SET text = concat(text, %(text)s) WHERE siteurl = %(siteurl)s;"
+        return "UPDATE {0} SET text = concat(text, %(text)s) WHERE siteurl = %(siteurl)s;".format(settings['MYSQL_TABLE'])
 
     def get_insert_query(self):
-        return "INSERT INTO vctest2 (pagetitle, text, pageurl, siteurl) VALUES (%(pagetitle)s, %(text)s, %(pageurl)s, %(siteurl)s);"
+        return "INSERT INTO {0} (pagetitle, text, pageurl, siteurl) VALUES (%(pagetitle)s, %(text)s, %(pageurl)s, %(siteurl)s);".format(settings['MYSQL_TABLE'])

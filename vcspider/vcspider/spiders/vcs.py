@@ -48,7 +48,7 @@ class VcSpider(CrawlSpider):
 
         il.add_value('siteurl', self.parse_base_url(response.url))
         il.add_value('pageurl', response.url)
-        il.add_value('text', fulltext.decode('utf-8'))
+        il.add_value('text', fulltext.encode('ascii', 'ignore'))
         il.add_xpath('pagetitle', '//title/text()')
         # il.add_xpath('keywords', '//meta[@name="keywords"]/@content')
 
