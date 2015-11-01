@@ -5,7 +5,7 @@ from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
 from scrapy.loader import ItemLoader
 from scrapy.loader.processors import MapCompose
-from scrapy.utils.response import get_base_url
+# from scrapy.utils.response import get_base_url
 import lxml.html as lh, lxml.etree as le
 import re
 from goose import Goose
@@ -20,7 +20,10 @@ class VcSpider(CrawlSpider):
     name = "vcs"
     allowed_domains = domains
     start_urls = urls
-    
+
+    # allowed_domains = ['3g-capital.com']
+    # start_urls = ['http://www.3g-capital.com']
+
     rules = (
         Rule(LinkExtractor(), callback='parse_items', follow= True),
     )
@@ -36,12 +39,13 @@ class VcSpider(CrawlSpider):
         il = ItemLoader(item = VcspiderItem(), response = response)
         il.default_output_processor = MapCompose(
             lambda v: v.rstrip(),
-            lambda v: v.replace(',', '')
+            lambda v: re.sub(r'[\',|!]', '', v),
+            lambda v: re.sub(r'\s+', ' ', v)
         )
 
         il.add_value('siteurl', self.parse_base_url(response.url))
         il.add_value('pageurl', response.url)
-        il.add_value('text', fulltext)
+        il.add_value('text', fulltext.decode('utf-8'))
         il.add_xpath('pagetitle', '//title/text()')
         # il.add_xpath('keywords', '//meta[@name="keywords"]/@content')
 
