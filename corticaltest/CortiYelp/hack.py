@@ -5,7 +5,7 @@ from client import CorticalClient
 import random
 
 # Put your cortical.io API key in a file with this name
-corticalio_keyfile = "cortical.io.key"
+#corticalio_keyfile = "cortical.io.key"
 corticalio_key = open("cortical.io.key").readline()
 corticalio_key = corticalio_key.replace("YOUR KEY: ", "").replace("\n", "")
 
@@ -13,7 +13,7 @@ corticalio_key = corticalio_key.replace("YOUR KEY: ", "").replace("\n", "")
 yelp_dataset = 'yelp_academic_dataset.json'
 
 # Number of users to analyze
-num_users = 100
+num_users = 10
 
 ################################################################################
 # Parse Yelp academic dataset
