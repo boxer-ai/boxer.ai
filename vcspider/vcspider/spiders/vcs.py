@@ -1,4 +1,4 @@
-import scrapy as s
+# import scrapy as s
 from vcspider.items import VcspiderItem
 from vcspider.globals import domains, urls
 from scrapy.spiders import CrawlSpider, Rule
@@ -6,26 +6,35 @@ from scrapy.linkextractors import LinkExtractor
 from scrapy.loader import ItemLoader
 from scrapy.loader.processors import MapCompose
 # from scrapy.utils.response import get_base_url
+<<<<<<< HEAD
 import lxml.html as lh, lxml.etree as le
+=======
+import lxml.html as lh
+import lxml.etree as le
+>>>>>>> 88b042e4b1df9adc3c7be5f79418ab73c8ee7f18
 import re
 from goose import Goose
 
-import logging
+# import logging
 # from scrapy.log import ScrapyFileLogObserver
-from twisted.python import log
+# from twisted.python import log
 # import logging
 # logging.basicConfig(level=logging.ERROR, filemode='w', filename='vcerror_log.txt')
+
 
 class VcSpider(CrawlSpider):
     name = "vcs"
     allowed_domains = domains
     start_urls = urls
 
+<<<<<<< HEAD
     # allowed_domains = ['3g-capital.com']
     # start_urls = ['http://www.3g-capital.com']
 
+=======
+>>>>>>> 88b042e4b1df9adc3c7be5f79418ab73c8ee7f18
     rules = (
-        Rule(LinkExtractor(), callback='parse_items', follow= True),
+        Rule(LinkExtractor(), callback='parse_items', follow=True),
     )
 
     g = Goose()
@@ -33,13 +42,20 @@ class VcSpider(CrawlSpider):
     def parse_items(self, response):
 
         # fulltext = self.parse_body_text(response)
-        gooseobj = self.g.extract(response.url)
-        fulltext = gooseobj.cleaned_text
+        # gooseobj = self.g.extract(response.url)
+        # fulltext = gooseobj.cleaned_text
+        fulltext = self.parse_body_text(response)
 
-        il = ItemLoader(item = VcspiderItem(), response = response)
+        il = ItemLoader(item=VcspiderItem(), response=response)
         il.default_output_processor = MapCompose(
+            # lambda v: v.rstrip(),
+            # lambda v: v.replace(',', '')
             lambda v: v.rstrip(),
+<<<<<<< HEAD
             lambda v: re.sub(r'[\',|!]', '', v),
+=======
+            lambda v: re.sub(r'[\',|.!]', '', v),
+>>>>>>> 88b042e4b1df9adc3c7be5f79418ab73c8ee7f18
             lambda v: re.sub(r'\s+', ' ', v)
         )
 
@@ -56,19 +72,19 @@ class VcSpider(CrawlSpider):
         root = lh.fromstring(response.body)
         le.strip_elements(root, le.Comment, 'script', 'head', 'a')
         fulltext = lh.tostring(root, method="text", encoding=unicode)
-        fulltext = fulltext.strip().replace('\n','')
+        fulltext = fulltext.strip().replace('\n', '')
         fulltext = re.sub(r'\s+', ' ', fulltext)
 
         yield fulltext
 
     def parse_base_url(self, url):
-        url = re.sub(r'((http(s)?://)?(www.)?)', '', url.lower()) # strip head
+        url = re.sub(r'((http(s)?://)?(www.)?)', '', url.lower())  # strip head
         yield url[:url.find('/')]
 
-## ItemLoader vs normal Item access methods - can you get whole corpus?
+# ItemLoader vs normal Item access methods - can you get whole corpus?
 
 # meta[@name="keywords"]/@content
-    ## base access method
+    # base access method
     # def parse_items(self, response):
         # hxs = s.Selector(response)
         # item = VcspiderItem()
@@ -84,36 +100,34 @@ class VcSpider(CrawlSpider):
 #             item['title'] = titles.xpath('a/text()').extract()
 #             item['link'] = titles.xpath('a/@href').extract()
 #             items.append(item)
-#             
+#
 #         return(items)
 
 
 #     def parse_page(self, response):
 #         item = VcspiderItem()
 #         sel = response.xpath('//html')
-#         text = ''.join(sel.xpath("//body//text()").extract()).strip() 
+#         text = ''.join(sel.xpath("//body//text()").extract()).strip()
 #         item['site'] = 'tgc'
 #         item['text'] = text
 #         yield item
 
 
 
-	
+
 #     def parse(self, response):
 #         sel = Selector(response)
 #         sites = sel.xpath('//div[@id="menu"]')
 #         items = []
-# 
+#
 #         for site in sites:
 #             item = VcspiderItem()
 #             item['name'] = site.xpath('a/text()').extract()
 #             item['url'] = site.xpath('a/@href').extract()
 #             items.append(item)
-#             
+#
 #         with open('./links.txt', 'w') as l:
 # 			for item in items:
 # 				l.write(items)
-# 			
-#         yield items	
-		
-	
+#
+#         yield items
