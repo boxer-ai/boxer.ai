@@ -2,6 +2,7 @@ import json
 import mysql.connector as msc
 from scrapy.conf import settings
 
+
 class VcspiderPipeline(object):
 
     def __init__(self):
@@ -14,6 +15,7 @@ class VcspiderPipeline(object):
 
     def spider_closed(self, spider):
         self.file.close()
+
 
 class MySqlPipeline(object):
 

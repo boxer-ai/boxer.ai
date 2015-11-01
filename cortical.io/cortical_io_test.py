@@ -6,4 +6,3 @@ api = TermsApi(client)
 terms = api.getTerm("en_associative", term="apple", get_fingerprint=True)
 
 print terms[0].fingerprint.positions
-

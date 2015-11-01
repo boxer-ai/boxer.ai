@@ -13,13 +13,13 @@ BOT_NAME = 'vcspider'
 
 SPIDER_MODULES = ['vcspider.spiders']
 NEWSPIDER_MODULE = 'vcspider.spiders'
-DOWNLOAD_HANDLERS = {'s3': None,}
+DOWNLOAD_HANDLERS = {'s3': None, }
 
 DEPTH_LIMIT = 2
 
 ITEM_PIPELINES = {
-'vcspider.pipelines.VcspiderPipeline': 200,
-'vcspider.pipelines.MySqlPipeline': 300,
+    'vcspider.pipelines.VcspiderPipeline': 200,
+    'vcspider.pipelines.MySqlPipeline': 300,
 }
 
 MYSQL_GSA_CONFIG = {
