@@ -18,9 +18,19 @@ DOWNLOAD_HANDLERS = {'s3': None, }
 DEPTH_LIMIT = 2
 
 ITEM_PIPELINES = {
+<<<<<<< HEAD
+# 'vcspider.pipelines.VcspiderPipeline': 200,
+'vcspider.pipelines.MySqlPipeline': 300,
+=======
     'vcspider.pipelines.VcspiderPipeline': 200,
     'vcspider.pipelines.MySqlPipeline': 300,
+>>>>>>> 88b042e4b1df9adc3c7be5f79418ab73c8ee7f18
 }
+
+MYSQL_GSJ_USER = 'root'
+MYSQL_GSJ_PASSWORD = 'nycdsa1!'
+MYSQL_GSJ_HOST = '173.194.225.231'
+MYSQL_GSJ_DB = 'test'
 
 MYSQL_GSA_CONFIG = {
     'user': 'root',

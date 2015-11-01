@@ -6,8 +6,12 @@ from scrapy.linkextractors import LinkExtractor
 from scrapy.loader import ItemLoader
 from scrapy.loader.processors import MapCompose
 # from scrapy.utils.response import get_base_url
+<<<<<<< HEAD
+import lxml.html as lh, lxml.etree as le
+=======
 import lxml.html as lh
 import lxml.etree as le
+>>>>>>> 88b042e4b1df9adc3c7be5f79418ab73c8ee7f18
 import re
 from goose import Goose
 
@@ -23,6 +27,12 @@ class VcSpider(CrawlSpider):
     allowed_domains = domains
     start_urls = urls
 
+<<<<<<< HEAD
+    # allowed_domains = ['3g-capital.com']
+    # start_urls = ['http://www.3g-capital.com']
+
+=======
+>>>>>>> 88b042e4b1df9adc3c7be5f79418ab73c8ee7f18
     rules = (
         Rule(LinkExtractor(), callback='parse_items', follow=True),
     )
@@ -41,13 +51,17 @@ class VcSpider(CrawlSpider):
             # lambda v: v.rstrip(),
             # lambda v: v.replace(',', '')
             lambda v: v.rstrip(),
+<<<<<<< HEAD
+            lambda v: re.sub(r'[\',|!]', '', v),
+=======
             lambda v: re.sub(r'[\',|.!]', '', v),
+>>>>>>> 88b042e4b1df9adc3c7be5f79418ab73c8ee7f18
             lambda v: re.sub(r'\s+', ' ', v)
         )
 
         il.add_value('siteurl', self.parse_base_url(response.url))
         il.add_value('pageurl', response.url)
-        il.add_value('text', fulltext)
+        il.add_value('text', fulltext.decode('utf-8'))
         il.add_xpath('pagetitle', '//title/text()')
         # il.add_xpath('keywords', '//meta[@name="keywords"]/@content')
 
