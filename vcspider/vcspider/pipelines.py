@@ -52,7 +52,7 @@ class MySqlPipeline(object):
             return True
 
     def get_update_query(self):
-        return "UPDATE vctest SET text = concat(text, %(text)s) WHERE siteurl = %(siteurl)s;"
+        return "UPDATE vctest2 SET text = concat(text, %(text)s) WHERE siteurl = %(siteurl)s;"
 
     def get_insert_query(self):
-        return "INSERT INTO vctest (pagetitle, text, pageurl, siteurl) VALUES (%(pagetitle)s, %(text)s, %(pageurl)s, %(siteurl)s);"
+        return "INSERT INTO vctest2 (pagetitle, text, pageurl, siteurl) VALUES (%(pagetitle)s, %(text)s, %(pageurl)s, %(siteurl)s);"

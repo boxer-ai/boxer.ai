@@ -32,10 +32,10 @@ class VcSpider(CrawlSpider):
 
     def parse_items(self, response):
 
-        # fulltext = self.parse_body_text(response)
-        # gooseobj = self.g.extract(response.url)
-        # fulltext = gooseobj.cleaned_text
         fulltext = self.parse_body_text(response)
+        gooseobj = self.g.extract(response.url)
+        fulltext = gooseobj.cleaned_text
+        # fulltext = self.parse_body_text(response)
 
         il = ItemLoader(item=VcspiderItem(), response=response)
         il.default_output_processor = MapCompose(

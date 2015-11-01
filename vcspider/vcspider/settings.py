@@ -27,10 +27,17 @@ MYSQL_GSJ_PASSWORD = 'nycdsa1!'
 MYSQL_GSJ_HOST = '173.194.225.231'
 MYSQL_GSJ_DB = 'test'
 
-MYSQL_GSA_CONFIG = {
+MYSQL_GSJ_CONFIG = {
     'user': 'root',
     'password': 'nycdsa1!',
     'host': '173.194.225.231',
+    'database': 'test'
+}
+
+MYSQL_GSA_CONFIG = {
+    'user': 'root',
+    'password': 'uLFZ2WoB',
+    'host': '130.211.154.93',
     'database': 'test'
 }
 
