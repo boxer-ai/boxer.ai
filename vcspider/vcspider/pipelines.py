@@ -1,6 +1,5 @@
 import json
 import mysql.connector as msc
-# import mysqldb as msd
 from scrapy.conf import settings
 
 
@@ -24,12 +23,6 @@ class MySqlPipeline(object):
 
         config = settings['MYSQL_GSA_CONFIG']
         self.con = msc.connect(**config)
-        # self.con = msd.connect(
-        #     host = settings['MYSQL_GSJ_HOST'],
-        #     user = settings['MYSQL_GSJ_USER'],
-        #     passwd = settings['MYSQL_GSJ_PASSWORD'],
-        #     db = settings['MYSQL_GSJ_DB']
-        # )
 
         self.cur = self.con.cursor()
         self.sitekeys = []
@@ -59,9 +52,7 @@ class MySqlPipeline(object):
             return True
 
     def get_update_query(self):
-        # print 'UPDATE JOHN', values
         return "UPDATE vctest SET text = concat(text, %(text)s) WHERE siteurl = %(siteurl)s;"
 
     def get_insert_query(self):
-        # print 'INSERT JOHN', values
         return "INSERT INTO vctest (pagetitle, text, pageurl, siteurl) VALUES (%(pagetitle)s, %(text)s, %(pageurl)s, %(siteurl)s);"
