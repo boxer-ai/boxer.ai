@@ -18,6 +18,7 @@ DOWNLOAD_HANDLERS = {'s3': None, }
 DEPTH_LIMIT = 1
 LOG_LEVEL = 'INFO'
 # CLOSESPIDER_PAGECOUNT = 20
+# CONCURRENT_REQUESTS = 100
 
 ITEM_PIPELINES = {
     # 'vcspider.pipelines.VcspiderPipeline': 200,
