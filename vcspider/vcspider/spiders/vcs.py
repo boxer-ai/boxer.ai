@@ -39,8 +39,6 @@ class VcSpider(CrawlSpider):
 
         il = ItemLoader(item=VcspiderItem(), response=response)
         il.default_output_processor = MapCompose(
-            # lambda v: v.rstrip(),
-            # lambda v: v.replace(',', '')
             lambda v: v.rstrip(),
             lambda v: re.sub(r'[\',|!]', '', v),
             lambda v: re.sub(r'\s+', ' ', v)

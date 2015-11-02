@@ -31,9 +31,10 @@ class MySqlPipeline(object):
 
         dc = dict(item)
         for key in dc.keys(): # strip out bs list structure
-            dc[key] = ''.join(dc[key])#.encode('utf-8')
+            dc[key] = ''.join(dc[key])
 
         sql = self.get_update_query() if self.check_key(item) else self.get_insert_query()
+        sql = sql.format(settings['MYSQL_TABLE_VC']) if spider.name == 'vcs' else sql.format(settings['MYSQL_TABLE_SU'])
 
         self.cur.execute(sql, dc)
         self.con.commit()
@@ -52,7 +53,7 @@ class MySqlPipeline(object):
             return True
 
     def get_update_query(self):
-        return "UPDATE {0} SET text = concat(text, %(text)s) WHERE siteurl = %(siteurl)s;".format(settings['MYSQL_TABLE'])
+        return "UPDATE {0} SET text = concat(text, %(text)s) WHERE siteurl = %(siteurl)s;"
 
     def get_insert_query(self):
-        return "INSERT INTO {0} (pagetitle, text, pageurl, siteurl) VALUES (%(pagetitle)s, %(text)s, %(pageurl)s, %(siteurl)s);".format(settings['MYSQL_TABLE'])
+        return "INSERT INTO {0} (pagetitle, text, pageurl, siteurl) VALUES (%(pagetitle)s, %(text)s, %(pageurl)s, %(siteurl)s);"

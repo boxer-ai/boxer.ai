@@ -15,19 +15,17 @@ SPIDER_MODULES = ['vcspider.spiders']
 NEWSPIDER_MODULE = 'vcspider.spiders'
 DOWNLOAD_HANDLERS = {'s3': None, }
 
-DEPTH_LIMIT = 2
+DEPTH_LIMIT = 1
+LOG_LEVEL = 'INFO'
+# CLOSESPIDER_PAGECOUNT = 20
 
 ITEM_PIPELINES = {
     # 'vcspider.pipelines.VcspiderPipeline': 200,
     'vcspider.pipelines.MySqlPipeline': 300,
 }
 
-MYSQL_GSJ_USER = 'root'
-MYSQL_GSJ_PASSWORD = 'nycdsa1!'
-MYSQL_GSJ_HOST = '173.194.225.231'
-MYSQL_GSJ_DB = 'test'
-
-MYSQL_TABLE = 'vctest'
+MYSQL_TABLE_VC = 'vctest'
+MYSQL_TABLE_SU = 'startups'
 
 MYSQL_GSJ_CONFIG = {
     'user': 'root',

@@ -1,0 +1,10 @@
+2015-11-02 00:07:12 [scrapy] INFO: Scrapy 1.0.3 started (bot: vcspider)
+2015-11-02 00:07:12 [scrapy] INFO: Optional features available: ssl, http11, boto
+2015-11-02 00:07:12 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'vcspider.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['vcspider.spiders'], 'DEPTH_LIMIT': 1, 'BOT_NAME': 'vcspider'}
+2015-11-02 00:07:12 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2015-11-02 00:07:12 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-11-02 00:07:12 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-11-02 00:07:12 [scrapy] INFO: Enabled item pipelines: MySqlPipeline
+2015-11-02 00:07:12 [scrapy] INFO: Spider opened
+2015-11-02 00:07:12 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-11-02 00:08:13 [scrapy] INFO: Crawled 60 pages (at 60 pages/min), scraped 32 items (at 32 items/min)
