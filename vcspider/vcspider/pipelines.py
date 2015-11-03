@@ -21,7 +21,7 @@ class MySqlPipeline(object):
 
     def __init__(self):
 
-        config = settings['MYSQL_GSJ_CONFIG']
+        config = settings['MYSQL_GSA_CONFIG']
         self.con = msc.connect(**config)
 
         self.cur = self.con.cursor()
