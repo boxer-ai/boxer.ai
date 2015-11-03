@@ -23,7 +23,10 @@ class VcSpider(CrawlSpider):
     name = "vcs"
     allowed_domains = domains
     start_urls = urls
+    # allowed_domains = ['3g-capital.com']
+    # start_urls = ['http://www.3g-capital.com']
 
+    print "URLS TO ANALYZE----------:" + ', '.join(urls)
     rules = (
         Rule(LinkExtractor(), callback='parse_items', follow=True),
     )
