@@ -1,6 +1,8 @@
 import json
 import mysql.connector as msc
 from scrapy.conf import settings
+from scrapy import signals
+from scrapy.xlib.pydispatch import dispatcher
 
 
 class VcspiderPipeline(object):
@@ -21,42 +23,46 @@ class MySqlPipeline(object):
 
     def __init__(self):
 
-        config = settings['MYSQL_GSA_CONFIG']
+        config = settings['MYSQL_GSJ_CONFIG']
         self.con = msc.connect(**config)
-
         self.cur = self.con.cursor()
-        self.sitekeys = []
+
+        self.sitekeys = {}
+
+        dispatcher.connect(self.spider_closed, signals.spider_closed)
 
     def process_item(self, item, spider):
 
         dc = dict(item)
         for key in dc.keys():  # strip out bs list structure
             dc[key] = ''.join(dc[key])
-
-        sql = self.get_update_query() #if self.check_key(item) else self.get_insert_query()
-        sql = sql.format(settings['MYSQL_TABLE_VC']) if spider.name == 'vcs' else sql.format(settings['MYSQL_TABLE_SU'])
-        # print dc['text'], dc['siteurl']
-        # print sql, 'post'
-        # print dc['siteurl']
-
-        self.cur.execute(sql, dc)
-        self.con.commit()
+        self.build_text(dc)
 
         return
 
     def spider_closed(self, spider):
+
+        sql = self.get_update_query()
+        sql = sql.format(settings['MYSQL_TABLE_VC']) if spider.name == 'vcs' else sql.format(settings['MYSQL_TABLE_SU'])
+
+        sitekv = [(v,k) for k,v in self.sitekeys.iteritems()]
+
+        self.cur.executemany(sql, sitekv)
+        self.con.commit()
+
         self.con.close()
 
-    def check_key(self, item):
-        if item['siteurl'] not in self.sitekeys:
-            self.sitekeys.append(item['siteurl'])
-            return False
+    def build_text(self, dc):
 
-        elif item['siteurl'] in self.sitekeys:
-            return True
+        if dc['siteurl'] not in self.sitekeys:
+            self.sitekeys[dc['siteurl']] = dc['text']
+
+        elif dc['siteurl'] in self.sitekeys:
+            self.sitekeys[dc['siteurl']] += dc['text']
+
 
     def get_update_query(self):
-        return "UPDATE {0} SET text = concat(text, %(text)s) WHERE siteurl LIKE %(siteurl)s;"
+        return "UPDATE {0} SET text = concat(text, %s) WHERE siteurl LIKE %s;"
 
     def get_insert_query(self):
-        return "INSERT INTO {0} (text, siteurl) VALUES (%(text)s, %(siteurl)s);"
+        return "INSERT INTO {0} (text, siteurl) VALUES (%s, %s);"
