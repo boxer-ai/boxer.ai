@@ -31,14 +31,26 @@ kill 66895;
 #ALTER TABLE crunchbase_startups ADD opencalais text;
 #ALTER TABLE crunchbase_startups ADD cortical_io_keywords text;
 
-select *, ROW_NUMBER()  from vctest;
+select count(*) from vctest4;
 
-select * from vctest4 where length(text) > 0;
-ALTER IGNORE TABLE vctest4 ADD UNIQUE (siteurl)
+select count(*) from vctest where length(text) > 0;
+ALTER IGNORE TABLE vctest4 ADD UNIQUE (siteurl);
+
+select count(*) from crunchbase_startups where length(text) > 0;
 
 #select count(*) from vctest4;
 #delete from vctest4 where length(siteurl) = 0;
+select * from crunchbase_startups;
 
+-- run this on vc list
+update crunchbase_startups set siteurl = replace(siteurl, 'http://', '');
+update crunchbase_startups set siteurl = left(siteurl, instr(siteurl, '/') - 1) where instr(siteurl, '/') != 0;
+update crunchbase_startups set text = '' where text is null;
+-- end
+
+select * from crunchbase_startups where length(text) > 0;
+
+select *, left(siteurl, instr(siteurl, '/') - 1), instr(siteurl, '/') from crunchbase_startups where instr(siteurl, '/') != 0;
 #update vctest4 set text = '';
 #update vctest4 set siteurl = '3g-capital.com' where siteurl like '%3g-cap%';
 #update vctest4 set siteurl = left(siteurl, instr(siteurl, '.com')+3);
@@ -48,8 +60,8 @@ create table vctest4_bk_siteurl (siteurl varchar(255)) as select siteurl from vc
 
 SELECT Web FROM vctest4 where Web <>'' and cortical_io is null ORDER BY RAND() LIMIT 10;
 
-ALTER TABLE `vctest4` CHANGE COLUMN `Web` `siteurl` VARCHAR(255) NOT NULL;
-ALTER TABLE `crunchbase_startups` CHANGE COLUMN `homepage_url` `siteurl` VARCHAR(255) NOT NULL;
+#ALTER TABLE `vctest4` CHANGE COLUMN `Web` `siteurl` VARCHAR(255) NOT NULL;
+#ALTER TABLE `crunchbase_startups` CHANGE COLUMN `homepage_url` `siteurl` VARCHAR(255) NOT NULL;
 
 select * from crunchbase_startups;
 SELECT homepage_url FROM crunchbase_startups where homepage_url <>'' and cortical_io is null ORDER BY RAND() LIMIT 10;

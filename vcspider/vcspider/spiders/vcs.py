@@ -11,6 +11,7 @@ import lxml.html as lh
 import lxml.etree as le
 import re
 from goose import Goose
+import time
 
 # import logging
 # from scrapy.log import ScrapyFileLogObserver
