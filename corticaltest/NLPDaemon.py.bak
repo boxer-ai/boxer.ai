@@ -54,7 +54,7 @@ for i in range(0, len(test)):
     MySqlTextBlobDat = (str(blob.sentiment), siteurl)
     MySqLangDat = (str(blob.detect_language()), siteurl)
 
-    print "---For "+siteurl+" keywords = " + ",".join(termKeyWords) + " sentiment = " + MySqlTextBlobDat[0] + " lang:" + MySqLangDat[0]
+    print "---For "+siteurl+" keywords = " + ",".join(termKeyWords) + " sentiment = " + MySqlTextBlobDat[0] +
 
     MySqlKeyWordDatQ = """UPDATE """+dbtable+""" SET cortical_io_keywords = %s WHERE siteurl = %s"""
     MySqlBitMapDatQ = """UPDATE """+dbtable+""" SET cortical_io = %s WHERE siteurl = %s"""
