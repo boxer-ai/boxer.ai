@@ -1,0 +1,20 @@
+usage = ./vcscrape.sh vcs &> file1.log & (VC scraper) -or- ./vcscrape.sh sus &> file1.log & (startup capital scraper)
+nohup: ignoring input
+2015-11-04 15:54:32 [scrapy] INFO: Scrapy 1.0.3 started (bot: vcspider)
+2015-11-04 15:54:32 [scrapy] INFO: Optional features available: ssl, http11, boto
+2015-11-04 15:54:32 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'vcspider.spiders', 'LOG_LEVEL': 'INFO', 'CONCURRENT_REQUESTS': 100, 'SPIDER_MODULES': ['vcspider.spiders'], 'BOT_NAME': 'vcspider', 'DEPTH_LIMIT': 2}
+2015-11-04 15:54:32 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2015-11-04 15:54:32 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-11-04 15:54:32 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-11-04 15:54:32 [scrapy] INFO: Enabled item pipelines: MySqlPipeline
+2015-11-04 15:54:32 [scrapy] INFO: Spider opened
+2015-11-04 15:54:32 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-11-04 15:54:37 [scrapy] ERROR: Error downloading <GET http://www.weareldn.tv>: DNS lookup failed: address 'www.weareldn.tv' not found: [Errno -2] Name or service not known.
+2015-11-04 15:55:45 [scrapy] INFO: Crawled 160 pages (at 160 pages/min), scraped 56 items (at 56 items/min)
+2015-11-04 15:56:40 [scrapy] INFO: Crawled 200 pages (at 40 pages/min), scraped 94 items (at 38 items/min)
+2015-11-04 15:57:56 [scrapy] INFO: Crawled 234 pages (at 34 pages/min), scraped 144 items (at 50 items/min)
+2015-11-04 15:58:18 [scrapy] ERROR: Error downloading <GET https://market.android.com/details?id=com.appredeem>: [<twisted.python.failure.Failure OpenSSL.SSL.Error: [('SSL routines', 'ssl3_read_bytes', 'ssl handshake failure')]>]
+2015-11-04 15:58:49 [scrapy] INFO: Crawled 275 pages (at 41 pages/min), scraped 177 items (at 33 items/min)
+2015-11-04 16:01:38 [scrapy] INFO: Crawled 314 pages (at 39 pages/min), scraped 213 items (at 36 items/min)
+2015-11-04 16:02:34 [scrapy] INFO: Crawled 356 pages (at 42 pages/min), scraped 247 items (at 34 items/min)
+2015-11-04 16:03:33 [scrapy] INFO: Crawled 404 pages (at 48 pages/min), scraped 310 items (at 63 items/min)

@@ -1,0 +1,60 @@
+usage = ./vcscrape.sh vcs &> file1.log & (VC scraper) -or- ./vcscrape.sh sus &> file1.log & (startup capital scraper)
+nohup: ignoring input
+2015-11-04 15:54:33 [scrapy] INFO: Scrapy 1.0.3 started (bot: vcspider)
+2015-11-04 15:54:33 [scrapy] INFO: Optional features available: ssl, http11, boto
+2015-11-04 15:54:33 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'vcspider.spiders', 'LOG_LEVEL': 'INFO', 'CONCURRENT_REQUESTS': 100, 'SPIDER_MODULES': ['vcspider.spiders'], 'BOT_NAME': 'vcspider', 'DEPTH_LIMIT': 2}
+2015-11-04 15:54:33 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2015-11-04 15:54:33 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-11-04 15:54:33 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-11-04 15:54:33 [scrapy] INFO: Enabled item pipelines: MySqlPipeline
+2015-11-04 15:54:33 [scrapy] INFO: Spider opened
+2015-11-04 15:54:33 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-11-04 15:54:34 [scrapy] ERROR: Error downloading <GET http://www.theskyriver.com>: DNS lookup failed: address 'www.theskyriver.com' not found: [Errno -2] Name or service not known.
+2015-11-04 15:55:39 [scrapy] INFO: Crawled 115 pages (at 115 pages/min), scraped 60 items (at 60 items/min)
+2015-11-04 15:56:44 [scrapy] INFO: Crawled 165 pages (at 50 pages/min), scraped 89 items (at 29 items/min)
+2015-11-04 15:57:50 [scrapy] ERROR: Error downloading <GET http://preceptiv.wordpress.com>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2015-11-04 15:57:51 [scrapy] INFO: Crawled 178 pages (at 13 pages/min), scraped 105 items (at 16 items/min)
+2015-11-04 15:58:35 [scrapy] INFO: Crawled 178 pages (at 0 pages/min), scraped 109 items (at 4 items/min)
+2015-11-04 16:00:17 [scrapy] INFO: Crawled 218 pages (at 40 pages/min), scraped 144 items (at 35 items/min)
+2015-11-04 16:00:18 [scrapy] ERROR: Spider error processing <GET http://www.xeltis.com/wp-content/uploads/2015-05-19-Xeltis-Successful-feasibility-ENG> (referer: http://www.xeltis.com/news-2/)
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 28, in process_spider_output
+    for x in result:
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/scrapy/spiders/crawl.py", line 69, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "/home/ubuntu/programming/banker.ai/vcspider/vcspider/spiders/sus.py", line 41, in parse_items
+    gooseobj = self.g.extract(response.url)
+  File "/home/ubuntu/programming/python-goose/goose/goose/__init__.py", line 56, in extract
+    return self.crawl(cc)
+  File "/home/ubuntu/programming/python-goose/goose/goose/__init__.py", line 66, in crawl
+    article = crawler.crawl(crawl_candiate)
+  File "/home/ubuntu/programming/python-goose/goose/goose/crawler.py", line 123, in crawl
+    doc = self.get_document(raw_html)
+  File "/home/ubuntu/programming/python-goose/goose/goose/crawler.py", line 259, in get_document
+    doc = self.parser.fromstring(raw_html)
+  File "/home/ubuntu/programming/python-goose/goose/goose/parsers.py", line 243, in fromstring
+    self.doc = soupparser.fromstring(html)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/lxml/html/soupparser.py", line 23, in fromstring
+    return _parse(data, beautifulsoup, makeelement, **bsargs)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/lxml/html/soupparser.py", line 66, in _parse
+    tree = beautifulsoup(source, **bsargs)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/BeautifulSoup.py", line 1522, in __init__
+    BeautifulStoneSoup.__init__(self, *args, **kwargs)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/BeautifulSoup.py", line 1147, in __init__
+    self._feed(isHTML=isHTML)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/BeautifulSoup.py", line 1189, in _feed
+    SGMLParser.feed(self, markup)
+  File "/home/ubuntu/anaconda/lib/python2.7/sgmllib.py", line 103, in feed
+    self.rawdata = self.rawdata + data
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2015-11-04 16:01:39 [scrapy] INFO: Crawled 232 pages (at 14 pages/min), scraped 161 items (at 17 items/min)
+2015-11-04 16:02:42 [scrapy] ERROR: Error downloading <GET https://agency.shyftplan.com/en/home>: [<twisted.python.failure.Failure OpenSSL.SSL.Error: [('SSL routines', 'ssl3_read_bytes', 'ssl handshake failure')]>]
+2015-11-04 16:02:42 [scrapy] INFO: Crawled 232 pages (at 0 pages/min), scraped 175 items (at 14 items/min)

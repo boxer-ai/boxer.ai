@@ -1,0 +1,24 @@
+usage = ./vcscrape.sh vcs &> file1.log & (VC scraper) -or- ./vcscrape.sh sus &> file1.log & (startup capital scraper)
+nohup: ignoring input
+2015-11-04 15:54:33 [scrapy] INFO: Scrapy 1.0.3 started (bot: vcspider)
+2015-11-04 15:54:33 [scrapy] INFO: Optional features available: ssl, http11, boto
+2015-11-04 15:54:33 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'vcspider.spiders', 'LOG_LEVEL': 'INFO', 'CONCURRENT_REQUESTS': 100, 'SPIDER_MODULES': ['vcspider.spiders'], 'BOT_NAME': 'vcspider', 'DEPTH_LIMIT': 2}
+2015-11-04 15:54:33 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2015-11-04 15:54:33 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-11-04 15:54:33 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-11-04 15:54:33 [scrapy] INFO: Enabled item pipelines: MySqlPipeline
+2015-11-04 15:54:33 [scrapy] INFO: Spider opened
+2015-11-04 15:54:33 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-11-04 15:54:34 [scrapy] ERROR: Error downloading <GET http://www.br.kekanto.com>: DNS lookup failed: address 'www.br.kekanto.com' not found: [Errno -2] Name or service not known.
+2015-11-04 15:54:34 [scrapy] ERROR: Error downloading <GET http://www.hukkster.com>: DNS lookup failed: address 'www.hukkster.com' not found: [Errno -2] Name or service not known.
+2015-11-04 15:54:34 [scrapy] ERROR: Error downloading <GET http://www.citivox.com>: DNS lookup failed: address 'www.citivox.com' not found: [Errno -2] Name or service not known.
+2015-11-04 15:54:45 [scrapy] ERROR: Error downloading <GET http://www.playerx.com>: DNS lookup failed: address 'www.playerx.com' not found: [Errno -2] Name or service not known.
+2015-11-04 15:54:52 [scrapy] ERROR: Error downloading <GET http://www.microemissive.com>: DNS lookup failed: address 'www.microemissive.com' not found: [Errno -2] Name or service not known.
+2015-11-04 15:55:56 [scrapy] INFO: Crawled 133 pages (at 133 pages/min), scraped 68 items (at 68 items/min)
+2015-11-04 15:56:08 [scrapy] ERROR: Error downloading <GET http://senovasystems.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2015-11-04 15:56:50 [scrapy] INFO: Crawled 205 pages (at 72 pages/min), scraped 110 items (at 42 items/min)
+2015-11-04 15:57:48 [scrapy] INFO: Crawled 237 pages (at 32 pages/min), scraped 156 items (at 46 items/min)
+2015-11-04 15:58:57 [scrapy] INFO: Crawled 269 pages (at 32 pages/min), scraped 188 items (at 32 items/min)
+2015-11-04 16:00:17 [scrapy] INFO: Crawled 289 pages (at 20 pages/min), scraped 213 items (at 25 items/min)
+2015-11-04 16:00:39 [scrapy] INFO: Crawled 295 pages (at 6 pages/min), scraped 224 items (at 11 items/min)
+2015-11-04 16:03:21 [scrapy] INFO: Crawled 350 pages (at 55 pages/min), scraped 265 items (at 41 items/min)

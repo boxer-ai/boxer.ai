@@ -1,0 +1,21 @@
+usage = ./vcscrape.sh vcs &> file1.log & (VC scraper) -or- ./vcscrape.sh sus &> file1.log & (startup capital scraper)
+nohup: ignoring input
+2015-11-04 15:54:32 [scrapy] INFO: Scrapy 1.0.3 started (bot: vcspider)
+2015-11-04 15:54:32 [scrapy] INFO: Optional features available: ssl, http11, boto
+2015-11-04 15:54:32 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'vcspider.spiders', 'LOG_LEVEL': 'INFO', 'CONCURRENT_REQUESTS': 100, 'SPIDER_MODULES': ['vcspider.spiders'], 'BOT_NAME': 'vcspider', 'DEPTH_LIMIT': 2}
+2015-11-04 15:54:33 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2015-11-04 15:54:33 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-11-04 15:54:33 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-11-04 15:54:33 [scrapy] INFO: Enabled item pipelines: MySqlPipeline
+2015-11-04 15:54:33 [scrapy] INFO: Spider opened
+2015-11-04 15:54:33 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-11-04 15:54:34 [scrapy] ERROR: Error downloading <GET http://www.re-app.us>: DNS lookup failed: address 'www.re-app.us' not found: [Errno -2] Name or service not known.
+2015-11-04 15:56:00 [scrapy] INFO: Crawled 146 pages (at 146 pages/min), scraped 75 items (at 75 items/min)
+2015-11-04 15:56:52 [scrapy] INFO: Crawled 186 pages (at 40 pages/min), scraped 123 items (at 48 items/min)
+2015-11-04 15:57:36 [scrapy] INFO: Crawled 230 pages (at 44 pages/min), scraped 159 items (at 36 items/min)
+2015-11-04 15:58:39 [scrapy] INFO: Crawled 284 pages (at 54 pages/min), scraped 213 items (at 54 items/min)
+2015-11-04 15:59:35 [scrapy] INFO: Crawled 335 pages (at 51 pages/min), scraped 262 items (at 49 items/min)
+2015-11-04 16:00:46 [scrapy] INFO: Crawled 413 pages (at 78 pages/min), scraped 340 items (at 78 items/min)
+2015-11-04 16:01:44 [scrapy] INFO: Crawled 476 pages (at 63 pages/min), scraped 395 items (at 55 items/min)
+2015-11-04 16:02:55 [scrapy] INFO: Crawled 519 pages (at 43 pages/min), scraped 445 items (at 50 items/min)
+2015-11-04 16:03:37 [scrapy] INFO: Crawled 573 pages (at 54 pages/min), scraped 485 items (at 40 items/min)
