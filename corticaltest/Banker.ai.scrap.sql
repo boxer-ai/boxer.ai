@@ -17,19 +17,27 @@ SET GLOBAL max_connections = 500;
 #set innodb_lock_wait_timeout=100;
 show open tables where in_use>0;
 show full processlist;
+<<<<<<< HEAD
 kill 69160;
 kill 69110;
 kill 69109;
 kill 69154;
+=======
+kill 66895;
+>>>>>>> af68d94688cf028245d405a30dbaa7ee6d9bdf62
 
 #ALTER TABLE vctest4 ADD text text;
 #ALTER TABLE vctest4 ADD cortical_io text;
 #ALTER TABLE vctest4 ADD watson text;
 #ALTER TABLE vctest4 ADD opencalais text;
 #ALTER TABLE vctest4 ADD cortical_io_keywords text;
+<<<<<<< HEAD
 ALTER TABLE vctest4 ADD lang varchar(127);
 
 ALTER TABLE crunchbase_startups ADD lang varchar(127);
+=======
+
+>>>>>>> af68d94688cf028245d405a30dbaa7ee6d9bdf62
 #ALTER TABLE crunchbase_startups ADD text text;
 #ALTER TABLE crunchbase_startups ADD cortical_io text;
 #ALTER TABLE crunchbase_startups ADD watson text;
@@ -37,6 +45,7 @@ ALTER TABLE crunchbase_startups ADD lang varchar(127);
 #ALTER TABLE crunchbase_startups ADD cortical_io_keywords text;
 
 select count(*) from vctest4;
+<<<<<<< HEAD
 select * from vctest4 where siteurl='partnerfunds.com';
 
 select * from vctest4 where length(text) > 0 and cortical_io is not null;
@@ -48,6 +57,13 @@ select count(*) from crunchbase_startups where length(text) > 0;
 select * from crunchbase_startups where length(text) > 0 and cortical_io is not null;
 
 select siteurl, text from vctest4 where cortical_io is null and siteurl='cerberuscapital.com' and text <> '' limit 100;
+=======
+
+select count(*) from vctest where length(text) > 0;
+ALTER IGNORE TABLE vctest4 ADD UNIQUE (siteurl);
+
+select count(*) from crunchbase_startups where length(text) > 0;
+>>>>>>> af68d94688cf028245d405a30dbaa7ee6d9bdf62
 
 #select count(*) from vctest4;
 #delete from vctest4 where length(siteurl) = 0;
@@ -59,8 +75,12 @@ update crunchbase_startups set siteurl = left(siteurl, instr(siteurl, '/') - 1) 
 update crunchbase_startups set text = '' where text is null;
 -- end
 
+<<<<<<< HEAD
 select count(*) from crunchbase_startups where length(text) > 0;
 select count(*) from crunchbase_startups where length(text) > 0;
+=======
+select * from crunchbase_startups where length(text) > 0;
+>>>>>>> af68d94688cf028245d405a30dbaa7ee6d9bdf62
 
 select *, left(siteurl, instr(siteurl, '/') - 1), instr(siteurl, '/') from crunchbase_startups where instr(siteurl, '/') != 0;
 #update vctest4 set text = '';
@@ -75,8 +95,12 @@ SELECT Web FROM vctest4 where Web <>'' and cortical_io is null ORDER BY RAND() L
 #ALTER TABLE `vctest4` CHANGE COLUMN `Web` `siteurl` VARCHAR(255) NOT NULL;
 #ALTER TABLE `crunchbase_startups` CHANGE COLUMN `homepage_url` `siteurl` VARCHAR(255) NOT NULL;
 
+<<<<<<< HEAD
 select count(*) from crunchbase_startups where text <>'';
 select * from crunchbase_startups where text <>'';
+=======
+select * from crunchbase_startups;
+>>>>>>> af68d94688cf028245d405a30dbaa7ee6d9bdf62
 SELECT homepage_url FROM crunchbase_startups where homepage_url <>'' and cortical_io is null ORDER BY RAND() LIMIT 10;
 
 
