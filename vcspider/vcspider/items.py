@@ -2,8 +2,19 @@ import scrapy
 
 
 class VcspiderItem(scrapy.Item):
-#     define the fields for your item here like:
-    page = scrapy.Field()
-    text = scrapy.Field()
-    
+    text = scrapy.Field(default = 'none')
+    siteurl = scrapy.Field()
+    pageurl = scrapy.Field()
+    # keywords = scrapy.Field()
+    pagetitle = scrapy.Field(default = 'none')
+
+    pass
+
+class SuspiderItem(scrapy.Item):
+    text = scrapy.Field(default = 'none')
+    siteurl = scrapy.Field()
+    pageurl = scrapy.Field()
+    # keywords = scrapy.Field()
+    pagetitle = scrapy.Field(default = 'none')
+
     pass

@@ -13,12 +13,37 @@ BOT_NAME = 'vcspider'
 
 SPIDER_MODULES = ['vcspider.spiders']
 NEWSPIDER_MODULE = 'vcspider.spiders'
-DOWNLOAD_HANDLERS = {'s3': None,}
+DOWNLOAD_HANDLERS = {'s3': None, }
+
+DEPTH_LIMIT = 2
+LOG_LEVEL = 'INFO'
+# CLOSESPIDER_PAGECOUNT = 20
+CONCURRENT_REQUESTS = 100
 
 ITEM_PIPELINES = {
-'vcspider.pipelines.VcspiderPipeline': 300,
+    # 'vcspider.pipelines.VcspiderPipeline': 200,
+    'vcspider.pipelines.MySqlPipeline': 300,
 }
 
+#MYSQL_TABLE_VC = 'vctest'
+#MYSQL_TABLE_SU = 'startups'
+
+MYSQL_TABLE_VC = 'vctest4'
+MYSQL_TABLE_SU = 'crunchbase_startups'
+
+MYSQL_GSJ_CONFIG = {
+    'user': 'root',
+    'password': 'nycdsa1!',
+    'host': '173.194.225.231',
+    'database': 'test'
+}
+
+MYSQL_GSA_CONFIG = {
+    'user': 'root',
+    'password': 'uLFZ2WoB',
+    'host': '130.211.154.93',
+    'database': 'test'
+}
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'vcspider (+http://www.yourdomain.com)'

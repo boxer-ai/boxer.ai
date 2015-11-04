@@ -1,0 +1,353 @@
+Item 1.  Business. 
+General 
+Formed in 1888, Alcoa Inc. is a Pennsylvania corporation with its principal office in New York, New York. In this report, unless the context otherwise requires, “Alcoa” or the “Company” means Alcoa Inc. and all subsidiaries consolidated for the purposes of its financial statements. 
+The Company’s Internet address is http://www.alcoa.com. Alcoa makes available free of charge on or through its website its annual report on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K, and amendments to those reports filed or furnished pursuant to Section 13(a) or 15(d) of the Securities Exchange Act of 1934 as soon as reasonably practicable after the Company electronically files such material with, or furnishes it to, the Securities and Exchange Commission (SEC). The SEC maintains an Internet site that contains these reports at http://www.sec.gov. 
+Forward-Looking Statements 
+This report contains (and oral communications made by Alcoa may contain) statements that relate to future events and expectations and, as such, constitute forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. Forward-looking statements include those containing such words as “anticipates,” “believes,” “estimates,” “expects,” “forecast,” “hopes,” “outlook,” “projects,” “should,” “targets,” “will,” “will likely result,” or other words of similar meaning. All statements that reflect Alcoa’s expectations, assumptions or projections about the future other than statements of historical fact are forward-looking statements, including, without limitation, forecasts concerning aluminum industry growth or other trend projections, anticipated financial results or operating performance, and statements about Alcoa’s strategies, objectives, goals, targets, outlook, and business and financial prospects. Forward-looking statements are subject to a number of known and unknown risks, uncertainties and other factors and are not guarantees of future performance. Actual results, performance or outcomes may differ materially from those expressed in or implied by those forward-looking statements. For a discussion of some of the specific factors that may cause Alcoa’s actual results to differ materially from those projected in any forward-looking statements, see the following sections of this report: Part I, Item 1A. (Risk Factors), Part II, Item 7. (Management’s Discussion and Analysis of Financial Condition and Results of Operations), including the disclosures under Segment Information and Critical Accounting Policies and Estimates, and Note N and the Derivatives Section of Note X to the Consolidated Financial Statements in Part II, Item 8. (Financial Statements and Supplementary Data). Alcoa disclaims any intention or obligation to update publicly any forward-looking statements, whether in response to new information, future events or otherwise, except as required by applicable law. 
+Overview 
+Alcoa is the world leader in the production and management of primary aluminum, fabricated aluminum, and alumina combined, through its active and growing participation in all major aspects of the industry: technology, mining, refining, smelting, fabricating, and recycling. Aluminum is a commodity that is traded on the London Metal Exchange (LME) and priced daily. Aluminum and alumina represent more than 80% of Alcoa’s revenues, and the price of aluminum influences the operating results of Alcoa. Non-aluminum products include precision castings and aerospace and industrial fasteners. Alcoa’s products are used worldwide in aircraft, automobiles, commercial transportation, packaging, building and construction, oil and gas, defense, consumer electronics, and industrial applications. 
+Alcoa is a global company operating in 30 countries. Based upon the country where the sale occurred, the U.S. and Europe generated 52% and 25%, respectively, of Alcoa’s sales in 2012. In addition, Alcoa has investments and operating activities in, among others, Australia, Brazil, China, Guinea, Iceland, Russia, and the Kingdom of Saudi 
+ 
+3 
+
+Table of Contents
+Arabia, all of which present opportunities for substantial growth. Governmental policies, laws and regulations, and other economic factors, including inflation and fluctuations in foreign currency exchange rates and interest rates, affect the results of operations in these countries. 
+Alcoa’s operations consist of four worldwide reportable segments: Alumina, Primary Metals, Global Rolled Products, and Engineered Products and Solutions. 
+Description of the Business 
+Information describing Alcoa’s businesses can be found on the indicated pages of this report: 
+ 
+
+The following tables and related discussion of the Company’s Bauxite Interests, Alumina Refining and Primary Aluminum Facilities and Capacities, Global Rolled Products, Engineered Products and Solutions and Corporate Facilities provide additional description of Alcoa’s businesses. The Alumina segment primarily consists of a series of affiliated operating entities referred to as Alcoa World Alumina and Chemicals (AWAC). Alcoa owns 60% and Alumina Limited owns 40% of these individual entities. For more information on AWAC, see Exhibit Nos. 10(a) through 10(f)(1) to this report. 
+Bauxite Interests 
+Aluminum is one of the most plentiful elements in the earth’s crust and is produced primarily from bauxite, an ore containing aluminum in the form of aluminum oxide, commonly referred to as alumina. Aluminum is made by extracting alumina from bauxite and then removing oxygen from the alumina. Alcoa processes most of the bauxite that it mines into alumina. The Company obtains bauxite from its own resources and from those belonging to the AWAC enterprise, located in the countries listed in the table below, as well as pursuant to both long-term and short-term contracts and mining leases. In 2012, Alcoa consumed 45 million metric tons (mt) of bauxite from AWAC and its own resources, 7.1 million mt from related third parties and 1.1 million mt from unrelated third parties. Tons of bauxite are reported as bone dry metric tons (bdmt) unless otherwise stated. See the glossary of bauxite mining related terms at the end of this section. 
+The Company has access to large bauxite deposit areas with mining rights that extend in most cases more than 20 years from today. For purposes of evaluating the amount of bauxite that will be available to supply as feedstock to its refineries, the Company considers both estimates of bauxite resources as well as calculated bauxite reserves. Bauxite resources represent deposits for which tonnage, densities, shape, physical characteristics, grade and mineral content can be estimated with a reasonable level of confidence based on the amount of exploration sampling and testing 
+ 
+4 
+
+Table of Contents
+information gathered through appropriate techniques from locations such as outcrops, trenches, pits, workings and drill holes. Bauxite reserves represent the economically mineable part of resource deposits, and include diluting materials and allowances for losses, which may occur when the material is mined. Appropriate assessments and studies have been carried out to define the reserves, and include consideration of and modification by realistically assumed mining, metallurgical, economic, marketing, legal, environmental, social and governmental factors. Alcoa employs a conventional approach (including additional drilling with successive tightening of the drill grid) with customized techniques to define and characterize its various bauxite deposit types allowing Alcoa to confidently establish the extent of its bauxite resources and their ultimate conversion to reserves. 
+The table below only includes the amount of proven and probable reserves controlled by the Company. While the level of reserves may appear low in relation to annual production levels, they are consistent with historical levels of reserves for our mining locations. Given the Company’s extensive bauxite resources, the abundant supply of bauxite globally and the length of the Company’s rights to bauxite, it is not cost-effective to invest the significant resources necessary to establish bauxite reserves that reflect the total size of the bauxite resources available to the Company. Rather, bauxite resources are upgraded annually to reserves as needed by the location. Detailed assessments are progressively undertaken within a proposed mining area and mine activity is then planned to achieve a uniform quality in the supply of blended feedstock to the relevant refinery. Alcoa believes its present sources of bauxite on a global basis are sufficient to meet the forecasted requirements of its alumina refining operations for the foreseeable future. 
+Bauxite Resource Development Guidelines 
+Alcoa has developed best practice guidelines for bauxite reserve and resource classification at its operating bauxite mines. Alcoa’s reserves are declared in accordance with Alcoa’s internal guidelines as administered by the Alcoa Ore Reserve Committee (AORC). The reported ore reserves set forth in the table below are those that Alcoa estimates could be extracted economically with current technology and in current market conditions. Alcoa does not use a price for bauxite, alumina, or aluminum to determine its bauxite reserves. The primary criteria for determining bauxite reserves are the feed specifications required by the customer alumina refinery. In addition to these specifications, a number of modifying factors have been applied to differentiate bauxite reserves from other mineralized material. Alcoa mining locations have annual in-fill drilling programs designed to progressively upgrade the reserve classification of their bauxite.
+ 
+5 
+
+Table of Contents
+Alcoa Bauxite Interests, Share of Reserves and Annual Production1 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+6 
+
+Table of Contents
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Qualifying statements relating to the table above: 
+Australia—Darling Range Mines: Huntly and Willowdale are the two active mines in the Darling Range of Western Australia. The mineral lease issued by the State of Western Australia to Alcoa is known as ML1SA and its term extends to 2045. The lease can be renewed beyond 2045. The declared reserves have been estimated to the end of December 2012. The amount of reserves reflect the total AWAC share. Additional resources are routinely upgraded by additional exploration and development drilling to reserve status. The Huntly and Willowdale mines supply bauxite to three local AWAC alumina refineries. 
+Brazil—Poços de Caldas: Declared reserves are as of the end of October 2012. Tonnage is total Alcoa share. Additional resources are being upgraded to reserves as needed. 
+Brazil—Juruti RN102, RN103, RN104: Declared reserves are as of November 1, 2012. Declared reserves are total AWAC share. Declared reserve tonnages and the annual production tonnage (estimate to the end of 2012) are washed product tonnages. The Juruti mine’s operating license is periodically renewed and the next renewal is in 2014. 
+Jamaica—Jamalco: Declared reserves are as of October 2012. The declared reserve and annual production tonnages are AWAC share only (55%). Declared reserves are in the following areas: Harmon’s Valley, South Manchester, North Manchester and Porus/Victoria. Current ore mining is in Harmon’s Valley and South Manchester with a small amount of ore from a test stockpile in North Manchester. The location has scheduled probable reserves from North Manchester and Porus/Victoria within the 2013-2016 period. Additional resources are in the process of being upgraded to reserves. 
+ 
+7 
+
+Table of Contents
+Suriname—Suralco—Caramacca: Caramacca has been removed from the reserves due to the expiration of the mining permits for this area. Some ore remains at Caramacca and the permit is awaiting renewal by the Government of Suriname so that the last ore can be recovered. 
+Suriname—Suralco—Coermotibo and Onverdacht: Declared reserves are as of October 1, 2012. AWAC owns 100%. Additional resources are being evaluated for upgrading to reserves. 
+Kingdom of Saudi Arabia—Al Ba’itha: Declared reserves are as of March 2011 and are for the South Zone of the Az Zabirah Bauxite Deposit. The reserve tonnage in this declaration is AWAC share only (25.1%). The Al Ba’itha Mine is due to begin production during 2014. 
+Brazil—Trombetas-MRN: Declared reserves are as of May 31, 2012. Declared and annual production tonnages reflect the total for Aluminío and AWAC shares (18.2%). Declared tonnages are washed product tonnages. 
+Guinea—Boké-CBG: Declared reserves are as of January 1, 2012. The declared reserves are based on export quality bauxite reserves. The AWAC share of CBG equates to 22.95%. Declared reserve tonnages are based on the AWAC share of CBG’s reserves. Annual production tonnage reported is based on AWAC’s 22.95% share. Declared reserves quality is reported based on total alumina (TAl2O3) and total silica (TSiO2) because CBG export bauxite is sold on this basis. Additional resources are being routinely drilled and modeled to upgrade to reserves as needed. 
+ 
+8 
+
+Table of Contents
+The following table provides additional information regarding the Company’s bauxite mines: 
+ 
+
+ 
+9 
+
+Table of Contents
+
+Kingdom of Saudi Arabia Joint Venture 
+In December 2009, Alcoa and Saudi Arabian Mining Company (Ma’aden) entered into a joint venture to develop a fully integrated aluminum complex in the Kingdom of Saudi Arabia. In its initial phases, the complex includes a bauxite mine with an initial 
+ 
+10 
+
+Table of Contents
+capacity of 4 million bdmtpy; an alumina refinery with an initial capacity of 1.8 million mtpy; an aluminum smelter with an initial capacity of ingot, slab and billet of 740,000 mtpy; and a rolling mill with initial capacity of 380,000 mtpy. The mill will produce sheet, end and tab stock for the manufacture of aluminum cans, as well as other products to serve the automotive, construction, and other industries. 
+The refinery, smelter and rolling mill are located within the Ras Al Khair industrial zone on the east coast of the Kingdom of Saudi Arabia. First hot metal from the smelter was produced on December 12, 2012. Rolling mill production is anticipated to start sometime in 2013. First production from the mine and refinery is expected in 2014. 
+Total capital investment is expected to be approximately $10.8 billion (SAR 40.5 billion). Ma’aden owns a 74.9% interest in the joint venture. Alcoa owns a 25.1% interest in the smelter and rolling mill, with the AWAC group holding a 25.1% interest in the mine and refinery. For additional information regarding the joint venture, see the Equity Investments section of Note I to the Consolidated Financial Statements in Part II, Item 8. (Financial Statements and Supplementary Data). 
+Glossary of Bauxite Mining Related Terms 
+ 
+
+ 
+11 
+
+Table of Contents
+
+Alumina Refining Facilities and Capacity 
+Alcoa is the world’s leading producer of alumina. Alcoa’s alumina refining facilities and its worldwide alumina capacity are shown in the following table: 
+Alcoa Worldwide Alumina Refining Capacity 
+ 
+
+ 
+
+ 
+12 
+
+Table of Contents
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+As noted above, Alcoa and Ma’aden are developing an alumina refinery in the Kingdom of Saudi Arabia. Initial capacity of the refinery is expected to be 1.8 million mtpy. First production is expected in 2014. For additional information regarding the joint venture, see the Equity Investments section of Note I to the Consolidated Financial Statements in Part II, Item 8. (Financial Statements and Supplementary Data). 
+The 2.1 million mtpy expansion of the Alumar consortium alumina refinery in São Luís, Maranhão, completed by the end of 2009, has increased the refinery’s nameplate capacity to approximately 3.5 million mtpy, with Alcoa’s share of such capacity more than doubling to 1.89 million mtpy based on its 54% ownership stake through Alumínio and AWAC. 
+In November 2005, AWA LLC and Rio Tinto Alcan Inc. signed a Basic Agreement with the Government of Guinea that sets forth the framework for development of a 1.5 million mtpy alumina refinery in Guinea. In 2006, the Basic Agreement was approved by the Guinean National Assembly and was promulgated into law. The Basic Agreement was originally set to expire in November 2008, but was extended to November 2012, and has been recently extended again until 2015. Pre-feasibility studies were completed in 2008. Additional feasibility study work was completed in 2012, and further activities are planned for 2013. 
+In September 2006, Alcoa received environmental approval from the Government of Western Australia for expansion of the Wagerup alumina refinery to a maximum capacity of 4.7 million mtpy, a potential increase of over 2 million mtpy. This approval had a term of 5 years and included environmental conditions that must be satisfied before Alcoa could seek construction approval for the project. The project was suspended in November 2008 due to global economic conditions and the unavailability of a secure long-term energy supply in Western Australia. These constraints continue and as such the project remains under suspension. In May 2012, the Government of Western Australia granted Alcoa a 5 year extension of the 2006 environmental approval. 
+In 2008, AWAC signed a cooperation agreement with Vietnam National Coal-Minerals Industries Group (Vinacomin) in which they agreed to conduct a joint feasibility study of the Gia Nghia bauxite mine and alumina refinery project located in Vietnam’s Central Highlands. The cooperation between AWAC and Vinacomin on Gia Nghia is subject to approval by the Government of Vietnam. If established, the Gia Nghia venture is expected to be 51% owned by Vinacomin, 40% by AWAC and 9% by others. 
+ 
+13 
+
+Table of Contents
+Primary Aluminum Facilities and Capacity 
+The Company’s primary aluminum smelters and their respective capacities are shown in the following table: 
+Alcoa Worldwide Smelting Capacity 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+14 
+
+Table of Contents
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+As of December 31, 2012, Alcoa had approximately 591,000 mtpy of idle capacity against total Alcoa Consolidated Capacity of 4,227,000 mtpy. 
+All production at the Tennessee smelter was idled in March 2009 due to economic conditions. In January 2012, Alcoa announced that it would permanently shut down the 215,000 mtpy facility as part of a larger strategy to improve its cost position and competitiveness. Demolition and remediation are ongoing. 
+In January 2011, Alcoa and China Power Investment Corporation (CPI) signed a Memorandum of Understanding (MOU) to collaborate on a broad range of aluminum and energy projects in China and other locations. The projects under consideration may range from mining, refining, smelting, and aluminum fabrication to collaboration on energy projects. A new joint venture company, established in November 2012, is discussed below under the Global Rolled Products segment. 
+As noted above, Alcoa and Ma’aden are developing an aluminum smelter in the Kingdom of Saudi Arabia. The smelter is expected to have an initial capacity of ingot, slab and billet of 740,000 mtpy. First hot metal was produced on December 12, 2012. 
+In December 2008, Alcoa and the Brunei Economic Development Board agreed to further extend an existing MOU to enable more detailed studies into the feasibility of establishing a modern, gas-powered aluminum smelter in Brunei Darussalam. The MOU extends a memorandum signed originally in 2003. Phase one of the feasibility study will determine scope and dimensions of the proposed facility, power-delivery strategy, location, as well as an associated port and infrastructure. At completion of phase one, the parties will determine whether a more detailed phase two study is warranted. If completed, it is expected that the smelter would have an initial operating capacity of 360,000 mtpy with the potential for future increase. In 2012, the MOU was further extended to enable determination of feasibility. 
+In 2007, Alcoa and Greenland Home Rule Government entered into an MOU regarding cooperation on a feasibility study for an aluminum smelter with a 360,000 mtpy capacity in Greenland. The MOU also encompasses a 
+ 
+15 
+
+Table of Contents
+hydroelectric power system and related infrastructure improvements, including a port. In 2008, Greenland’s parliament allocated funding to support the second phase of joint studies with Alcoa and endorsed that the smelter be located at Maniitsoq. In 2010, Alcoa and the Greenland Home Rule Government revised the completion dates for feasibility studies associated with development of the proposed integrated hydro system and aluminum smelter at Maniitsoq to enable more detailed consideration of aspects of the project related to construction and provision of energy and to allow the Greenland parliament sufficient time to deliberate and vote on critical aspects of national legislation concerning the project. The feasibility studies were completed in the fourth quarter of 2011. In December 2012, the Greenland parliament enacted framework legislation encompassing particular requirements of large scale developmental projects. The parliament also approved continuation of feasibility studies as described in the MOU. 
+In the fourth quarter of 2011, Alcoa and the Government of Angola, through the ministries of Energy, Water & Geology, Mines and Industry, entered into an exclusive MOU regarding cooperation on a feasibility study for an aluminum smelter in Angola with a 720,000 mtpy capacity. The MOU also encompasses a hydroelectric power system and power transmission facilities to be built by the Government and a resulting long term power purchase agreement. 
+Global Rolled Products 
+The principal business of the Company’s Global Rolled Products segment is the production and sale of aluminum plate, sheet and foil. This segment includes rigid container sheet, which is sold directly to customers in the packaging and consumer market. This segment also includes sheet and plate used in the aerospace, automotive, commercial transportation, and building and construction markets. 
+As noted above, Alcoa and Ma’aden are developing a rolling mill in the Kingdom of Saudi Arabia. In 2010, the joint venture entity, Ma’aden Rolling Company signed project financing for its rolling mill and broke ground on the construction of the mill. Initial capacity is approximately 380,000 mtpy. The rolling mill is anticipated to start sometime in 2013. In March 2012, Alcoa and Ma’aden announced commencement of work to extend the product mix of their aluminum complex currently under construction, enabling the two companies to include capability for producing approximately 100,000 metric tons of a wide range of products suitable for further downstream manufacturing in the complex’s product lines. They include automotive heat-treated and non-heat-treated sheet, building and construction sheet and foil stock sheet. The line is expected to start production at the end of 2014. 
+As discussed above, in 2011, Alcoa and CPI signed an MOU followed by a Letter of Intent that provides a framework for the creation of a joint venture which includes a focus on producing high-end fabricated aluminum products in China. In February 2012, Alcoa and CPI announced that they finalized an agreement to establish a joint venture company to produce high-end fabricated aluminum products in China. The new joint venture company, Alcoa CPI Aluminum Investment Co. Ltd., was established in November 2012 and will be majority owned and managed by Alcoa and based in Shanghai. 
+In March 2012, the Company broke ground on a $300 million expansion of its Davenport Works plant to meet rising demand for aluminum from the automotive market. The expansion will create an additional 150 full time jobs in Davenport once completed. The planned expansion was announced in September 2011 and is expected to be completed by the end of 2013. An economic development incentive package from the Iowa Department of Economic Development helped secure the selection of Davenport for the expansion. 
+On August 31, 2012, Alcoa assumed full control and ownership of Evermore Recycling LLC (Evermore). Evermore had previously been a joint venture between Alcoa and Novelis Corporation, created for the purpose of used beverage can procurement. 
+ 
+16 
+
+Table of Contents
+Global Rolled Products Principal Facilities 
+ 
+
+ 
+
+ 
+
+Engineered Products and Solutions 
+This segment represents Alcoa’s downstream operations and includes titanium, aluminum, and super alloy investment castings; forgings and fasteners; aluminum wheels; integrated aluminum structural systems; and architectural extrusions used in the aerospace, automotive, building and construction, commercial transportation, and power generation markets. These products are sold directly to customers and through distributors. Additionally, hard alloy extrusions products, which are also sold directly to customers and through distributors, serve the aerospace, automotive, commercial transportation, and industrial products markets. 
+In 2012, Alcoa announced that it will expand its aluminum lithium capacity and capabilities and began construction of a greenfield state-of-the-art facility adjacent to Alcoa’s Lafayette, Indiana plant. When completed the facility will produce more than 20,000 metric tons of aluminum lithium and be capable of casting round and rectangular ingot for rolled, extruded and forged applications. The facility is expected to cast its first aluminum lithium ingots by the end of 2014. Alcoa is also expanding production at Alcoa’s Technical Center in Alcoa Center, PA and Alcoa’s Kitts Green plant in the United Kingdom where upgrades undertaken in 2012 will create additional aluminum lithium casting capacity. 
+ 
+17 
+
+Table of Contents
+Engineered Products and Solutions Principal Facilities 
+ 
+
+ 
+18 
+
+Table of Contents
+
+ 
+
+ 
+
+Corporate Facilities 
+The Latin American soft alloy extrusions business is reported in Corporate Facilities. For more information, see Note Q to the Consolidated Financial Statements in Part II, Item 8. (Financial Statements and Supplementary Data). 
+ 
+19 
+
+Table of Contents
+Latin American Extrusions Facilities 
+ 
+
+ 
+
+Sources and Availability of Raw Materials 
+The major raw materials purchased in 2012 for each of the Company’s reportable segments are listed below. 
+ 
+
+Generally, other materials are purchased from third party suppliers under competitively-priced supply contracts or bidding arrangements. The Company believes that the raw materials necessary to its business are and will continue to be available. 
+For each metric ton of alumina produced, Alcoa consumes the following amounts of the identified raw material inputs (approximate range across relevant facilities):
+ 
+
+ 
+20 
+
+Table of Contents
+For each metric ton of aluminum produced, Alcoa consumes the following amounts of the identified raw material inputs (approximate range across relevant facilities): 
+ 
+
+Explanatory Note: Certain aluminum produced by Alcoa also includes alloying materials. Because of the number of different types of elements that can be used to produce alloy aluminum products, providing a range of such elements would not be meaningful. With the exception of a very small number of internally used products, Alcoa produces its alloys in adherence to an Aluminum Association standard. The Aluminum Association, of which Alcoa is an active member, uses a specific designation system to identify alloy types. In general, each alloy type has a major alloying element other than aluminum but will also have other constituents as well, but of lesser amounts.
+Energy 
+Employing the Bayer process, Alcoa refines alumina from bauxite ore. Alcoa then produces aluminum from the alumina by an electrolytic process requiring substantial amounts of electric power. Energy accounts for approximately 25% of the Company’s total alumina refining production costs. Electric power accounts for approximately 26% of the Company’s primary aluminum production costs. Alcoa generates approximately 20% of the power used at its smelters worldwide and generally purchases the remainder under long-term arrangements. The paragraphs below summarize the sources of power and the long-term power arrangements for Alcoa’s smelters and refineries. 
+North America – Electricity 
+The Deschambault, Baie Comeau, and Bécancour smelters in Québec purchase electricity under existing contracts that run through 2015, which will be followed by long-term contracts with Hydro-Québec first executed in December 2008, revised in 2012 and expiring in 2040, provided that Alcoa completes the modernization of the Baie Comeau smelter by September 2016. The smelter located in Baie Comeau, Québec has historically purchased approximately 65% of its power needs under the Hydro-Québec contract, receiving the remainder from a 40% owned hydroelectric generating company, Manicouagan Power Limited Partnership (MPLP). Beginning on January 1, 2011, these percentages changed such that approximately 80% is sourced from Hydro-Québec, with the remaining 20% from MPLP. 
+The Company’s wholly-owned subsidiary, Alcoa Power Generating Inc. (APGI), generates approximately 29% of the power requirements for Alcoa’s smelters operating in the U.S. The Company generally purchases the remainder under long-term contracts. APGI owns and operates the Yadkin hydroelectric project, consisting of four dams in North Carolina. In November 2012, APGI finalized the sale of its Tapoco Hydroelectric Project to Brookfield Renewable Energy Partners. 
+The relicensing process continues for Yadkin. In 2007, APGI filed with the Federal Energy Regulatory Commission (FERC) a Relicensing Settlement Agreement with the majority of the interested stakeholders that broadly resolved open issues. The National Environmental Policy Act process is complete, with a final environmental impact statement having been issued in April 2008. The remaining requirement for the relicensing was the issuance by North Carolina of the required water quality certification under Section 401 of the Clean Water Act. The Section 401 water quality certification was issued on May 7, 2009, but was appealed, and has been stayed since late May 2009 pending substantive determination on the appeal. On December 1, 
+ 
+21 
+
+Table of Contents
+2010, APGI received notice from North Carolina of its revocation of the Section 401 water quality certification, and APGI appealed the revocation. In September 2012, the North Carolina administrative law judge dismissed without prejudice the revocation appeal, and APGI filed a new application for a 401 certificate. This enables APGI to have a fresh start to the 401 application process, and the state is required to act on the application within one year, or it is deemed granted. APGI received a year-to-year license renewal from FERC in May 2008, and will continue to operate under annual licenses until a new Section 401 certification is issued and the FERC relicensing process is complete. Since the permanent closure of the Badin, North Carolina smelter, power generated from APGI’s Yadkin system is largely being sold to an affiliate, Alcoa Power Marketing LLC, and then sold into the wholesale market. Proceeds from sales to the wholesale market are used to offset higher priced power contracts at other U.S. operations. 
+APGI generates substantially all of the power used at the Company’s Warrick smelter using nearby coal reserves. Since May 2005, Alcoa has owned the nearby Friendsville, Illinois coal reserves, with the mine being operated by Vigo Coal Company, Inc. The mine is producing approximately one million tons of coal per year. In June 2011, the Red Brush West Mine, owned by Alcoa and operated by Vigo Coal, was opened and produced approximately 60,000 tons per month over an eighteen-month period. In 2012, the two owned mines provided approximately 85% of the Warrick power plant’s requirements. The balance of the coal used is purchased principally from local Illinois Basin coal producers pursuant to term contracts of varying duration. Red Brush West Mine will halt production in the first quarter of 2013. Liberty Mine, owned by Alcoa and operated by Vigo Coal, will begin producing coal in the second quarter of 2013 and will be a one million ton per year mine. Friendsville and Liberty Mines will combine to supply 95% of the power plant’s future needs. 
+In the State of Washington, Alcoa’s Wenatchee smelter operates under a contract with Chelan County Public Utility District (Chelan PUD) under which Alcoa receives approximately 26% of the hydropower output of Chelan PUD’s Rocky Reach and Rock Island dams. 
+For the period from December 22, 2009 to December 31, 2012, Alcoa and the Bonneville Power Administration (BPA) operated under a contract providing for the sale of physical power to the Intalco smelter at the Northwest Power Act mandated industrial firm power (IP) rate. On January 1, 2013, a new contract executed between Alcoa and BPA became effective, under which Alcoa receives physical power at the IP rate through September 30, 2022. 
+Prior to 2007, power for the Rockdale smelter in Texas was historically supplied from Company-owned generating units and units owned by Luminant Generation Company LLC (formerly TXU Generation Company LP) (Luminant), both of which used lignite supplied by the Company’s Sandow Mine. Upon completion of lignite mining in the Sandow Mine in 2005, lignite supply transitioned to the formerly Alcoa-owned Three Oaks Mine. The Company retired its three wholly-owned generating units at Rockdale (Sandow Units 1, 2 and 3) in late 2006, and transitioned to an arrangement under which Luminant is to supply all of the Rockdale smelter’s electricity requirements under a long-term power contract that does not expire until at least the end of 2038, with the parties having the right to terminate the contract after 2013 if there has been an unfavorable change in law or after 2025 if the cost of the electricity exceeds the market price. In August 2007, Luminant and Alcoa closed on the definitive agreements under which Luminant has constructed and operates a new circulating fluidized bed power plant (Sandow Unit 5) adjacent to the existing Sandow Unit 4 and, in September 2007, on the sale of Three Oaks Mine to Luminant. Concurrent with entering into the agreements under which Luminant constructed and operates Sandow Unit 5, Alcoa and Luminant entered into a power purchase agreement whereby Alcoa purchased power from Luminant. That Sandow Unit 5 power purchase agreement was terminated by Alcoa, effective December 1, 2010. In June 2008, Alcoa temporarily idled half of the capacity at the Rockdale smelter and in November 2008 curtailed the remainder of Rockdale’s smelting capacity. In late 2011, Alcoa announced that it would permanently close two of the six idled potlines at its Rockdale, Texas smelter. Demolition and remediation activities related to these actions began in the first half of 2012 and are expected to be completed in 2013. In August 2012, Alcoa and the Lower Colorado River Authority (LCRA) announced that they had entered into an agreement whereby Alcoa will sell to LCRA all of the real estate associated with the Rockdale location, along with all of Alcoa’s surface and groundwater rights and certain plant and equipment assets (other than the smelter and atomizer), and assign Alcoa’s power contracts with Luminant to LCRA. LCRA is currently conducting due diligence associated with the proposed transaction. If consummated, closing is expected to occur prior to September 2013. 
+ 
+22 
+
+Table of Contents
+In the northeast, the purchased power contracts for both the Massena East and Massena West smelters in New York expire December 31, 2013, subject to their terms and conditions. In December 2007, Alcoa and The New York Power Authority (NYPA) reached agreement in principle on a new energy contract to supply the Massena East and Massena West smelters for 30 years, beginning on January 1, 2014, following an amendment in January 2011. The definitive agreement implementing this arrangement became effective February 24, 2009. A subsequent amendment, providing Alcoa additional time to complete the design and engineering work for its Massena East modernization plan, and providing for the return of 256 megawatts (MW) of power to NYPA while Massena East was idled, was entered into effective April 16, 2009 and was superseded by the January 2011 amendment. Implementation of the Massena East modernization plan is subject to further approval of the Alcoa Board of Directors. Alcoa restarted production at Massena East in the first quarter of 2011. 
+The Mt. Holly smelter in South Carolina purchases electricity from Santee Cooper under a contract that was amended and restated in 2012, and expires December 31, 2015. The contract includes a provision for follow-on service at the then current rate schedule for industrial customers. 
+Australia – Electricity 
+Power is generated from extensive brown coal deposits covered by a long-term mineral lease held by AofA, and that power currently provides approximately 40% of the electricity for the AofA’s Point Henry smelter. The State Electricity Commission of Victoria (SECV) provides the remaining power for this smelter, and all power for the Portland smelter, under contracts with AofA and Eastern Aluminium (Portland) Pty Ltd, a wholly-owned subsidiary of AofA, in respect of its interest in Portland, that extend to 2014 and 2016, respectively. Upon the expiration of these contracts both smelters will purchase power from the Australian National Energy Market (NEM) variable spot market. In March 2010, AofA and Eastern Aluminium (Portland) Pty Ltd (in respect of the Portland Smelter only) separately entered into fixed for floating swap contracts with Loy Yang Power in order to manage exposure to variable energy rates from the NEM for the Point Henry and Portland smelters. The contracts commence from the date of expiration of the current contracts with the SECV and are in place until December 2036. 
+Brazil – Electricity 
+The Alumar smelter is partially supplied by Eletronorte (Centrais Elétricas do Norte do Brasil S.A.) under a long-term power purchase agreement originally expiring in December 2024. Eletronorte has supplied the Alumar smelter from the beginning of its operations in 1984. Since 2006, Alcoa Alumínio S.A.’s (Alumínio) remaining power needs for the smelter are supplied from self-generated energy. In March 2012, the Eletronorte contract supply was reduced from 423 MW to 263 MW and will be further reduced to 200 MW in January 2014. In March 2012, Aluminio declared that the Electronorte contract will be terminated by March 2014 and alternatives for supplying the remaining power needs of both smelters are being analyzed. 
+Alumínio owns a 30.99% stake in Maesa—Machadinho Energética S.A., which is the owner of 83.06% of the Machadinho hydroelectric power plant located in southern Brazil. Alumínio’s share of the plant’s output is supplied to the Poços de Caldas smelter, and is sufficient to cover 55% of its operating needs. 
+Alumínio has a 42.18% interest in Energética Barra Grande S.A.—BAESA, which built the Barra Grande hydroelectric power plant in southern Brazil. Alumínio’s share of the power generated by BAESA covers the remaining power needs of the Poços de Caldas smelter and, as noted above, a portion of the power needs of Alumínio’s interest in the Alumar smelter. 
+Alumínio also has 34.97% share in Serra do Facão in the southeast of Brazil, which began commercial generation in August 2010. Alumínio’s share of the Serra do Facão output is currently being sold in the market. Power from Serra do Facao will replace Electronorte starting January 1, 2014 when the existing contract will be further reduced by 60 MW. Until then, power from Serra do Facao will be sold externally to the market. 
+ 
+23 
+
+Table of Contents
+Alumínio is also participating in the Estreito hydropower project in northern Brazil, holding a 25.49% share. Four out of its eight generation units began commercial operation in 2011. Three additional units began operation in 2012, and the remaining unit is expected to begin commercial operation by March 2013. Aluminio’s share of the plant’s output is supplied to the Alumar smelter which replaced the 160 MW Electronorte power contract reduction on March 26, 2012. 
+With Machadinho, Barra Grande, Serra do Facão and Estreito, Alumínio’s current power self-sufficiency is approximately 70%, to meet a total energy demand of approximately 690 MW from Brazilian primary aluminum plants. 
+Consortia in which Alumínio participates have received concessions for the Pai Querê hydropower project in southern Brazil (Alumínio’s share is 35%) and the Santa Isabel hydropower project in northern Brazil (Alumínio’s share is 20%). Development of these concessions has not yet begun. 
+Europe – Electricity 
+Until December 31, 2005, the Company purchased electricity for its smelters at Portovesme and Fusina, Italy under a power supply structure approved by the European Commission (EC) in 1996. That measure provided a competitive power supply to the primary aluminum industry and was not considered state aid from the Italian Government. In 2005, Italy granted an extension of the regulated electricity tariff that was in force until December 31, 2005 through November 19, 2009. (The extension was originally through 2010, but the date was changed by legislation adopted by the Italian Parliament effective on August 15, 2009). In July 2006, the EC announced that it had opened an investigation to establish whether the extension of the regulated electricity tariff granted by Italy complied with European Union (EU) state aid rules. On November 19, 2009, the EC announced a decision in its investigation, stating that the extension of the tariff by Italy constituted unlawful state aid, in part, and ordered the Italian government to recover a portion of the benefit Alcoa received since January 2006 (including interest). On April 19, 2010, Alcoa filed an appeal against the decision of the EC with the European General Court. Additionally on May 22, 2010, Alcoa filed an application for interim measures (suspension of decision) in connection with the EC at the European General Court. On July 12, 2010, the European General Court dismissed the request for interim measures due to lack of urgency. Alcoa appealed this ruling on September 10, 2010. This appeal was dismissed by the European Court of Justice on December 16, 2011. On February 25, 2010, the Italian government issued a decree law (No.3 2010) implementing a request from the electrical transmission system operator to reinforce the level of system security on the islands of Sicily and Sardinia. The decree law provides the means for end-consumers to provide and, be paid for, interruptible services up to December 31, 2012. On May 26, 2010, the EC ruled that the scheme introduced by the decree law to be a “non-aid.” Alcoa applied for and gained rights to sell this service in Sardinia from the Portovesme smelter. Additional details about this matter are in Part I, Item 3 (Legal Proceedings) of this report. On July 29, 2010, Alcoa reached agreement with a power supplier to enter into a new contract expiring on December 31, 2012. This arrangement would have enabled operation of the Portovesme smelter through December 31, 2012. In January 2012, Alcoa announced that it decided to curtail operations at its Portovesme smelter. This curtailment was completed in November 2012. This curtailment may lead to the permanent closure of the facility. Additionally, in 2010, the Fusina smelter was temporarily curtailed due to high energy costs. As of June 30, 2010, the Fusina smelter was fully curtailed. 
+Alcoa’s smelters at San Ciprián, La Coruña and Avilés, Spain purchase electricity under bilateral power contracts. The contracts that commenced in May 2009 expired on December 31, 2012 and have been replaced with new bilateral contracts commencing on January 1, 2013. The contracts for San Ciprián and Avilés smelters each have a 4 year term. The contract for the La Coruña smelter is for a single year. Prior to the establishment of power supply under the bilateral contracts, Alcoa was supplied under a regulated power tariff. On January 25, 2007, the EC announced that it has opened an investigation to establish whether the regulated electricity tariffs granted by Spain comply with EU state aid rules. Alcoa operated in Spain for more than ten years under a power supply structure approved by the Spanish Government in 1986, an equivalent tariff having been granted in 1983. The investigation is limited to the year 2005 and it is focused both on the energy-intensive consumers and the distribution companies. It is Alcoa’s understanding that the Spanish tariff system for electricity is in conformity with all applicable laws and regulations, and therefore no state aid is present in that tariff system. A decision by the EC has not yet been made. If the EC’s investigation concludes that 
+ 
+24 
+
+Table of Contents
+the regulated electricity tariffs for industries are unlawful, Alcoa will have an opportunity to challenge the decision in the EU courts. Due to the high cost position of the La Coruña and Avilés smelters, combined with rising raw material costs and falling aluminum prices, in early January 2012, Alcoa announced its intentions to partially and temporarily curtail its La Coruña and Avilés, Spain smelters. The partial curtailments were completed in the first half of 2012. As a result of a modification to the load interruptibility regime currently in place in the Spanish power market, Alcoa has commenced the restart of a portion (25,000 mpty combined for Avilés and La Coruña) of the capacity previously curtailed in the first half of 2012 to meet the requirements of the modified interruptibility regime. See the Management’s Discussion and Analysis of Financial Condition and Results of Operations section for more information. 
+In March 2009, Alcoa and Orkla ASA exchanged respective stakes in the Sapa AB and Elkem Aluminium ANS companies. Pursuant to the exchange, Alcoa assumed 100% ownership of the two smelters in Norway, Lista and Mosjøen, at the end of the first quarter of 2009. These smelters have long-term power arrangements in place which continue until at least 2019. 
+Iceland – Electricity 
+Alcoa’s Fjarðaál smelter in eastern Iceland began operation in 2007. Central to those operations is a forty-year power contract under which Landsvirkjun, the Icelandic national power company, built the Kárahnjúkar dam and hydro-power project, and supplies competitively priced electricity to the smelter. In late 2009, Iceland imposed two new taxes on power intensive industries, both for a period of three years, from 2010 through 2012. One tax is based on energy consumption; the other is a pre-payment of certain other charges, and will be recoverable from 2013 through 2015. In 2012, Iceland extended the energy consumption tax though 2015. 
+North America – Natural Gas 
+In order to supply its refineries and smelters in the U.S. and Canada, Alcoa generally procures natural gas on a competitive bid basis from a variety of sources including producers in the gas production areas and independent gas marketers. For Alcoa’s larger consuming locations in Canada and the U.S., the gas commodity and the interstate pipeline transportation are procured to provide increased flexibility and reliability. Contract pricing for gas is typically based on a published industry index or New York Mercantile Exchange (NYMEX) price. The Company may choose to reduce its exposure to NYMEX pricing by hedging a portion of required natural gas consumption. 
+Australia – Natural Gas 
+AofA holds a 20% equity interest in a consortium that bought the Dampier-to-Bunbury natural gas pipeline in October 2004. This pipeline transports gas from the northwest gas fields to AofA’s alumina refineries and other users in the Southwest of Western Australia. AofA uses gas to co-generate steam and electricity for its alumina refining processes at the Kwinana, Pinjarra and Wagerup refineries. Approximately 85% of AofA’s gas supplies are under long-term contract out to 2020. AofA is progressing multiple supply options to replace expiring contracts, including investing directly in projects that have the potential to deliver cost-based gas. 
+ 
+25 
+
+Table of Contents
+Energy Facilities 
+The following table sets forth the electricity generation capacity and 2012 generation of Company-owned facilities: 
+ 
+
+Patents, Trade Secrets and Trademarks 
+The Company believes that its domestic and international patent, trade secret and trademark assets provide it with a significant competitive advantage. The Company’s rights under its patents, as well as the products made and sold under them, are important to the Company as a whole and, to varying degrees, important to each business segment. The patents owned by Alcoa generally concern particular products or manufacturing equipment or techniques. Alcoa’s business as a whole is not, however, materially dependent on any single patent, trade secret or trademark. 
+The Company has a number of trade secrets, mostly regarding manufacturing processes and material compositions that give many of its businesses important advantages in their markets. The Company continues to strive to improve those processes and generate new material compositions that provide additional benefits. 
+The Company also has a number of domestic and international registered trademarks that have significant recognition within the markets that are served. Examples include the name “Alcoa” and the Alcoa symbol for aluminum products, Howmet metal castings, Huck® fasteners, Kawneer® building panels and Dura-Bright® wheels with easy-clean surface treatments. The Company’s rights under its trademarks are important to the Company as a whole and, to varying degrees, important to each business segment. 
+Competitive Conditions 
+Alcoa is subject to highly competitive conditions in all aspects of its aluminum and non-aluminum businesses. Competitors include a variety of both U.S. and non-U.S. companies in all major markets. Price, quality, and service are the principal competitive factors in Alcoa’s markets. Where aluminum products compete with other materials—such as steel and plastics for automotive and building applications; magnesium, titanium, composites, and plastics for aerospace and defense applications—aluminum’s diverse characteristics, particularly its light weight, recyclability, and flexibility are also significant factors. For Alcoa’s segments that market products under Alcoa’s brand names, brand recognition, and brand loyalty also play a role. In addition Alcoa’s competitive position depends, in part, on the Company’s access to an economical power supply to sustain its operations in various countries. 
+Research and Development 
+Alcoa, a technology leader in the aluminum industry, engages in research and development programs that include process and product development, and basic and applied research. Expenditures for research and development (R&D) activities were $197 million in 2012, $184 million in 2011, and $174 million in 2010. 
+ 
+26 
+
+Table of Contents
+Most of the major process areas within the Company have a Technology Management Review Board (TMRB) or Center of Excellence (CoE) consisting of members from various worldwide locations. Each TMRB or CoE is responsible for formulating and communicating a technology strategy for the corresponding process area, developing and managing the technology portfolio and ensuring the global transfer of technology. Alternatively, certain business units conduct these activities and research and development programs within the worldwide business unit, supported by the Alcoa Technical Center (ATC). Technical personnel from the TMRBs, ATC and such business units also participate in the corresponding Market Sector Teams. In this manner, research and development activities are aligned with corporate and business unit goals. 
+During 2012, the Company continued to work on new developments for a number of strategic projects in all business segments. In Primary Metals, progress was made on inert anode technology with tests carried out on a pilot scale. Progress has been successful in many respects as a result of full pot testing of anode assemblies, although there remain technical and cost targets to achieve. If the technology proves to be commercially feasible, the Company believes that it would result in significant operating cost savings, and generate environmental benefits by reducing certain emissions and eliminating carbon dioxide. No timetable has been established for commercial use. The Company is also continuing to develop the carbothermic aluminum process, which is in the research and development phase. The technology holds the potential to produce aluminum at a lower cost, driven by reduced conversion costs, lower energy requirements and lower emissions at a lower capital cost than traditional smelting. 
+The Company continued its progress leveraging new science and technologies in 2012. For example, riblets that reduce aerodynamic drag have been analyzed and produced on a test basis. Self-cleaning nano coatings have been demonstrated on building products (an example of such was commercialized in 2011 as EcoClean, which is the world’s first coil-coated aluminum architectural panel that helps clean itself and the air around it). Energy saving sensing devices are being integrated in Company manufacturing plants. Integrated thermal management products for consumer electronics have been developed and are being validated by our customers. 
+A number of products were commercialized in 2012 including new fasteners, aluminum lithium (Al-Li) and more traditional 7xxx series alloys for various aerospace applications, numerous innovations in the building and construction market for enhanced thermal performance and increased functionality. The Company continues to develop its MicromillTM technology and ran numerous customer trials in the rigid container sheet (RCS) and packaging markets. There has been considerable progress in the development of next generation commercial truck wheels. The Company has also continued to externally license technology including the A951 pretreatment technology, shaping technology, and ColorkastTM products for the consumer electronics segment. 
+Alcoa’s research and development focus is on product development to support sustainable, profitable growth; manufacturing technologies to improve efficiencies and reduce costs; and environmental risk reductions. Environmental technologies continue to be an area of focus for the Company, with projects underway that address emissions reductions, the reduction of spent pot lining, advanced recycling, and the beneficial use of bauxite residue. 
+As a result of product development and technological advancement, the Company continues to pursue patent protection in jurisdictions throughout the world. At the end of 2012, the Company’s worldwide patent portfolio consisted of 870 pending patent applications and 1,895 granted patents. 
+Environmental Matters 
+Information relating to environmental matters is included in Note N to the Consolidated Financial Statements under the caption “Environmental Matters” on pages 119-122. 
+Employees 
+Total worldwide employment at the end of 2012 was approximately 61,000 employees in 30 countries. About 34,000 of these employees are represented by labor unions. The Company believes that relations with its employees and any applicable union representatives generally are good. 
+ 
+27 
+
+Table of Contents
+In the U.S., approximately 9,600 employees are represented by various labor unions. The largest of these is the master collective bargaining agreement between Alcoa and the United Steelworkers (USW). This agreement covers 10 locations and approximately 6,200 U.S. employees. It expires on May 15, 2014. There are 17 other collective bargaining agreements in the U.S. with varying expiration dates. Collective bargaining agreements with varying expiration dates also cover approximately 6,300 employees in Europe, 4,300 employees in Russia, 6,750 employees in Central and South America, 3,900 employees in Australia, 1,200 employees in China and 2,200 employees in Canada. 
+Executive Officers of the Registrant 
+The names, ages, positions and areas of responsibility of the executive officers of the Company as of February 15, 2013 are listed below. 
+Nicholas J. Ashooh, 58, Vice President, Corporate Affairs. Mr. Ashooh was elected to his current position upon joining Alcoa in January 2010. Before joining Alcoa, he was Senior Vice President—Communications of American International Group, Inc. (AIG), a leading international insurance organization, from September 2006 to January 2010. Prior to AIG, he held executive communication positions in the electric utility industry as Senior Vice President, Corporate Communications of American Electric Power Service Corporation (2000 to 2006); Vice President, Public Affairs and Corporate Communications of Niagara Mohawk Power Corporation (1992 to 2000); and Director, Corporate Communications of Public Service of New Hampshire (1978 to 1990). From 1990 to 1992, he was Vice President, Corporate Communications of Paramount Communications Inc., a global entertainment and publishing company. 
+Chris L. Ayers, 46, Executive Vice President—Alcoa and Group President, Global Primary Products. Mr. Ayers was elected an Alcoa Executive Vice President in August 2010 and was named Group President, Global Primary Products effective May 18, 2011. He served as Chief Operating Officer of Global Primary Products from August 2010 to May 18, 2011. He was elected a Vice President of Alcoa in April 2010. Mr. Ayers joined Alcoa in February 2010 as Chief Operating Officer, Alcoa Cast, Forged and Extruded Products. Before joining Alcoa, from 1999 through December 2008, Mr. Ayers served in various management roles at Precision Castparts Corp., including as Executive Vice President from May 2006 to July 2008, President—PCC Forgings Division from December 2006 to July 2008, President—Wyman Gordon Forgings from 2004 to December 2006, and Vice President/General Manager from 2003 to 2004. 
+Michael T. Barriere, 50, Vice President, Human Resources. Mr. Barriere was elected to his current position in May 2012. He joined Alcoa in 2011 as Chief Talent Officer. Before coming to Alcoa, Mr. Barriere was Senior Vice President, Human Resources at New York Life Insurance from 2008 to 2010. Prior to New York Life Insurance, he held executive human resource positions at Citigroup from 2002 to 2008. From 1995 to 2002, Mr. Barriere had his own consultancy business, providing corporate clients with training evaluation and leadership development processes. 
+Graeme W. Bottger, 54, Vice President and Controller. Mr. Bottger was elected to his current position effective August 1, 2010. He joined Alcoa in 1980 as a product accountant trainee at Alcoa’s Point Henry facility in Australia and from that time to his most recent appointment held a series of accounting and financial management positions in Alcoa’s Australian smelting, rolling, extrusion, foil and alumina businesses and Alcoa’s corporate office. Mr. Bottger was Chief Financial Officer of Alcoa’s Engineered Products and Solutions business group from 2005 to August 2010. From 2003 to 2005, he was Vice President, Sales, for Alcoa Home Exteriors. From 2001 to 2003, Mr. Bottger was Vice President, Finance for Alcoa Home Exteriors. Before his move to the United States in 1999 to accept an assignment in Alcoa’s financial analysis and planning department, Mr. Bottger held the position of Chief Financial Officer for Alcoa’s joint venture with Kobe Steel, Ltd. in Australia (Kaal Australia Pty. Ltd.). 
+Olivier M. Jarrault, 51, Executive Vice President—Alcoa and Group President, Engineered Products and Solutions. Mr. Jarrault was elected an Alcoa Executive Vice President effective January 21, 2011 and was named Group President of Engineered Products and Solutions effective January 1, 2011. He served as Chief Operating Officer of Engineered Products and Solutions from February 2010 to January 1, 2011. Mr. Jarrault joined Alcoa in 2002 when Alcoa acquired Fairchild Fasteners from The Fairchild Corporation. He served as President of Alcoa Fastening Systems from 2002 to February 2010. He was elected a Vice President of Alcoa in November 2006. 
+ 
+28 
+
+Table of Contents
+Klaus Kleinfeld, 55, Director, Chairman of the Board and Chief Executive Officer. Mr. Kleinfeld was elected to Alcoa’s Board of Directors in November 2003 and became Chairman on April 23, 2010. He has been Chief Executive Officer of Alcoa since May 8, 2008. He was President and Chief Executive Officer from May 8, 2008 to April 23, 2010. He was President and Chief Operating Officer of Alcoa from October 1, 2007 to May 8, 2008. Mr. Kleinfeld was President and Chief Executive Officer of Siemens AG, the global electronics and industrial conglomerate, from January 2005 to June 2007. He served as Deputy Chairman of the Managing Board and Executive Vice President of Siemens AG from 2004 to January 2005. He was President and Chief Executive Officer of Siemens Corporation, the U.S. arm of Siemens AG, from 2002 to 2004. 
+Charles D. McLane, Jr., 59, Executive Vice President and Chief Financial Officer. Mr. McLane was elected an Alcoa Executive Vice President in September 2007 and was elected Vice President and Chief Financial Officer of Alcoa in January 2007. He was elected Vice President and Corporate Controller in October 2002. He joined Alcoa in May 2000 as director of investor relations, following Alcoa’s merger with Reynolds Metals Company. He became Assistant Treasurer of Reynolds in 1999 and Assistant Controller of that company in 1995. 
+Kay H. Meggers, 48, Executive Vice President—Alcoa and Group President, Global Rolled Products. Mr. Meggers was elected an Alcoa Executive Vice President in December 2011. He was named Group President, Global Rolled Products effective November 14, 2011. Before his most recent appointment, he led Alcoa’s Business Excellence/Corporate Strategy resource unit and was also responsible for overseeing Alcoa’s Asia-Pacific region. He joined Alcoa in February 2010 as Vice President, Corporate Initiatives, a position responsible for planning and coordinating major strategic initiatives from enhancing technology and innovation as part of the Alcoa Technology Advantage program to spearheading growth strategies for China and Brazil. He was elected a Vice President of Alcoa in June 2011. Before joining Alcoa, Mr. Meggers was Senior Vice President at Siemens U.S. Building Technologies Division and served for three years as Business Unit Head of Building Automation. In 2006 he served for nine months as Division Head of Fire Safety, also part of Siemens U.S. Building Technologies Division. Between 2002 and 2005, he served as Vice President of Strategic Planning at Siemens U.S. 
+Audrey Strauss, 65, Executive Vice President, Chief Legal and Compliance Officer and Secretary. Ms. Strauss was elected to her current position upon joining Alcoa in May 2012. Prior to joining Alcoa, she was a senior litigation partner from 1990 to 2012 at Fried Frank Harris Shriver and Jacobson LLP (Fried Frank), a law firm based in New York. Prior to her practice at Fried Frank, Ms, Strauss served in the U.S. Attorney’s office for the Southern District of New York from 1975 to 1982, where she was Chief Appellate Attorney and Chief of the Fraud Unit. 
+On January 4, 2013, Mr. McLane informed the Company that he had decided to retire effective August 1, 2013 after a 40-year career with the Company. On January 8, 2013, the Company announced that William F. Oplinger, 45, will become Chief Financial Officer of the Company effective April 1, 2013, succeeding Mr. McLane. Mr. Oplinger has been chief operating officer of the Company’s Global Primary Products business since December 2011. He also serves on the Company’s Executive Council, the senior leadership team that sets strategic direction for the Company. Since joining the Company in 2000, Mr. Oplinger has held key corporate positions in financial analysis and planning and as director of investor relations. He also has had major assignments in the Company’s largest business, Global Primary Products, including controller, operational excellence director, chief financial officer, and his most recent position as chief operating officer
