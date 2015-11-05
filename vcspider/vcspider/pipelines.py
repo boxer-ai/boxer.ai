@@ -23,7 +23,7 @@ class MySqlPipeline(object):
 
     def __init__(self):
 
-        config = settings['MYSQL_GSJ_CONFIG']
+        config = settings['MYSQL_GSA_CONFIG']
         self.con = msc.connect(**config)
         self.cur = self.con.cursor()
 
@@ -62,7 +62,7 @@ class MySqlPipeline(object):
 
 
     def get_update_query(self):
-        return "UPDATE {0} SET text = concat(text, %s) WHERE siteurl LIKE %s;"
+        return "UPDATE {0} SET text = concat(ifnull(text, ''), %s) WHERE siteurl LIKE %s;"
 
     def get_insert_query(self):
         return "INSERT INTO {0} (text, siteurl) VALUES (%s, %s);"
