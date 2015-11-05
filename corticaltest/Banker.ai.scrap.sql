@@ -35,21 +35,14 @@ ALTER TABLE crunchbase_startups ADD lang varchar(127);
 #ALTER TABLE crunchbase_startups ADD opencalais text;
 #ALTER TABLE crunchbase_startups ADD cortical_io_keywords text;
 
-select count(*) from vctest4;
-select * from vctest4 where siteurl='partnerfunds.com';
-
-select * from vctest4 where length(text) > 0 and cortical_io is not null;
-
+#download complete
 select count(*) from vctest4 where length(text) > 0;
-ALTER IGNORE TABLE vctest4 ADD UNIQUE (siteurl);
-
 select count(*) from crunchbase_startups where length(text) > 0;
-select * from crunchbase_startups where length(text) > 0 and cortical_io is not null;
 
-select siteurl, text from vctest4 where cortical_io is null and siteurl='cerberuscapital.com' and text <> '' limit 100;
+#analysis complete
+select count(*) from vctest4 where length(text) > 0 and watson is not null;
+select count(*) from crunchbase_startups where length(text) > 0 and watson is not null;
 
-#select count(*) from vctest4;
-#delete from vctest4 where length(siteurl) = 0;
 select * from crunchbase_startups;
 
 -- run this on vc list
@@ -58,7 +51,6 @@ update crunchbase_startups set siteurl = left(siteurl, instr(siteurl, '/') - 1) 
 update crunchbase_startups set text = '' where text is null;
 -- end
 
-select count(*) from crunchbase_startups where length(text) > 0;
 select count(*) from crunchbase_startups where length(text) > 0;
 
 select *, left(siteurl, instr(siteurl, '/') - 1), instr(siteurl, '/') from crunchbase_startups where instr(siteurl, '/') != 0;
