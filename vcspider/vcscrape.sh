@@ -6,7 +6,7 @@ echo "usage = ./vcscrape.sh vcs &> file1.log & (VC scraper) -or- ./vcscrape.sh s
 
 source ~/.bashrc
 
-  for i in {1..100}; do
-    `nohup scrapy crawl $1`
-    sleep 60
+  while true; do
+    `scrapy crawl $1`
+    sleep 1
   done

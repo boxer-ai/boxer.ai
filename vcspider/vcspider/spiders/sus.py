@@ -30,22 +30,15 @@ class SuSpider(CrawlSpider):
     )
 
     g = Goose()
-    # pagemax = {}
 
     def parse_items(self, response):
-
-        # if ~(self.incSiteCounter(response)):
-        #     raise CloseSpider('More than 20 pages crawled for this site!')
 
         fulltext = self.parse_body_text(response)
         gooseobj = self.g.extract(response.url)
         fulltext = gooseobj.cleaned_text
-        # fulltext = self.parse_body_text(response)
 
         il = ItemLoader(item=SuspiderItem(), response=response)
         il.default_output_processor = MapCompose(
-            # lambda v: v.rstrip(),
-            # lambda v: v.replace(',', '')
             lambda v: v.rstrip(),
             lambda v: re.sub(r'[\',|!]', '', v),
             lambda v: re.sub(r'\s+', ' ', v)
@@ -58,18 +51,6 @@ class SuSpider(CrawlSpider):
         # il.add_xpath('keywords', '//meta[@name="keywords"]/@content')
 
         yield il.load_item()
-
-    # def incSiteCounter(self, response):
-    #     baseurl = self.parse_base_url(response.url)
-    #
-    #     if baseurl not in self.pagemax.keys():
-    #         self.pagemax[baseurl] = 0
-    #
-    #     else:
-    #         self.pagemax[baseurl] += 1
-    #
-    #     return True if self.pagemax[baseurl] > 20 else False
-
 
     def parse_body_text(self, response):
 

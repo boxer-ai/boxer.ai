@@ -23,7 +23,7 @@ cur = con.cursor()
 #time.sleep(5)
 
 #FIND A RANDOM 10 WEBSITES TO CRAWL FROM THE VC LIST
-cur.execute("SELECT siteurl FROM vctest4 where siteurl <>'' and text = '' ORDER BY RAND() LIMIT 100;")
+cur.execute("SELECT siteurl FROM vctest4 where ifnull(siteurl, '') <> '' and ifnull(text, '') = '' ORDER BY RAND() LIMIT 10;")
 
 test = cur.fetchall()
 test = [list(row)[0] for row in map(list, test)]
@@ -33,7 +33,7 @@ domains = test2.apply(lambda x: re.sub(r'((http(s)?://)?(www.)?)', '', x.lower()
 urls = map(lambda domain: 'http://www.' + domain, domains)
 
 #FIND A RANDOM 10 WEBSITES TO CRAWL FROM THE STARTUP LIST
-cur.execute("SELECT siteurl FROM crunchbase_startups where siteurl <>'' and text = '' ORDER BY RAND() LIMIT 100;")
+cur.execute("SELECT siteurl FROM crunchbase_startups where ifnull(siteurl, '') <> '' and ifnull(text, '')  = '' ORDER BY RAND() LIMIT 10;")
 sulist = cur.fetchall()
 sulist = [list(row)[0] for row in map(list, sulist)]
 sulist2 = pd.Series(sulist)

@@ -15,8 +15,8 @@ SPIDER_MODULES = ['vcspider.spiders']
 NEWSPIDER_MODULE = 'vcspider.spiders'
 DOWNLOAD_HANDLERS = {'s3': None, }
 
-DEPTH_LIMIT = 2
-LOG_LEVEL = 'INFO'
+DEPTH_LIMIT = 1
+#LOG_LEVEL = 'INFO'
 # CLOSESPIDER_PAGECOUNT = 20
 CONCURRENT_REQUESTS = 100
 
@@ -31,12 +31,12 @@ ITEM_PIPELINES = {
 MYSQL_TABLE_VC = 'vctest4'
 MYSQL_TABLE_SU = 'crunchbase_startups'
 
-MYSQL_GSJ_CONFIG = {
-    'user': 'root',
-    'password': 'nycdsa1!',
-    'host': '173.194.225.231',
-    'database': 'test'
-}
+#MYSQL_GSJ_CONFIG = {
+#    'user': 'root',
+#    'password': 'nycdsa1!',
+#    'host': '173.194.225.231',
+#    'database': 'test'
+#}
 
 MYSQL_GSA_CONFIG = {
     'user': 'root',
