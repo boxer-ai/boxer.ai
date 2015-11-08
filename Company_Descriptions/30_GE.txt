@@ -1,0 +1,314 @@
+Item 1. Business
+ 
+General
+ 
+Unless otherwise indicated by the context, we use the terms “GE” and “GECC” on the basis of consolidation described in Note 1 to the consolidated financial statements in Part II, Item 8. “Financial Statements and Supplementary Data” of this Form 10-K Report. Also, unless otherwise indicated by the context, “General Electric” means the parent company, General Electric Company (the Company).
+
+General Electric’s address is 1 River Road, Schenectady, NY 12345-6999; we also maintain executive offices at 3135 Easton Turnpike, Fairfield, CT 06828-0001.
+
+We are one of the largest and most diversified infrastructure and financial services corporations in the world. With products and services ranging from aircraft engines, power generation, oil and gas production equipment, and household appliances to medical imaging, business and consumer financing and industrial products, we serve customers in more than 100 countries and employ approximately 305,000 people worldwide. Since our incorporation in 1892, we have developed or acquired new technologies and services that have broadened and changed considerably the scope of our activities.
+
+In virtually all of our global business activities, we encounter aggressive and able competition. In many instances, the competitive climate is characterized by changing technology that requires continuing research and development. With respect to manufacturing operations, we believe that, in general, we are one of the leading firms in most of the major industries in which we participate. The businesses in which General Electric Capital Corporation (GECC) engages are subject to competition from various types of financial institutions, including commercial banks, thrifts, investment banks, broker-dealers, credit unions, leasing companies, consumer loan companies, independent finance companies and finance companies associated with manufacturers.
+
+On February 22, 2012, we merged our wholly-owned subsidiary, General Electric Capital Services, Inc. (GECS), with and into GECS’ wholly-owned subsidiary, GECC. The merger simplified our financial services’ corporate structure by consolidating financial services entities and assets within our organization and simplifying Securities and Exchange Commission and regulatory reporting. Upon completion of the merger, (i) all outstanding shares of GECC common stock were cancelled, (ii) all outstanding GECS common stock and all GECS preferred stock held by the Company were converted into an aggregate of 1,000 shares of GECC common stock, and (iii) all treasury shares of GECS and all outstanding preferred stock of GECS held by GECC were cancelled. As a result, GECC became the surviving corporation, assumed all of GECS’ rights and obligations and became wholly-owned directly by the Company.
+
+Because we wholly-owned both GECS and GECC, the merger was accounted for as a transfer of assets between entities under common control. Transfers of net assets or exchanges of shares between entities under common control are accounted for at historical value, and as if the transfer occurred at the beginning of the period.
+
+Prior to January 28, 2011, we also operated a media company, NBC Universal, Inc. (NBCU). Effective January 28, 2011, we held a 49% interest in a media entity that includes the NBC Universal businesses. On February 12, 2013, we entered into an agreement to sell our remaining 49% common equity interest to Comcast Corporation, as well as the NBCU floors in 30 Rockefeller Center, for $18.1 billion. The sale is expected to be completed by the end of the first quarter of 2013.  
+
+  
+(3)
+ 
+  
+ Forward-Looking Statements
+ 
+This document contains “forward-looking statements” – that is, statements related to future, not past, events. In this context, forward-looking statements often address our expected future business and financial performance and financial condition, and often contain words such as “expect,” “anticipate,” “intend,” “plan,” “believe,” “seek,” “see,” or “will.” Forward-looking statements by their nature address matters that are, to different degrees, uncertain. For us, particular uncertainties that could cause our actual results to be materially different than those expressed in our forward-looking statements include: current economic and financial conditions, including volatility in interest and exchange rates, commodity and equity prices and the value of financial assets; potential market disruptions or other impacts arising in the United States or Europe from developments in sovereign debt situations; the impact of conditions in the financial and credit markets on the availability and cost of General Electric Capital Corporation’s (GECC) funding and on our ability to reduce GECC’s asset levels as planned; the impact of conditions in the housing market and unemployment rates on the level of commercial and consumer credit defaults; changes in Japanese consumer behavior that may affect our estimates of liability for excess interest refund claims (GE Money Japan); pending and future mortgage securitization claims and litigation in connection with WMC, which may affect our estimates of liability, including possible loss estimates; our ability to maintain our current credit rating and the impact on our funding costs and competitive position if we do not do so; the adequacy of our cash flows and earnings and other conditions which may affect our ability to pay our quarterly dividend at the planned level or to repurchase shares at planned levels; GECC’s ability to pay dividends to GE at the planned level; our ability to convert pre-order commitments into orders; the level of demand and financial performance of the major industries we serve, including, without limitation, air and rail transportation, energy generation, real estate and healthcare; the impact of regulation and regulatory, investigative and legal proceedings and legal compliance risks, including the impact of financial services regulation; our capital allocation plans, as such plans may change and affect planned share repurchases and strategic actions, including acquisitions, joint ventures and dispositions; our success in completing announced transactions and integrating acquired businesses; the impact of potential information technology or data security breaches; and numerous other matters of national, regional and global scale, including those of a political, economic, business and competitive nature. These uncertainties may cause our actual future results to be materially different than those expressed in our forward-looking statements. These uncertainties are described in more detail in Part I, Item 1A. “Risk Factors” of this Form 10-K Report. We do not undertake to update our forward-looking statements.
+
+Operating Segments
+ 
+Segment revenue and profit information and additional financial data and commentary on recent financial results for operating segments are provided in the Segment Operations section in Part II, Item 7. “Management’s Discussion and Analysis of Financial Condition and Results of Operations” and in Note 28 to the consolidated financial statements in Part II, Item 8. “Financial Statements and Supplementary Data” of this Form 10-K Report.
+
+Operating businesses that are reported as segments include Power & Water, Oil & Gas, Energy Management, Aviation, Healthcare, Transportation, Home & Business Solutions and GE Capital. Net earnings of GECC and the effect of transactions between segments are eliminated to arrive at total consolidated data. A summary description of each of our operating segments follows.
+
+On February 22, 2012, we merged our wholly-owned subsidiary, GECS, with and into GECS’ wholly-owned subsidiary, GECC. Our financial services segment, GE Capital, continues to comprise the continuing operations of GECC, which now include the run-off insurance operations previously held and managed in GECS. Unless otherwise indicated, references to GECC and the GE Capital segment in this Form 10-K Report relate to the entity or segment as they exist subsequent to the February 22, 2012 merger.
+
+Effective October 1, 2012, we reorganized the former Energy Infrastructure segment into three segments – Power & Water, Oil & Gas and Energy Management and we began reporting these as separate segments beginning with this Form 10-K Report. We also reorganized our Home & Business Solutions segment by transferring our Intelligent Platforms business to Energy Management. Results for 2012 and prior periods in this Form 10-K Report are reported on this basis.
+
+
+  
+(4)
+ 
+  
+ We also continue our longstanding practice of providing supplemental information about the businesses within GE Capital.
+
+Power & Water
+ 
+Power & Water (19.2%, 17.4% and 16.6% of consolidated revenues in 2012, 2011 and 2010, respectively) is a leader in the field of development, implementation and improvement of products and technologies that harness resources such as wind, oil, gas and water to produce electric power.
+
+Our operations are located in North America, Europe, Asia, South America and Africa.
+
+Power & Water serves power generation, industrial, government and other customers worldwide with products and services related to energy production. We sell gas turbines and generators that are used principally in power plants for generation of electricity and for industrial cogeneration and mechanical drive applications. We are a leading provider of Integrated Gasification Combined Cycle (IGCC) technology design and development. IGCC systems convert coal and other hydrocarbons into synthetic gas that is used as the primary fuel for gas turbines in combined-cycle systems. IGCC systems produce fewer air pollutants compared with traditional pulverized coal power plants. We sell steam turbines and generators to the electric utility industry and to private industrial customers for cogeneration applications. We offer wind turbines as part of our renewable energy portfolio, which also includes solar technology. We also sell aircraft engine derivatives for use as industrial power sources. Nuclear reactors, fuel and support services for both new and installed boiling water reactors are offered through joint ventures with Hitachi and Toshiba. We provide our customers with solutions to meet their needs through a broad portfolio of aftermarket services, including equipment upgrades, long-term maintenance service agreements, repairs, equipment installation, monitoring and diagnostics, asset management and performance optimization tools, remote performance testing and Dry Low NOx (DLN) tuning. We continue to invest in advanced technology development that will provide more value to our customers and more efficient solutions that comply with today’s strict environmental regulations.
+
+Power & Water also offers water treatment solutions for industrial and municipal water systems including the supply and related services of specialty chemicals, water purification systems, pumps, valves, filters and fluid handling equipment for improving the performance of water, wastewater and process systems, including mobile treatment systems and desalination processes.
+
+On February 1, 2011, we completed the acquisition of Dresser, Inc., which broadened the product portfolio with technologies for gas engines.
+
+Power & Water is party to revenue sharing programs that share the financial results of certain aeroderivative lines. These businesses are controlled by Power & Water, but counterparties have an agreed share of revenues as well as development and component production responsibilities. At December 31, 2012, such counterparty interests ranged from 16% to 49% of various programs; associated distributions to such counterparties are accounted for as costs of production.
+
+Worldwide competition for power generation products and services is intense. Demand for power generation is global and, as a result, is sensitive to the economic and political environment of each country in which we do business. The balance of regional growth and demand side management are important factors to evaluate as we plan for future development.
+
+For information about orders and backlog, see the Segment Operations section in Part II, Item 7. “Management’s Discussion and Analysis of Financial Condition and Results of Operations” of this Form 10-K Report.
+
+Oil & Gas
+ 
+Oil & Gas (10.3%, 9.2% and 6.3% of consolidated revenues in 2012, 2011 and 2010, respectively) helps oil and gas companies make more efficient and sustainable use of the world's energy resources.
+
+Our operations are located in North America, Europe, Asia, Australia, South America and Africa.
+
+
+  
+(5)
+ 
+  
+ Oil & Gas supplies mission critical equipment for the global oil and gas industry, used in applications spanning the entire value chain from drilling and completion through production, liquefied natural gas (LNG) and pipeline compression, pipeline inspection, and downstream processing in refineries and petrochemical plants. The business designs and manufactures surface and subsea drilling and production systems, equipment for floating production platforms, compressors, turbines, turboexpanders, high pressure reactors, industrial power generation and a broad portfolio of auxiliary equipment.
+
+To ensure that the installed base is maintained appropriately, our service business has over 40 service centers and workshops in the world's main oil and gas extraction and production regions. The business also provides upgrades to customers’ machines, using the latest available technology, to extend production capability and environmental performance. We also provide pipeline integrity solutions, sensor-based measurement, inspection, asset condition monitoring, controls, and radiation measurement solutions. Oil & Gas also offers integrated solutions using sensors for temperature, pressure, moisture, gas and flow rate as well as non-destructive testing inspection equipment, including radiographic, ultrasonic, remote visual and eddy current.
+
+On February 4, 2011 and April 26, 2011, we completed the acquisitions of Wellstream PLC and the Well Support division of John Wood Group PLC, respectively.  Wellstream PLC expands the Oil & Gas portfolio with flexible subsea risers and flow lines. The Well Support division of John Wood Group PLC adds equipment, including electrical submersible pumps, that helps extract more oil and gas from mature fields. On February 1, 2011, we completed the acquisition of Dresser, Inc. which broadens the Oil & Gas product portfolio in control and relief valves, measurement, regulation and control solutions for gas and fuel distributions.
+
+Demand for oil and gas equipment and services is global and, as a result, is sensitive to the economic and political environment of each country in which we do business. The balance of regional growth and demand side management are important factors to evaluate as we plan for future development.
+
+For information about orders and backlog, see the Segment Operations section in Part II, Item 7. “Management’s Discussion and Analysis of Financial Condition and Results of Operations” of this Form 10-K Report.
+
+Energy Management
+ 
+Energy Management (5.0%, 4.4% and 3.5% of consolidated revenues in 2012, 2011 and 2010, respectively) designs, manufactures and services leading technology solutions for the delivery, management, conversion and optimization of electrical power for customers across multiple energy-intensive industries.
+
+Our operations are located in North America, Europe, Asia, Latin America and the Middle East.
+
+Energy Management provides integrated electrical products and systems used to distribute, protect and control energy and equipment. We manufacture electrical distribution and control products, lighting and power panels, switchgear and circuit breakers that are used to distribute and manage power in a variety of residential, commercial, consumer and industrial applications. We also provide customer-focused solutions centered on the delivery and control of electric power, and a full portfolio of field services including engineering, inspection, mechanical and emergency services. Energy Management also provides advanced products and services that modernize the grid, from the power plant to the power consumer, such as protection and control, industrial strength communications, smart meters, monitoring & diagnostics, visualization software and advanced analytics. We manufacture advanced motor, drives and control technologies to improve the operational efficiency of energy intensive industries such as metals, mining, marine, oil and gas.  Energy Management also provides plant automation, hardware, software and embedded computing systems including advanced software, controllers, single board computers, motion control and operator interfaces.
+
+
+  
+(6)
+ 
+  
+ 
+On March 2, 2011 and September 2, 2011, we completed the acquisitions of Lineage Power Holdings, Inc. (Lineage Power) and Converteam, respectively. The acquisition of Lineage Power, a provider of high-efficiency power conversion infrastructure technology and services for the telecommunications and datacenter industries, continues the expansion of Energy’s offerings from the electric grid to datacenters, cell towers, routers, servers and circuit board electronics. Converteam, a provider of electrification and automation equipment and systems, adds significant product and service capabilities in power electronics, industrial automation and process controls.
+
+For information about orders and backlog, see the Segment Operations section in Part II, Item 7. “Management’s Discussion and Analysis of Financial Condition and Results of Operations” of this Form 10-K Report.
+
+Aviation
+ 
+Aviation (13.6%, 12.8% and 11.8% of consolidated revenues in 2012, 2011 and 2010, respectively) is one of the world’s leading providers of jet engines and related services with operations in North America, Europe, Asia and South America.
+
+Aviation produces, sells and services jet engines, turboprop and turbo shaft engines, and related replacement parts for use in military and commercial aircraft. Our military engines are used in a wide variety of aircraft including fighters, bombers, tankers, helicopters and surveillance aircraft, as well as marine applications, and our commercial engines power aircraft in all categories of range: short/medium, intermediate and long-range, as well as executive and regional aircraft. We also produce and market engines through CFM International, a company jointly owned by GE and Snecma, a subsidiary of SAFRAN of France, and Engine Alliance, LLC, a company jointly owned by GE and the Pratt & Whitney division of United Technologies Corporation. New engines are also being designed and marketed in a joint venture with Honda Aero, Inc., a division of Honda Motor Co., Ltd.
+
+Aviation is party to agreements in which the financial results, as well as production responsibilities, of certain aircraft and marine engine lines are shared. These agreements take the form of both joint ventures and revenue sharing programs.
+
+Joint ventures market and sell particular aircraft engine lines, but require negligible direct investment because the venture parties conduct essentially all of the development, production, assembly and aftermarket support activities. Under these agreements, Aviation supplies certain engine components and retains related intellectual property rights. The CFM56 engine line is the product of CFM International and the GP7000 engine line is the product of Engine Alliance, LLC.
+
+Revenue sharing programs are a standard form of cooperation for specific product programs in the aviation industry. These businesses are controlled by Aviation, but counterparties have an agreed share of revenues as well as development and component production responsibilities. At December 31, 2012, such counterparty interests ranged from 1% to 47% of various programs; associated distributions to such counterparties are accounted for as costs of production.
+
+Aviation also produces global aerospace systems and equipment, including airborne platform computing systems, power generation and distribution products, mechanical actuation products and landing gear, plus various engine components for use in both military and commercial aircraft.
+
+We provide maintenance, component repair and overhaul services (MRO), including sales of replacement parts for many models of engines and repair and overhaul of engines manufactured by competitors. These MRO services are often provided under long-term maintenance contracts.
+
+On December 21, 2012, we announced an agreement to purchase the aviation business of Avio S.p.A., a manufacturer of aviation propulsion components and systems, for $4.3 billion.
+
+
+  
+(7)
+ 
+  
+ The worldwide competition in aircraft jet engines and MRO (including parts sales) is intense. Both U.S. and export markets are important. Product development cycles are long and product quality and efficiency are critical to success. Research and development expenditures are important in this business, as are focused intellectual property strategies and protection of key aircraft engine design, manufacture, repair and product upgrade technologies. Our products and services are subject to a number of regulatory standards.
+
+Potential sales for any engine are limited by, among other things, its technological lifetime, which may vary considerably depending upon the rate of advance in technology, the relatively small number of potential customers and the limited number of relevant airframe applications. Aircraft engine orders tend to follow military and airline procurement cycles, although these cycles differ from each other.
+
+For information about orders and backlog, see the Segment Operations section in Part II, Item 7. “Management’s Discussion and Analysis of Financial Condition and Results of Operations” of this Form 10-K Report.
+
+Healthcare
+ 
+Healthcare (12.4%, 12.3% and 11.3% of consolidated revenues in 2012, 2011 and 2010, respectively) is one of the world’s leading providers of essential healthcare technologies to developed, developing and emerging countries.  Our operations are located in North America, Europe, Asia, South America and Australia.
+
+Healthcare has expertise in medical imaging and information technologies, medical diagnostics, patient monitoring systems, disease research, drug discovery and biopharmaceutical manufacturing technologies. We are dedicated to predicting and detecting disease earlier, monitoring its progress and informing physicians, and helping physicians tailor treatment for patients. Healthcare manufactures, sells and services a wide range of medical equipment that helps provide a fast, non-invasive way for doctors to see broken bones, diagnose trauma cases in the emergency room, view the heart and its function, and identify early stages of cancers or brain disorders. With diagnostic imaging systems such as Magnetic Resonance (MR), Computed Tomography (CT) and Positron Emission Tomography (PET) scanners, X-ray, nuclear imaging, digital mammography, and Molecular Imaging technologies, Healthcare creates products that allow clinicians to see inside the human body more clearly than ever. In addition, Healthcare-manufactured technologies include patient and resident monitoring, diagnostic cardiology, ultrasound, bone densitometry, anesthesiology and oxygen therapy, and neonatal and critical care devices. Medical diagnostics and life sciences products include diagnostic imaging agents used in medical scanning procedures, drug discovery, biopharmaceutical manufacturing and purification, and tools for protein and cellular analysis for pharmaceutical and academic research, including existing and a pipeline of precision molecular diagnostics in development for neurology, cardiology and oncology applications.
+
+Our product services include remote diagnostic and repair services for medical equipment manufactured by GE and by others, as well as computerized data management, information technologies and customer productivity services.
+
+We compete with a variety of U.S. and non-U.S. manufacturers and services providers. Technological competence and innovation, excellence in design, high product performance, quality of services and competitive pricing are among the key factors affecting competition for these products and services. Products and services are sold worldwide primarily to hospitals, medical facilities, pharmaceutical and biotechnology companies, and to the life science research market.
+
+Throughout the world, we deliver healthymagination solutions that provide greater efficiency to help control costs, better quality to improve patient outcomes, and extended access to healthcare for patients in underserved markets.
+
+Our products are subject to regulation by numerous government agencies, including the U.S. Food and Drug Administration (U.S. FDA), as well as various laws that apply to claims submitted under Medicare, Medicaid or other government funded healthcare programs.
+
+For information about orders and backlog, see the Segment Operations section in Part II, Item 7. “Management’s Discussion and Analysis of Financial Condition and Results of Operations” of this Form 10-K Report.
+
+
+  
+(8)
+ 
+  
+ Transportation
+ 
+Transportation (3.8%, 3.3% and 2.3% of consolidated revenues in 2012, 2011 and 2010, respectively) is a global technology leader and supplier to the railroad, marine, drilling and mining industries.  We serve customers in more than 100 countries in North America, Europe, Asia, South America, Africa and Australia.
+
+Transportation manufactures high-horsepower diesel-electric locomotives, including the Evolution Series™ which meets or exceeds the U.S. Environmental Protection Agency’s Tier III requirements. We also offer leading drive technology solutions to the mining, transit, marine and stationary, and drilling industries. We announced the launch of our Energy Storage business in 2012. GE's Durathon Battery technology is designed for energy storage solutions for stationary and motive applications in the telecommunications, power generation, grid operation and energy management applications. Also, on November 30, 2012, we completed the acquisition of Industrea Limited, a provider of mining products and services with a focus in underground mining.
+
+Transportation provides a portfolio of service offerings designed to improve fleet efficiency and reduce operating expenses, including repair services, locomotive enhancements, modernizations, and information-based services like remote monitoring and diagnostics. We provide train control products, railway management services, and signaling systems to increase service levels, optimize asset utilization, and streamline operations for railroad owners and operators. We deliver leading edge tools that improve asset availability and reliability, optimize network planning, and control network execution to plan.
+
+For information about orders and backlog, see the Segment Operations section in Part II, Item 7. “Management’s Discussion and Analysis of Financial Condition and Results of Operations” of this Form 10-K Report.
+
+ 
+Home & Business Solutions
+ 
+Home & Business Solutions (5.4%, 5.2% and 5.3% of consolidated revenues in 2012, 2011 and 2010, respectively) sells products that share several characteristics − competitive design, efficient manufacturing and effective distribution and service. Home & Business Solutions’ products such as major appliances and a subset of lighting products are primarily directed to consumer applications, while other lighting products are directed towards commercial and industrial applications. Cost control, including productivity, is key in the highly competitive markets in which we compete. We also invest in the development of differentiated, premium products that are more profitable such as energy efficient solutions for both consumers and businesses.
+
+We sell and service major home appliances including refrigerators, freezers, electric and gas ranges, cooktops, dishwashers, clothes washers and dryers, microwave ovens, room air conditioners, residential water systems for filtration, softening and heating, and hybrid water heaters. Our brands include GE Monogram®, GE Profile™, GE®, Hotpoint® and GE Café™. We manufacture certain products and also source finished product and component parts from third-party global manufacturers. A large portion of our appliances sales are through a variety of retail outlets for replacement of installed units. Residential building contractors installing units in new construction is our second major U.S. channel. We offer one of the largest original equipment manufacturer (OEM) service organizations in the appliances industry, providing in-home repair and aftermarket parts.
+
+We also manufacture, source and sell a variety of lamp products for commercial, industrial and consumer markets, including full lines of incandescent, halogen, fluorescent, high-intensity discharge, light-emitting diode, automotive and miniature products.
+
+We have global operations located in North America, Europe, Asia and Latin America.
+
+
+  
+(9)
+ 
+  
+ GE Capital
+ 
+GE Capital (31.2%, 33.3% and 33.3% of consolidated revenues in 2012, 2011 and 2010, respectively) businesses offer a broad range of financial services and products worldwide for businesses of all sizes. Services include commercial loans and leases, fleet management, financial programs, home loans, credit cards, personal loans and other financial services. GE Capital also develops strategic partnerships and joint ventures that utilize GE’s industry-specific expertise in aviation, energy, infrastructure and healthcare to capitalize on market-specific opportunities.
+
+During 2012, GE Capital provided approximately $107 billion of new financings in the U.S. to various companies, infrastructure projects and municipalities. Additionally, we extended approximately $96 billion of credit to approximately 57 million U.S. consumers. GE Capital provided credit to approximately 37,100 new commercial customers and 34,000 new small businesses in the U.S. during 2012 and ended the period with outstanding credit to more than 243,000 commercial customers and 201,000 small businesses through retail programs in the U.S.
+
+Within our GE Capital operating segment, we operate the businesses described below along product lines.
+
+Our operations are located in North America, South America, Europe, Australia and Asia.
+
+GE Capital has communicated its goal of reducing its ending net investment (ENI). To achieve this goal, we are more aggressively focusing our businesses on selective financial services products where we have domain knowledge, broad distribution, and the ability to earn a consistent return on capital, while managing our overall balance sheet size and risk. We have a strategy of exiting those businesses that are underperforming or that are deemed to be non-strategic. We have completed a number of dispositions in our businesses in the past and will continue to evaluate options going forward.
+
+Commercial Lending and Leasing (CLL)
+ 
+CLL provides customers around the world with a broad range of financing solutions. We have particular mid-market expertise, and primarily offer collateralized loans, leases and other financial services to customers, including manufacturers, distributors and end-users for a variety of equipment and major capital assets. These assets include industrial-related facilities and equipment; vehicles; corporate aircraft; and equipment used in many industries, including the construction, manufacturing, transportation, media, communications, entertainment and healthcare industries.
+
+In 2011, we completed the sale of our CLL marine container leasing business, which consists of our controlling interests in the GE SeaCo joint venture along with other owned marine container assets, and our CLL trailer fleet services business in Mexico.
+
+We operate in a highly competitive environment. Our competitors include commercial banks, investment banks, leasing companies, financing companies associated with manufacturers, and independent finance companies. Competition related to our lending and leasing operations is based on price, that is, interest rates and fees, as well as deal structure and terms. In recent years, there has been a disruption in the capital markets and in access to and availability of capital as well as the exit of some competitors. Profitability is affected not only by broad economic conditions that affect customer credit quality and the availability and cost of capital funding, but also by successful management of credit risk, operating risk and market risks such as interest rate and currency exchange risks. Success requires high quality risk management systems, customer and industry specific knowledge, diversification, service and distribution channels, strong collateral and asset management knowledge, deal structuring expertise and the ability to reduce costs through technology and productivity.
+
+Consumer
+ 
+Consumer, through consolidated entities and associated companies, is a leading provider of financial services to consumers and retailers around the world. We offer a full range of financial products to suit customers’ needs. These products include, on a global basis, private-label credit cards; personal loans; bank cards; auto loans and leases; mortgages; debt consolidation; home equity loans; deposit and other savings products; and small and medium enterprise lending.
+
+
+  
+(10)
+ 
+  
+ In January 2013, we acquired the deposit business of MetLife Bank, N.A., which is an online banking platform with approximately $6.4 billion in U.S. retail deposits that will allow us to better serve our customers.
+
+In 2011, we entered into agreements to sell our Consumer Singapore business and our Consumer home lending operations in Australia and New Zealand (Australian Home Lending) and classified them as discontinued operations.  Both dispositions were completed during 2011.
+
+In the first quarter of 2011, we sold a substantial portion of our Garanti Bank equity investment. During 2012, we sold our remaining equity interest in Garanti Bank, which was classified as an available-for-sale security.
+
+In 2010, we entered into agreements to sell our U.S. recreational vehicle and marine equipment financing portfolio (Consumer RV Marine) and Consumer Mexico and classified them as discontinued operations. Both dispositions were completed during 2011.
+
+In 2010, we committed to sell our Consumer business in Canada, which was completed during 2011; in 2010, we also purchased sales finance portfolios from Citi Retail Partner Cards, which provides consumer financing programs and related services to small to mid-sized retailers and dealers.
+
+Our operations are subject to a variety of bank and consumer protection regulations. Further, a number of countries have ceilings on rates chargeable to consumers in financial service transactions. We are subject to competition from various types of financial institutions including commercial banks, leasing companies, consumer loan companies, independent finance companies, finance companies associated with manufacturers, and insurance companies. Industry participants compete on the basis of price, servicing capability, promotional marketing, risk management, and cross selling. The markets in which we operate are also subject to the risks from fluctuations in retail sales, interest and currency exchange rates, and the consumer’s capacity to repay debt.
+
+Real Estate
+ 
+Real Estate offers a range of capital and investment solutions, including equity capital for acquisition or development, as well as fixed and floating rate mortgages for new acquisitions or re-capitalizations of commercial real estate worldwide. Our business finances, with both equity and loan structures, the acquisition, refinancing and renovation of office buildings, apartment buildings, retail facilities, hotels and industrial properties. Our typical real estate loans are intermediate term, senior, fixed or floating-rate, and are secured by existing income-producing commercial properties. We invest in, and provide restructuring financing for, portfolios of commercial mortgage loans, limited partnerships and tax-exempt bonds.
+
+We own and operate a global portfolio of real estate with the objective of maximizing property cash flows and asset values. In the normal course of our business operations we sell certain real estate equity investments when it is economically advantageous for us to do so. However, as real estate values are affected by certain forces beyond our control (e.g., market fundamentals and demographic conditions), it is difficult to predict with certainty the level of future sales, sales prices, impairments or write-offs.
+
+In 2012, we completed the sale of a portion of our Business Properties portfolio (Business Property), including certain commercial loans, the origination and servicing platforms and the servicing rights on loans previously securitized by GECC. The portion retained comprises our owner-occupied/credit tenant portfolio.
+
+Our competitors include banks, financial institutions, real estate companies, real estate investment funds and other financial companies. Competition in our equity investment business is primarily based on price, and competition in our lending business is primarily based on interest rates and fees, as well as deal structure and terms. As we compete globally, our success is sensitive to the economic and political environment of each country in which we do business.
+
+
+
+  
+(11)
+  
+  
+ Energy Financial Services
+ 
+Energy Financial Services invests in long-lived, capital-intensive energy projects and companies by providing structured equity, debt, leasing, partnership financing, project finance and broad-based commercial finance. We also invest in early-to-later-stage companies that are pursuing new technologies and services in the energy industry. In May 2010, we sold our general partnership interest in Regency Energy Partners L.P. (Regency), a midstream natural gas services provider, and retained a limited partnership interest. This resulted in the deconsolidation of Regency.
+
+We operate in a highly competitive environment. Our competitors include banks, financial institutions, energy companies, and other finance and leasing companies. Competition is primarily based on price, that is, interest rates and fees, as well as deal structure and terms. As we compete globally, our success is sensitive to the economic and political environment of each country in which we do business.
+
+GE Capital Aviation Services (GECAS)
+ 
+GECAS engages in commercial aircraft leasing and finance, delivering fleet and financing services to companies across the spectrum of the aviation industry. Our product offerings include leases and secured loans on commercial passenger aircraft, freighters and regional jets; engine leasing and financing services; aircraft parts solutions; and airport equity and debt financing. We also co-sponsor an infrastructure private equity fund, which invests in large infrastructure projects including gateway airports.
+
+We operate in a highly competitive environment. Our competitors include aircraft manufacturers, banks, financial institutions, equity investors, and other finance and leasing companies. Competition is based on lease rate financing terms, aircraft delivery dates, condition and availability, as well as available capital demand for financing.
+
+GECC Corporate Items and Eliminations
+ 
+GECC Corporate Items and Eliminations primarily include unallocated Treasury and Tax operations; Trinity, a group of run-off sponsored special purpose entities; the effects of eliminating transactions between GE Capital’s five operating businesses; results of our run-off insurance operations remaining in continuing operations attributable to GECC; unallocated corporate costs; and certain non-allocated amounts determined by the GECC Chairman.
+
+GE Corporate Items and Eliminations
+ 
+GE Corporate Items and Eliminations includes the results of disposed businesses in which we retain an unconsolidated interest (including NBC Universal LLC), principal retirement plan costs and unallocated corporate costs, which includes research and development spending (including our Global Research Centers) and costs related to our Global Growth & Operations organization.
+
+Discontinued Operations
+ 
+Discontinued operations primarily comprised GE Money Japan (our Japanese personal loan business, Lake, and our Japanese mortgage and card businesses, excluding our investment in GE Nissen Credit Co., Ltd.), our U.S. mortgage business (WMC), BAC Credomatic GECF Inc. (BAC) (our Central American bank and card business), Consumer RV Marine, Consumer Mexico, Consumer Singapore, Australian Home Lending and Consumer Ireland.
+
+For further information about discontinued operations, see Part II, Item 7. “Management’s Discussion and Analysis of Financial Condition and Results of Operations” and Note 2 to the consolidated financial statements in Part II, Item 8. “Financial Statements and Supplementary Data” of this Form 10-K Report.
+
+Geographic Data
+ 
+Geographic data is reported in Note 28 to the consolidated financial statements in Part II, Item 8. “Financial Statements and Supplementary Data” of this Form 10-K Report.
+
+Additional financial data about our geographic operations is provided in the Geographic Operations section in Part II, Item 7. “Management’s Discussion and Analysis of Financial Condition and Results of Operations” of this Form 10-K Report.
+
+
+
+  
+(12)
+  
+  
+ Orders and Backlog
+ 
+Orders and backlog information is provided in the Segment Operations and Other Information sections in Part II, Item 7. “Management’s Discussion and Analysis of Financial Condition and Results of Operations” of this Form 10-K Report.
+
+Research and Development
+ 
+Research and development expenditures information is provided in Note 19 to the consolidated financial statements in Part II, Item 8. “Financial Statements and Supplementary Data” and the Other Information section in Part II, Item 7. “Management’s Discussion and Analysis of Financial Condition and Results of Operations” of this Form 10-K Report.
+
+Environmental Matters
+ 
+Our operations, like operations of other companies engaged in similar businesses, involve the use, disposal and cleanup of substances regulated under environmental protection laws. We are involved in a number of remediation actions to clean up hazardous wastes as required by federal and state laws. Additional information is provided in Part II, Item 7. “Management’s Discussion and Analysis of Financial Condition and Results of Operations” of this Form 10-K Report.
+
+Employees and Employee Relations
+ 
+At year-end 2012, General Electric Company and consolidated affiliates employed approximately 305,000 persons, of whom approximately 134,000 were employed in the United States. For further information about employees, see Part II, Item 6. “Selected Financial Data” of this Form 10-K Report.
+
+Approximately 17,600 GE manufacturing and service employees in the United States are represented for collective bargaining purposes by a total of approximately 108 different union local bargaining units. A majority of such employees are represented by union locals that are affiliated with, and bargain in coordination with, the IUE-CWA, The Industrial Division of the Communication Workers of America, AFL-CIO, CLC. During 2011, we negotiated four-year agreements with most of our U.S. unions.  These agreements modestly increase ongoing costs over the term of the contracts on an aggregate basis.  However, the agreements also implement new features that focus on cost containment for health and pension plans.  Effective January 1, 2012, all production employees participate in a new consumer-directed health plan.  In addition, production employees who commence service on or after that date will not be eligible to participate in the GE Pension Plan, but will participate in a defined contribution retirement program.
+
+Other GE affiliates are parties to labor contracts with various labor unions, also with varying terms and expiration dates, that cover approximately 3,500 employees.
+
+Executive Officers
+ 
+See Part III, Item 10. “Directors, Executive Officers and Corporate Governance” of this Form 10-K Report for information about Executive Officers of the Registrant.
+
+Other
+ 
+Because of the diversity of our products and services, as well as the wide geographic dispersion of our production facilities, we use numerous sources for the wide variety of raw materials needed for our operations. We have not been adversely affected by the inability to obtain raw materials.
+
+We own, or hold licenses to use, numerous patents. New patents are continuously being obtained through our research and development activities as existing patents expire. Patented inventions are used both within the Company and are licensed to others, but no operating segment is substantially dependent on any single patent or group of related patents.
+
+
+
+  
+(13)
+  
+  
+ Sales of goods and services to agencies of the U.S. Government as a percentage of revenues follow.
+ 
+
+
+GE is a trademark and service mark of General Electric Company.
+
+The Company’s Internet address is www.ge.com. Our annual report on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K, and amendments to those reports are available, without charge, on our website, www.ge.com/en/company/investor/secfilings.htm, as soon as reasonably practicable after they are filed electronically with the U.S. Securities and Exchange Commission (SEC). Copies are also available, without charge, from GE Corporate Investor Communications, 3135 Easton Turnpike, Fairfield, CT 06828-0001. Reports filed with the SEC may be viewed at www.sec.gov or obtained at the SEC Public Reference Room in Washington, D.C. Information regarding the operation of the Public Reference Room may be obtained by calling the SEC at 1-800-SEC-0330. References to our website addressed in this report are provided as a convenience and do not constitute, and should not be viewed as, an incorporation by reference of the information contained on, or available through, the website. Therefore, such information should not be considered part of this report.

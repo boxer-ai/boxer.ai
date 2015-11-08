@@ -1,0 +1,273 @@
+
+ 
+
+Verizon Communications Inc. (Verizon, or the Company) is a holding company that, acting through its subsidiaries, is one of the world’s leading providers of communications, information and entertainment products and services to consumers, businesses and governmental agencies with a presence in over 150 countries around the world. Formerly known as Bell Atlantic Corporation, we were incorporated in 1983 under the laws of the State of Delaware. We began doing business as Verizon on June 30, 2000 following our merger with GTE Corporation. We have a highly diverse workforce of approximately 183,400 employees. 
+Our principal executive offices are located at 140 West Street, New York, New York 10007 (telephone number 212-395-1000). 
+We have two primary reportable segments, Verizon Wireless and Wireline, which we operate and manage as strategic business segments and organize by products and services. 
+ 
+
+The following portions of the 2012 Verizon Annual Report to Shareowners are incorporated into this report: 
+ 
+
+ 
+
+ 
+
+Background 
+Our Verizon Wireless segment is primarily comprised of Cellco Partnership doing business as Verizon Wireless. Cellco Partnership is a joint venture formed in April 2000 by the combination of the U.S. wireless operations and interests of Verizon and Vodafone Group Plc (Vodafone). Verizon owns a controlling 55% interest in Verizon Wireless and Vodafone owns the remaining 45%. Verizon Wireless provides wireless communication services across one of the most extensive wireless networks in the United States and has the largest third-generation (3G) Evolution—Data Optimized (EV-DO) and fourth-generation (4G) Long-Term Evolution technology (LTE) networks of any U.S. wireless service provider. 
+Verizon Wireless is the largest wireless service provider in the United States as measured by retail connections and revenue. At December 31, 2012, Verizon Wireless had 98.2 million retail connections and 2012 revenues of approximately $75.9 billion, representing approximately 66% of Verizon’s 2012 aggregate revenues. 
+As of January 22, 2013, our 4G LTE network has been deployed in 476 markets covering more than 273 million people throughout the country, which is nearly 89% of the U.S. population. We expect to continue to deploy 4G LTE during 2013 and by year-end cover nearly our entire existing 3G network footprint. Our 4G LTE network provides higher data throughput performance for data services at lower cost compared to those offered by 3G technologies. As of December 31, 2012, nearly 50% of our wireless data traffic was on our 4G LTE network. 
+Wireless Service and Product Offerings 
+Our wireless services described below are available to our customers receiving service under the Verizon Wireless brand. In addition, customers can obtain wireless products and services that operate on our network from resellers that purchase network access from us on a wholesale basis. 
+ 
+2 
+
+Table of Contents
+Wireless Services 
+We offer our wireless services on a postpaid and prepaid basis. Retail (non-wholesale) postpaid accounts represent retail customers that are under contract with Verizon Wireless directly served and managed by Verizon Wireless and use its branded services. Accounts include single connection plans, family plans, Share Everything® plans and corporate accounts. A single account may receive monthly wireless services for a variety of connected devices. Postpaid connections represent individual lines of service for which a customer is billed in advance a monthly access charge in return for a monthly network service allowance (access service revenues), and usage beyond the allowance is billed in arrears (usage service revenues). Approximately 94% of our retail connections received our wireless services on a postpaid basis as of December 31, 2012. Our prepaid service enables individuals to obtain wireless services without a long-term contract or credit verification by paying for all services in advance. 
+In 2012, Verizon Wireless launched the Share Everything plans, which were made available to both new and existing postpaid customers. These plans feature domestic unlimited voice minutes, unlimited text, video and picture messaging and a single data allowance that can be shared among up to 10 devices connected to the Verizon Wireless network. For an additional monthly access fee, our customers have the option of sharing long distance and roaming minutes among their devices for calls from the United States to, and calls while within, Canada and Mexico. The Share Everything plans also include the Mobile Hotspot service on our smartphones at no additional charge. The Mobile Hotspot service allows a customer to use our network to create a Wi-Fi network that can be used by Wi-Fi enabled devices. In January 2013, Verizon Wireless announced it will begin offering shared data plans for business, with the Share Everything plans for Small Business and the Nationwide Business Data Packages and Plans. As of December 31, 2012, Share Everything accounts represented approximately 23% of our retail postpaid accounts. 
+As wireless service providers continue to upgrade their networks to enhance data-carrying capabilities and to permit higher-speed data transmission, the demand for full Internet browsing capabilities for phones and the proliferation of wireless applications for wireless-enabled laptops, phones and other wireless devices is increasing and driving data transport access and usage revenue. This growing demand for wireless services has, in turn, spurred the demand for still higher-speed network technologies and the development of an array of more advanced wireless devices that include more robust functionality. 
+We offer access to a wide variety of wireless services, including Internet access via our broad range of devices. Our customers can access the Internet on all of our smartphones, as well as our basic phones that include HTML web-browsing capability. Our customers pay for this access under plans and arrangements that may vary based on the type of device and the customer’s preference for network access. We offer various packages of wireless services that allow customers, regardless of the device, to select the plan that best matches their network usage patterns. Our pricing models offer customers options for smartphones, basic phones, tablets and other devices. 
+We also offer service that enables our customers to access the Internet wirelessly at broadband speeds on notebook computers and tablets that either have embedded 4G LTE or 3G EV-DO modules, or that are used in conjunction with separate devices that enable access to this service, such as smartphones and USB modems as well as Jetpacks™ and other dedicated devices that provide a mobile Wi-Fi connection. These devices can be added to the customer’s Share Everything plan for an additional monthly fee, or the customer can obtain a separate plan for the device at various price points, depending upon both the size of the data allowance purchased and the device covered by the plan. 
+In addition, we offer messaging services, which enable our customers to send and receive text, picture and video messages. Our consumer-focused multimedia offerings, which are primarily provided via third-party arrangements, consist of applications providing music, video, gaming, news and other content to our customers, while our business-focused offerings, which are designed to increase the productivity of our business customers, include solutions that enable customers to access the Internet and their corporate intranets, as well as products that enable wireless e-mail across our diverse portfolio of wireless devices. Our location-based services provide our customers with directions to their destination and enable our business customers to locate, monitor and communicate with their mobile field workers. Our global data services allow our customers to access their e-mail on our Global Ready Phones from hundreds of international destinations and to access the Internet at such destinations with laptops that are either Global Ready, tethered to a Global Ready Phone, or are used in conjunction with other Global Ready devices, such as certain USB data modems or Jetpacks. 
+Our customers can make and receive calls on their home phone handsets using our wireless network through our Home Phone Connect service. We also offer HomeFusion® Broadband, which is a high-speed Internet service that provides customers with Internet connections in their homes using our 4G LTE network. 
+In addition to the foregoing offerings, our customers have access to hundreds of thousands of applications and services developed and distributed by third parties, such as those offered via Google Play, accessible on our smartphones running on the Google, Inc. (Google) Android operating system, those offered via the Apple, Inc. (Apple) iTunes store, accessible through smartphones and tablets running on the Apple iOS operating system, those offered by Microsoft Inc. (Microsoft), via Microsoft’s Windows Phone OS operating system and those offered by Research in Motion Limited (RIM) doing business as Blackberry, through its BlackBerry App World webstore. 
+We offer a variety of plans for voice services and features with competitive pricing tailored to meet the needs of our customers. Our Share Everything plans allow customers to place unlimited domestic calls using our network. We adjust our plans periodically to address changing customer preferences and needs and to take advantage of the availability of new technology. We also offer a variety of international wireless voice services to our customers through roaming arrangements with wireless service providers outside of the United States. 
+ 
+3 
+
+Table of Contents
+In addition, we provide network access and enhanced value added services to support telemetry-type applications, which are characterized by machine-to-machine (M2M) wireless connections. Our M2M services support devices that are used by a variety of vertical market segments, including healthcare, manufacturing, utilities, distribution and consumer products. For example, companies purchase network access and enhanced services from us in order to connect with and monitor equipment, such as medical devices used to monitor patients, fleet management devices used to monitor company-operated vehicles and utility monitoring devices used for smart grid applications. Other companies purchase network access and enhanced services from us to support devices that are included in a service they, in turn, sell to end-users. We also support telematics services for some of the largest automotive manufacturers. We expect that consumer use of M2M wireless connections will increase as consumers take advantage of such services as home monitoring, health care, energy management and utilities management. 
+Wireless Devices 
+We offer several categories of wireless devices, including smartphones, tablets and other Internet access devices as well as basic phones. 
+Smartphones. Our device line-up includes an array of smartphones that are enabled to utilize our 4G LTE and/or 3G EV-DO high-speed data services and run under various operating platforms, such as Google Android, Apple iOS, BlackBerry OS, and Windows Phone OS. 
+Tablets and Other Internet Access Devices. We offer a variety of 4G LTE and/or 3G EV-DO-enabled tablets from multiple manufacturers that run primarily on either the Apple iOS or Google Android operating system. These tablets also permit our customers to access the Internet via a Wi-Fi connection. In addition, we offer dedicated devices that provide a mobile Wi-Fi 4G LTE and/or 3G EV-DO connection, which we refer to as Jetpacks capable of connecting multiple Wi-Fi–enabled devices to the Internet at one time. Our customers can also access the Internet wirelessly at broadband speeds on their computers via data cards, USB modems or through the use of certain laptop computers and netbooks with embedded 4G LTE and 3G EV-DO Mobile Broadband modules offered by original equipment manufacturers (OEMs). During 2012, we continued to experience strong subscriber demand for tablets and Jetpacks, which continued to represent a growing proportion of our revenue growth. 
+Basic Phones. Some of our basic phones are 3G EV-DO-enabled and have HTML-browsing capability. We also offer a selection of basic phones that operate via our CDMA-1XRTT service. 
+We purchase wireless devices and accessories from a number of manufacturers, with the substantial majority of our purchases made from Apple, Motorola Mobility, Samsung, LG Electronics, RIM, and PCD (through which we purchase Pantech and HTC devices and accessories). 
+A key component of all wireless devices is the chipset, which contains the “intelligence” of the device. Most of our wireless device suppliers rely on Qualcomm Incorporated (Qualcomm) for manufacturing and supplying CDMA-1XRTT and EV-DO chipsets. We also sell phones that include CDMA-1XRTT and EV-DO chipsets manufactured by VIA Telecom under license from Qualcomm. The LTE chipsets used in our 4G LTE-enabled devices are manufactured by various companies, each using its own 4G LTE chipset technology. In addition, there are a number of other components common to wireless phones provided by various electronic component manufacturers that we do not deal with directly. 
+Strategic Initiatives 
+We have undertaken several initiatives to develop innovative devices, data services and applications available to run on our networks, including the following: 
+ 
+
+ 
+
+ 
+
+Network 
+We have the largest 3G EV-DO and 4G LTE networks of any service provider in the United States, with licensed and operational coverage in all of the top 100 most populous U.S. metropolitan areas, covering a population of approximately 298 million as of December 31, 2012. 
+ 
+4 
+
+Table of Contents
+We strive to provide our customers with the highest network reliability for their wireless services. We design and deploy our network in an efficient manner that we believe maximizes the number of successful data sessions and completions of large file downloads and uploads while delivering on our advertised throughput speeds, and that maximizes the number of calls that are connected on the first attempt and completed without being dropped. We plan to continue to build out, expand and upgrade our network as well as explore strategic opportunities to expand our national network coverage through selective acquisitions of wireless operations and spectrum licenses. 
+In addition to our own network coverage, we have roaming agreements with a number of wireless service providers to enable our customers to receive wireless service in nearly all other areas in the United States where wireless service is available. Certain of our roaming agreements are terminable at will by either party upon several months’ notice; however, we do not believe that the termination of any of these at-will agreements would have a material adverse effect on our business. 
+Technology 
+Our primary network technology platforms are 4G LTE and 3G CDMA. 4G LTE provides higher data throughput performance for data services at a lower cost compared to those offered by 3G technologies. We expect to continue to deploy 4G LTE during 2013 and by year-end cover nearly our entire existing 3G network footprint. We also are working to expand 4G LTE coverage beyond our network footprint through our LTE in Rural America Program. Under this program, we are working with wireless carriers in rural areas to collaboratively build and operate a 4G LTE network using each carrier’s network assets and our core 4G LTE equipment and 700 MHz C-Block spectrum. We currently have 20 committed program participants that have the potential to provide 4G LTE coverage to more than two million people under the program and, to date, seven participants have commenced operations on such networks. 
+In 2012, we began testing our mobile VoIP (voice over internet protocol) network known as Voice over LTE (VoLTE). This technology, which is expected to be used in addition to the current voice technology, is anticipated to result in high quality of voice service as a result of our 4G LTE network. We expect to launch VoLTE for commercial use by early 2014. 
+Our 3G CDMA network is based on spread-spectrum digital radio technology. CDMA-1XRTT technology is deployed in nearly all of the cell sites in our 3G CDMA network. In addition, EV-DO, a 3G packet-based technology intended primarily for high-speed data transmission, is deployed in substantially all of the cell sites in our 3G CDMA network. 
+Our network includes various elements of redundancy designed to enhance the reliability of our service. Power and backhaul transport facilities can often become a network’s vulnerability. Consequently, we have battery backup at every switch and every cell site in our network. We also utilize backup generators at a majority of our cell sites and at every switch location. In addition, we have a fleet of portable backup generators that can be deployed to cell sites if needed. We further enhance reliability by using a fully redundant backbone Multiprotocol Label Switching network in all critical locations. 
+In September 2011, Verizon Wireless implemented network optimization practices designed to ensure that the overwhelming majority of our data customers are not negatively impacted by the unusually high data consumption of a few data users. Under these current practices, the top five percent of our 3G smartphone data users with unlimited data plans, as well as 3G data users roaming on our network, may experience a reduction in average data speeds when connected to a congested cell site. If a cell site is not congested, a user’s connection speed will not be impacted. Network optimization helps to ensure high quality network performance for our entire customer base. 
+Spectrum 
+The spectrum licenses we hold can be used for mobile wireless voice and data communications services. We have licenses to provide these wireless services on portions of the 800 MHz band (also known as cellular spectrum), the 1800-1900 MHz band (also known as PCS spectrum) and the 1700 and 2100 MHz band (also known as AWS spectrum) in areas that, collectively, cover nearly all of the population of the United States. In addition, we hold licenses for portions of the 700 MHz band, including eight licenses that can, together, be used to provide wireless service coverage to the entire United States. 
+In 2012, Verizon Wireless acquired Advanced Wireless Service (AWS) spectrum in separate transactions with SpectrumCo, LLC and Cox TMI Wireless, LLC for which it paid an aggregate of $3.9 billion at the time of the closings. During 2012, Verizon Wireless also completed license purchase and exchange transactions with Leap Wireless, Savary Island Wireless, which is majority owned by Leap Wireless, and a subsidiary of T-Mobile. As a result of these transactions, Verizon Wireless received an aggregate $2.6 billion of AWS and PCS licenses at fair value and transferred certain AWS licenses to T-Mobile and a 700 megahertz (MHz) lower A block license to Leap Wireless. 
+On April 18, 2012, we announced plans to initiate an open sale process for all of our 700 MHz lower A and B block spectrum licenses, subject to the receipt of acceptable bids. We acquired these licenses as part of Federal Communications Commission (FCC) Auction 73 in 2008. On January 25, 2013, Verizon Wireless agreed to sell 39 lower 700 MHz B block spectrum licenses to AT&T in exchange for a payment of $1.9 billion and the transfer by AT&T to Verizon Wireless of AWS (10 MHz) licenses in certain markets in the western United States. Verizon Wireless also agreed to sell certain lower 700 MHz B block spectrum licenses to an investment firm for a payment of $0.2 billion. These transactions are subject to approval by the FCC and the Department of Justice (DOJ). When finalized, the sales will result in the completion of the open sale process. We expect to deploy the remaining licenses as necessary to meet our own spectrum needs. 
+ 
+5 
+
+Table of Contents
+During the fourth quarter of 2012, we entered into license exchange agreements with T-Mobile and Cricket License Company, LLC, a subsidiary of Leap Wireless, to exchange certain AWS licenses. These non-cash exchanges, which are subject to approval by the FCC and other customary closing conditions, are expected to close in 2013. The exchange includes a number of intra-market swaps that will result in more efficient use of the AWS band. As a result of these transactions, we expect to record an immaterial gain. 
+We anticipate we will need additional spectrum to meet future demand. This increasing demand is being driven by growth in customer connections and usage of wireless broadband services, which use more bandwidth and require ever faster rates of speed to stay competitive. We can meet spectrum needs by acquiring licenses or leasing spectrum from other licensees, or by acquiring new spectrum licenses from the FCC, if and when offered by the FCC in future spectrum auctions. Although the availability of new spectrum for commercial wireless services and the possible dates of future FCC spectrum auctions are uncertain at this time, the FCC and the current Presidential Administration have been seeking the release of additional mobile use spectrum. In addition, Congress has adopted legislation that provides for the establishment of a national public safety network and the reallocation and auction, through the use of voluntary incentive auctions, by 2022 of portions of the existing broadcast spectrum. The timing and nature of those auctions will be determined by future regulatory proceedings. 
+As we and competing wireless service providers have experienced spectrum shortages in certain markets and may have spectrum surpluses in others, we have at times exchanged spectrum licenses with other service providers through secondary market swap transactions, we expect to continue to pursue similar opportunities to trade spectrum licenses in order to meet certain of our capacity and expansion needs in the future. In other cases, Verizon Wireless has entered into intra-market spectrum swaps designed to increase the amount of contiguous spectrum within frequency bands in a specific market. Contiguous spectrum improves network performance and efficiency. These swaps as well as any spectrum purchases are subject to obtaining governmental approvals for the transfer of spectrum licenses in each instance. 
+Network Equipment and Build-out 
+Our primary cell site equipment infrastructure vendors are Alcatel-Lucent, which provides more than half of our cell site equipment, and Motorola and Ericsson, which together provide nearly all of our remaining cell site equipment. We also rely upon Alcatel-Lucent, Motorola and Ericsson for our switching equipment. Alcatel-Lucent and Ericsson are currently our primary network vendors for our LTE network deployments. 
+As we continue to build and upgrade our existing network, we must complete a variety of steps, including securing rights to a large number of cell site and switch site locations and obtaining zoning and other governmental approvals. In some instances, we have encountered difficulty in obtaining the necessary site leases at commercially reasonable rates and the zoning approvals needed to construct new towers. We utilize tower site management firms, such as Crown Castle International Corp. and American Tower Corporation, as lessors or managers of our existing tower sites upon which our operations depend. 
+Marketing and Distribution 
+Our marketing strategy is focused on offering solutions tailored to the needs of our various customer market groups; promoting our brand; leveraging our extensive distribution network; jointly marketing with Vodafone; and jointly marketing our products and services to large business and government customers with Verizon’s Wireline business units through Verizon Enterprise Solutions, a sales and marketing organization that encompasses all of Verizon’s solutions for medium and large business and government customers globally. Our marketing plan includes a coordinated program of television, print, radio, outdoor signage, Internet and point-of-sale media promotions designed to present our corporate message consistently across all of our markets. 
+We use a combination of direct, indirect and alternative distribution channels in order to increase customer growth while reducing customer acquisition costs. 
+Company-operated stores are a core component of our distribution strategy. Our direct channel, which includes our business-to-business operations and systems organization, is focused on supporting the wireless communications needs of consumers and local, regional and national business customers. In addition, we have a telemarketing sales force dedicated to handling incoming calls from customers, and we offer fully-automated, end-to-end web-based sales of wireless phones, accessories and service plans. 
+Our indirect channel includes agents that sell our postpaid and prepaid wireless products and services at retail locations throughout the United States, as well as through the Internet. The majority of these agents sell both our postpaid and prepaid products and services, and do so under exclusive selling arrangements with us. We also utilize high-profile, national retailers, such as Best Buy, Wal-Mart, RadioShack and Target, to sell our postpaid and prepaid wireless products and services. Stores such as Dollar General and various drugstore chains sell our prepaid products and services. We have also entered into agency agreements with a number of broadband, video and voice service providers through which our products and services are sold on a stand-alone basis or bundled with their services. 
+Competition 
+We operate in a highly competitive industry. We compete against other national wireless service providers, including AT&T, Sprint Nextel Corporation and T-Mobile USA, as well as various regional wireless service providers, including US Cellular, Metro PCS and Leap Wireless. We also compete for retail activations with resellers that buy bulk wholesale service from facilities-based wireless service providers for resale, including those that buy from us. We expect competition to intensify as a result of continuing increases in wireless market penetration levels, the development and deployment of new technologies, the introduction of new products and services, new market entrants, the availability of additional spectrum, both licensed and unlicensed, and regulatory changes. Competition may also increase if smaller, stand-alone wireless service providers merge or transfer licenses to larger, better capitalized and more experienced wireless service providers. 
+ 
+6 
+
+Table of Contents
+The wireless industry also faces competition from other communications and technology companies seeking to increase their brand recognition and capture customer revenue with respect to the provision of wireless products and services. For example, Microsoft, Google, Apple and others are offering alternative means for making wireless voice calls that, in certain cases, can be used in lieu of the wireless provider’s voice service. 
+We believe that the following are the most important competitive factors in our industry: 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Our success will depend on our ability to anticipate and respond to various factors affecting the wireless industry, including the factors described above, as well as new technologies, new business models, changes in customer preferences, regulatory changes, demographic trends, economic conditions and pricing strategies of competitors. 
+ 
+7 
+
+Table of Contents
+
+Background 
+The Wireline segment provides communications products and services including local exchange and long distance voice service, broadband video and data, IP network services, network access and other services to consumers, small businesses and carriers in the United States, as well as to businesses and government customers both in the United States and in over 150 other countries around the world. In 2012, Wireline revenues were $39.8 billion, representing approximately 34% of Verizon’s aggregate revenues. 
+Wireline Service and Product Offerings 
+We organize our service and product offerings by the primary market targeted by these offerings – mass markets, global enterprise, global wholesale and other. 
+During 2012, Verizon acquired HUGHES Telematics, Inc. (HUGHES Telematics). The acquisition has accelerated our ability to bring more telematics offerings to market for existing and new HUGHES Telematics and Verizon customers. 
+During 2011, we enhanced our offerings of cloud services by acquiring Terremark Worldwide Inc. (Terremark), a global provider of information technology infrastructure and cloud services, and by acquiring a provider of cloud software technology. These acquisitions improved Verizon’s competitive position in the managed hosting and cloud services space, enhanced our offerings to business and government customers globally and contributed to our growth in revenues. 
+Mass Markets 
+Mass Markets operations provide local exchange (basic service and end-user access) and long distance (including regional toll) voice services, broadband services (including high-speed Internet, FiOS Internet and FiOS Video services) to residential and small business subscribers. In 2012, Mass Markets revenues were $16.7 billion, representing approximately 42% of Wireline’s aggregate revenues. 
+Video Services. We offer video service over our fiber-optic network. As of December 31, 2012, FiOS Video is available to approximately 14.2 million homes across 12 states, as well as the District of Columbia. We believe FiOS Video has features that differentiate it from the competition, including its channel line-up, Interactive Media Guide, Home Media DVR and breadth of high definition content, as well as the following: 
+ 
+
+ 
+
+In February 2012, Verizon entered into a venture with Redbox Automated Retail, LLC (Redbox), a subsidiary of Coinstar, Inc., to offer customers nationwide access to media rentals through online and mobile content streaming as well as physical media rentals through Redbox kiosks. Verizon holds a 65% majority ownership share in the venture and Redbox holds a 35% ownership share. The venture is consolidated by Verizon for reporting purposes. In December 2012, the venture introduced its product portfolio, which includes subscription services, under the name Redbox Instant by Verizon. The initial funding related to the formation of the venture is not significant to Verizon. 
+Data services. We offer high-speed Internet and FiOS broadband data products with varying downstream and upstream processing speeds, including FiOS Quantum. As consumers power multiple devices and stream more movies and video services, the need for faster broadband is evident. With FiOS Quantum, customers can achieve download speeds up to 300 megabytes per second (Mbps) and upload speeds up to 65 Mbps. 
+Voice services. We offer voice services that include local exchange, regional, long distance, wire maintenance and voice messaging services, as well as VoIP services, which use the Internet or private broadband networks to transmit voice communications. We also offer plans that include landline and wireless services with calling features and unlimited calling between a Verizon customer’s home phone and wireless handset, all on a single bill. 
+ 
+8 
+
+Table of Contents
+Global Enterprise 
+Global Enterprise offers Strategic services, including networking products and solutions, advanced communications services, and other core communications services to medium and large business customers, including multinational corporations, as well as state and federal government customers. Global Enterprise jointly markets these services with Verizon’s other business units through Verizon Enterprise Solutions. In 2012, Global Enterprise revenues were $15.3 billion, representing approximately 39% of Wireline’s aggregate revenues. 
+Strategic services. Strategic services consist of networking products and solutions, advanced communication services for voice and video and security, infrastructure and cloud services. 
+Networking products and solutions primarily include: 
+ 
+
+ 
+
+Advanced communication services primarily include: 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Core services. Core services include core voice and data services, which consist of a comprehensive portfolio of global solutions utilizing traditional telecommunications technology, such as conferencing and contact center solutions, and private line and data access networks. Core services also include providing customer premise equipment, installation, maintenance and site services. We are continuing to transition customers out of historical core services such as Frame Relay and Asynchronous Transfer Mode (ATM) services. 
+Global Wholesale 
+Global Wholesale provides communications services including data, voice, local dial tone and broadband services primarily to local, long distance and other carriers that use our facilities to provide services to their customers. In 2012, Global Wholesale revenues were $7.2 billion, representing approximately 18% of Wireline’s aggregate revenues. A portion of Global Wholesale revenues is generated by a few large telecommunication companies, most of which compete directly with us. 
+ 
+9 
+
+Table of Contents
+Global Wholesale provides the following services, which it jointly markets with Verizon’s other business units through Verizon Enterprise Solutions: 
+ 
+
+New Ethernet connectivity in the United States represents the largest data growth opportunity in wholesale, as we pursue our technology upgrade initiative and customers look to the future and higher capacity demands. These customers are also migrating networks from time division multiplexing (TDM) to Ethernet, which will better scale and service the growth of broadband services driven by smartphones, mobile broadband and mobile video. Global Wholesale offers a complete suite of services to support the expansion of 3G networks and 4G networks. 
+Data services also includes certain value-added business services, which leverage many of the same offerings available in the Global Enterprise portfolio, including: 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Other 
+Other services include such services as local exchange and long distance services derived from former MCI mass market customers and operator services. In 2012, Other revenues were $0.5 billion, representing approximately 1% of Wireline’s aggregate revenues. 
+Network 
+To provide services to our customers, we operate an advanced telecommunications network in the United States and around the world. 
+FiOS. Our goal is to be the premier broadband and entertainment service provider in our service areas, and we believe network reliability and expanded functionality are key to achieving this goal. As of December 31, 2012, the FiOS network passed over 17.6 million premises. Verizon has extended FiOS to the business market, as Ethernet services have seen significant growth across all lines of business. We leverage our fiber-to-the-premise infrastructure to offer new services to the business community, expanding our coverage and Ethernet and IP WAN services sought by businesses today. We offer Internet speeds up to 300 Mbps utilizing Fiber-to-the-Premise (FTTP) access technologies over fiber optic cables. Our network architecture also provides the flexibility to adapt our facilities more easily to future product development. For example, new optical terminals can be added to the FTTP network providing greater bandwidth and new services without any additional field construction. Field trials have successfully achieved connection speeds of nearly one gigabit per second (Gbps) downstream and upstream, and when a more advanced XG-PON2 technology was connected to the fiber-optic network, connection speeds of 10 Gbps were reached, demonstrating the significant capacity built into the FiOS network. 
+Global IP. Verizon’s global network encompasses over 830,000 route miles of terrestrial and undersea cable. We have expanded our Virtual Private LAN service to Europe, Asia-Pacific and additional North American locations. This long haul fiber network serves the business community to support and enable far reaching international operations. We have focused on the expansion of our private IP network to serve all key international markets with Quality of Service-aware IP Virtual Private Network managed services. Our Public IP network is now interconnected to our private IP network through Security Gateway platforms that allow business customers to extend the reach of their private virtual networks to ‘off-net’ sites, such as employees’ homes, small branch offices and mobile work forces. We have installed additional private IP edge routers for a total of 1,145 edge routers in 257 sites throughout 66 countries. 
+Global IP traffic increased in recent years. Verizon’s key build-out efforts in 2012 included network expansion initiatives into Europe, Asia, Africa, and South America, as well as continued deployment of the industry’s first commercial 100G (gigabits per second) technology on U.S. and European backbone routes. More than 12,000 100G Ultra-Long-Haul route miles were added to the global IP backbone in 2012. We expect to further extend our 100G technology in 2013, from our long haul backbone into our metro networks. This expansion will enable us to meet growing demand with higher access speeds, and fully support increases in the use of cloud applications, video distribution services and wireless technologies in the enterprise market. 
+ 
+10 
+
+Table of Contents
+Fiber-to-the-Cellsite. Our FTTCS Ethernet backhaul initiative is critical to supporting the substantial growth requirements of expanding 3G and 4G LTE wireless data networks nationwide. To support this initiative, over 21,000 total cell site connections have been completed since the start of this program. 
+In conjunction with the evolution of our access plant, we are also transitioning our metro (local) network infrastructure from traditional TDM/SONET (Synchronous Optical Network)/ATM technologies to Ethernet over Dense Wavelength Division Multiplexing (DWDM). This new optical transport network provides features optimized for video distribution services and high-speed data services, while maintaining the level of network reliability achieved with SONET. 
+To leverage this new network infrastructure and allow for the more efficient sharing of our network across services, we are upgrading our multiplexing and routing infrastructure to use IP, Ethernet and MPLS technologies. In addition, we are migrating from traditional TDM-based voice switching to VoIP. This migration lowers the cost of current data and voice services and creates a network that can offer future multi-media communications services by adding service platforms without requiring widespread network upgrades. We have been focused on growing our Ethernet infrastructure to support the full range of Ethernet private line and E-LAN services locally, domestically and globally. To lower the access cost and provide significant service flexibility, we are using a converged packet access strategy that replaces the private circuit-based customer access and aggregates traffic from multiple customers onto a shared Ethernet and MPLS network. We also continue to focus on emerging optical transport technologies to lower overall cost as we integrate Ethernet, SONET and Optics and ultra-long-haul technologies. 
+Competition 
+The wireline telecommunications industry is highly competitive. We expect competition to intensify further with traditional, non-traditional and emerging players seeking increased market share. Current and potential competitors include cable companies, wireless service providers, other domestic and foreign telecommunications providers, satellite television companies, Internet service providers and other companies that offer network services and managed enterprise solutions. 
+In addition, companies with a global presence increasingly compete with our wireline businesses. A relatively small number of telecommunications and integrated service providers with global operations serve customers in the global enterprise and, to a lesser extent, global wholesale markets. We compete with these full or near-full service providers for large contracts to provide integrated services to global enterprises. Many of these companies have a strong market presence, brand recognition, and existing customer relationships, all of which contribute to intensifying competition and which may affect our future revenue growth. 
+We believe the following are the most important competitive factors and trends in the wireline industry: 
+ 
+
+ 
+
+ 
+
+ 
+
+In the Mass Markets business, cable operators are significant competitors. Cable operators have increased the size and digital capacity of their networks so that they can offer digital products and services. We continue to market competitive bundled offerings that include high-speed Internet access, digital television and voice services. Several major cable operators also offer bundles with wireless services through strategic relationships. 
+In addition, wireless substitution is an ongoing competitive trend, which we expect to continue as wireless companies position their service as a landline alternative. We also face increasing competition from cable companies and other providers of VoIP services as well as Internet portal providers. 
+As a result of the Telecommunications Act of 1996, which requires us to allow potential competitors to purchase our services for resale or access components of our network on an unbundled basis at a prescribed cost, competition in our local exchange markets continues. Our telephone 
+ 
+11 
+
+Table of Contents
+operations generally have been required to sell their services to competitive local exchange carriers at significant discounts from the prices our telephone operations charge their retail customers. The scope of these obligations going forward and the rates we receive are subject to ongoing review and revision by the FCC and state regulators. (See “Regulatory and Competitive Trends” in the 2012 Verizon Annual Report to Shareowners.) 
+In the global enterprise market, the customer’s need to reduce technical complexity coupled with the growth opportunity created by technology convergence is driving the expansion of the competitive landscape. Major competitors include system integrators, carriers and hardware and software providers. Some of the biggest companies in IT services are either making acquisitions or forging new alliances to be better positioned for a rebound in technology spending. Most new alliances and acquisitions have focused on emerging fields such as cloud computing, software delivery, communication applications and other computing tasks via the network, rather than on in-house machines. Carriers have also utilized acquisitions to make significant inroads into enterprise outsourcing markets that have long been dominated by the major IT outsourcers. 
+Global Wholesale competes with traditional carriers for long-haul, voice and IP services. In addition, mobile video and data needs are driving a greater need for wireless backhaul. Network providers, cable companies and niche players are competitors for this new revenue opportunity. 
+ 
+12 
+
+Table of Contents
+
+Verizon owns or has licenses to various patents, copyrights, trademarks, domain names and other intellectual property rights necessary to conduct our business. We actively pursue the filing and registration of patents, copyrights, domain names, trademarks and service marks to protect our intellectual property rights within the United States and abroad. Verizon also actively grants licenses, in exchange for appropriate fees or other consideration and subject to appropriate safeguards and restrictions, to other companies that enable such companies to utilize certain Verizon intellectual property rights and proprietary technology as part of their products and services. Such licenses enable such third party licensees to take advantage of the results of Verizon’s research and development efforts. While these licenses result in valuable consideration being paid to Verizon, we do not believe that loss of such consideration, or the expiration of any of our intellectual property rights, would have a material effect on our results of operations. 
+Verizon periodically receives offers from third parties to purchase or obtain licenses for patents and other intellectual property rights in exchange for royalties or other payments. We also periodically receive notices alleging that our products or services infringe on third party patents or other intellectual property rights. These claims, whether against us directly or against third-party suppliers of products or services that we, in turn, sell to our customers, if successful, could require us to pay damages or royalties, or cease offering the relevant products or services. 
+ 
+
+“Acquisitions and Divestitures” on page 44 of the 2012 Verizon Annual Report to Shareowners is incorporated by reference into this report. 
+ 
+
+“Regulatory and Competitive Trends” included in “Other Factors That May Affect Future Results” on pages 45 through 47 of the 2012 Verizon Annual Report to Shareowners is incorporated by reference into this report. 
+ 
+
+“Environmental Matters” included in “Other Factors That May Affect Future Results” on page 47 of the 2012 Verizon Annual Report to Shareowners is incorporated by reference into this report. 
+ 
+
+See Part III, Item 10. “Directors, Executive Officers and Corporate Governance” of this Annual Report on Form 10-K for information about our executive officers. 
+ 
+
+As of December 31, 2012, Verizon and its subsidiaries had approximately 183,400 employees. Unions represent approximately 29% of our employees. During 2012, we reached agreements with the Communications Workers of America and the International Brotherhood of Electrical Workers on new, three-year contracts that cover approximately 43,000 Wireline employees. These new agreements will expire on August 1, 2015. 
+ 
+
+We make available, free of charge on our website, our annual reports on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K, and all amendments to those reports at www.verizon.com/investor. Verizon has adopted a code of ethics, as that term is defined in Item 406(b) of Regulation S-K, which applies to our Chief Executive Officer, Chief Financial Officer and Controller. A copy of this code may be found on our website at www.verizon.com/investor. Any amendments to this code or any waiver of this code for any executive officer will be posted on that website. 
+ 
+13 
+
+Table of Contents
+
+In this report we have made forward-looking statements. These statements are based on our estimates and assumptions and are subject to risks and uncertainties. Forward-looking statements include the information concerning our possible or assumed future results of operations. Forward-looking statements also include those preceded or followed by the words “anticipates,” “believes,” “estimates,” “hopes” or similar expressions. For those statements, we claim the protection of the safe harbor for forward-looking statements contained in the Private Securities Litigation Reform Act of 1995. 
+The following important factors, along with those discussed elsewhere in this report could affect future results and could cause those results to differ materially from those expressed in the forward-looking statements: 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
