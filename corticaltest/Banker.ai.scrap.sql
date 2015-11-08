@@ -15,12 +15,17 @@ SET GLOBAL max_connections = 500;
 #alter table vctest add column cortical_io_keywords text;
 
 #set innodb_lock_wait_timeout=100;
+set global max_allowed_packet=67108864;
 show open tables where in_use>0;
 show full processlist;
-kill 69160;
-kill 69110;
-kill 69109;
-kill 69154;
+kill 9184;
+kill 9186;
+kill 9188;
+kill 3;
+
+
+grant all on database.* to user@'%';
+flush privileges;
 
 #ALTER TABLE vctest4 ADD text text;
 #ALTER TABLE vctest4 ADD cortical_io text;
@@ -36,14 +41,24 @@ ALTER TABLE crunchbase_startups ADD lang varchar(127);
 #ALTER TABLE crunchbase_startups ADD cortical_io_keywords text;
 
 #download complete
+select * from vctest4 where length(text) = 0;
+
 select count(*) from vctest4 where length(text) > 0;
-select count(*) from crunchbase_startups where length(text) > 0;
+select count(*) from crunchbase_startups where text <>'';
 
 #analysis complete
-select count(*) from vctest4 where length(text) > 0 and watson is not null;
-select count(*) from crunchbase_startups where length(text) > 0 and watson is not null;
+select * from vctest4 where length(text) > 0 and watson is not null;
+select * from crunchbase_startups where length(text) > 0 and watson is not null and funding_total_usd > 10000000 and country_code='USA';
 
-select * from crunchbase_startups;
+update vctest4 set text = null where text = '';
+select * from vctest4 where siteurl like '%http:%';
+select count(*) from vctest4 where siteurl not like '%.com%' and instr(siteurl, '/') <> 0;
+
+delete from vctest4 where siteurl not like '%.com%' and instr(siteurl, '/') <> 0;
+
+select * from vctest4 where siteurl not like '%.com%';
+
+alter table vctest4 change column siteurl siteurl longtext;
 
 -- run this on vc list
 update crunchbase_startups set siteurl = replace(siteurl, 'http://', '');
@@ -59,19 +74,8 @@ select *, left(siteurl, instr(siteurl, '/') - 1), instr(siteurl, '/') from crunc
 #update vctest4 set siteurl = left(siteurl, instr(siteurl, '.com')+3);
 
 -- select *, left(siteurl, instr(siteurl, '.com')+3) from vctest4;
-create table vctest4_bk_siteurl (siteurl varchar(255)) as select siteurl from vctest4;
-
-SELECT Web FROM vctest4 where Web <>'' and cortical_io is null ORDER BY RAND() LIMIT 10;
+#create table vctest4_bk_siteurl (siteurl varchar(255)) as select siteurl from vctest4;
 
 #ALTER TABLE `vctest4` CHANGE COLUMN `Web` `siteurl` VARCHAR(255) NOT NULL;
 #ALTER TABLE `crunchbase_startups` CHANGE COLUMN `homepage_url` `siteurl` VARCHAR(255) NOT NULL;
-
-select count(*) from crunchbase_startups where text <>'';
-select * from crunchbase_startups where text <>'';
 SELECT homepage_url FROM crunchbase_startups where homepage_url <>'' and cortical_io is null ORDER BY RAND() LIMIT 10;
-
-
-select * from vctest WHERE siteurl = 'ahl.com';
-#select siteurl, text from vctest where cortical_io is null limit 1;
-
-UPDATE vctest SET cortical_io_keywords = '' WHERE siteurl = 'divcowest.com';
