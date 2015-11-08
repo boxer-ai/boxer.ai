@@ -4,11 +4,11 @@ import mysql.connector as msc
 import time
 import sys
 from textblob import TextBlob
+import json
 
 # Init API client
 apiKey = os.environ.get('CORTICAL_API_KEY')
 client = cortipy.CorticalClient(apiKey)
-
 
 MYSQL_GSJ_USER = 'root'
 MYSQL_GSJ_PASSWORD = 'nycdsa1!'
@@ -22,32 +22,70 @@ config = {
    'database': 'test',
    'charset': 'utf8'
 }
-print "usage = python ClassifyVCs.py vctest4 (VC scraper) -or- python ClassifyVCs.py crunchbase_startups (startup capital scraper)"
+#print "usage = python ClassifyVCs.py vctest4 (VC scraper) -or- python ClassifyVCs.py crunchbase_startups (startup capital scraper)"
 
-#dbtable = "crunchbase_startups"
+dbtable = "crunchbase_startups"
 dbtable = sys.argv[1]
-print "dbtable = " + dbtable
+#print "dbtable = " + dbtable
 
 #Need to put this into an infinite loop
 # while 1:
 con = msc.connect(**config)
 cur = con.cursor()
-#con.autocommit(True)
-time.sleep(1)
+cur.execute("select siteurl, market, funding_total_usd, status, country_code, state_code, funding_rounds, cortical_io, watson, opencalais, cortical_io_keywords from "+dbtable+" where cortical_io is not null and text <> ''")
+full = cur.fetchall()
 
-#cur.execute("select siteurl, text from "+dbtable+" where cortical_io is null and text <> '' limit 100")
-cur.execute("select siteurl, market, status, cortical_io, watson, opencalais, cortical_io_keywords from "+dbtable+" where cortical_io is not null and text <> ''")
+#top 12 categories by funding raised in USD
+categories = ("Biotechnology", "Communities", "Clean Technology", "Curated Web", "Consumer Electronics", "Advertising", "Analytics", "Batteries", "Clinical Trials", "Big Data", "Banking")
 
-test = cur.fetchall()
-#partnerfunds.com
-for i in range(0, len(test)):
-    siteurl = str(test[i][0])
-    market = str(test[i][1])
-    status = str(test[i][2])
-    cortial_io = str(test[i][3])
-    watson = str(test[i][4])
-    opencalais = str(test[i][5])
-    cortical_io_keywords = str(test[i][6])
+# build positive examples
+i = 0
+cur = con.cursor()
+cur.execute("select siteurl, text from "+dbtable+" where cortical_io is not null and text <> '' and market = '"+categories[i]+"' and status='operating' and country_code = 'USA' and funding_rounds>0 limit 1;")
+pos = cur.fetchall()
+postext = []
+for i in range(0, len(pos)):
+    postext.append(pos[i][1])
+
+# build negative examples
+cur = con.cursor()
+cur.execute("select siteurl, text from "+dbtable+" where cortical_io is not null and text <> '' and market <> '"+categories[i]+"' and status='operating' and country_code = 'USA' and funding_rounds>0 limit 1;")
+neg = cur.fetchall()
+negtext = []
+for i in range(0, len(neg)):
+    negtext.append(neg[i][1])
+
+#build classifier
+CBCategoryClassifier = client.createClassification("test", postext, "")
+
+# Chcek Term similarity
+#unseenTermBitmap = client.getBitmap(categories[i])['fingerprint']['positions']
+for i in range(0, len(categories)):
+    unseenTermBitmap = client.getTextBitmap(categories[i])['fingerprint']['positions']
+    distances = client.compare(unseenTermBitmap, CBCategoryClassifier['positions'])
+    print categories[i] + " " + str(distances['euclideanDistance'])
+
+
+print distances['euclideanDistance']
+
+#check new copy
+unseenBitmap = client.getTextBitmap("The Zen of Python >>>import this")['fingerprint']['positions']
+distances = client.compare(unseenBitmap, CBCategoryClassifier['positions'])
+print distances['euclideanDistance']
+
+
+for i in range(0, len(full)):
+    siteurl[i] = str(full[i][0])
+    market[i] = str(full[i][1])
+    funding[i] = str(full[i][2])
+    status[i] = str(full[i][3])
+    country[i] = str(full[i][4])
+    state[i] = str(full[i][5])
+    funding[i] = str(full[i][6])
+    cortical_io[i] = json.loads(full[i][7])
+    watson[i] = str(full[i][8])
+    opencalais[i] = str(full[i][9])
+    keywords[i] = str(full[i][10])
 
     #Cortical.io
     termKeyWords = client.extractKeywords(text)
