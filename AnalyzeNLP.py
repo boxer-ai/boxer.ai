@@ -41,7 +41,7 @@ categories = ("Biotechnology", "Communities", "Clean Technology", "Curated Web",
 # build positive examples
 i = 0
 cur = con.cursor()
-cur.execute("select siteurl, text from "+dbtable+" where cortical_io is not null and text <> '' and market = '"+categories[i]+"' and status='operating' and country_code = 'USA' and funding_rounds>0 limit 1;")
+cur.execute("select siteurl, text from "+dbtable+" where cortical_io is not null and text <> '' and market = '"+categories[i]+"' and status='operating' and country_code = 'USA' and funding_rounds>0 ORDER BY RAND() limit 1;")
 pos = cur.fetchall()
 postext = []
 for i in range(0, len(pos)):
@@ -49,7 +49,7 @@ for i in range(0, len(pos)):
 
 # build negative examples
 cur = con.cursor()
-cur.execute("select siteurl, text from "+dbtable+" where cortical_io is not null and text <> '' and market <> '"+categories[i]+"' and status='operating' and country_code = 'USA' and funding_rounds>0 limit 1;")
+cur.execute("select siteurl, text from "+dbtable+" where cortical_io is not null and text <> '' and market <> '"+categories[i]+"' and status='operating' and country_code = 'USA' and funding_rounds>0 ORDER BY RAND() limit 1;")
 neg = cur.fetchall()
 negtext = []
 for i in range(0, len(neg)):
