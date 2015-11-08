@@ -8,16 +8,12 @@ import json
 
 # Init API client
 apiKey = os.environ.get('CORTICAL_API_KEY')
+MYSQL_GSA_PASSWORD = os.environ.get('MYSQL_GSA_PASSWORD')
 client = cortipy.CorticalClient(apiKey)
-
-MYSQL_GSJ_USER = 'root'
-MYSQL_GSJ_PASSWORD = 'nycdsa1!'
-MYSQL_GSJ_HOST = '173.194.225.231'
-MYSQL_GSJ_DB = 'test'
 
 config = {
    'user': 'root',
-   'password': 'uLFZ2WoB',
+   'password': MYSQL_GSA_PASSWORD,
    'host': '130.211.154.93',
    'database': 'test',
    'charset': 'utf8'
@@ -55,7 +51,7 @@ negtext = []
 for i in range(0, len(neg)):
     negtext.append(neg[i][1])
 
-#build classifier
+#build classifier based on pos text
 CBCategoryClassifier = client.createClassification("test", postext, "")
 
 # Chcek Term similarity
@@ -65,6 +61,7 @@ for i in range(0, len(categories)):
     distances = client.compare(unseenTermBitmap, CBCategoryClassifier['positions'])
     print categories[i] + " " + str(distances['euclideanDistance'])
 
+pos[0][0]
 
 print distances['euclideanDistance']
 
