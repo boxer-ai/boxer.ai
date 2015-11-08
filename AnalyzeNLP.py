@@ -6,7 +6,6 @@ import sys
 from textblob import TextBlob
 import json
 
-# Init API client
 apiKey = os.environ.get('CORTICAL_API_KEY')
 MYSQL_GSA_PASSWORD = os.environ.get('MYSQL_GSA_PASSWORD')
 client = cortipy.CorticalClient(apiKey)
@@ -18,6 +17,7 @@ config = {
    'database': 'test',
    'charset': 'utf8'
 }
+
 #print "usage = python ClassifyVCs.py vctest4 (VC scraper) -or- python ClassifyVCs.py crunchbase_startups (startup capital scraper)"
 
 dbtable = "crunchbase_startups"
