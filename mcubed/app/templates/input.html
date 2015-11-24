@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+	<div class="inner cover">
+		<h2 class="cover-heading">Enter your website.</h1>
+		<br>
+		<p style = "margin-bottom:20px;font-size:14px;font-weight:300;line-height:1.4; position:relative; top: -20px;">
+			Product descriptions are okay too. Just let us know with the check box below.
+		</p>
+		<form action="process" name="site" 
+			style = "position: relative; top: -30px;">
+			<!-- {{ form.hidden_tag() }} -->
+			<p style = "color: black;">{{ form.url(size = 80) }}<br></p>
+			<p>{{ form.descr }} Site description</p>
+			<p style = "color: black;"><input type="submit" value="Analyze!"></p>
+		</form>
+	</div>
+
+
+{% endblock %}
