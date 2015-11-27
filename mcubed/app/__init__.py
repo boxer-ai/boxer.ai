@@ -1,24 +1,32 @@
+from __future__ import division
+
 from flask import Flask, g, session
 from flask import render_template, flash, redirect, url_for
 from flask import request
 from .forms import SiteForm
 from flask.ext.session import Session
 from celery import Celery, task
+from flask.ext.mysql import MySQL
+from flask.ext.sqlalchemy import SQLAlchemy
 
 import re
 import ast
-import mysql.connector as msc
+import time
 from collections import namedtuple
+from operator import itemgetter
+
+import mysql.connector as msc
 import cortipy
 from scrapy.crawler import CrawlerProcess
 from vcspider.vcspider.spiders import solo
 from vcspider.vcspider.pipelines import UserInputPipeline
-# from flask.ext.mysqldb import MySQL
-from flask.ext.mysql import MySQL
-import time
-from flask.ext.sqlalchemy import SQLAlchemy
+
 
 def make_celery(app):
+    """
+    Init celery environment with Redis broker. Allows use of celery decorator.
+    """
+
     celery = Celery(app.import_name, broker=app.config['CELERY_BROKER_URL'])
     celery.conf.update(app.config)
     TaskBase = celery.Task
@@ -32,25 +40,28 @@ def make_celery(app):
 
 app = Flask(__name__)
 app.config.from_object('config')
-app.secret_key = app.config['SECRET_KEY']
+
 app.config.update(
     CELERY_BROKER_URL='redis://localhost:6379',
     CELERY_RESULT_BACKEND='redis://localhost:6379'
 )
 celery = make_celery(app)
 
-# db = SQLAlchemy(app)
-# db.create_all()
 mysql = MySQL()
 mysql.init_app(app)
 
 client = cortipy.CorticalClient(app.config['CORTIPY_API_KEY'])
 
+# some light-weight data structures
 Site = namedtuple('Site', 'siteurl text')
 CSite = namedtuple('CorticalSite', 'siteurl text fingerprint keywords')
 
 @celery.task()
 def scrape(siteurl): 
+    """
+    Initializes Scrapy crawler for given siteurl. See spider/pipeline code for more.
+    """
+
     process = CrawlerProcess({
         'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)',
         'ITEM_PIPELINES': {'app.vcspider.vcspider.pipelines.UserInputPipeline': 100},
@@ -64,18 +75,20 @@ def get_site(siteurl):
     """
     Either scrapes text of input site, or returns already-scraped data.
     """
+
     con = mysql.connect()
     cur = con.cursor()
 
-    sql = 'SELECT text FROM crunchbase_startups WHERE siteurl = %s'
+    sql = """SELECT text FROM crunchbase_startups WHERE siteurl = %s"""
     cur.execute(sql, (siteurl,))
     text = cur.fetchone()
     con.commit()
 
-    if text != None:
+    if text != None: # if site already scraped
         flash('Site already scraped, proceeding with analysis...')
 
-        sql = 'SELECT siteurl, text, cortical_io, cortical_io_keywords FROM crunchbase_startups WHERE siteurl = %s'
+        sql = """SELECT siteurl, text, cortical_io, cortical_io_keywords 
+                FROM crunchbase_startups WHERE siteurl = %s"""
 
         cur.execute(sql, (siteurl,))
         _, _, fingerprint, keywords = cur.fetchone()
@@ -100,8 +113,10 @@ def get_site(siteurl):
         return Site(siteurl, text)
 
 def getSDRDist(site1, site2, metric = 'euclideanDistance'):
-    # flash('1: {}, type = {}'.format(site1.fingerprint, type(site1.fingerprint)))
-    # flash('2: {}, type = {}'.format(site2.fingerprint, type(site2.fingerprint)))
+    """
+    Now just for QA, get API distance
+    """
+
     return client.compare(site1.fingerprint, site2.fingerprint)[metric]
 
 def makeSDR(siteurl, text):
@@ -118,32 +133,57 @@ def makeSDR(siteurl, text):
 
     cur.execute(sql, (str(site_corticalmap), ','.join(site_keywords), siteurl))
     con.commit()
-    # flash(cur._executed)
 
     return CSite(siteurl, text, site_corticalmap['positions'], [site_keywords])
 
-def getMatch(startup):
-    # this needs to grab all from db once and then get dist one-by-unfortunate-one
-    # fix later
+def loadVCList():
+    """Get all VCs for comparison to selected startup."""
+
+    # i shouldn't be re-initializing this everywhere...
     con = mysql.connect()
     cur = con.cursor()
 
-    sql = """SELECT siteurl, text, cortical_io, cortical_io_keywords 
+    # load ALL VCs into memory - not site text, so it's manageable
+    sql = """SELECT siteurl, cortical_io, cortical_io_keywords 
     FROM vctest4
     WHERE 
         NULLIF(text, '') IS NOT NULL 
         AND NULLIF(cortical_io, '') IS NOT NULL
-    ORDER BY RAND() LIMIT 1"""
+    ORDER BY RAND()"""
 
     cur.execute(sql)
     con.commit()
-    siteurl, text, fingerprint, keywords = cur.fetchone()
-    fingerprint = map(int, re.sub(r'[\]\'\[]', '', fingerprint).split(',')) # convert from db str repr to list
-    vc = CSite(siteurl, text, fingerprint, keywords)
-    # getSDRDist(startup, vc)
-    # return 0
-    return {'vc': vc.siteurl, 'dist': getSDRDist(startup, vc)}
 
+    vcList = cur.fetchall() 
+
+    return vcList 
+
+def getMatch(startup):
+    """Find top three matches for the given startup based on the Euclidean distance
+    of two SDRs.
+
+    The Euclidean distance is defined as a float between 0 and 1, 0 representing a 
+    smaller distance and thus closer match between two SDRs. It is calculated as 
+    the quotient of the length of the symmetric difference between two sets and the
+    total length of the combined sets. Ie:
+
+    score = len(s ^ t) / (len(s) + len(t))
+    """
+
+    vcList = loadVCList()
+    scores = list()
+
+    # add more distance metrics and eval?
+    for vc in vcList:
+        totlen = len(startup.fingerprint) + len(ast.literal_eval(vc[1]))
+        sublen = len(set(startup.fingerprint) ^ set(ast.literal_eval(vc[1])))
+        score = sublen / totlen
+
+        scores.append(tuple([vc[0], score]))
+
+    scores = sorted(scores, key = itemgetter(1))
+    flash(scores[:3]) # returning top three scores
+    return scores
 
 ###############
 # BEGIN VIEWS #
@@ -183,20 +223,10 @@ def process():
     if isinstance(sitedata, Site):
         sitedata = makeSDR(sitedata.siteurl, sitedata.text)
 
-    flash('Keywords for site {}: {}'.format(sitedata.siteurl, sitedata.keywords))
+    # flash('Keywords for site {}: {}'.format(sitedata.siteurl, sitedata.keywords))
     flash('Getting best match...')
 
-    best = {'vc': 'na', 'dist': 0}
-
-    for x in xrange(1500): # THIS IS DUMB YES
-        # flash('In loop.')
-        dt = getMatch(sitedata)
-        # flash('VC: {}, distance: {} (best dist = {}'.format(dt['vc'], dt['dist'], best['dist']))
-
-        if dt['dist'] > best['dist']:
-            best = dt
-
-    flash('Best VC: {}, with dist = {}'.format(best['vc'], best['dist']))
+    matches = getMatch(sitedata)
 
     return render_template('process.html',
                             title = 'Results',

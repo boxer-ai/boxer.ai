@@ -26,7 +26,7 @@ def getSDR(sitetype):
     return CSite(siteurl, text, site_corticalmap['positions'], [site_keywords])
 
 def getSDRDist(site1, site2, metric = 'euclideanDistance'):
-    print site1.fingerprint, site2.fingerprint
+    # print site1.fingerprint, site2.fingerprint
     return client.compare(site1.fingerprint, site2.fingerprint)[metric]
 
 
