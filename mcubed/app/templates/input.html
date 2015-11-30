@@ -2,6 +2,7 @@
 
 {% block content %}
 
+
 	<div class="inner cover">
 		<h2 class="cover-heading">Enter your website.</h1>
 		<br>
@@ -13,13 +14,14 @@
 			<div class = "form-group">
 				<!-- {{ form.hidden_tag() }} -->
 				<p style = "color: black;">
-					{{ form.url(class = 'form-control', id = 'forminput', placeholder='Enter site...', size = 80) }}<br>
+					{{ form.siteinput(class = 'form-control', id = 'forminput', placeholder='Enter site...', size = 80) }}<br>
 				</p>
 				<p>{{ form.descr }} Site description</p>
-				<p style = "color: black;"><input type="submit" class="btn btn-default" value="Analyze!"></p>
+				<p style = "color: black;">
+					<button type="submit" class="btn btn-default" data-loading-text="Working hard!">Analyze! </button>
+				</p>
 			</div>
 		</form>
 	</div>
-
 
 {% endblock %}

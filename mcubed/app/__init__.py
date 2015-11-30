@@ -12,6 +12,7 @@ from flask.ext.sqlalchemy import SQLAlchemy
 import re
 import ast
 import time
+import numpy as np
 from collections import namedtuple
 from operator import itemgetter
 
@@ -21,6 +22,11 @@ from scrapy.crawler import CrawlerProcess
 from vcspider.vcspider.spiders import solo
 from vcspider.vcspider.pipelines import UserInputPipeline
 
+
+"""
+This code needs a lot of cleaning. It's okay periodically, but is generally haphazard,
+mirroring its genesis.
+"""
 
 def make_celery(app):
     """
@@ -39,17 +45,21 @@ def make_celery(app):
     return celery
 
 app = Flask(__name__)
-app.config.from_object('config')
+app.config.from_object('config') # mysql conn, cortical api key
 
+# celery uses redis as a broker, must have redis server running on machine!
 app.config.update(
     CELERY_BROKER_URL='redis://localhost:6379',
     CELERY_RESULT_BACKEND='redis://localhost:6379'
 )
-celery = make_celery(app)
 
+celery = make_celery(app) # init celery
+
+# flask-specific mysql interface
 mysql = MySQL()
 mysql.init_app(app)
 
+# seeeeecret key. get your own.
 client = cortipy.CorticalClient(app.config['CORTIPY_API_KEY'])
 
 # some light-weight data structures
@@ -119,7 +129,11 @@ def getSDRDist(site1, site2, metric = 'euclideanDistance'):
 
     return client.compare(site1.fingerprint, site2.fingerprint)[metric]
 
-def makeSDR(siteurl, text):
+def makeSDR(text, siteurl = 'TextInput', isText = 0):
+    """
+    Makes an SDR and associated keywords for input site or text.
+    """
+
     site_corticalmap = client.createClassification(siteurl, [text[0]], "")
     site_keywords = client.extractKeywords(text[0])
 
@@ -127,11 +141,19 @@ def makeSDR(siteurl, text):
     con = mysql.connect()
     cur = con.cursor()
 
-    sql = """UPDATE crunchbase_startups
-            SET cortical_io = %s, cortical_io_keywords = %s
-            WHERE  siteurl = %s"""
+    if isText == 0:
+        sql = """UPDATE crunchbase_startups
+                SET cortical_io = %s, cortical_io_keywords = %s
+                WHERE  siteurl = %s"""
 
-    cur.execute(sql, (str(site_corticalmap), ','.join(site_keywords), siteurl))
+        cur.execute(sql, (str(site_corticalmap), ','.join(site_keywords), siteurl))
+
+    elif isText == 1:
+        sql = """INSERT INTO sitedescriptions (text, cortical_io, cortical_io_keywords)
+                VALUES (%s, %s, %s)"""
+
+        cur.execute(sql, (text, str(site_corticalmap), ','.join(site_keywords)))
+
     con.commit()
 
     return CSite(siteurl, text, site_corticalmap['positions'], [site_keywords])
@@ -158,32 +180,54 @@ def loadVCList():
 
     return vcList 
 
-def getMatch(startup):
-    """Find top three matches for the given startup based on the Euclidean distance
-    of two SDRs.
-
-    The Euclidean distance is defined as a float between 0 and 1, 0 representing a 
+def eucDist(l1, l2):
+    """The Euclidean distance is defined as a float between 0 and 1, 0 representing a 
     smaller distance and thus closer match between two SDRs. It is calculated as 
     the quotient of the length of the symmetric difference between two sets and the
-    total length of the combined sets. Ie:
+    total length of the combined sets."""
 
-    score = len(s ^ t) / (len(s) + len(t))
+    totlen = len(l1) + len(l2)
+    sublen = len(set(l1) ^ set(l2))
+
+    return sublen / totlen
+
+
+def cosSim(l1, l2):
+    """Here (and only here, per cortical.io), cosine similarity is defined as a float 
+    between 0 and 1, 1 representing a high similarity. It is calculated as the 
+    quotient of the length of the number of bits contained in both sets and the square 
+    root of len(l1) * len(l2)."""
+
+    overlap = len(set(l1) & set(l2))
+    totsize = len(l1) * len(l2)
+
+    return overlap / np.sqrt(totsize)
+
+def getMatch(startup):
+    """Find top three matches for the given startup based on both Euclidean distance
+    and Cosine similarity (calculated per cortical's API, not really mappable to 
+    traditional definitions, ESPECIALLY cosine similarity.)
     """
 
     vcList = loadVCList()
-    scores = list()
+    scoresEuc, scoresCos = list(), list()
 
-    # add more distance metrics and eval?
     for vc in vcList:
-        totlen = len(startup.fingerprint) + len(ast.literal_eval(vc[1]))
-        sublen = len(set(startup.fingerprint) ^ set(ast.literal_eval(vc[1])))
-        score = sublen / totlen
+        # euclidean
+        scoreEuc = eucDist(startup.fingerprint, ast.literal_eval(vc[1]))
+        scoresEuc.append(tuple([vc[0], scoreEuc]))
 
-        scores.append(tuple([vc[0], score]))
+        # cosine
+        scoreCos = cosSim(startup.fingerprint, ast.literal_eval(vc[1]))
+        scoresCos.append(tuple([vc[0], scoreCos]))
 
-    scores = sorted(scores, key = itemgetter(1))
-    flash(scores[:3]) # returning top three scores
-    return scores
+    scoresEuc = sorted(scoresEuc, key = itemgetter(1))
+    scoresCos = sorted(scoresCos, key = itemgetter(1), reverse = True)
+    
+    flash('Euclidean: {}'.format(scoresEuc[:3]))
+    flash('Cosine: {}'.format(scoresCos[:3])) 
+
+    return tuple((scoresEuc, scoresCos))
 
 ###############
 # BEGIN VIEWS #
@@ -217,22 +261,29 @@ def contact():
 @app.route('/process', methods=['GET', 'POST'])
 def process():
 
-    siteurl = request.args.get('url')
-    sitedata = get_site(siteurl)
+    descr = request.args.get('descr')
 
-    if isinstance(sitedata, Site):
-        sitedata = makeSDR(sitedata.siteurl, sitedata.text)
+    if descr == 'y':
+        siteinput = request.args.get('siteinput')
+        sitedata = makeSDR(tuple((siteinput,)), isText = 1) # this tuple is awful
 
-    # flash('Keywords for site {}: {}'.format(sitedata.siteurl, sitedata.keywords))
+    elif descr == None:
+        siteurl = request.args.get('siteinput')
+        sitedata = get_site(siteurl)
+
+        if isinstance(sitedata, Site):
+            sitedata = makeSDR(sitedata.text, sitedata.siteurl)
+
+
+    flash('Keywords for site {}: {}'.format(sitedata.siteurl, sitedata.keywords))
     flash('Getting best match...')
 
     matches = getMatch(sitedata)
 
     return render_template('process.html',
                             title = 'Results',
-                            h1 = "inactive",
-                            h2 = "inactive",
-                            h3 = "inactive")  
+                            h1 = "inactive", h2 = "inactive", h3 = "inactive",
+                            )  
 
 @app.route('/input', methods=['GET', 'POST'])
 def input():

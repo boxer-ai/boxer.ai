@@ -1,7 +1,7 @@
 from flask.ext.wtf import Form
-from wtforms import StringField, BooleanField
+from wtforms import StringField, BooleanField, TextAreaField
 from wtforms.validators import DataRequired
 
 class SiteForm(Form):
-    url = StringField('url', validators=[DataRequired()])
-    descr = BooleanField('descr', default=False)
+    siteinput = StringField('url', validators=[DataRequired()])
+    descr = BooleanField('descr', default = False)
