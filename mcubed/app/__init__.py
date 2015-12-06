@@ -17,6 +17,7 @@ from collections import namedtuple, defaultdict
 from operator import itemgetter
 import base64
 import locale
+from urlparse import urlparse
 
 import mysql.connector as msc
 import cortipy
@@ -30,7 +31,7 @@ from vcspider.vcspider.pipelines import UserInputPipeline
 
 """
 This code needs a lot of cleaning. It's okay periodically, but is generally 
-haphazard, mirroring its genesis.
+haphazard, mirroring its genesis. The DB handling is not good.
 """
 
 def make_celery(app):
@@ -87,6 +88,12 @@ def scrape(siteurl):
     process.crawl(solo.SoloSpider, domain = siteurl)
     process.start()
 
+def parse_url(siteurl):
+   siteurl = re.sub(r'((http(s)?://)?(www.)?)', '', siteurl.lower())
+   p = urlparse('//' + siteurl)
+   
+   return p.netloc
+   
 def get_site(siteurl):
     """
     Either scrapes text of input site, or returns already-scraped data.
@@ -116,7 +123,7 @@ def get_site(siteurl):
 
         con.close()
         
-        return CSite(siteurl, text, fingerprint, [keywords])
+        return CSite(siteurl, text, fingerprint, keywords)
 
     else: # scrape site
         # flash('Trying to scrape site: {}'.format(siteurl))
@@ -166,7 +173,7 @@ def makeSDR(text, siteurl = 'TextInput', isText = 0):
     con.commit()
     con.close()
     
-    return CSite(siteurl, text, site_corticalmap['positions'], [site_keywords])
+    return CSite(siteurl, text, site_corticalmap['positions'], site_keywords)
 
 def loadVCList():
     """Get all VCs for comparison to selected startup."""
@@ -304,11 +311,12 @@ def process():
     elif descr == None:
         descr = 'n'
         siteinput = request.args.get('siteinput')
+        siteinput = parse_url(siteinput)
         sitedata = get_site(siteinput)
 
         if isinstance(sitedata, Site):
             sitedata = makeSDR(sitedata.text, sitedata.siteurl)
-
+            
     matches = getMatch(sitedata)
     scoresNet = matches[0]
     scoresEuc = matches[1]

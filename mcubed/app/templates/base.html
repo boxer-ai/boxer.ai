@@ -82,5 +82,27 @@
     <script src="/static/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="/static/js/ie10-viewport-bug-workaround.js"></script>
+    
+    <!-- extra js -->
+  	<script>
+  		$(function () { 
+  		   $("[data-toggle='popover']").popover();    
+  		});
+  		
+  		$(function() {
+        var loading = function() {
+            // add the overlay with loading image to the page
+            var over = '<div id="overlay">' +
+                '<span id = "workertext" class = "lead">Working hard!</span>' +
+                '<img id="loading" src="http://bit.ly/pMtW1K">' +
+                '</div>';
+            $(over).appendTo('body');
+      };
+
+      $('#worker').click(loading);
+    
+    });
+  	</script>
+  	
   </body>
 </html>

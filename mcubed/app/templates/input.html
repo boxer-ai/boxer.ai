@@ -2,8 +2,40 @@
 
 {% block content %}
 
+	<!-- set parent template variables that are page specific -->
+	{% set h1 = "inactive" %}
+	{% set h2 = "inactive" %}
+	{% set h3 = "inactive" %}
+	
+	<!-- extra styles for loading overlay -->
+	<style>
+		#overlay {
+		    position: absolute;
+		    left: 0;
+		    top: 0;
+		    bottom: 0;
+		    right: 0;
+		    background: #000;
+		    opacity: 0.8;
+		    filter: alpha(opacity=80);
+		}
+		#loading {
+		    width: 50px;
+		    height: 57px;
+		    position: absolute;
+		    top: 50%;
+		    left: 50%;
+		    margin: -28px 0 0 -25px;
+		}
+		#workertext {
+			position: absolute;
+			top:45%;
+			left:50%;
+		}
 
-	<div class="inner cover">
+	</style>
+
+	<div class="inner cover" style = "margin-top: 50%;position:relative;top:-230px;">
 		<h2 class="cover-heading">Enter your website.</h1>
 		<br>
 		<p style = "margin-bottom:20px;font-size:14px;font-weight:300;line-height:1.4; position:relative; top: -20px;">
@@ -18,7 +50,7 @@
 				</p>
 				<p>{{ form.descr }} Site description</p>
 				<p style = "color: black;">
-					<button type="submit" class="btn btn-default" data-loading-text="Working hard!">Analyze! </button>
+					<button id = "worker" type="submit" class="btn btn-default">Analyze! </button>
 				</p>
 			</div>
 		</form>
