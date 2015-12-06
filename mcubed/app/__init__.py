@@ -116,7 +116,7 @@ def get_site(siteurl):
 
         con.close()
         
-        return CSite(siteurl, text, fingerprint, [keywords])
+        return CSite(siteurl, text, fingerprint, keywords)
 
     else: # scrape site
         # flash('Trying to scrape site: {}'.format(siteurl))
@@ -166,7 +166,7 @@ def makeSDR(text, siteurl = 'TextInput', isText = 0):
     con.commit()
     con.close()
     
-    return CSite(siteurl, text, site_corticalmap['positions'], [site_keywords])
+    return CSite(siteurl, text, site_corticalmap['positions'], site_keywords)
 
 def loadVCList():
     """Get all VCs for comparison to selected startup."""
@@ -308,7 +308,7 @@ def process():
 
         if isinstance(sitedata, Site):
             sitedata = makeSDR(sitedata.text, sitedata.siteurl)
-
+            
     matches = getMatch(sitedata)
     scoresNet = matches[0]
     scoresEuc = matches[1]

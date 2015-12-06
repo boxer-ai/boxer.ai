@@ -1,79 +1,12 @@
-[25431] 05 Dec 19:52:23.739 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
-[25431] 05 Dec 19:52:23.740 # Unable to set the max number of files limit to 10032 (Operation not permitted), setting the max clients configuration to 3984.
-[25431] 05 Dec 19:52:23.740 # Opening port 6379: bind: Address already in use
-/home/ubuntu/programming/banker.ai/mcubed/app/vcspider/vcspider/pipelines.py:3: ScrapyDeprecationWarning: Module `scrapy.conf` is deprecated, use `crawler.settings` attribute instead
-  from scrapy.conf import settings
-[2015-12-05 19:52:25,358: WARNING/MainProcess] /home/ubuntu/anaconda/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
-Starting from version 3.2 Celery will refuse to accept pickle by default.
-
-The pickle serializer is a security concern as it may give attackers
-the ability to execute any command.  It's important to secure
-your broker from unauthorized access when using pickle, so we think
-that enabling pickle should require a deliberate action and not be
-the default choice.
-
-If you depend on pickle then you should set a setting to disable this
-warning and to be sure that everything will continue working
-when you upgrade to Celery 3.2::
-
-    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
-
-You must only enable the serializers that you will actually use.
-
-
-  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
-[2015-12-05 19:52:25,399: INFO/MainProcess] Connected to redis://localhost:6379//
-[2015-12-05 19:52:25,407: INFO/MainProcess] mingle: searching for neighbors
-[2015-12-05 19:52:26,412: INFO/MainProcess] mingle: all alone
-[2015-12-05 19:52:26,420: WARNING/MainProcess] celery@ip-172-31-59-92 ready.
-[2015-12-05 19:55:18,149: INFO/MainProcess] Received task: app.scrape[1e380cde-1eed-4ca0-b909-7c3d8b76f413]
-[2015-12-05 19:55:18,157: INFO/Worker-4] Scrapy 1.0.3 started (bot: scrapybot)
-[2015-12-05 19:55:18,158: WARNING/Worker-4] 2015-12-05 19:55:18 [scrapy] INFO: Scrapy 1.0.3 started (bot: scrapybot)
-[2015-12-05 19:55:18,158: INFO/Worker-4] Optional features available: ssl, http11, boto
-[2015-12-05 19:55:18,158: WARNING/Worker-4] 2015-12-05 19:55:18 [scrapy] INFO: Optional features available: ssl, http11, boto
-[2015-12-05 19:55:18,159: INFO/Worker-4] Overridden settings: {'DEPTH_LIMIT': 2, 'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'}
-[2015-12-05 19:55:18,159: WARNING/Worker-4] 2015-12-05 19:55:18 [scrapy] INFO: Overridden settings: {'DEPTH_LIMIT': 2, 'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'}
-[2015-12-05 19:55:18,218: INFO/Worker-4] Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
-[2015-12-05 19:55:18,218: WARNING/Worker-4] 2015-12-05 19:55:18 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
-[2015-12-05 19:55:18,258: INFO/Worker-4] Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
-[2015-12-05 19:55:18,259: WARNING/Worker-4] 2015-12-05 19:55:18 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
-[2015-12-05 19:55:18,260: INFO/Worker-4] Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
-[2015-12-05 19:55:18,261: WARNING/Worker-4] 2015-12-05 19:55:18 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
-[2015-12-05 19:56:43,275: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
-Traceback (most recent call last):
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/worker/consumer.py", line 278, in start
-    blueprint.start(self)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/bootsteps.py", line 123, in start
-    step.start(parent)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/worker/consumer.py", line 821, in start
-    c.loop(*c.loop_args())
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/worker/loops.py", line 76, in asynloop
-    next(loop)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/kombu/async/hub.py", line 267, in create_loop
-    tick_callback()
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/kombu/transport/redis.py", line 947, in on_poll_start
-    cycle_poll_start()
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/kombu/transport/redis.py", line 301, in on_poll_start
-    self._register_BRPOP(channel)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/kombu/transport/redis.py", line 284, in _register_BRPOP
-    self._register(*ident)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/kombu/transport/redis.py", line 269, in _register
-    client.connection.connect()
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 253, in connect
-    raise ConnectionError(self._error_message(e))
-ConnectionError: Error 111 connecting localhost:6379. Connection refused.
-[2015-12-05 19:56:43,285: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379//: Error 111 connecting localhost:6379. Connection refused..
-Trying again in 2.00 seconds...
-
-[25641] 05 Dec 19:56:51.634 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
-[25641] 05 Dec 19:56:51.635 # Unable to set the max number of files limit to 10032 (Operation not permitted), setting the max clients configuration to 3984.
+[19793] 06 Dec 06:10:14.072 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
+[19793] 06 Dec 06:10:14.073 # Unable to set the max number of files limit to 10032 (Operation not permitted), setting the max clients configuration to 3984.
                 _._                                                  
            _.-``__ ''-._                                             
       _.-``    `.  `_.  ''-._           Redis 2.6.9 (00000000/0) 64 bit
   .-`` .-```.  ```\/    _.,_ ''-._                                   
  (    '      ,       .-`  | `,    )     Running in stand alone mode
  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
- |    `-._   `._    /     _.-'    |     PID: 25641
+ |    `-._   `._    /     _.-'    |     PID: 19793
   `-._    `-._  `-./  _.-'    _.-'                                   
  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
  |    `-._`-._        _.-'_.-'    |           http://redis.io        
@@ -85,332 +18,27 @@ Trying again in 2.00 seconds...
           `-._        _.-'                                           
               `-.__.-'                                               
 
-[25641] 05 Dec 19:56:51.636 # Server started, Redis version 2.6.9
-[25641] 05 Dec 19:56:51.636 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
-[25641] 05 Dec 19:56:51.638 * DB loaded from disk: 0.002 seconds
-[25641] 05 Dec 19:56:51.638 * The server is now ready to accept connections on port 6379
-/home/ubuntu/programming/banker.ai/mcubed/app/vcspider/vcspider/pipelines.py:3: ScrapyDeprecationWarning: Module `scrapy.conf` is deprecated, use `crawler.settings` attribute instead
-  from scrapy.conf import settings
-[2015-12-05 19:56:53,261: WARNING/MainProcess] /home/ubuntu/anaconda/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
-Starting from version 3.2 Celery will refuse to accept pickle by default.
-
-The pickle serializer is a security concern as it may give attackers
-the ability to execute any command.  It's important to secure
-your broker from unauthorized access when using pickle, so we think
-that enabling pickle should require a deliberate action and not be
-the default choice.
-
-If you depend on pickle then you should set a setting to disable this
-warning and to be sure that everything will continue working
-when you upgrade to Celery 3.2::
-
-    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
-
-You must only enable the serializers that you will actually use.
-
-
-  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
-[2015-12-05 19:56:53,301: INFO/MainProcess] Connected to redis://localhost:6379//
-[2015-12-05 19:56:53,309: INFO/MainProcess] mingle: searching for neighbors
-[2015-12-05 19:56:54,313: INFO/MainProcess] mingle: all alone
-[2015-12-05 19:56:54,321: WARNING/MainProcess] celery@ip-172-31-59-92 ready.
-[2015-12-05 19:57:32,364: INFO/MainProcess] Received task: app.scrape[353309b5-8416-46b4-a164-47e0088f6560]
-[2015-12-05 19:57:32,371: INFO/Worker-3] Scrapy 1.0.3 started (bot: scrapybot)
-[2015-12-05 19:57:32,372: WARNING/Worker-3] 2015-12-05 19:57:32 [scrapy] INFO: Scrapy 1.0.3 started (bot: scrapybot)
-[2015-12-05 19:57:32,372: INFO/Worker-3] Optional features available: ssl, http11, boto
-[2015-12-05 19:57:32,372: WARNING/Worker-3] 2015-12-05 19:57:32 [scrapy] INFO: Optional features available: ssl, http11, boto
-[2015-12-05 19:57:32,373: INFO/Worker-3] Overridden settings: {'DEPTH_LIMIT': 2, 'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'}
-[2015-12-05 19:57:32,373: WARNING/Worker-3] 2015-12-05 19:57:32 [scrapy] INFO: Overridden settings: {'DEPTH_LIMIT': 2, 'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'}
-[2015-12-05 19:57:32,431: INFO/Worker-3] Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
-[2015-12-05 19:57:32,431: WARNING/Worker-3] 2015-12-05 19:57:32 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
-[2015-12-05 19:57:32,471: INFO/Worker-3] Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
-[2015-12-05 19:57:32,471: WARNING/Worker-3] 2015-12-05 19:57:32 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
-[2015-12-05 19:57:32,473: INFO/Worker-3] Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
-[2015-12-05 19:57:32,473: WARNING/Worker-3] 2015-12-05 19:57:32 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
-Unhandled error in Deferred:
-[2015-12-05 19:59:39,698: CRITICAL/Worker-3] Unhandled error in Deferred:
-[2015-12-05 19:59:39,698: WARNING/Worker-3] 2015-12-05 19:59:39 [twisted] CRITICAL: Unhandled error in Deferred:
-
-
-Traceback (most recent call last):
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
-    return self.run(*args, **kwargs)
-  File "/home/ubuntu/programming/banker.ai/mcubed/app/__init__.py", line 86, in scrape
-    process.crawl(solo.SoloSpider, domain = siteurl)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/scrapy/crawler.py", line 153, in crawl
-    d = crawler.crawl(*args, **kwargs)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/twisted/internet/defer.py", line 1274, in unwindGenerator
-    return _inlineCallbacks(None, gen, Deferred())
---- <exception caught here> ---
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/twisted/internet/defer.py", line 1128, in _inlineCallbacks
-    result = g.send(result)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/scrapy/crawler.py", line 71, in crawl
-    self.engine = self._create_engine()
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/scrapy/crawler.py", line 83, in _create_engine
-    return ExecutionEngine(self, lambda _: self.stop())
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/scrapy/core/engine.py", line 67, in __init__
-    self.scraper = Scraper(crawler)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/scrapy/core/scraper.py", line 70, in __init__
-    self.itemproc = itemproc_cls.from_crawler(crawler)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/scrapy/middleware.py", line 56, in from_crawler
-    return cls.from_settings(crawler.settings, crawler)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/scrapy/middleware.py", line 38, in from_settings
-    mw = mwcls()
-  File "/home/ubuntu/programming/banker.ai/mcubed/app/vcspider/vcspider/pipelines.py", line 23, in __init__
-    self.con = msc.connect(**config)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/mysql/connector/__init__.py", line 179, in connect
-    return MySQLConnection(*args, **kwargs)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/mysql/connector/connection.py", line 95, in __init__
-    self.connect(**kwargs)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/mysql/connector/abstracts.py", line 719, in connect
-    self._open_connection()
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/mysql/connector/connection.py", line 206, in _open_connection
-    self._socket.open_connection()
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/mysql/connector/network.py", line 475, in open_connection
-    errno=2003, values=(self.get_address(), _strioerror(err)))
-mysql.connector.errors.InterfaceError: 2003: Can't connect to MySQL server on '130.211.154.93:3306' (110 Connection timed out)
-[2015-12-05 19:59:39,700: CRITICAL/Worker-3] 
-[2015-12-05 19:59:39,700: WARNING/Worker-3] 2015-12-05 19:59:39 [twisted] CRITICAL:
-[2015-12-05 19:59:39,702: WARNING/Worker-3] /home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py:365: RuntimeWarning: Exception raised outside body: TypeError("__init__() got an unexpected keyword argument 'socket_connect_timeout'",):
-Traceback (most recent call last):
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py", line 283, in trace_task
-    uuid, retval, SUCCESS, request=task_request,
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 257, in store_result
-    request=request, **kwargs)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 491, in _store_result
-    self.set(self.get_key_for_task(task_id), self.encode(meta))
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
-    return self.ensure(self._set, (key, value), **retry_policy)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
-    **retry_policy
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
-    return fun(*args, **kwargs)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
-    pipe.execute()
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/client.py", line 2149, in execute
-    self.shard_hint)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 455, in get_connection
-    connection = self.make_connection()
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 464, in make_connection
-    return self.connection_class(**self.connection_kwargs)
-TypeError: __init__() got an unexpected keyword argument 'socket_connect_timeout'
-
-  exc, exc_info.traceback)))
-
-[2015-12-05 19:59:39,702: WARNING/Worker-3] 2015-12-05 19:59:39 [py.warnings] WARNING: /home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py:365: RuntimeWarning: Exception raised outside body: TypeError("__init__() got an unexpected keyword argument 'socket_connect_timeout'",):
-Traceback (most recent call last):
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py", line 283, in trace_task
-    uuid, retval, SUCCESS, request=task_request,
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 257, in store_result
-    request=request, **kwargs)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 491, in _store_result
-    self.set(self.get_key_for_task(task_id), self.encode(meta))
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
-    return self.ensure(self._set, (key, value), **retry_policy)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
-    **retry_policy
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
-    return fun(*args, **kwargs)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
-    pipe.execute()
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/client.py", line 2149, in execute
-    self.shard_hint)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 455, in get_connection
-    connection = self.make_connection()
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 464, in make_connection
-    return self.connection_class(**self.connection_kwargs)
-TypeError: __init__() got an unexpected keyword argument 'socket_connect_timeout'
-
-  exc, exc_info.traceback)))
-[2015-12-05 19:59:39,704: CRITICAL/MainProcess] Task app.scrape[353309b5-8416-46b4-a164-47e0088f6560] INTERNAL ERROR: TypeError("__init__() got an unexpected keyword argument 'socket_connect_timeout'",)
-Traceback (most recent call last):
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py", line 283, in trace_task
-    uuid, retval, SUCCESS, request=task_request,
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 257, in store_result
-    request=request, **kwargs)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 491, in _store_result
-    self.set(self.get_key_for_task(task_id), self.encode(meta))
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
-    return self.ensure(self._set, (key, value), **retry_policy)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
-    **retry_policy
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
-    return fun(*args, **kwargs)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
-    pipe.execute()
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/client.py", line 2149, in execute
-    self.shard_hint)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 455, in get_connection
-    connection = self.make_connection()
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 464, in make_connection
-    return self.connection_class(**self.connection_kwargs)
-TypeError: __init__() got an unexpected keyword argument 'socket_connect_timeout'
-[2015-12-05 20:07:35,633: INFO/MainProcess] Received task: app.scrape[8de52158-3cdd-40aa-a803-044924e1bdfb]
-[2015-12-05 20:07:35,640: INFO/Worker-2] Scrapy 1.0.3 started (bot: scrapybot)
-[2015-12-05 20:07:35,641: WARNING/Worker-2] 2015-12-05 20:07:35 [scrapy] INFO: Scrapy 1.0.3 started (bot: scrapybot)
-[2015-12-05 20:07:35,641: INFO/Worker-2] Optional features available: ssl, http11, boto
-[2015-12-05 20:07:35,641: WARNING/Worker-2] 2015-12-05 20:07:35 [scrapy] INFO: Optional features available: ssl, http11, boto
-[2015-12-05 20:07:35,642: INFO/Worker-2] Overridden settings: {'DEPTH_LIMIT': 2, 'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'}
-[2015-12-05 20:07:35,642: WARNING/Worker-2] 2015-12-05 20:07:35 [scrapy] INFO: Overridden settings: {'DEPTH_LIMIT': 2, 'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'}
-[2015-12-05 20:07:35,701: INFO/Worker-2] Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
-[2015-12-05 20:07:35,702: WARNING/Worker-2] 2015-12-05 20:07:35 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
-[2015-12-05 20:07:35,744: INFO/Worker-2] Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
-[2015-12-05 20:07:35,744: WARNING/Worker-2] 2015-12-05 20:07:35 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
-[2015-12-05 20:07:35,746: INFO/Worker-2] Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
-[2015-12-05 20:07:35,746: WARNING/Worker-2] 2015-12-05 20:07:35 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
-Unhandled error in Deferred:
-[2015-12-05 20:09:42,962: CRITICAL/Worker-2] Unhandled error in Deferred:
-[2015-12-05 20:09:42,962: WARNING/Worker-2] 2015-12-05 20:09:42 [twisted] CRITICAL: Unhandled error in Deferred:
-
-
-Traceback (most recent call last):
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
-    return self.run(*args, **kwargs)
-  File "/home/ubuntu/programming/banker.ai/mcubed/app/__init__.py", line 86, in scrape
-    process.crawl(solo.SoloSpider, domain = siteurl)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/scrapy/crawler.py", line 153, in crawl
-    d = crawler.crawl(*args, **kwargs)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/twisted/internet/defer.py", line 1274, in unwindGenerator
-    return _inlineCallbacks(None, gen, Deferred())
---- <exception caught here> ---
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/twisted/internet/defer.py", line 1128, in _inlineCallbacks
-    result = g.send(result)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/scrapy/crawler.py", line 71, in crawl
-    self.engine = self._create_engine()
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/scrapy/crawler.py", line 83, in _create_engine
-    return ExecutionEngine(self, lambda _: self.stop())
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/scrapy/core/engine.py", line 67, in __init__
-    self.scraper = Scraper(crawler)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/scrapy/core/scraper.py", line 70, in __init__
-    self.itemproc = itemproc_cls.from_crawler(crawler)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/scrapy/middleware.py", line 56, in from_crawler
-    return cls.from_settings(crawler.settings, crawler)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/scrapy/middleware.py", line 38, in from_settings
-    mw = mwcls()
-  File "/home/ubuntu/programming/banker.ai/mcubed/app/vcspider/vcspider/pipelines.py", line 23, in __init__
-    self.con = msc.connect(**config)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/mysql/connector/__init__.py", line 179, in connect
-    return MySQLConnection(*args, **kwargs)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/mysql/connector/connection.py", line 95, in __init__
-    self.connect(**kwargs)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/mysql/connector/abstracts.py", line 719, in connect
-    self._open_connection()
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/mysql/connector/connection.py", line 206, in _open_connection
-    self._socket.open_connection()
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/mysql/connector/network.py", line 475, in open_connection
-    errno=2003, values=(self.get_address(), _strioerror(err)))
-mysql.connector.errors.InterfaceError: 2003: Can't connect to MySQL server on '130.211.154.93:3306' (110 Connection timed out)
-[2015-12-05 20:09:42,964: CRITICAL/Worker-2] 
-[2015-12-05 20:09:42,964: WARNING/Worker-2] 2015-12-05 20:09:42 [twisted] CRITICAL:
-[2015-12-05 20:09:42,966: WARNING/Worker-2] /home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py:365: RuntimeWarning: Exception raised outside body: TypeError("__init__() got an unexpected keyword argument 'socket_connect_timeout'",):
-Traceback (most recent call last):
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py", line 283, in trace_task
-    uuid, retval, SUCCESS, request=task_request,
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 257, in store_result
-    request=request, **kwargs)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 491, in _store_result
-    self.set(self.get_key_for_task(task_id), self.encode(meta))
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
-    return self.ensure(self._set, (key, value), **retry_policy)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
-    **retry_policy
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
-    return fun(*args, **kwargs)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
-    pipe.execute()
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/client.py", line 2149, in execute
-    self.shard_hint)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 455, in get_connection
-    connection = self.make_connection()
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 464, in make_connection
-    return self.connection_class(**self.connection_kwargs)
-TypeError: __init__() got an unexpected keyword argument 'socket_connect_timeout'
-
-  exc, exc_info.traceback)))
-
-[2015-12-05 20:09:42,967: WARNING/Worker-2] 2015-12-05 20:09:42 [py.warnings] WARNING: /home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py:365: RuntimeWarning: Exception raised outside body: TypeError("__init__() got an unexpected keyword argument 'socket_connect_timeout'",):
-Traceback (most recent call last):
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py", line 283, in trace_task
-    uuid, retval, SUCCESS, request=task_request,
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 257, in store_result
-    request=request, **kwargs)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 491, in _store_result
-    self.set(self.get_key_for_task(task_id), self.encode(meta))
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
-    return self.ensure(self._set, (key, value), **retry_policy)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
-    **retry_policy
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
-    return fun(*args, **kwargs)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
-    pipe.execute()
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/client.py", line 2149, in execute
-    self.shard_hint)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 455, in get_connection
-    connection = self.make_connection()
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 464, in make_connection
-    return self.connection_class(**self.connection_kwargs)
-TypeError: __init__() got an unexpected keyword argument 'socket_connect_timeout'
-
-  exc, exc_info.traceback)))
-[2015-12-05 20:09:42,968: CRITICAL/MainProcess] Task app.scrape[8de52158-3cdd-40aa-a803-044924e1bdfb] INTERNAL ERROR: TypeError("__init__() got an unexpected keyword argument 'socket_connect_timeout'",)
-Traceback (most recent call last):
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py", line 283, in trace_task
-    uuid, retval, SUCCESS, request=task_request,
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 257, in store_result
-    request=request, **kwargs)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 491, in _store_result
-    self.set(self.get_key_for_task(task_id), self.encode(meta))
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
-    return self.ensure(self._set, (key, value), **retry_policy)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
-    **retry_policy
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
-    return fun(*args, **kwargs)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
-    pipe.execute()
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/client.py", line 2149, in execute
-    self.shard_hint)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 455, in get_connection
-    connection = self.make_connection()
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 464, in make_connection
-    return self.connection_class(**self.connection_kwargs)
-TypeError: __init__() got an unexpected keyword argument 'socket_connect_timeout'
-[2015-12-05 20:14:25,359: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
-Traceback (most recent call last):
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/worker/consumer.py", line 278, in start
-    blueprint.start(self)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/bootsteps.py", line 123, in start
-    step.start(parent)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/worker/consumer.py", line 821, in start
-    c.loop(*c.loop_args())
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/worker/loops.py", line 76, in asynloop
-    next(loop)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/kombu/async/hub.py", line 267, in create_loop
-    tick_callback()
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/kombu/transport/redis.py", line 947, in on_poll_start
-    cycle_poll_start()
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/kombu/transport/redis.py", line 301, in on_poll_start
-    self._register_BRPOP(channel)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/kombu/transport/redis.py", line 284, in _register_BRPOP
-    self._register(*ident)
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/kombu/transport/redis.py", line 269, in _register
-    client.connection.connect()
-  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 253, in connect
-    raise ConnectionError(self._error_message(e))
-ConnectionError: Error 111 connecting localhost:6379. Connection refused.
-[2015-12-05 20:14:25,369: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379//: Error 111 connecting localhost:6379. Connection refused..
-Trying again in 2.00 seconds...
-
-[25853] 05 Dec 20:14:47.278 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
-[25853] 05 Dec 20:14:47.278 # Unable to set the max number of files limit to 10032 (Operation not permitted), setting the max clients configuration to 3984.
+[19793] 06 Dec 06:10:14.074 # Server started, Redis version 2.6.9
+[19793] 06 Dec 06:10:14.074 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+[19793] 06 Dec 06:10:14.074 * DB loaded from disk: 0.000 seconds
+[19793] 06 Dec 06:10:14.074 * The server is now ready to accept connections on port 6379
+[21577] 06 Dec 06:12:24.438 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
+[21577] 06 Dec 06:12:24.439 # Unable to set the max number of files limit to 10032 (Operation not permitted), setting the max clients configuration to 3984.
+[21577] 06 Dec 06:12:24.439 # Opening port 6379: bind: Address already in use
+[19793] 06 Dec 06:43:56.140 * 100 changes in 300 seconds. Saving...
+[19793] 06 Dec 06:43:56.141 * Background saving started by pid 14775
+[14775] 06 Dec 06:43:56.145 * DB saved on disk
+[14775] 06 Dec 06:43:56.145 * RDB: 4 MB of memory used by copy-on-write
+[19793] 06 Dec 06:43:56.151 * Background saving terminated with success
+[19923] 06 Dec 06:49:51.936 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
+[19923] 06 Dec 06:49:51.936 # Unable to set the max number of files limit to 10032 (Operation not permitted), setting the max clients configuration to 3984.
                 _._                                                  
            _.-``__ ''-._                                             
       _.-``    `.  `_.  ''-._           Redis 2.6.9 (00000000/0) 64 bit
   .-`` .-```.  ```\/    _.,_ ''-._                                   
  (    '      ,       .-`  | `,    )     Running in stand alone mode
  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
- |    `-._   `._    /     _.-'    |     PID: 25853
+ |    `-._   `._    /     _.-'    |     PID: 19923
   `-._    `-._  `-./  _.-'    _.-'                                   
  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
  |    `-._`-._        _.-'_.-'    |           http://redis.io        
@@ -422,19 +50,19 @@ Trying again in 2.00 seconds...
           `-._        _.-'                                           
               `-.__.-'                                               
 
-[25853] 05 Dec 20:14:47.279 # Server started, Redis version 2.6.9
-[25853] 05 Dec 20:14:47.279 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
-[25853] 05 Dec 20:14:47.279 * DB loaded from disk: 0.000 seconds
-[25853] 05 Dec 20:14:47.279 * The server is now ready to accept connections on port 6379
-[26106] 05 Dec 20:24:33.770 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
-[26106] 05 Dec 20:24:33.771 # Unable to set the max number of files limit to 10032 (Operation not permitted), setting the max clients configuration to 3984.
+[19923] 06 Dec 06:49:51.937 # Server started, Redis version 2.6.9
+[19923] 06 Dec 06:49:51.937 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+[19923] 06 Dec 06:49:51.937 * DB loaded from disk: 0.000 seconds
+[19923] 06 Dec 06:49:51.937 * The server is now ready to accept connections on port 6379
+[28020] 06 Dec 06:59:37.137 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
+[28020] 06 Dec 06:59:37.138 # Unable to set the max number of files limit to 10032 (Operation not permitted), setting the max clients configuration to 3984.
                 _._                                                  
            _.-``__ ''-._                                             
       _.-``    `.  `_.  ''-._           Redis 2.6.9 (00000000/0) 64 bit
   .-`` .-```.  ```\/    _.,_ ''-._                                   
  (    '      ,       .-`  | `,    )     Running in stand alone mode
  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
- |    `-._   `._    /     _.-'    |     PID: 26106
+ |    `-._   `._    /     _.-'    |     PID: 28020
   `-._    `-._  `-./  _.-'    _.-'                                   
  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
  |    `-._`-._        _.-'_.-'    |           http://redis.io        
@@ -446,42 +74,19 @@ Trying again in 2.00 seconds...
           `-._        _.-'                                           
               `-.__.-'                                               
 
-[26106] 05 Dec 20:24:33.771 # Server started, Redis version 2.6.9
-[26106] 05 Dec 20:24:33.771 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
-[26106] 05 Dec 20:24:33.771 * DB loaded from disk: 0.000 seconds
-[26106] 05 Dec 20:24:33.771 * The server is now ready to accept connections on port 6379
-[26106] 05 Dec 20:56:05.547 * 100 changes in 300 seconds. Saving...
-[26106] 05 Dec 20:56:05.548 * Background saving started by pid 26416
-[26416] 05 Dec 20:56:05.552 * DB saved on disk
-[26416] 05 Dec 20:56:05.552 * RDB: 4 MB of memory used by copy-on-write
-[26106] 05 Dec 20:56:05.559 * Background saving terminated with success
-[26106] 05 Dec 21:37:45.724 * 100 changes in 300 seconds. Saving...
-[26106] 05 Dec 21:37:45.725 * Background saving started by pid 18644
-[18644] 05 Dec 21:37:45.732 * DB saved on disk
-[18644] 05 Dec 21:37:45.732 * RDB: 4 MB of memory used by copy-on-write
-[26106] 05 Dec 21:37:45.736 * Background saving terminated with success
-[26106] 05 Dec 22:19:25.916 * 100 changes in 300 seconds. Saving...
-[26106] 05 Dec 22:19:25.917 * Background saving started by pid 20281
-[20281] 05 Dec 22:19:25.920 * DB saved on disk
-[20281] 05 Dec 22:19:25.920 * RDB: 4 MB of memory used by copy-on-write
-[26106] 05 Dec 22:19:25.927 * Background saving terminated with success
-[26106] 05 Dec 22:57:46.110 * 100 changes in 300 seconds. Saving...
-[26106] 05 Dec 22:57:46.111 * Background saving started by pid 18884
-[18884] 05 Dec 22:57:46.114 * DB saved on disk
-[18884] 05 Dec 22:57:46.114 * RDB: 4 MB of memory used by copy-on-write
-[26106] 05 Dec 22:57:46.121 * Background saving terminated with success
-[1083] 05 Dec 23:15:51.449 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
-[1083] 05 Dec 23:15:51.450 # Unable to set the max number of files limit to 10032 (Operation not permitted), setting the max clients configuration to 3984.
-[1083] 05 Dec 23:15:51.450 # Opening port 6379: bind: Address already in use
-[1700] 05 Dec 23:16:24.973 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
-[1700] 05 Dec 23:16:24.974 # Unable to set the max number of files limit to 10032 (Operation not permitted), setting the max clients configuration to 3984.
+[28020] 06 Dec 06:59:37.139 # Server started, Redis version 2.6.9
+[28020] 06 Dec 06:59:37.139 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+[28020] 06 Dec 06:59:37.139 * DB loaded from disk: 0.000 seconds
+[28020] 06 Dec 06:59:37.139 * The server is now ready to accept connections on port 6379
+[29365] 06 Dec 07:01:11.689 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
+[29365] 06 Dec 07:01:11.690 # Unable to set the max number of files limit to 10032 (Operation not permitted), setting the max clients configuration to 3984.
                 _._                                                  
            _.-``__ ''-._                                             
       _.-``    `.  `_.  ''-._           Redis 2.6.9 (00000000/0) 64 bit
   .-`` .-```.  ```\/    _.,_ ''-._                                   
  (    '      ,       .-`  | `,    )     Running in stand alone mode
  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
- |    `-._   `._    /     _.-'    |     PID: 1700
+ |    `-._   `._    /     _.-'    |     PID: 29365
   `-._    `-._  `-./  _.-'    _.-'                                   
  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
  |    `-._`-._        _.-'_.-'    |           http://redis.io        
@@ -493,42 +98,7 @@ Trying again in 2.00 seconds...
           `-._        _.-'                                           
               `-.__.-'                                               
 
-[1700] 05 Dec 23:16:24.975 # Server started, Redis version 2.6.9
-[1700] 05 Dec 23:16:24.975 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
-[1700] 05 Dec 23:16:24.975 * DB loaded from disk: 0.000 seconds
-[1700] 05 Dec 23:16:24.975 * The server is now ready to accept connections on port 6379
-[1700] 05 Dec 23:51:16.799 * 100 changes in 300 seconds. Saving...
-[1700] 05 Dec 23:51:16.800 * Background saving started by pid 30644
-[30644] 05 Dec 23:51:16.803 * DB saved on disk
-[30644] 05 Dec 23:51:16.803 * RDB: 4 MB of memory used by copy-on-write
-[1700] 05 Dec 23:51:16.810 * Background saving terminated with success
-[1700] 06 Dec 00:32:57.003 * 100 changes in 300 seconds. Saving...
-[1700] 06 Dec 00:32:57.004 * Background saving started by pid 31796
-[31796] 06 Dec 00:32:57.007 * DB saved on disk
-[31796] 06 Dec 00:32:57.007 * RDB: 4 MB of memory used by copy-on-write
-[1700] 06 Dec 00:32:57.014 * Background saving terminated with success
-[1700] 06 Dec 01:14:37.243 * 100 changes in 300 seconds. Saving...
-[1700] 06 Dec 01:14:37.244 * Background saving started by pid 1171
-[1171] 06 Dec 01:14:37.247 * DB saved on disk
-[1171] 06 Dec 01:14:37.247 * RDB: 4 MB of memory used by copy-on-write
-[1700] 06 Dec 01:14:37.254 * Background saving terminated with success
-[1700] 06 Dec 01:50:18.281 * 100 changes in 300 seconds. Saving...
-[1700] 06 Dec 01:50:18.282 * Background saving started by pid 32041
-[32041] 06 Dec 01:50:18.285 * DB saved on disk
-[32041] 06 Dec 01:50:18.285 * RDB: 4 MB of memory used by copy-on-write
-[1700] 06 Dec 01:50:18.292 * Background saving terminated with success
-[1700] 06 Dec 02:31:17.637 * 100 changes in 300 seconds. Saving...
-[1700] 06 Dec 02:31:17.638 * Background saving started by pid 1403
-[1403] 06 Dec 02:31:17.642 * DB saved on disk
-[1403] 06 Dec 02:31:17.642 * RDB: 4 MB of memory used by copy-on-write
-[1700] 06 Dec 02:31:17.648 * Background saving terminated with success
-[1700] 06 Dec 03:12:57.966 * 100 changes in 300 seconds. Saving...
-[1700] 06 Dec 03:12:57.967 * Background saving started by pid 5364
-[5364] 06 Dec 03:12:57.970 * DB saved on disk
-[5364] 06 Dec 03:12:57.970 * RDB: 4 MB of memory used by copy-on-write
-[1700] 06 Dec 03:12:57.977 * Background saving terminated with success
-[1700] 06 Dec 03:54:38.068 * 100 changes in 300 seconds. Saving...
-[1700] 06 Dec 03:54:38.068 * Background saving started by pid 7011
-[7011] 06 Dec 03:54:38.072 * DB saved on disk
-[7011] 06 Dec 03:54:38.073 * RDB: 4 MB of memory used by copy-on-write
-[1700] 06 Dec 03:54:38.079 * Background saving terminated with success
+[29365] 06 Dec 07:01:11.691 # Server started, Redis version 2.6.9
+[29365] 06 Dec 07:01:11.691 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+[29365] 06 Dec 07:01:11.691 * DB loaded from disk: 0.000 seconds
+[29365] 06 Dec 07:01:11.691 * The server is now ready to accept connections on port 6379
