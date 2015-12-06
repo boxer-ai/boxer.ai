@@ -42,7 +42,7 @@
               <nav>
                 <ul class="nav masthead-nav">
 
-                  <!-- this is clearly a dumb way to do this, but i'm just learning flask -->
+                  <!-- this is clearly a dumb way to do this -->
                   <li class = "{{ h1 }}"><a href="{{ url_for('index') }}">Home</a></li>
                   <li class = "{{ h2 }}"><a href="{{ url_for('about') }}">About</a></li>
                   <li class = "{{ h3 }}"><a href="{{ url_for('contact') }}">Contact</a></li>
@@ -63,11 +63,11 @@
             {% endif %}
           {% endwith %}
 
-          <div class="mastfoot">
-            <div class="inner">
-              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-            </div>
-          </div>
+          <!--<div class="mastfoot">-->
+          <!--  <div class="inner">-->
+          <!--    <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>-->
+          <!--  </div>-->
+          <!--</div>-->
 
         </div>
 

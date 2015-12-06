@@ -15,7 +15,7 @@ class UserInputPipeline(object):
         config =  {
             'user': 'root',
             'password': 'uLFZ2WoB',
-            'host': '130.211.154.93',
+            'host': '23.251.151.184',
             'database': 'test'
         }
         self.MYSQL_TABLE_SU = 'crunchbase_startups'

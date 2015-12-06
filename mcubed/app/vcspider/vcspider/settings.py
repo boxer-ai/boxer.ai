@@ -38,7 +38,7 @@ MYSQL_TABLE_SU = 'crunchbase_startups'
 MYSQL_GSA_CONFIG = {
     'user': 'root',
     'password': 'uLFZ2WoB',
-    'host': '130.211.154.93',
+    'host': '23.251.151.184',
     'database': 'test'
 }
 

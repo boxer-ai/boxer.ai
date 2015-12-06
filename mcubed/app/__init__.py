@@ -2,30 +2,35 @@ from __future__ import division
 
 from flask import Flask, g, session
 from flask import render_template, flash, redirect, url_for
-from flask import request
+from flask import request, send_file
 from .forms import SiteForm
 from flask.ext.session import Session
 from celery import Celery, task
 from flask.ext.mysql import MySQL
 from flask.ext.sqlalchemy import SQLAlchemy
 
+import io
 import re
 import ast
 import time
-import numpy as np
-from collections import namedtuple
+from collections import namedtuple, defaultdict
 from operator import itemgetter
+import base64
+import locale
 
 import mysql.connector as msc
 import cortipy
+from cortical.imageApi import ImageApi
+from cortical.client import ApiClient
+from cortical.textApi import TextApi
 from scrapy.crawler import CrawlerProcess
 from vcspider.vcspider.spiders import solo
 from vcspider.vcspider.pipelines import UserInputPipeline
 
 
 """
-This code needs a lot of cleaning. It's okay periodically, but is generally haphazard,
-mirroring its genesis.
+This code needs a lot of cleaning. It's okay periodically, but is generally 
+haphazard, mirroring its genesis.
 """
 
 def make_celery(app):
@@ -44,6 +49,7 @@ def make_celery(app):
     celery.Task = ContextTask
     return celery
 
+# init flask
 app = Flask(__name__)
 app.config.from_object('config') # mysql conn, cortical api key
 
@@ -62,7 +68,7 @@ mysql.init_app(app)
 # seeeeecret key. get your own.
 client = cortipy.CorticalClient(app.config['CORTIPY_API_KEY'])
 
-# some light-weight data structures
+# some light-weight data structures...probably should be classes.
 Site = namedtuple('Site', 'siteurl text')
 CSite = namedtuple('CorticalSite', 'siteurl text fingerprint keywords')
 
@@ -89,13 +95,14 @@ def get_site(siteurl):
     con = mysql.connect()
     cur = con.cursor()
 
+    # mysql calls to be moved to one global call, also stored procs
     sql = """SELECT text FROM crunchbase_startups WHERE siteurl = %s"""
     cur.execute(sql, (siteurl,))
     text = cur.fetchone()
     con.commit()
 
     if text != None: # if site already scraped
-        flash('Site already scraped, proceeding with analysis...')
+        # flash('Site already scraped, proceeding with analysis...')
 
         sql = """SELECT siteurl, text, cortical_io, cortical_io_keywords 
                 FROM crunchbase_startups WHERE siteurl = %s"""
@@ -107,10 +114,12 @@ def get_site(siteurl):
         fingerprint = ast.literal_eval(fingerprint) 
         if isinstance(fingerprint, dict): fingerprint = fingerprint['positions'] # this is dumb, fix later
 
+        con.close()
+        
         return CSite(siteurl, text, fingerprint, [keywords])
 
     else: # scrape site
-        flash('Trying to scrape site: {}'.format(siteurl))
+        # flash('Trying to scrape site: {}'.format(siteurl))
         scraper = scrape.delay(siteurl)
 
         # loop until results are populated
@@ -131,7 +140,7 @@ def getSDRDist(site1, site2, metric = 'euclideanDistance'):
 
 def makeSDR(text, siteurl = 'TextInput', isText = 0):
     """
-    Makes an SDR and associated keywords for input site or text.
+    Makes an SDR and associated keywords for input site or text.  This is only called if there is no SDR made before. 
     """
 
     site_corticalmap = client.createClassification(siteurl, [text[0]], "")
@@ -155,7 +164,8 @@ def makeSDR(text, siteurl = 'TextInput', isText = 0):
         cur.execute(sql, (text, str(site_corticalmap), ','.join(site_keywords)))
 
     con.commit()
-
+    con.close()
+    
     return CSite(siteurl, text, site_corticalmap['positions'], [site_keywords])
 
 def loadVCList():
@@ -166,7 +176,8 @@ def loadVCList():
     cur = con.cursor()
 
     # load ALL VCs into memory - not site text, so it's manageable
-    sql = """SELECT siteurl, cortical_io, cortical_io_keywords 
+    sql = """SELECT 
+    siteurl, cortical_io, cortical_io_keywords, Name, AUMf, Incorporated, Form
     FROM vctest4
     WHERE 
         NULLIF(text, '') IS NOT NULL 
@@ -175,6 +186,7 @@ def loadVCList():
 
     cur.execute(sql)
     con.commit()
+    con.close()
 
     vcList = cur.fetchall() 
 
@@ -201,12 +213,14 @@ def cosSim(l1, l2):
     overlap = len(set(l1) & set(l2))
     totsize = len(l1) * len(l2)
 
-    return overlap / np.sqrt(totsize)
+    return overlap / (totsize ** (0.5))
 
 def getMatch(startup):
     """Find top three matches for the given startup based on both Euclidean distance
-    and Cosine similarity (calculated per cortical's API, not really mappable to 
-    traditional definitions, ESPECIALLY cosine similarity.)
+    and Cosine similarity.
+    
+    Returns a tuple of grand total top matches, and top matches for each metric.
+    Also returns basic site info for the matches.
     """
 
     vcList = loadVCList()
@@ -221,13 +235,33 @@ def getMatch(startup):
         scoreCos = cosSim(startup.fingerprint, ast.literal_eval(vc[1]))
         scoresCos.append(tuple([vc[0], scoreCos]))
 
-    scoresEuc = sorted(scoresEuc, key = itemgetter(1))
-    scoresCos = sorted(scoresCos, key = itemgetter(1), reverse = True)
-    
-    flash('Euclidean: {}'.format(scoresEuc[:3]))
-    flash('Cosine: {}'.format(scoresCos[:3])) 
+    scoresEuc = sorted(scoresEuc, key = itemgetter(1))[:3]
+    scoresCos = sorted(scoresCos, key = itemgetter(1), reverse = True)[:3]
 
-    return tuple((scoresEuc, scoresCos))
+    scoresNetList = getNet(list((scoresEuc, scoresCos)))
+    
+    scoresNet = [vc for vc in vcList if vc[0] in scoresNetList[::-1]]
+    
+    return tuple((scoresNet, scoresEuc, scoresCos))
+
+def getNet(metrics):
+    
+    sNet = defaultdict(int)
+    wlist = list()
+    
+    for mt in metrics: 
+        maxscore = len(mt); 
+        for vc in mt: 
+            sNet[vc[0]] += maxscore
+            maxscore -= 1;
+    
+    # could implement an ordered default dict, but another day
+    while len(sNet) > 0:
+        mhold = max(sNet.iteritems(), key=itemgetter(1))[0]
+        wlist.append(mhold)
+        del sNet[mhold]
+        
+    return wlist
 
 ###############
 # BEGIN VIEWS #
@@ -268,21 +302,24 @@ def process():
         sitedata = makeSDR(tuple((siteinput,)), isText = 1) # this tuple is awful
 
     elif descr == None:
-        siteurl = request.args.get('siteinput')
-        sitedata = get_site(siteurl)
+        descr = 'n'
+        siteinput = request.args.get('siteinput')
+        sitedata = get_site(siteinput)
 
         if isinstance(sitedata, Site):
             sitedata = makeSDR(sitedata.text, sitedata.siteurl)
 
-
-    flash('Keywords for site {}: {}'.format(sitedata.siteurl, sitedata.keywords))
-    flash('Getting best match...')
-
     matches = getMatch(sitedata)
-
+    scoresNet = matches[0]
+    scoresEuc = matches[1]
+    scoresCos = matches[2]
+    
     return render_template('process.html',
                             title = 'Results',
                             h1 = "inactive", h2 = "inactive", h3 = "inactive",
+			                siteinput = siteinput, descr = descr, 
+			                sitekeywords = sitedata.keywords,
+			                net = scoresNet, euc = scoresEuc, cos = scoresCos
                             )  
 
 @app.route('/input', methods=['GET', 'POST'])
@@ -299,6 +336,36 @@ def input():
                             h3 = "inactive",
                             form = form)   
 
+@app.route('/fig/<siteinput>/<descr>/<isVC>/fingerprint.png')
+def fingerplot(siteinput, descr, isVC):
+    client = ApiClient(app.config['CORTIPY_API_KEY'], apiServer="http://api.cortical.io/rest")
+    
+    if descr == 'n':
+        # flash('website!')
+        con = mysql.connect()
+        cur = con.cursor()
+        
+        if isVC == "y":
+            sql = """SELECT text FROM vctest4 WHERE siteurl = %s"""
+        else:
+            sql = """SELECT text FROM crunchbase_startups WHERE siteurl = %s"""
+        cur.execute(sql, (siteinput,))
+        
+        con.commit()
+        
+        body = cur.fetchall()[0]
+        body = re.sub(r'\"', '', str(body))
+        body = '{"text":"%s"}' % body
+    
+    elif descr == 'y':
+        # flash('description!')
+        body = siteinput
+        body = '{"text":"%s"}' % body
+        
+    terms = ImageApi(client).getImageForExpression("en_synonymous", body, 2, "square","base64/png", '1.0')
+    terms = terms.decode('base64')
+    
+    return send_file(io.BytesIO(terms), mimetype='image/png')
 
 
 

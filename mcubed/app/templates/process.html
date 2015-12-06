@@ -1,10 +1,125 @@
 {% extends "base.html" %}
 
 {% block content %}
-
+	
+	<style>
+		a.results-links { color: #404040;}
+		a:hover.results-links { color: #737373; }
+		a:visited.results-links { color: #00000; }
+	</style>
+	<script>
+		$(function () {
+		  $('[data-toggle="popover"]').popover()
+		})
+	</script>
+	
 	<div class="inner cover">
-		<h1 class="cover-heading">Your results!</h1>
+		
+	  {% if descr == 'n' %}
+		<h1 class="cover-heading" style="padding-top:100px;">{{ siteinput }}</h1>
+	  {% else %}
+	    <h1 class="cover-heading" style="padding-top:100px;">Analysis</h1>
+	  {% endif %}
+		<hr>
+		<p class="lead">Uncollapse the below tabs to view what we've got for you.</h4>
+		<br>
+		
+		<div class="panel-group" id="accordion" 
+			style = "text-shadow:None;">
+		  <div class="panel panel-default">
+		    <div class="panel-heading" style = "background-color:#d9d9d9;">
+		      <h4 class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"
+		         class = "results-links">
+		        Best Matches</a>
+		      </h4>
+		    </div>
+		    <div id="collapse1" class="panel-collapse collapse">
+		      <div class="panel-body" style = "color: black; background-color:#f2f2f2;" >
+		      We think these three sites are your best bet. Go check them out!
+		      <br><br>
+				  <table class="table">
+				   <thead>
+		            <tr>
+		              <th>VC Name</th>
+		              <th>Website</th>
+		              <th>Incorporated</th>
+		              <th>AUM</th>
+		            </tr>
+		          </thead>
+		          <tbody>
+		          	<tr>
+		          	  <th>{{ net[0][3] }}</th>
+		          	  <th><a class = "results-links" href = "http://{{ net[0][0] }}">http://www.{{ net[0][0] }}</a></th>
+		          	  <th>{{ net[0][5] }}</th>
+		          	  <th>{{ net[0][4] }}</th>
+		          	</tr>
+		        	<tr>
+		          	  <th>{{ net[1][3] }}</th>
+		          	  <th><a class = "results-links" href = "http://{{ net[1][0] }}">http://www.{{ net[1][0] }}</a></th>
+		          	  <th>{{ net[1][5] }}</th>
+		          	  <th>{{ net[1][4] }}</th>
+		          	</tr>
+		        	<tr>
+		          	  <th>{{ net[2][3] }}</th>
+		          	  <th><a class = "results-links" href = "http://{{ net[2][0] }}">http://www.{{ net[2][0] }}</a></th>
+		          	  <th>{{ net[2][5] }}</th>
+		          	  <th>{{ net[2][4] }}</th>
+		          	</tr>
+		          </tbody>
+			  	</table>
+		      </div>
+		    </div>
+		  </div>
+		  
+		  <div class="panel panel-default">
+		    <div class="panel-heading" style = "background-color:#d9d9d9;">
+		      <h4 class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"
+		        class = "results-links">
+		        Fingerprints</a>
+		      </h4>
+		    </div>
+		    <div id="collapse2" class="panel-collapse collapse">
+		      <div class="panel-body" style = "color: black; background-color:#f2f2f2;">
+		      	We've generated a unique fingerprint for you and your nearest matches.
+		      	Hover over each fingerprint to find the keywords associated with each site.
+		      	<br><br>
+		      	<span>
+		      		<img src = "{{ url_for('fingerplot', siteinput = siteinput, descr = descr, isVC = 'n') }}" 
+					data-toggle="popover" data-trigger="hover" title="Keywords" data-content=" {{ sitekeywords }}"
+					alt="" class = "img-thumbnail img-responsive" >
+					<img src = "{{ url_for('fingerplot', siteinput = net[0][0], descr = descr, isVC = 'y') }}" 
+					alt="{{ net[0][2] }}" class = "img-thumbnail img-responsive"  >
+		      	</span>
+		      	
+		      </div>
+		    </div>
+		  </div>
+		  <div class="panel panel-default">
+		    <div class="panel-heading" style = "background-color:#d9d9d9;">
+		      <h4 class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"
+		        class = "results-links">
+		        Details</a>
+		      </h4>
+		    </div>
+		    <div id="collapse3" class="panel-collapse collapse">
+		      <div class="panel-body" style = "color: black; background-color:#f2f2f2;">
+		      	Here's some more information about how we calculateded your results.
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<p class="lead">
+			We're constantly looking for ways to enrich and improve this data for you.
+			Look in the future for more information, more metrics, and more data 
+			underpinning our algorithms. In other words, we're just getting started,
+			so stick around.
+			</h4>
+		<br><br><br>
 	</div>
+	
 
 
 {% endblock %}
