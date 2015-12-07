@@ -8,7 +8,17 @@
 		a:visited.results-links { color: #00000; }
 		.popover-kw { max-width: 350px; }
 	</style>
-	
+	{% if sitekeywords|length <= 3 %}
+		<div style = "margin-top: 50%;position:relative;top:-230px;">
+			<h1 class="cover-heading">Oops.</h1>
+			<p class="lead">Something went wrong. We're guessing that the site you 
+			entered is unscrapable (which we take as a challenge), or that we simply didn't find enough data
+			to say anything intelligent.<br><br>
+			It's also possible we're still trying to scrape your website, so come back and try the same site
+			 in 10 minutes. We'll differentiate the error messages soon.<br><br>
+			Either way, we're working on it! Shoot us an <a href = "mailto:jmontroy90@gmail.com">email</a>, let us know what happened</p>
+		</div>
+	{% else %}
 	<div class="inner cover">
 		
 	  {% if descr == 'n' %}
@@ -105,7 +115,7 @@
 							data-trigger="hover" 
 							data-placement = "right"
 							data-content=" {{ net[0][2]|replace(",", ", ") }} "
-							alt="" class = "img-thumbnail img-responsive popover-kw"  >
+							alt="" class = "img-thumbnail img-responsive popover-kw">
 			      	</div>
 		      	</div> 	
 		      </div>
@@ -126,6 +136,8 @@
 		    </div>
 		  </div>
 		</div>
+		<a href="{{ url_for('input') }}">Again?</a>
+		<br><br>
 		<p class="lead">
 			We're constantly looking for ways to enrich and improve this data for you.
 			Look in the future for more information, more metrics, and more data 
@@ -135,6 +147,7 @@
 		<br><br><br>
 	</div>
 	
+	{% endif %}
 
 
 {% endblock %}

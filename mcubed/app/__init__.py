@@ -109,8 +109,6 @@ def get_site(siteurl):
     con.commit()
 
     if text != None: # if site already scraped
-        # flash('Site already scraped, proceeding with analysis...')
-
         sql = """SELECT siteurl, text, cortical_io, cortical_io_keywords 
                 FROM crunchbase_startups WHERE siteurl = %s"""
 
@@ -124,18 +122,38 @@ def get_site(siteurl):
         con.close()
         
         return CSite(siteurl, text, fingerprint, keywords)
-
-    else: # scrape site
-        # flash('Trying to scrape site: {}'.format(siteurl))
+    
+    # scrape site
+    else: 
+        # ksdhf
         scraper = scrape.delay(siteurl)
 
         # loop until results are populated
+        breaker = 0
         while text == None:
             cur.execute(sql, (siteurl,))
             text = cur.fetchone()
             con.commit()
             time.sleep(1) # wait to try again
-
+            breaker += 1
+            if breaker == 180: break
+          
+        # last resort
+        breaker = 0     
+        sql = """SELECT text FROM crunchbase_startups WHERE siteurl LIKE %s"""
+        while text == None:
+            cur.execute(sql, ('%' + siteurl + '%',))
+            text = cur.fetchone()
+            con.commit()
+            time.sleep(1) # wait to try again
+            breaker += 1
+            if breaker == 30: 
+                text = list(['Unable to scrape.']) # error case    
+                break
+        
+        if re.sub(r'\s+', '', text[0]) == '':
+            text = list(['Unable to scrape.'])
+            
         return Site(siteurl, text)
 
 def getSDRDist(site1, site2, metric = 'euclideanDistance'):
@@ -307,7 +325,7 @@ def process():
     if descr == 'y':
         siteinput = request.args.get('siteinput')
         sitedata = makeSDR(tuple((siteinput,)), isText = 1) # this tuple is awful
-
+        
     elif descr == None:
         descr = 'n'
         siteinput = request.args.get('siteinput')
@@ -316,11 +334,17 @@ def process():
 
         if isinstance(sitedata, Site):
             sitedata = makeSDR(sitedata.text, sitedata.siteurl)
-            
-    matches = getMatch(sitedata)
-    scoresNet = matches[0]
-    scoresEuc = matches[1]
-    scoresCos = matches[2]
+    
+    # only get matches if we have data!
+    if len(sitedata.keywords) > 3:
+        matches = getMatch(sitedata)
+        scoresNet = matches[0]
+        scoresEuc = matches[1]
+        scoresCos = matches[2]
+    
+    else:
+        scoresNet, scoresEuc, scoresCos = None, None, None
+    
     
     return render_template('process.html',
                             title = 'Results',
