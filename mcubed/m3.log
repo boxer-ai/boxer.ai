@@ -4,21 +4,2094 @@
  * Restarting with reloader
 /home/ubuntu/programming/banker.ai/mcubed/app/vcspider/vcspider/pipelines.py:3: ScrapyDeprecationWarning: Module `scrapy.conf` is deprecated, use `crawler.settings` attribute instead
   from scrapy.conf import settings
-173.63.127.167 - - [06/Dec/2015 07:03:26] "GET /index HTTP/1.1" 200 -
-173.63.127.167 - - [06/Dec/2015 07:03:30] "GET /input HTTP/1.1" 200 -
-173.63.127.167 - - [06/Dec/2015 07:03:41] "GET /process?siteinput=weespring.com HTTP/1.1" 200 -
-173.63.127.167 - - [06/Dec/2015 07:03:44] "GET /fig/weespring.com/n/n/fingerprint.png HTTP/1.1" 200 -
-173.63.127.167 - - [06/Dec/2015 07:04:09] "GET /fig/tscp.com/n/y/fingerprint.png HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:11:20] "GET /process?siteinput=barleyandoats.com HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:11:20] "GET / HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:11:27] "GET /process?siteinput=barleyandoats.com HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:11:27] "GET / HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:11:27] "GET / HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:11:27] "GET / HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:11:28] "GET / HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:11:28] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:28] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:28] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:29] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:29] "GET /images/flags/US.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:29] "GET /images/flags/DE.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:29] "GET /images/flags/GB.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:29] "GET /images/flags/FR.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:29] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:29] "GET /images/flags/RO.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:30] "GET /images/flags/IT.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:30] "GET /images/flags/ES.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:30] "GET /images/flags/BR.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:30] "GET /images/flags/JP.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:30] "GET /images/flags/TR.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:31] "GET /about HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:11:33] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:11:34] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:34] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:34] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:34] "GET /images/flags/US.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:34] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:34] "GET /images/flags/DE.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:34] "GET /images/flags/GB.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:35] "GET /images/flags/FR.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:35] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:35] "GET /images/flags/RO.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:35] "GET /images/flags/IT.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:35] "GET /images/flags/ES.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:35] "GET /images/flags/BR.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:36] "GET /images/flags/JP.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:11:36] "GET /images/flags/TR.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:14:18] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:14:18] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:14:18] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:14:18] "GET /static/css/cover.css HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:14:19] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:14:19] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:14:19] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:14:19] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:14:19] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:14:19] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:14:20] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:14:20] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:14:36] "GET /about HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:14:40] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:14:40] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:14:40] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:14:40] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:14:40] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:14:41] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:14:58] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:14:58] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:14:58] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:14:59] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:14:59] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:14:59] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:14:59] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:14:59] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:14:59] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:14:59] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:15:00] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:15:00] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:19:53] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:19:53] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:19:54] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:19:54] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:19:54] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:19:54] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:19:54] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:19:54] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:19:55] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:19:55] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:19:55] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:19:55] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:23:59] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:24:00] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:24:00] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:24:00] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:00] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:24:00] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:01] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:01] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:01] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:24:01] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:24:01] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:02] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:24:02] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:24:02] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:24:02] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:24:03] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:03] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:03] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:24:03] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:03] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:03] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:24:03] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:24:04] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:04] "GET /about HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:24:05] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:05] "GET /contact HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:24:06] "GET /static/img/john.jpg HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:24:06] "GET /static/img/avi.jpg HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:24:06] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:07] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:24:07] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:07] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:07] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:07] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:08] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:39] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:24:40] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:24:40] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:24:40] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:24:40] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:40] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:41] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:41] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:41] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:24:41] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:24:41] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:42] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:24:57] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:24:58] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:24:58] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:24:58] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:58] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:58] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:24:59] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:59] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:24:59] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:24:59] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:24:59] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:25:00] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:25:14] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:25:15] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:25:15] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:25:15] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:25:15] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:25:15] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:25:15] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:25:16] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:25:16] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:25:16] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:25:16] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:25:17] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:25:20] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:25:20] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:25:21] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:25:21] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:25:21] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:25:21] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:25:21] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:25:21] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:25:22] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:25:22] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:25:22] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:25:22] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:26:28] "GET /about HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:26:28] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:26:29] "GET /contact HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:26:30] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:26:30] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:26:30] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:26:30] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:26:31] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:26:31] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:26:31] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:26:45] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:26:46] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:26:46] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:26:46] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:26:46] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:26:46] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:26:47] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:26:47] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:26:47] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:26:47] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:26:47] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:26:48] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:26:58] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:26:59] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:26:59] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:26:59] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:26:59] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:26:59] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:26:59] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:27:00] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:27:00] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:27:00] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:27:01] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:27:07] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:27:07] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:27:07] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:27:07] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:27:07] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:27:08] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:27:08] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:27:08] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:27:08] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:27:08] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:27:09] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:27:28] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:27:28] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:27:28] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:27:29] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:27:29] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:27:29] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:27:29] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:27:29] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:27:29] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:27:30] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:27:30] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:27:34] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:27:35] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:27:35] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:27:35] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:27:35] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:27:35] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:27:35] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:27:36] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:27:36] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:27:36] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:27:36] "GET /images/flags/US.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:27:36] "GET /images/flags/DE.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:27:36] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:27:36] "GET /images/flags/GB.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:27:37] "GET /images/flags/FR.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:27:37] "GET /images/flags/RO.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:27:37] "GET /images/flags/IT.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:27:37] "GET /images/flags/ES.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:27:37] "GET /images/flags/BR.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:27:37] "GET /images/flags/JP.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:27:38] "GET /images/flags/TR.png HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:27:38] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:27:59] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:28:00] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:28:00] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:28:00] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:28:00] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:28:00] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:28:00] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:28:00] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:28:01] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:28:01] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:28:01] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:28:02] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:28:24] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:28:25] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:28:25] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:28:25] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:28:25] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:28:25] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:28:25] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:28:26] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:28:26] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:28:26] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:28:27] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:28:54] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:28:55] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:28:55] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:28:55] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:28:55] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:28:55] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:28:56] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:28:56] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:28:56] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:28:56] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:28:57] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:29:02] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:29:02] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:29:02] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:29:03] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:29:03] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:29:03] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:29:03] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:29:03] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:29:03] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:29:04] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:29:04] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:29:10] "GET /about HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:29:11] "GET /contact HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:29:16] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:29:16] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:29:16] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:29:16] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:29:16] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:29:32] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:29:32] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:29:33] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:29:33] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:29:33] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:29:33] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:29:33] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:29:33] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:29:33] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:29:34] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:29:34] "GET /contact HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:29:34] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:29:35] "GET /about HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:29:37] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:29:37] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:29:37] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:29:38] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:29:38] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:29:46] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:29:47] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:29:47] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:29:47] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:29:47] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:29:47] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:29:47] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:29:48] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:29:48] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:29:48] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:29:48] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:30:28] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:30:28] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:30:28] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:30:28] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:30:28] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:30:29] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:30:29] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:30:29] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:30:29] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:30:29] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:30:29] "GET /screenshot.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:30:30] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:31:26] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:31:27] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:31:27] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:31:27] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:31:27] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:31:27] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:31:27] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:31:27] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:31:28] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:31:28] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:31:28] "GET /screenshot.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:31:29] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:31:30] "GET /about HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:31:31] "GET /screenshot.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:31:32] "GET /contact HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:31:33] "GET /screenshot.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:31:37] "GET / HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:31:37] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:31:37] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:31:37] "GET /screenshot.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:31:38] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:31:38] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:34:33] "GET / HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:34:33] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:34:34] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:34:34] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:34:34] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:34:34] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:34:34] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:34:34] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:34:34] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:34:35] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:34:35] "GET /screenshot.jpg HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:34:35] "GET /movie.mp4 HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:34:36] "GET /movie.webm HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:34:36] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:34:52] "GET / HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:34:53] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:34:53] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:34:53] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:34:53] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:34:53] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:34:54] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:34:54] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:34:54] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:34:54] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:34:55] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:36:53] "GET / HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:36:54] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:36:54] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:36:54] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:36:54] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:36:54] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:36:54] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:36:55] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:36:55] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:36:55] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:36:56] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:37:22] "GET /input HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:37:31] "GET /input HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:37:49] "GET /input HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:37:50] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:37:50] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:37:50] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:37:50] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:37:50] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:37:51] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:38:24] "GET /input HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:38:24] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:38:24] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:38:25] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:38:25] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:38:25] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 06:38:26] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:38:30] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 06:38:30] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:38:30] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:38:31] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 06:38:31] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 15:49:40] "GET /index HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 15:49:40] "GET /static/css/cover.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 15:49:40] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 15:49:40] "GET /css/bootstrap.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 15:49:40] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 15:49:41] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 15:49:41] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 15:49:41] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+151.202.21.221 - - [05/Feb/2016 15:49:41] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 15:49:41] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+151.202.21.221 - - [05/Feb/2016 15:49:42] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+151.202.21.221 - - [05/Feb/2016 15:49:43] "GET /input HTTP/1.1" 200 -
+66.249.83.99 - - [05/Feb/2016 15:49:57] "GET / HTTP/1.1" 200 -
+66.249.83.97 - - [05/Feb/2016 15:49:57] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 16:19:26] "GET / HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 16:19:27] "GET / HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 16:19:27] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 16:19:27] "GET /css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 16:19:27] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 16:19:28] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 16:19:28] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 16:19:28] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 16:19:28] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 16:19:28] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 16:19:28] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 16:19:29] "GET /css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 16:19:29] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 16:19:29] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 16:19:29] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 16:19:30] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 16:19:37] "GET /process?siteinput=moka5.com HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 16:19:39] "GET /fig/silverlake.com/n/y/fingerprint.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 16:19:42] "GET /fig/moka5.com/n/n/fingerprint.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 16:19:57] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 16:19:58] "GET /css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 16:19:59] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 16:19:59] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 16:19:59] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 16:20:57] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 16:21:14] "GET /static/img/loadingimage2.gif HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 16:21:59] "GET /process?siteinput=upscored.com HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 16:22:01] "GET /fig/upscored.com/n/n/fingerprint.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 16:22:03] "GET /fig/scm-lp.com/n/y/fingerprint.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 16:23:42] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 16:23:42] "GET /css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 16:23:43] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 16:23:43] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 16:23:43] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 16:23:44] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 16:24:52] "GET /process?siteinput=wayup.com HTTP/1.1" 200 -
+70.213.5.52 - - [05/Feb/2016 17:59:06] "GET /input HTTP/1.1" 200 -
+70.213.5.52 - - [05/Feb/2016 17:59:07] "GET /static/css/cover.css HTTP/1.1" 200 -
+70.213.5.52 - - [05/Feb/2016 17:59:07] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+70.213.5.52 - - [05/Feb/2016 17:59:07] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 200 -
+70.213.5.52 - - [05/Feb/2016 17:59:08] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+70.213.5.52 - - [05/Feb/2016 17:59:08] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 18:12:34] "GET / HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 18:12:34] "GET /css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 18:12:34] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 18:12:35] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 18:12:35] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:07:53] "GET / HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:07:54] "GET /static/css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:07:54] "GET /static/css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:07:54] "GET /css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:07:54] "GET /js/jquery-1.10.2.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:07:54] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:07:55] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:07:55] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:07:55] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:07:55] "GET /static/js/jquery-1.10.2.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:07:55] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:09:08] "GET / HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:09:08] "GET /static/css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:09:08] "GET /static/css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:09:08] "GET /static/js/jquery-1.10.2.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:09:09] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:09:09] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:09:09] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:09:25] "GET / HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:09:25] "GET /static/css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:09:25] "GET /static/css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:09:25] "GET /static/js/jquery-1.10.2.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:09:25] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:09:26] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:09:26] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:09:30] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:09:30] "GET /static/css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:09:30] "GET /static/css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:09:30] "GET /static/js/jquery-1.10.2.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:09:30] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:09:41] "GET /process?siteinput=kaplancleantech.com HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:09:42] "GET /static/css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:09:42] "GET /static/css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:09:42] "GET /static/js/jquery-1.10.2.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:09:45] "GET /fig/kaplancleantech.com/n/n/fingerprint.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:09:47] "GET /fig/elcomanagement.com/n/y/fingerprint.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:09:47] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:12:40] "GET / HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:12:41] "GET /static/css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:12:41] "GET /static/css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:12:41] "GET /static/js/jquery-1.10.2.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:12:41] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:12:46] "GET /about HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:12:46] "GET /static/css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:12:47] "GET /static/css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:12:47] "GET /static/js/jquery-1.10.2.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:12:47] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:12:48] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:12:48] "GET /static/css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:12:48] "GET /static/css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:12:49] "GET /static/js/jquery-1.10.2.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:12:49] "GET /static/img/avi.jpg HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:12:49] "GET /static/img/john.jpg HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:12:49] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:12:49] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:12:50] "GET /static/css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:12:50] "GET /static/css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:12:50] "GET /static/js/jquery-1.10.2.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:12:50] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:12:52] "GET /about HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:12:52] "GET /static/css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:12:52] "GET /static/css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:12:52] "GET /static/js/jquery-1.10.2.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:12:52] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:12:56] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:12:56] "GET /static/css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:12:56] "GET /static/js/jquery-1.10.2.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:12:57] "GET /static/css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:12:57] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:13:04] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:13:04] "GET /static/css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:13:04] "GET /static/css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:13:04] "GET /static/js/jquery-1.10.2.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:13:05] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:13:47] "GET /static/css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:15:29] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:15:30] "GET /static/css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:15:30] "GET /static/css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:15:30] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:15:30] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:15:30] "GET /static/js/jquery-1.10.2.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:15:31] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:15:33] "GET /about HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:15:33] "GET /static/css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:15:33] "GET /static/css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:15:33] "GET /static/js/jquery-1.10.2.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:15:34] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:15:34] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:15:35] "GET /static/css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:15:35] "GET /static/css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:15:35] "GET /static/js/jquery-1.10.2.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:15:35] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:15:37] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:15:38] "GET /static/css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:15:38] "GET /static/css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:15:38] "GET /static/js/jquery-1.10.2.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:15:38] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:15:41] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:15:42] "GET /static/css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:15:42] "GET /static/css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:15:42] "GET /static/js/jquery-1.10.2.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:15:42] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:15:46] "GET /testa HTTP/1.1" 404 -
  * Detected change in '/home/ubuntu/programming/banker.ai/mcubed/app/__init__.py', reloading
  * Restarting with reloader
 /home/ubuntu/programming/banker.ai/mcubed/app/vcspider/vcspider/pipelines.py:3: ScrapyDeprecationWarning: Module `scrapy.conf` is deprecated, use `crawler.settings` attribute instead
   from scrapy.conf import settings
-173.63.127.167 - - [06/Dec/2015 07:06:24] "GET /process?siteinput=weespring.com HTTP/1.1" 200 -
-173.63.127.167 - - [06/Dec/2015 07:06:24] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
-173.63.127.167 - - [06/Dec/2015 07:06:24] "GET /static/css/cover.css HTTP/1.1" 304 -
-173.63.127.167 - - [06/Dec/2015 07:06:24] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
-173.63.127.167 - - [06/Dec/2015 07:06:25] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
-173.63.127.167 - - [06/Dec/2015 07:06:25] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
-173.63.127.167 - - [06/Dec/2015 07:06:27] "GET /fig/weespring.com/n/n/fingerprint.png HTTP/1.1" 200 -
-173.63.127.167 - - [06/Dec/2015 07:06:46] "GET /fig/related.com/n/y/fingerprint.png HTTP/1.1" 200 -
-173.63.127.167 - - [06/Dec/2015 07:06:46] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:16:10] "GET /testa HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/programming/banker.ai/mcubed/app/__init__.py", line 319, in testa
+    h3 = "inactive")
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 774, in _load_template
+    cache_key = self.loader.get_source(self, name)[1]
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/templating.py", line 64, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: testa.html
+207.237.149.238 - - [05/Feb/2016 19:16:10] "GET /testa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:16:11] "GET /testa?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:16:11] "GET /testa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:16:11] "GET /testa?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:16:11] "GET /testa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:16:11] "GET /testa?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:16:11] "GET /testa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:17:38] "GET /testa HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:17:40] "GET /null HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:17:49] "GET /null HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:17:50] "GET /null HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:18:05] "GET /null HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:18:06] "GET /null HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:18:14] "GET /null HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:18:15] "GET /null HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:18:16] "GET /null HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:18:28] "GET / HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:18:28] "GET /static/css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:18:28] "GET /static/css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:18:28] "GET /static/js/jquery-1.10.2.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:18:28] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:22:28] "GET / HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:22:29] "GET /css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:22:29] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:22:29] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:22:29] "GET /static/css/cover.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:22:29] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:22:30] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:22:30] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:22:30] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:22:33] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:22:33] "GET /css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:22:33] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:22:35] "GET /about HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:22:35] "GET /css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:22:36] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:22:37] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:22:37] "GET /css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:22:38] "GET /css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:22:44] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:22:44] "GET /static/js/jquery-1.10.2.js HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:22:44] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:22:44] "GET /static/css/bootstrap.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:22:44] "GET /static/css/coming-sssoon.css HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:22:45] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:22:45] "GET /images/video_bg.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:23:01] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:23:01] "GET /static/css/cover.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:23:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:23:01] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:23:01] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:23:02] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:23:02] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:23:03] "GET /about HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:23:05] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:23:07] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:23:09] "GET /testa HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:23:25] "GET /null HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:24:45] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:26:17] "GET /process?siteinput= HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/programming/banker.ai/mcubed/app/__init__.py", line 350, in process
+    sitedata = get_site(siteinput)
+  File "/home/ubuntu/programming/banker.ai/mcubed/app/__init__.py", line 120, in get_site
+    fingerprint = ast.literal_eval(fingerprint)
+  File "/home/ubuntu/anaconda/lib/python2.7/ast.py", line 80, in literal_eval
+    return _convert(node_or_string)
+  File "/home/ubuntu/anaconda/lib/python2.7/ast.py", line 79, in _convert
+    raise ValueError('malformed string')
+ValueError: malformed string
+207.237.149.238 - - [05/Feb/2016 19:26:17] "GET /process?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:26:17] "GET /process?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:26:17] "GET /process?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:26:17] "GET /process?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:26:17] "GET /process?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:26:17] "GET /process?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:26:18] "GET /process?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:26:33] "GET /process?siteinput=kaplancleantech.com HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:26:52] "GET /process HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/programming/banker.ai/mcubed/app/__init__.py", line 349, in process
+    siteinput = parse_url(siteinput)
+  File "/home/ubuntu/programming/banker.ai/mcubed/app/__init__.py", line 93, in parse_url
+    siteurl = re.sub(r'((http(s)?://)?(www.)?)', '', siteurl.lower())
+AttributeError: 'NoneType' object has no attribute 'lower'
+207.237.149.238 - - [05/Feb/2016 19:26:52] "GET /process?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:26:52] "GET /process?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:26:53] "GET /process?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:26:53] "GET /process?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:26:53] "GET /process?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:26:53] "GET /process?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:27:59] "GET /input HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/programming/banker.ai/mcubed/app/__init__.py", line 386, in input
+    form = form)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 786, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/jinja2/loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 565, in compile
+    self.handle_exception(exc_info, source_hint=source_hint)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/programming/banker.ai/mcubed/app/templates/input.html", line 53, in template
+    <p>{{ form.descr }} Site description</p>
+TemplateSyntaxError: Unexpected end of template. Jinja was looking for the following tags: 'endblock'. The innermost block that needs to be closed is 'block'.
+207.237.149.238 - - [05/Feb/2016 19:27:59] "GET /input?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:27:59] "GET /input?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:27:59] "GET /input?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:27:59] "GET /input?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:27:59] "GET /input?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:27:59] "GET /input?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:28:00] "GET /input?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:28:02] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:28:03] "GET /static/css/cover.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:28:03] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:28:03] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:28:03] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:28:03] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:28:04] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:28:05] "GET /about HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:28:08] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:28:09] "GET /input HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/programming/banker.ai/mcubed/app/__init__.py", line 386, in input
+    form = form)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 786, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/jinja2/loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 565, in compile
+    self.handle_exception(exc_info, source_hint=source_hint)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/programming/banker.ai/mcubed/app/templates/input.html", line 53, in template
+    <p>{{ form.descr }} Site description</p>
+TemplateSyntaxError: Unexpected end of template. Jinja was looking for the following tags: 'endblock'. The innermost block that needs to be closed is 'block'.
+207.237.149.238 - - [05/Feb/2016 19:28:09] "GET /input?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:28:09] "GET /input?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:28:09] "GET /input?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:28:09] "GET /input?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:28:09] "GET /input?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:28:09] "GET /input?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:28:13] "GET /input HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/programming/banker.ai/mcubed/app/__init__.py", line 386, in input
+    form = form)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 786, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/jinja2/loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 565, in compile
+    self.handle_exception(exc_info, source_hint=source_hint)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/programming/banker.ai/mcubed/app/templates/input.html", line 53, in template
+    <p>{{ form.descr }} Site description</p>
+TemplateSyntaxError: Unexpected end of template. Jinja was looking for the following tags: 'endblock'. The innermost block that needs to be closed is 'block'.
+207.237.149.238 - - [05/Feb/2016 19:28:13] "GET /input?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:28:13] "GET /input?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:28:13] "GET /input?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:28:13] "GET /input?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:28:13] "GET /input?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:28:13] "GET /input?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:28:48] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:28:49] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:28:49] "GET /static/css/cover.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:28:49] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:28:49] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:28:49] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:28:50] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:28:52] "GET /process?siteinput= HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/programming/banker.ai/mcubed/app/__init__.py", line 350, in process
+    sitedata = get_site(siteinput)
+  File "/home/ubuntu/programming/banker.ai/mcubed/app/__init__.py", line 120, in get_site
+    fingerprint = ast.literal_eval(fingerprint)
+  File "/home/ubuntu/anaconda/lib/python2.7/ast.py", line 80, in literal_eval
+    return _convert(node_or_string)
+  File "/home/ubuntu/anaconda/lib/python2.7/ast.py", line 79, in _convert
+    raise ValueError('malformed string')
+ValueError: malformed string
+207.237.149.238 - - [05/Feb/2016 19:28:52] "GET /process?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:28:52] "GET /process?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:28:52] "GET /process?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:28:52] "GET /process?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:28:52] "GET /process?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:28:52] "GET /process?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:29:19] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:29:19] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:29:19] "GET /static/css/cover.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:29:19] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:29:19] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:29:20] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:29:20] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:29:27] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:29:28] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:29:28] "GET /static/css/cover.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:29:28] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:29:28] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:29:28] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:29:29] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:29:42] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:29:43] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:29:43] "GET /static/css/cover.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:29:43] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:29:43] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:29:43] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:29:44] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:29:44] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:30:34] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:30:34] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:30:34] "GET /static/css/cover.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:30:34] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:30:34] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:30:35] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:30:35] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:30:35] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:30:40] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:30:40] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:30:40] "GET /static/css/cover.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:30:40] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:30:41] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:30:41] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:30:41] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:30:41] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:30:46] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:30:46] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:30:47] "GET /static/css/cover.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:30:47] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:30:47] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:30:47] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:30:47] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:30:48] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:30:55] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:30:55] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:30:55] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:30:55] "GET /static/css/cover.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:30:55] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:30:56] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:30:56] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:30:56] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:31:03] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:31:03] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:31:03] "GET /static/css/cover.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:31:03] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:31:04] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:31:04] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:31:04] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:31:04] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:32:11] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:32:11] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:32:11] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:32:12] "GET /static/css/cover.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:32:12] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:32:12] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:32:12] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:32:12] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:32:13] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:32:47] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:32:48] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:32:48] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:32:48] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:32:48] "GET /static/css/cover.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:32:49] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:32:49] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:32:49] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:32:49] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:32:54] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:32:54] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:32:54] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:32:55] "GET /static/css/cover.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:32:55] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:32:55] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:32:55] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:32:55] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:32:55] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:33:06] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:33:07] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:33:07] "GET /static/css/cover.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:33:07] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:33:07] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:33:07] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:33:08] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:33:08] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:33:08] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:33:33] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:33:33] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:33:33] "GET /static/css/cover.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:33:34] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:33:34] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:33:34] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:33:34] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:33:34] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:33:35] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:33:56] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:33:57] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:33:57] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:33:57] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:33:57] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:33:57] "GET /static/css/cover.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:33:57] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:33:58] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:33:58] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:34:16] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:34:16] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:34:16] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:34:17] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:34:17] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:34:17] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:34:17] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:34:18] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:34:26] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:34:26] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:34:26] "GET /static/css/cover.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:34:26] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:34:27] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:34:27] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:34:27] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:34:27] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:34:28] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:35:40] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:35:40] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:35:40] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:35:40] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:35:41] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:35:41] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:35:41] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:35:41] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:35:42] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:35:51] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:35:51] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:35:51] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:35:51] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:35:51] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:35:51] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:35:52] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:35:52] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:35:52] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:36:02] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:36:03] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:03] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:36:03] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:03] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:03] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:04] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:36:04] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:36:04] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:36:14] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:36:14] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:14] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:36:15] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:15] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:15] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:15] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:36:15] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:36:16] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:36:19] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:36:19] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:19] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:20] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:20] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:20] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:36:20] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:36:20] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:36:21] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:36:29] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:36:29] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:29] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:29] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:36:30] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:30] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:30] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:36:30] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:36:30] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:36:38] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:36:38] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:39] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:36:39] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:39] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:39] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:36:39] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:39] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:36:40] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:36:46] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:36:46] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:36:46] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:47] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:47] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:47] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:47] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:36:47] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:36:48] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:36:51] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:36:52] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:52] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:36:52] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:52] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:52] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:36:52] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:53] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:36:53] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:36:56] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:36:56] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:56] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:36:57] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:57] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:57] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:36:57] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:36:57] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:36:58] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:37:01] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:37:02] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:37:02] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:37:02] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:37:02] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:37:02] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:37:03] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:37:03] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:37:03] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:37:13] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:37:13] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:37:13] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:37:14] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:37:14] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:37:14] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:37:14] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:37:14] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:37:15] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:37:28] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:37:29] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:37:29] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:37:29] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:37:29] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:37:29] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:37:30] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:37:30] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:37:30] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:37:36] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:37:36] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:37:36] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:37:36] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:37:36] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:37:37] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:37:37] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:37:37] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:37:37] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:37:42] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:37:42] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:37:42] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:37:42] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:37:43] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:37:43] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:37:43] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:37:43] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:37:43] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:37:56] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:37:57] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:37:57] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:37:57] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:37:57] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:37:57] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:37:57] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:37:58] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:37:58] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:04] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:04] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:04] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:05] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:05] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:05] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:05] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:38:05] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:38:06] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:08] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:08] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:09] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:09] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:09] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:38:09] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:09] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:09] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:38:10] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:16] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:17] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:17] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:17] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:17] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:17] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:38:17] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:18] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:38:18] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:24] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:24] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:24] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:24] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:25] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:25] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:38:25] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:25] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:38:25] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:29] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:29] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:29] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:30] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:30] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:30] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:38:30] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:30] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:38:31] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:37] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:37] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:37] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:38] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:38] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:38] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:38] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:38:38] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:38:39] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:43] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:43] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:43] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:43] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:44] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:44] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:44] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:38:44] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:38:44] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:47] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:48] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:48] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:48] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:48] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:48] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:48] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:38:49] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:38:49] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:54] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:55] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:55] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:55] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:38:55] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:55] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:38:55] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:38:56] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:38:56] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:39:02] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:39:02] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:39:02] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:39:02] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:39:03] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:39:03] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:39:03] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:39:03] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:39:03] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:39:17] "GET /process?siteinput=kaplancleantech.com HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:39:19] "GET /fig/constellation.com/n/y/fingerprint.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:39:20] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:39:20] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:39:23] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:39:23] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:39:24] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:39:28] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:39:29] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:39:29] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:39:35] "GET /about HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:39:35] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:39:35] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:39:40] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:39:41] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:39:41] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:39:41] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:39:42] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:39:42] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:40:11] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:40:11] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:40:11] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:40:11] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:40:11] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:40:12] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:40:12] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:40:12] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:40:13] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:40:50] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:40:50] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:40:50] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:40:50] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:40:50] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:40:51] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:40:51] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:40:51] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:40:52] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:41:00] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:41:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:41:01] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:41:01] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:41:01] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:41:01] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:41:01] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:41:02] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:41:02] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:41:08] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:41:08] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:41:08] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:41:08] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:41:08] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:41:09] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:41:09] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:41:09] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:41:10] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:41:55] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:41:56] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:41:56] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:41:56] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:41:56] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:41:56] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:41:57] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:41:57] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:41:57] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:41:58] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:41:58] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:41:59] "GET /static/css/cover.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:41:59] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:41:59] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:41:59] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:41:59] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:41:59] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:42:00] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:42:04] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:42:04] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:42:04] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:42:04] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:42:04] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:42:04] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:42:05] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:42:05] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:42:05] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:42:24] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:42:25] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:42:25] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:42:25] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:42:25] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:42:25] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:42:25] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:42:25] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:42:26] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:42:44] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:42:44] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:42:44] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:42:45] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:42:45] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:42:45] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:42:45] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:42:45] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:42:46] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:42:52] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:42:52] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:42:53] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:43:02] "GET /process?siteinput=kaplancleantech.com HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:43:05] "GET /fig/dblinvestors.com/n/y/fingerprint.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:43:05] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:43:05] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:43:30] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:43:31] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:43:31] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:43:33] "GET /about HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:43:34] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:43:34] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:43:52] "GET /about HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:43:52] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:43:52] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:43:52] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:43:52] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:43:53] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:43:53] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:43:53] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:43:54] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:44:00] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:44:00] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:44:00] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:44:04] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:44:04] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:44:04] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:44:06] "GET /about HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:44:06] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:44:06] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:44:07] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:44:08] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:44:08] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:45:39] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:45:40] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:45:40] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:45:40] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:45:40] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:45:40] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:45:40] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:45:41] "GET /static/img/avi.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:45:41] "GET /static/img/john.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:45:41] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:45:41] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:45:45] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:45:46] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:45:46] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:45:46] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:45:46] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:45:46] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:45:47] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:45:47] "GET /static/img/john.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:45:47] "GET /static/img/avi.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:45:47] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:45:47] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:45:53] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:45:53] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:45:54] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:45:54] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:45:54] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:45:54] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:45:54] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:45:54] "GET /static/img/avi.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:45:54] "GET /static/img/john.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:45:55] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:45:55] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:46:01] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:46:02] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:46:02] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:46:02] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:46:02] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:46:02] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:46:02] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:46:02] "GET /static/img/avi.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:46:03] "GET /static/img/john.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:46:03] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:46:03] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:46:07] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:46:07] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:46:07] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:46:10] "GET /about HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:46:10] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:46:10] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:46:13] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:46:13] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:46:14] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:46:25] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:46:25] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:46:25] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:46:25] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:46:25] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:46:26] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:46:26] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:46:26] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:46:27] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:46:28] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:46:28] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:46:28] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:46:48] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:46:49] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:46:49] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:46:49] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:46:49] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:46:49] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:46:49] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:46:50] "GET /static/img/avi.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:46:50] "GET /static/img/john.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:46:50] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:46:50] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:46:53] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:46:53] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:46:54] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:46:55] "GET /about HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:46:55] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:46:55] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:47:02] "GET /about HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:47:03] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:47:03] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:47:03] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:47:03] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:47:03] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:47:03] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:47:03] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:47:04] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:47:06] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:47:07] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:47:07] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:47:16] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:47:16] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:47:17] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:47:17] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:47:17] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:47:17] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:47:17] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:47:17] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:47:18] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:47:27] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:47:27] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:47:27] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:47:27] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:47:27] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:47:28] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:47:28] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:47:28] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:47:29] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:47:45] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:47:45] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:47:45] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:47:45] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:47:45] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:47:46] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:47:46] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:47:46] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:47:46] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:47:48] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:47:49] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:47:49] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:47:52] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:47:53] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:47:53] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:47:53] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:47:53] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:47:53] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:47:53] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:47:53] "GET /static/img/avi.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:47:54] "GET /static/img/john.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:47:54] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:47:54] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:48:13] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:48:13] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:48:13] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:48:14] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:48:14] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:48:14] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:48:14] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:48:14] "GET /static/img/avi.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:48:14] "GET /static/img/john.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:48:14] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:48:15] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:49:31] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:49:31] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:49:31] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:49:31] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:49:32] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:49:32] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:49:32] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:49:32] "GET /static/img/avi.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:49:32] "GET /static/img/john.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:49:32] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:49:33] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:49:58] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:49:58] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:49:58] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:49:58] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:49:58] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:49:59] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:49:59] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:49:59] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:49:59] "GET /static/img/avi.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:49:59] "GET /static/img/john.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:50:00] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:50:48] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:50:49] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:50:49] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:50:49] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:50:49] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:50:49] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:50:49] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:50:50] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:50:50] "GET /static/img/avi.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:50:50] "GET /static/img/john.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:50:50] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:50:50] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:50:53] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:50:54] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:50:54] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:51:00] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:51:00] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:51:00] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:51:01] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:51:01] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:51:01] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:51:01] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:51:01] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:51:02] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:51:26] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:51:27] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:51:27] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:51:27] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:51:27] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:51:27] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:51:28] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:51:28] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:51:28] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:51:30] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:51:30] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:51:30] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:52:33] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:52:33] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:52:33] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:52:33] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:52:34] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:52:34] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:52:34] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:52:34] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:52:34] "GET /static/img/avi.jpg HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:52:34] "GET /static/img/john.jpg HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:52:35] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:52:43] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:52:44] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:52:44] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:52:44] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:52:44] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:52:44] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:52:44] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:52:44] "GET /static/img/avi.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:52:45] "GET /static/img/john.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:52:45] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:52:45] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:52:49] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:52:49] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:52:49] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:52:49] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:52:50] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:52:50] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:52:50] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:52:50] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:52:50] "GET /static/img/avi.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:52:50] "GET /static/img/john.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:52:51] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:52:58] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:52:58] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:52:59] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:52:59] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:52:59] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:52:59] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:52:59] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:52:59] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:52:59] "GET /static/img/avi.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:53:00] "GET /static/img/john.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:53:00] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:53:03] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:53:03] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:53:03] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:53:04] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:53:04] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:53:04] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:53:04] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:53:04] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:53:04] "GET /static/img/avi.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:53:05] "GET /static/img/john.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:53:05] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:53:47] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:53:48] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:53:48] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:53:48] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:53:48] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:53:48] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:53:49] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:53:49] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:53:49] "GET /static/img/avi.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:53:49] "GET /static/img/john.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:53:49] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:53:57] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:53:57] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:53:57] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:53:57] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:53:58] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:53:58] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:53:58] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:53:58] "GET /static/img/avi.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:53:58] "GET /static/img/john.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:53:58] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:53:59] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:54:03] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:54:04] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:04] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:54:04] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:04] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:04] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:04] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:54:05] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:54:05] "GET /static/img/avi.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:05] "GET /static/img/john.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:05] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:54:11] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:54:11] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:11] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:54:11] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:12] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:12] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:12] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:54:12] "GET /static/img/avi.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:12] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:54:12] "GET /static/img/john.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:13] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:54:19] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:54:19] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:19] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:54:19] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:20] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:20] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:20] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:54:20] "GET /static/img/avi.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:20] "GET /static/img/john.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:20] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:54:21] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:54:27] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:54:27] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:27] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:28] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:54:28] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:28] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:28] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:54:28] "GET /static/img/avi.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:28] "GET /static/img/john.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:29] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:54:29] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:54:32] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:54:32] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:32] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:54:32] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:32] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:33] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:33] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:54:33] "GET /static/img/avi.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:33] "GET /static/img/john.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:54:33] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:54:33] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:54:35] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:54:35] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:54:36] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:55:37] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:55:37] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:55:37] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:55:37] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:55:37] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:55:38] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:55:38] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:55:38] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:55:38] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:55:39] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:55:40] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:55:40] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:55:45] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:55:45] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:55:46] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:55:46] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:55:46] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:55:46] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:55:46] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:55:46] "GET /static/img/avi.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:55:47] "GET /static/img/john.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:55:47] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:55:47] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:55:49] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:55:50] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:55:50] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:55:58] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:55:59] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:55:59] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:55:59] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:55:59] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:55:59] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:00] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:56:00] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:56:00] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:56:04] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:56:05] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:05] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:56:05] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:05] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:05] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:05] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:56:05] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:56:06] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:56:06] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:56:06] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:56:07] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:56:10] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:56:10] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:10] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:56:11] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:11] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:11] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:11] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:56:11] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:56:11] "GET /static/img/avi.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:11] "GET /static/img/john.jpg HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:12] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:56:14] "GET /about HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:56:14] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:56:14] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:56:18] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:56:18] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:56:18] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:56:32] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:56:32] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:32] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:56:32] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:32] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:32] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:56:33] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:33] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:56:33] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:56:38] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:56:38] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:38] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:56:38] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:38] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:39] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:39] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:56:39] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:56:39] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:56:46] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:56:46] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:46] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:56:46] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:46] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:46] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:47] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:56:47] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:56:47] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:56:50] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:56:51] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:51] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:56:51] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:51] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:51] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:56:51] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:56:51] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:56:52] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:56:59] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:57:00] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:57:00] "GET /static/css/cover.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:57:00] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:57:00] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:57:00] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:57:00] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:57:01] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:57:01] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:57:04] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:57:04] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:57:04] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:57:34] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:57:35] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:57:35] "GET /static/css/cover.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:57:35] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:57:35] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:57:35] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:57:35] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:57:36] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:57:36] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:57:43] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:57:44] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:57:44] "GET /static/css/cover.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:57:44] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:57:44] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:57:44] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:57:45] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:57:45] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:57:45] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:58:34] "GET /index HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/programming/banker.ai/mcubed/app/__init__.py", line 303, in index
+    h3 = "inactive")
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/templating.py", line 128, in render_template
+    context, ctx.app)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/templating.py", line 110, in _render
+    rv = template.render(context)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/programming/banker.ai/mcubed/app/templates/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/ubuntu/programming/banker.ai/mcubed/app/templates/base.html", line 79, in top-level template code
+    {% block content %}{% endblock %}
+  File "/home/ubuntu/programming/banker.ai/mcubed/app/templates/index.html", line 15, in block "content"
+    <!-- {{ form.hidden_tag() }} -->
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/jinja2/environment.py", line 408, in getattr
+    return getattr(obj, attribute)
+UndefinedError: 'form' is undefined
+207.237.149.238 - - [05/Feb/2016 19:58:34] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:58:34] "GET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:58:34] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:58:35] "GET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:58:35] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:58:35] "GET /index?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:58:35] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:59:01] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:59:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:59:01] "GET /static/css/cover.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:59:02] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:59:02] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:59:02] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:59:02] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:59:02] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:59:03] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:59:11] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:59:11] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:59:11] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:59:25] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:59:26] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:59:26] "GET /static/css/cover.css HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:59:26] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:59:26] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:59:26] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 304 -
+207.237.149.238 - - [05/Feb/2016 19:59:26] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:59:27] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:59:27] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:59:36] "GET /contact HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 19:59:36] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 19:59:37] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 20:00:02] "GET /index HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 20:00:02] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 20:00:02] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 20:00:03] "GET /input HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 20:00:04] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 20:00:04] "GET /polina.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 20:00:13] "GET /process?siteinput=kaplancleantech.com HTTP/1.1" 200 -
+207.237.149.238 - - [05/Feb/2016 20:00:13] "GET /screenshot.jpg HTTP/1.1" 404 -
+207.237.149.238 - - [05/Feb/2016 20:00:14] "GET /polina.jpg HTTP/1.1" 404 -
+45.37.42.136 - - [05/Feb/2016 20:25:44] "GET /process?siteinput=kaplancleantech.com HTTP/1.1" 200 -
+45.37.42.136 - - [05/Feb/2016 20:25:44] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+45.37.42.136 - - [05/Feb/2016 20:25:44] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 200 -
+45.37.42.136 - - [05/Feb/2016 20:25:45] "GET /static/css/cover.css HTTP/1.1" 200 -
+45.37.42.136 - - [05/Feb/2016 20:25:45] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+45.37.42.136 - - [05/Feb/2016 20:25:45] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 200 -
+45.37.42.136 - - [05/Feb/2016 20:25:45] "GET /screenshot.jpg HTTP/1.1" 404 -
+45.37.42.136 - - [05/Feb/2016 20:25:48] "GET /fig/elcomanagement.com/n/y/fingerprint.png HTTP/1.1" 200 -
+45.37.42.136 - - [05/Feb/2016 20:25:50] "GET /fig/kaplancleantech.com/n/n/fingerprint.png HTTP/1.1" 200 -
+45.37.42.136 - - [05/Feb/2016 20:25:50] "GET /polina.jpg HTTP/1.1" 404 -
+45.37.42.136 - - [05/Feb/2016 20:25:51] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+173.68.94.25 - - [05/Feb/2016 20:51:15] "GET / HTTP/1.1" 200 -
+173.68.94.25 - - [05/Feb/2016 20:51:15] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+173.68.94.25 - - [05/Feb/2016 20:51:16] "GET /static/css/cover.css HTTP/1.1" 200 -
+173.68.94.25 - - [05/Feb/2016 20:51:16] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 200 -
+173.68.94.25 - - [05/Feb/2016 20:51:16] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+173.68.94.25 - - [05/Feb/2016 20:51:16] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 200 -
+173.68.94.25 - - [05/Feb/2016 20:51:16] "GET /screenshot.jpg HTTP/1.1" 404 -
+173.68.94.25 - - [05/Feb/2016 20:51:17] "GET /polina.jpg HTTP/1.1" 404 -
+173.68.94.25 - - [05/Feb/2016 20:51:22] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+173.68.94.25 - - [05/Feb/2016 20:51:34] "GET /input HTTP/1.1" 200 -
+173.68.94.25 - - [05/Feb/2016 20:51:34] "GET /screenshot.jpg HTTP/1.1" 404 -
+173.68.94.25 - - [05/Feb/2016 20:51:34] "GET /polina.jpg HTTP/1.1" 404 -
+173.68.94.25 - - [05/Feb/2016 20:52:14] "GET /process?siteinput=A+teleportation+company+with+mobile+social+local&descr=y HTTP/1.1" 200 -
+173.68.94.25 - - [05/Feb/2016 20:52:14] "GET /static/img/loadingimage2.gif HTTP/1.1" 200 -
+173.68.94.25 - - [05/Feb/2016 20:52:14] "GET /screenshot.jpg HTTP/1.1" 404 -
+173.68.94.25 - - [05/Feb/2016 20:52:15] "GET /polina.jpg HTTP/1.1" 404 -
+173.68.94.25 - - [05/Feb/2016 20:52:25] "GET /index HTTP/1.1" 200 -
+173.68.94.25 - - [05/Feb/2016 20:52:25] "GET /screenshot.jpg HTTP/1.1" 404 -
+173.68.94.25 - - [05/Feb/2016 20:52:25] "GET /polina.jpg HTTP/1.1" 404 -
+173.68.94.25 - - [05/Feb/2016 20:52:26] "GET /about HTTP/1.1" 200 -
+173.68.94.25 - - [05/Feb/2016 20:52:27] "GET /screenshot.jpg HTTP/1.1" 404 -
+173.68.94.25 - - [05/Feb/2016 20:52:27] "GET /polina.jpg HTTP/1.1" 404 -
+173.68.94.25 - - [05/Feb/2016 20:52:55] "GET /contact HTTP/1.1" 200 -
+173.68.94.25 - - [05/Feb/2016 20:52:55] "GET /static/img/avi.jpg HTTP/1.1" 200 -
+173.68.94.25 - - [05/Feb/2016 20:52:55] "GET /screenshot.jpg HTTP/1.1" 404 -
+173.68.94.25 - - [05/Feb/2016 20:52:55] "GET /static/img/john.jpg HTTP/1.1" 200 -
+173.68.94.25 - - [05/Feb/2016 20:52:55] "GET /polina.jpg HTTP/1.1" 404 -
+173.68.94.25 - - [05/Feb/2016 20:53:00] "GET /about HTTP/1.1" 200 -
+173.68.94.25 - - [05/Feb/2016 20:53:00] "GET /screenshot.jpg HTTP/1.1" 404 -
+173.68.94.25 - - [05/Feb/2016 20:53:00] "GET /polina.jpg HTTP/1.1" 404 -
+66.249.66.99 - - [05/Feb/2016 22:12:28] "GET /robots.txt HTTP/1.1" 404 -
+66.249.66.99 - - [05/Feb/2016 22:12:28] "GET / HTTP/1.1" 200 -
+66.249.83.97 - - [05/Feb/2016 22:47:09] "GET /testa HTTP/1.1" 200 -
+66.249.83.97 - - [05/Feb/2016 22:47:09] "GET /favicon.ico HTTP/1.1" 404 -
+108.6.187.234 - - [06/Feb/2016 01:05:26] "GET / HTTP/1.1" 200 -
+108.6.187.234 - - [06/Feb/2016 01:05:26] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+108.6.187.234 - - [06/Feb/2016 01:05:26] "GET /static/js/ie-emulation-modes-warning.js HTTP/1.1" 200 -
+108.6.187.234 - - [06/Feb/2016 01:05:26] "GET /static/css/cover.css HTTP/1.1" 200 -
+108.6.187.234 - - [06/Feb/2016 01:05:26] "GET /static/js/ie10-viewport-bug-workaround.js HTTP/1.1" 200 -
+108.6.187.234 - - [06/Feb/2016 01:05:26] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+108.6.187.234 - - [06/Feb/2016 01:05:27] "GET /screenshot.jpg HTTP/1.1" 404 -
+108.6.187.234 - - [06/Feb/2016 01:05:27] "GET /polina.jpg HTTP/1.1" 404 -
+108.6.187.234 - - [06/Feb/2016 01:05:27] "GET /static/img/favicon.ico HTTP/1.1" 200 -
+108.6.187.234 - - [06/Feb/2016 01:05:40] "GET /input HTTP/1.1" 200 -
+108.6.187.234 - - [06/Feb/2016 01:05:41] "GET /screenshot.jpg HTTP/1.1" 404 -
+108.6.187.234 - - [06/Feb/2016 01:05:41] "GET /polina.jpg HTTP/1.1" 404 -
+108.6.187.234 - - [06/Feb/2016 01:06:12] "GET /process?siteinput=https%3A%2F%2Fwww.picassolabs.com%2F HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/programming/banker.ai/mcubed/app/__init__.py", line 353, in process
+    sitedata = makeSDR(sitedata.text, sitedata.siteurl)
+  File "/home/ubuntu/programming/banker.ai/mcubed/app/__init__.py", line 172, in makeSDR
+    site_corticalmap = client.createClassification(siteurl, [text[0]], "")
+  File "/home/ubuntu/anaconda/lib/python2.7/cortipy/cortical_client.py", line 580, in createClassification
+    "Content-Type": "application/json"
+  File "/home/ubuntu/anaconda/lib/python2.7/cortipy/cortical_client.py", line 94, in cacheWrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/anaconda/lib/python2.7/cortipy/cortical_client.py", line 168, in _queryAPI
+    "Response " + str(response.status_code) + ": " + response.content)
+UnsuccessfulEncodingError: Response 400: A text node cannot be empty.
+108.6.187.234 - - [06/Feb/2016 01:06:12] "GET /static/img/loadingimage2.gif HTTP/1.1" 200 -
+108.6.187.234 - - [06/Feb/2016 01:06:12] "GET /process?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+108.6.187.234 - - [06/Feb/2016 01:06:12] "GET /process?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+108.6.187.234 - - [06/Feb/2016 01:06:12] "GET /process?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+108.6.187.234 - - [06/Feb/2016 01:06:12] "GET /process?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+108.6.187.234 - - [06/Feb/2016 01:06:12] "GET /process?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+108.6.187.234 - - [06/Feb/2016 01:06:12] "GET /process?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+108.6.187.234 - - [06/Feb/2016 01:06:12] "GET /process?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+108.6.187.234 - - [06/Feb/2016 01:06:24] "GET /process?siteinput=hatch.co HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/programming/banker.ai/mcubed/app/__init__.py", line 350, in process
+    sitedata = get_site(siteinput)
+  File "/home/ubuntu/programming/banker.ai/mcubed/app/__init__.py", line 120, in get_site
+    fingerprint = ast.literal_eval(fingerprint)
+  File "/home/ubuntu/anaconda/lib/python2.7/ast.py", line 80, in literal_eval
+    return _convert(node_or_string)
+  File "/home/ubuntu/anaconda/lib/python2.7/ast.py", line 79, in _convert
+    raise ValueError('malformed string')
+ValueError: malformed string
+108.6.187.234 - - [06/Feb/2016 01:06:24] "GET /static/img/loadingimage2.gif HTTP/1.1" 200 -
+108.6.187.234 - - [06/Feb/2016 01:06:24] "GET /process?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+108.6.187.234 - - [06/Feb/2016 01:06:24] "GET /process?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+108.6.187.234 - - [06/Feb/2016 01:06:24] "GET /process?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+108.6.187.234 - - [06/Feb/2016 01:06:25] "GET /process?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+108.6.187.234 - - [06/Feb/2016 01:06:25] "GET /process?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+108.6.187.234 - - [06/Feb/2016 01:06:25] "GET /process?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+108.6.187.234 - - [06/Feb/2016 01:06:25] "GET /process?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -

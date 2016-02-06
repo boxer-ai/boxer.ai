@@ -83,7 +83,8 @@ def scrape(siteurl):
         'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)',
         'ITEM_PIPELINES': {'app.vcspider.vcspider.pipelines.UserInputPipeline': 100},
         'DEPTH_LIMIT': 2,
-        'DOWNLOAD_HANDLERS': {'s3': None,}
+        'DOWNLOAD_HANDLERS': {'s3': None,},
+        'CLOSESPIDER_TIMEOUT': 30
     })
     process.crawl(solo.SoloSpider, domain = siteurl)
     process.start()
@@ -136,7 +137,7 @@ def get_site(siteurl):
             con.commit()
             time.sleep(1) # wait to try again
             breaker += 1
-            if breaker == 180: break
+            if breaker == 40: break
           
         # last resort
         breaker = 0     
@@ -147,12 +148,12 @@ def get_site(siteurl):
             con.commit()
             time.sleep(1) # wait to try again
             breaker += 1
-            if breaker == 30: 
+            if breaker == 5: 
                 text = list(['Unable to scrape.']) # error case    
                 break
         
-        if re.sub(r'\s+', '', text[0]) == '':
-            text = list(['Unable to scrape.'])
+        # if re.sub(r'\s+', '', text) == '':
+        #     text = list(['Unable to scrape.'])
             
         return Site(siteurl, text)
 
@@ -308,6 +309,22 @@ def about():
                             h1 = "inactive",
                             h2 = "active",
                             h3 = "inactive")
+
+@app.route('/testa')
+def testa():
+	return render_template('testa.html',
+							title = 'test',
+							h1 = "inactive",
+    						h2 = "active",
+    						h3 = "inactive")
+
+@app.route('/testb')
+def testb():
+	return render_template('testb.html',
+							title = 'test',
+							h1 = "inactive",
+    						h2 = "active",
+    						h3 = "inactive")
 
 @app.route('/contact')
 def contact():

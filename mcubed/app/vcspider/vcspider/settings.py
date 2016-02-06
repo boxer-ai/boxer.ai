@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# from scrapy.extensions.closespider.CloseSpider import 
 
 # Scrapy settings for vcspider project
 #
@@ -17,8 +18,9 @@ DOWNLOAD_HANDLERS = {'s3': None, }
 
 DEPTH_LIMIT = 1
 #LOG_LEVEL = 'INFO'
-# CLOSESPIDER_PAGECOUNT = 20
+CLOSESPIDER_PAGECOUNT = 20
 CONCURRENT_REQUESTS = 100
+
 
 ITEM_PIPELINES = {
     'vcspider.pipelines.UIPipeline': 200,
@@ -43,7 +45,7 @@ MYSQL_GSA_CONFIG = {
 }
 
 CORTIPY_API_KEY = 'fa786e60-7cf0-11e5-9e69-03c0722e0d16' # NEED TO GET FROM ENVIRON
-
+CLOSESPIDER_TIMEOUT = 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'vcspider (+http://www.yourdomain.com)'
 

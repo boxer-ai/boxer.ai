@@ -1,6 +1,6 @@
 /home/ubuntu/programming/banker.ai/mcubed/app/vcspider/vcspider/pipelines.py:3: ScrapyDeprecationWarning: Module `scrapy.conf` is deprecated, use `crawler.settings` attribute instead
   from scrapy.conf import settings
-[2015-12-06 07:01:14,128: WARNING/MainProcess] /home/ubuntu/anaconda/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+[2016-02-05 06:11:06,314: WARNING/MainProcess] /home/ubuntu/anaconda/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
 Starting from version 3.2 Celery will refuse to accept pickle by default.
 
 The pickle serializer is a security concern as it may give attackers
@@ -19,7 +19,1164 @@ You must only enable the serializers that you will actually use.
 
 
   warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
-[2015-12-06 07:01:14,176: INFO/MainProcess] Connected to redis://localhost:6379//
-[2015-12-06 07:01:14,184: INFO/MainProcess] mingle: searching for neighbors
-[2015-12-06 07:01:15,190: INFO/MainProcess] mingle: all alone
-[2015-12-06 07:01:15,202: WARNING/MainProcess] celery@ip-172-31-59-92 ready.
+[2016-02-05 06:11:06,349: INFO/MainProcess] Connected to redis://localhost:6379//
+[2016-02-05 06:11:06,361: INFO/MainProcess] mingle: searching for neighbors
+[2016-02-05 06:11:07,366: INFO/MainProcess] mingle: all alone
+[2016-02-05 06:11:07,374: WARNING/MainProcess] celery@ip-172-31-2-245 ready.
+[2016-02-05 16:21:15,493: INFO/MainProcess] Received task: app.scrape[cff256af-9ad5-4bc9-8dfa-2ec620cff2f5]
+[2016-02-05 16:21:15,501: INFO/Worker-4] Scrapy 1.0.3 started (bot: scrapybot)
+[2016-02-05 16:21:15,501: WARNING/Worker-4] 2016-02-05 16:21:15 [scrapy] INFO: Scrapy 1.0.3 started (bot: scrapybot)
+[2016-02-05 16:21:15,502: INFO/Worker-4] Optional features available: ssl, http11, boto
+[2016-02-05 16:21:15,502: WARNING/Worker-4] 2016-02-05 16:21:15 [scrapy] INFO: Optional features available: ssl, http11, boto
+[2016-02-05 16:21:15,502: INFO/Worker-4] Overridden settings: {'CLOSESPIDER_TIMEOUT': 30, 'DEPTH_LIMIT': 2, 'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'}
+[2016-02-05 16:21:15,502: WARNING/Worker-4] 2016-02-05 16:21:15 [scrapy] INFO: Overridden settings: {'CLOSESPIDER_TIMEOUT': 30, 'DEPTH_LIMIT': 2, 'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'}
+[2016-02-05 16:21:16,070: INFO/Worker-4] Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+[2016-02-05 16:21:16,070: WARNING/Worker-4] 2016-02-05 16:21:16 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+[2016-02-05 16:21:16,138: INFO/Worker-4] Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+[2016-02-05 16:21:16,139: WARNING/Worker-4] 2016-02-05 16:21:16 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+[2016-02-05 16:21:16,146: INFO/Worker-4] Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+[2016-02-05 16:21:16,146: WARNING/Worker-4] 2016-02-05 16:21:16 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+[2016-02-05 16:21:16,361: INFO/Worker-4] Enabled item pipelines: UserInputPipeline
+[2016-02-05 16:21:16,361: WARNING/Worker-4] 2016-02-05 16:21:16 [scrapy] INFO: Enabled item pipelines: UserInputPipeline
+[2016-02-05 16:21:16,362: INFO/Worker-4] Spider opened
+[2016-02-05 16:21:16,362: WARNING/Worker-4] 2016-02-05 16:21:16 [scrapy] INFO: Spider opened
+[2016-02-05 16:21:16,364: INFO/Worker-4] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+[2016-02-05 16:21:16,364: WARNING/Worker-4] 2016-02-05 16:21:16 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+[2016-02-05 16:21:16,366: DEBUG/Worker-4] Telnet console listening on 127.0.0.1:6023
+[2016-02-05 16:21:16,366: WARNING/Worker-4] 2016-02-05 16:21:16 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+[2016-02-05 16:21:16,407: DEBUG/Worker-4] Crawled (200) <GET http://www.upscored.com> (referer: None)
+[2016-02-05 16:21:16,408: WARNING/Worker-4] 2016-02-05 16:21:16 [scrapy] DEBUG: Crawled (200) <GET http://www.upscored.com> (referer: None)
+[2016-02-05 16:21:16,518: DEBUG/Worker-4] Filtered offsite request to 'twitter.com': <GET https://twitter.com/upscored>
+[2016-02-05 16:21:16,518: WARNING/Worker-4] 2016-02-05 16:21:16 [scrapy] DEBUG: Filtered offsite request to 'twitter.com': <GET https://twitter.com/upscored>
+[2016-02-05 16:21:16,518: DEBUG/Worker-4] Filtered offsite request to 'www.linkedin.com': <GET https://www.linkedin.com/company/upscored>
+[2016-02-05 16:21:16,518: WARNING/Worker-4] 2016-02-05 16:21:16 [scrapy] DEBUG: Filtered offsite request to 'www.linkedin.com': <GET https://www.linkedin.com/company/upscored>
+[2016-02-05 16:21:16,518: DEBUG/Worker-4] Filtered offsite request to 'www.facebook.com': <GET https://www.facebook.com/upscored/>
+[2016-02-05 16:21:16,519: WARNING/Worker-4] 2016-02-05 16:21:16 [scrapy] DEBUG: Filtered offsite request to 'www.facebook.com': <GET https://www.facebook.com/upscored/>
+[2016-02-05 16:21:16,647: DEBUG/Worker-4] Crawled (200) <GET http://www.upscored.com/about/> (referer: http://www.upscored.com)
+[2016-02-05 16:21:16,647: WARNING/Worker-4] 2016-02-05 16:21:16 [scrapy] DEBUG: Crawled (200) <GET http://www.upscored.com/about/> (referer: http://www.upscored.com)
+[2016-02-05 16:21:16,674: DEBUG/Worker-4] Crawled (200) <GET http://www.upscored.com/> (referer: http://www.upscored.com)
+[2016-02-05 16:21:16,674: WARNING/Worker-4] 2016-02-05 16:21:16 [scrapy] DEBUG: Crawled (200) <GET http://www.upscored.com/> (referer: http://www.upscored.com)
+[2016-02-05 16:21:16,681: DEBUG/Worker-4] Crawled (200) <GET http://www.upscored.com/faq/> (referer: http://www.upscored.com)
+[2016-02-05 16:21:16,681: WARNING/Worker-4] 2016-02-05 16:21:16 [scrapy] DEBUG: Crawled (200) <GET http://www.upscored.com/faq/> (referer: http://www.upscored.com)
+[2016-02-05 16:21:16,698: DEBUG/Worker-4] Crawled (200) <GET http://www.upscored.com/privacy> (referer: http://www.upscored.com)
+[2016-02-05 16:21:16,698: WARNING/Worker-4] 2016-02-05 16:21:16 [scrapy] DEBUG: Crawled (200) <GET http://www.upscored.com/privacy> (referer: http://www.upscored.com)
+[2016-02-05 16:21:16,700: DEBUG/Worker-4] Crawled (200) <GET http://www.upscored.com/js_signup/> (referer: http://www.upscored.com)
+[2016-02-05 16:21:16,701: WARNING/Worker-4] 2016-02-05 16:21:16 [scrapy] DEBUG: Crawled (200) <GET http://www.upscored.com/js_signup/> (referer: http://www.upscored.com)
+[2016-02-05 16:21:16,702: DEBUG/Worker-4] Crawled (200) <GET http://www.upscored.com/terms-of-use> (referer: http://www.upscored.com)
+[2016-02-05 16:21:16,702: WARNING/Worker-4] 2016-02-05 16:21:16 [scrapy] DEBUG: Crawled (200) <GET http://www.upscored.com/terms-of-use> (referer: http://www.upscored.com)
+[2016-02-05 16:21:16,722: DEBUG/Worker-4] Crawled (200) <GET http://www.upscored.com/blog/> (referer: http://www.upscored.com)
+[2016-02-05 16:21:16,722: WARNING/Worker-4] 2016-02-05 16:21:16 [scrapy] DEBUG: Crawled (200) <GET http://www.upscored.com/blog/> (referer: http://www.upscored.com)
+[2016-02-05 16:21:16,858: DEBUG/Worker-4] Scraped from <200 http://www.upscored.com/about/>
+None
+[2016-02-05 16:21:16,858: WARNING/Worker-4] 2016-02-05 16:21:16 [scrapy] DEBUG: Scraped from <200 http://www.upscored.com/about/>
+None
+[2016-02-05 16:21:16,868: DEBUG/Worker-4] Filtered duplicate request: <GET http://www.upscored.com/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+[2016-02-05 16:21:16,868: WARNING/Worker-4] 2016-02-05 16:21:16 [scrapy] DEBUG: Filtered duplicate request: <GET http://www.upscored.com/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+[2016-02-05 16:21:16,985: DEBUG/Worker-4] Scraped from <200 http://www.upscored.com/>
+None
+[2016-02-05 16:21:16,985: WARNING/Worker-4] 2016-02-05 16:21:16 [scrapy] DEBUG: Scraped from <200 http://www.upscored.com/>
+None
+[2016-02-05 16:21:17,049: DEBUG/Worker-4] Scraped from <200 http://www.upscored.com/faq/>
+None
+[2016-02-05 16:21:17,049: WARNING/Worker-4] 2016-02-05 16:21:17 [scrapy] DEBUG: Scraped from <200 http://www.upscored.com/faq/>
+None
+[2016-02-05 16:21:17,144: DEBUG/Worker-4] Scraped from <200 http://www.upscored.com/privacy>
+None
+[2016-02-05 16:21:17,144: WARNING/Worker-4] 2016-02-05 16:21:17 [scrapy] DEBUG: Scraped from <200 http://www.upscored.com/privacy>
+None
+[2016-02-05 16:21:17,218: DEBUG/Worker-4] Scraped from <200 http://www.upscored.com/js_signup/>
+None
+[2016-02-05 16:21:17,218: WARNING/Worker-4] 2016-02-05 16:21:17 [scrapy] DEBUG: Scraped from <200 http://www.upscored.com/js_signup/>
+None
+[2016-02-05 16:21:17,327: DEBUG/Worker-4] Scraped from <200 http://www.upscored.com/terms-of-use>
+None
+[2016-02-05 16:21:17,327: WARNING/Worker-4] 2016-02-05 16:21:17 [scrapy] DEBUG: Scraped from <200 http://www.upscored.com/terms-of-use>
+None
+[2016-02-05 16:21:19,803: DEBUG/Worker-4] Scraped from <200 http://www.upscored.com/blog/>
+None
+[2016-02-05 16:21:19,803: WARNING/Worker-4] 2016-02-05 16:21:19 [scrapy] DEBUG: Scraped from <200 http://www.upscored.com/blog/>
+None
+[2016-02-05 16:21:19,828: DEBUG/Worker-4] Filtered offsite request to 'www.jamsadr.com': <GET http://www.jamsadr.com/>
+[2016-02-05 16:21:19,829: WARNING/Worker-4] 2016-02-05 16:21:19 [scrapy] DEBUG: Filtered offsite request to 'www.jamsadr.com': <GET http://www.jamsadr.com/>
+[2016-02-05 16:21:19,850: DEBUG/Worker-4] Redirecting (301) to <GET http://www.upscored.com/blogpage/14/> from <GET http://www.upscored.com/blogpage/14>
+[2016-02-05 16:21:19,851: WARNING/Worker-4] 2016-02-05 16:21:19 [scrapy] DEBUG: Redirecting (301) to <GET http://www.upscored.com/blogpage/14/> from <GET http://www.upscored.com/blogpage/14>
+[2016-02-05 16:21:19,853: DEBUG/Worker-4] Redirecting (301) to <GET http://www.upscored.com/blogpage/11/> from <GET http://www.upscored.com/blogpage/11>
+[2016-02-05 16:21:19,853: WARNING/Worker-4] 2016-02-05 16:21:19 [scrapy] DEBUG: Redirecting (301) to <GET http://www.upscored.com/blogpage/11/> from <GET http://www.upscored.com/blogpage/11>
+[2016-02-05 16:21:19,855: DEBUG/Worker-4] Redirecting (301) to <GET http://www.upscored.com/blogpage/22/> from <GET http://www.upscored.com/blogpage/22>
+[2016-02-05 16:21:19,855: WARNING/Worker-4] 2016-02-05 16:21:19 [scrapy] DEBUG: Redirecting (301) to <GET http://www.upscored.com/blogpage/22/> from <GET http://www.upscored.com/blogpage/22>
+[2016-02-05 16:21:19,857: DEBUG/Worker-4] Redirecting (301) to <GET http://www.upscored.com/blogpage/17/> from <GET http://www.upscored.com/blogpage/17>
+[2016-02-05 16:21:19,857: WARNING/Worker-4] 2016-02-05 16:21:19 [scrapy] DEBUG: Redirecting (301) to <GET http://www.upscored.com/blogpage/17/> from <GET http://www.upscored.com/blogpage/17>
+[2016-02-05 16:21:19,859: DEBUG/Worker-4] Redirecting (301) to <GET http://www.upscored.com/blogpage/25/> from <GET http://www.upscored.com/blogpage/25>
+[2016-02-05 16:21:19,859: WARNING/Worker-4] 2016-02-05 16:21:19 [scrapy] DEBUG: Redirecting (301) to <GET http://www.upscored.com/blogpage/25/> from <GET http://www.upscored.com/blogpage/25>
+[2016-02-05 16:21:19,861: DEBUG/Worker-4] Redirecting (301) to <GET http://www.upscored.com/blogpage/18/> from <GET http://www.upscored.com/blogpage/18>
+[2016-02-05 16:21:19,861: WARNING/Worker-4] 2016-02-05 16:21:19 [scrapy] DEBUG: Redirecting (301) to <GET http://www.upscored.com/blogpage/18/> from <GET http://www.upscored.com/blogpage/18>
+[2016-02-05 16:21:19,863: DEBUG/Worker-4] Redirecting (301) to <GET http://www.upscored.com/blogpage/21/> from <GET http://www.upscored.com/blogpage/21>
+[2016-02-05 16:21:19,863: WARNING/Worker-4] 2016-02-05 16:21:19 [scrapy] DEBUG: Redirecting (301) to <GET http://www.upscored.com/blogpage/21/> from <GET http://www.upscored.com/blogpage/21>
+[2016-02-05 16:21:19,864: DEBUG/Worker-4] Redirecting (301) to <GET http://www.upscored.com/blogpage/24/> from <GET http://www.upscored.com/blogpage/24>
+[2016-02-05 16:21:19,865: WARNING/Worker-4] 2016-02-05 16:21:19 [scrapy] DEBUG: Redirecting (301) to <GET http://www.upscored.com/blogpage/24/> from <GET http://www.upscored.com/blogpage/24>
+[2016-02-05 16:21:19,867: DEBUG/Worker-4] Redirecting (301) to <GET http://www.upscored.com/blogpage/26/> from <GET http://www.upscored.com/blogpage/26>
+[2016-02-05 16:21:19,867: WARNING/Worker-4] 2016-02-05 16:21:19 [scrapy] DEBUG: Redirecting (301) to <GET http://www.upscored.com/blogpage/26/> from <GET http://www.upscored.com/blogpage/26>
+[2016-02-05 16:21:19,869: DEBUG/Worker-4] Redirecting (301) to <GET http://www.upscored.com/blogpage/15/> from <GET http://www.upscored.com/blogpage/15>
+[2016-02-05 16:21:19,870: WARNING/Worker-4] 2016-02-05 16:21:19 [scrapy] DEBUG: Redirecting (301) to <GET http://www.upscored.com/blogpage/15/> from <GET http://www.upscored.com/blogpage/15>
+[2016-02-05 16:21:19,886: DEBUG/Worker-4] Redirecting (302) to <GET http://upscored.com/accounts/login/?next=/js_account/> from <GET http://upscored.com/js_account/>
+[2016-02-05 16:21:19,886: WARNING/Worker-4] 2016-02-05 16:21:19 [scrapy] DEBUG: Redirecting (302) to <GET http://upscored.com/accounts/login/?next=/js_account/> from <GET http://upscored.com/js_account/>
+[2016-02-05 16:21:20,097: DEBUG/Worker-4] Crawled (200) <GET http://www.upscored.com/blogpage/14/> (referer: http://www.upscored.com/blog/)
+[2016-02-05 16:21:20,097: WARNING/Worker-4] 2016-02-05 16:21:20 [scrapy] DEBUG: Crawled (200) <GET http://www.upscored.com/blogpage/14/> (referer: http://www.upscored.com/blog/)
+[2016-02-05 16:21:20,101: DEBUG/Worker-4] Crawled (200) <GET http://www.upscored.com/blogpage/11/> (referer: http://www.upscored.com/blog/)
+[2016-02-05 16:21:20,101: WARNING/Worker-4] 2016-02-05 16:21:20 [scrapy] DEBUG: Crawled (200) <GET http://www.upscored.com/blogpage/11/> (referer: http://www.upscored.com/blog/)
+[2016-02-05 16:21:20,137: DEBUG/Worker-4] Crawled (200) <GET http://www.upscored.com/blogpage/18/> (referer: http://www.upscored.com/blog/)
+[2016-02-05 16:21:20,137: WARNING/Worker-4] 2016-02-05 16:21:20 [scrapy] DEBUG: Crawled (200) <GET http://www.upscored.com/blogpage/18/> (referer: http://www.upscored.com/blog/)
+[2016-02-05 16:21:20,139: DEBUG/Worker-4] Crawled (200) <GET http://www.upscored.com/blogpage/17/> (referer: http://www.upscored.com/blog/)
+[2016-02-05 16:21:20,140: WARNING/Worker-4] 2016-02-05 16:21:20 [scrapy] DEBUG: Crawled (200) <GET http://www.upscored.com/blogpage/17/> (referer: http://www.upscored.com/blog/)
+[2016-02-05 16:21:20,179: DEBUG/Worker-4] Crawled (200) <GET http://www.upscored.com/blogpage/22/> (referer: http://www.upscored.com/blog/)
+[2016-02-05 16:21:20,179: WARNING/Worker-4] 2016-02-05 16:21:20 [scrapy] DEBUG: Crawled (200) <GET http://www.upscored.com/blogpage/22/> (referer: http://www.upscored.com/blog/)
+[2016-02-05 16:21:20,192: DEBUG/Worker-4] Crawled (200) <GET http://www.upscored.com/blogpage/25/> (referer: http://www.upscored.com/blog/)
+[2016-02-05 16:21:20,192: WARNING/Worker-4] 2016-02-05 16:21:20 [scrapy] DEBUG: Crawled (200) <GET http://www.upscored.com/blogpage/25/> (referer: http://www.upscored.com/blog/)
+[2016-02-05 16:21:20,782: DEBUG/Worker-4] Importing BmpImagePlugin
+[2016-02-05 16:21:20,783: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing BmpImagePlugin
+[2016-02-05 16:21:20,783: DEBUG/Worker-4] Importing BufrStubImagePlugin
+[2016-02-05 16:21:20,783: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing BufrStubImagePlugin
+[2016-02-05 16:21:20,784: DEBUG/Worker-4] Importing CurImagePlugin
+[2016-02-05 16:21:20,784: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing CurImagePlugin
+[2016-02-05 16:21:20,785: DEBUG/Worker-4] Importing DcxImagePlugin
+[2016-02-05 16:21:20,785: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing DcxImagePlugin
+[2016-02-05 16:21:20,790: DEBUG/Worker-4] Importing EpsImagePlugin
+[2016-02-05 16:21:20,790: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing EpsImagePlugin
+[2016-02-05 16:21:20,792: DEBUG/Worker-4] Importing FitsStubImagePlugin
+[2016-02-05 16:21:20,792: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing FitsStubImagePlugin
+[2016-02-05 16:21:20,793: DEBUG/Worker-4] Importing FliImagePlugin
+[2016-02-05 16:21:20,793: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing FliImagePlugin
+[2016-02-05 16:21:20,794: DEBUG/Worker-4] Importing FpxImagePlugin
+[2016-02-05 16:21:20,794: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing FpxImagePlugin
+[2016-02-05 16:21:20,799: DEBUG/Worker-4] Importing GbrImagePlugin
+[2016-02-05 16:21:20,799: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing GbrImagePlugin
+[2016-02-05 16:21:20,800: DEBUG/Worker-4] Importing GifImagePlugin
+[2016-02-05 16:21:20,800: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing GifImagePlugin
+[2016-02-05 16:21:20,800: DEBUG/Worker-4] Importing GribStubImagePlugin
+[2016-02-05 16:21:20,800: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing GribStubImagePlugin
+[2016-02-05 16:21:20,801: DEBUG/Worker-4] Importing Hdf5StubImagePlugin
+[2016-02-05 16:21:20,801: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing Hdf5StubImagePlugin
+[2016-02-05 16:21:20,802: DEBUG/Worker-4] Importing IcnsImagePlugin
+[2016-02-05 16:21:20,802: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing IcnsImagePlugin
+[2016-02-05 16:21:20,803: DEBUG/Worker-4] Importing IcoImagePlugin
+[2016-02-05 16:21:20,803: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing IcoImagePlugin
+[2016-02-05 16:21:20,804: DEBUG/Worker-4] Importing ImImagePlugin
+[2016-02-05 16:21:20,804: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing ImImagePlugin
+[2016-02-05 16:21:20,805: DEBUG/Worker-4] Importing ImtImagePlugin
+[2016-02-05 16:21:20,805: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing ImtImagePlugin
+[2016-02-05 16:21:20,806: DEBUG/Worker-4] Importing IptcImagePlugin
+[2016-02-05 16:21:20,807: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing IptcImagePlugin
+[2016-02-05 16:21:20,807: DEBUG/Worker-4] Importing JpegImagePlugin
+[2016-02-05 16:21:20,807: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing JpegImagePlugin
+[2016-02-05 16:21:20,808: DEBUG/Worker-4] Importing Jpeg2KImagePlugin
+[2016-02-05 16:21:20,808: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing Jpeg2KImagePlugin
+[2016-02-05 16:21:20,808: DEBUG/Worker-4] Importing McIdasImagePlugin
+[2016-02-05 16:21:20,809: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing McIdasImagePlugin
+[2016-02-05 16:21:20,809: DEBUG/Worker-4] Importing MicImagePlugin
+[2016-02-05 16:21:20,809: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing MicImagePlugin
+[2016-02-05 16:21:20,810: DEBUG/Worker-4] Importing MpegImagePlugin
+[2016-02-05 16:21:20,810: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing MpegImagePlugin
+[2016-02-05 16:21:20,811: DEBUG/Worker-4] Importing MpoImagePlugin
+[2016-02-05 16:21:20,811: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing MpoImagePlugin
+[2016-02-05 16:21:20,812: DEBUG/Worker-4] Importing MspImagePlugin
+[2016-02-05 16:21:20,812: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing MspImagePlugin
+[2016-02-05 16:21:20,813: DEBUG/Worker-4] Importing PalmImagePlugin
+[2016-02-05 16:21:20,813: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing PalmImagePlugin
+[2016-02-05 16:21:20,815: DEBUG/Worker-4] Importing PcdImagePlugin
+[2016-02-05 16:21:20,815: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing PcdImagePlugin
+[2016-02-05 16:21:20,816: DEBUG/Worker-4] Importing PcxImagePlugin
+[2016-02-05 16:21:20,816: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing PcxImagePlugin
+[2016-02-05 16:21:20,816: DEBUG/Worker-4] Importing PdfImagePlugin
+[2016-02-05 16:21:20,816: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing PdfImagePlugin
+[2016-02-05 16:21:20,817: DEBUG/Worker-4] Importing PixarImagePlugin
+[2016-02-05 16:21:20,817: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing PixarImagePlugin
+[2016-02-05 16:21:20,819: DEBUG/Worker-4] Importing PngImagePlugin
+[2016-02-05 16:21:20,819: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing PngImagePlugin
+[2016-02-05 16:21:20,820: DEBUG/Worker-4] Importing PpmImagePlugin
+[2016-02-05 16:21:20,820: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing PpmImagePlugin
+[2016-02-05 16:21:20,820: DEBUG/Worker-4] Importing PsdImagePlugin
+[2016-02-05 16:21:20,820: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing PsdImagePlugin
+[2016-02-05 16:21:20,821: DEBUG/Worker-4] Importing SgiImagePlugin
+[2016-02-05 16:21:20,821: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing SgiImagePlugin
+[2016-02-05 16:21:20,821: DEBUG/Worker-4] Importing SpiderImagePlugin
+[2016-02-05 16:21:20,822: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing SpiderImagePlugin
+[2016-02-05 16:21:20,822: DEBUG/Worker-4] Importing SunImagePlugin
+[2016-02-05 16:21:20,823: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing SunImagePlugin
+[2016-02-05 16:21:20,823: DEBUG/Worker-4] Importing TgaImagePlugin
+[2016-02-05 16:21:20,823: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing TgaImagePlugin
+[2016-02-05 16:21:20,824: DEBUG/Worker-4] Importing TiffImagePlugin
+[2016-02-05 16:21:20,824: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing TiffImagePlugin
+[2016-02-05 16:21:20,824: DEBUG/Worker-4] Importing WebPImagePlugin
+[2016-02-05 16:21:20,825: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing WebPImagePlugin
+[2016-02-05 16:21:20,825: DEBUG/Worker-4] Image: failed to import WebPImagePlugin: cannot import name _webp
+[2016-02-05 16:21:20,825: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Image: failed to import WebPImagePlugin: cannot import name _webp
+[2016-02-05 16:21:20,826: DEBUG/Worker-4] Importing WmfImagePlugin
+[2016-02-05 16:21:20,826: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing WmfImagePlugin
+[2016-02-05 16:21:20,826: DEBUG/Worker-4] Importing XbmImagePlugin
+[2016-02-05 16:21:20,827: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing XbmImagePlugin
+[2016-02-05 16:21:20,829: DEBUG/Worker-4] Importing XpmImagePlugin
+[2016-02-05 16:21:20,829: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing XpmImagePlugin
+[2016-02-05 16:21:20,830: DEBUG/Worker-4] Importing XVThumbImagePlugin
+[2016-02-05 16:21:20,830: WARNING/Worker-4] 2016-02-05 16:21:20 [PIL.Image] DEBUG: Importing XVThumbImagePlugin
+[2016-02-05 16:21:22,598: DEBUG/Worker-4] Scraped from <200 http://www.upscored.com/blogpage/14/>
+None
+[2016-02-05 16:21:22,598: WARNING/Worker-4] 2016-02-05 16:21:22 [scrapy] DEBUG: Scraped from <200 http://www.upscored.com/blogpage/14/>
+None
+[2016-02-05 16:21:22,600: DEBUG/Worker-4] Crawled (200) <GET http://www.upscored.com/blogpage/21/> (referer: http://www.upscored.com/blog/)
+[2016-02-05 16:21:22,600: WARNING/Worker-4] 2016-02-05 16:21:22 [scrapy] DEBUG: Crawled (200) <GET http://www.upscored.com/blogpage/21/> (referer: http://www.upscored.com/blog/)
+[2016-02-05 16:21:22,602: DEBUG/Worker-4] Crawled (200) <GET http://www.upscored.com/blogpage/24/> (referer: http://www.upscored.com/blog/)
+[2016-02-05 16:21:22,602: WARNING/Worker-4] 2016-02-05 16:21:22 [scrapy] DEBUG: Crawled (200) <GET http://www.upscored.com/blogpage/24/> (referer: http://www.upscored.com/blog/)
+[2016-02-05 16:21:22,604: DEBUG/Worker-4] Crawled (200) <GET http://upscored.com/accounts/login/?next=/js_account/> (referer: http://www.upscored.com/privacy)
+[2016-02-05 16:21:22,604: WARNING/Worker-4] 2016-02-05 16:21:22 [scrapy] DEBUG: Crawled (200) <GET http://upscored.com/accounts/login/?next=/js_account/> (referer: http://www.upscored.com/privacy)
+[2016-02-05 16:21:22,606: DEBUG/Worker-4] Crawled (200) <GET http://www.upscored.com/blogpage/26/> (referer: http://www.upscored.com/blog/)
+[2016-02-05 16:21:22,606: WARNING/Worker-4] 2016-02-05 16:21:22 [scrapy] DEBUG: Crawled (200) <GET http://www.upscored.com/blogpage/26/> (referer: http://www.upscored.com/blog/)
+[2016-02-05 16:21:22,608: DEBUG/Worker-4] Crawled (200) <GET http://www.upscored.com/accounts/login/> (referer: http://www.upscored.com/js_signup/)
+[2016-02-05 16:21:22,608: WARNING/Worker-4] 2016-02-05 16:21:22 [scrapy] DEBUG: Crawled (200) <GET http://www.upscored.com/accounts/login/> (referer: http://www.upscored.com/js_signup/)
+[2016-02-05 16:21:22,610: DEBUG/Worker-4] Crawled (200) <GET http://www.upscored.com/blogpage/15/> (referer: http://www.upscored.com/blog/)
+[2016-02-05 16:21:22,610: WARNING/Worker-4] 2016-02-05 16:21:22 [scrapy] DEBUG: Crawled (200) <GET http://www.upscored.com/blogpage/15/> (referer: http://www.upscored.com/blog/)
+[2016-02-05 16:21:22,688: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/ 
+[2016-02-05 16:21:22,689: WARNING/Worker-4] 2016-02-05 16:21:22 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/
+[2016-02-05 16:21:22,689: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/blog/ 
+[2016-02-05 16:21:22,689: WARNING/Worker-4] 2016-02-05 16:21:22 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/blog/
+[2016-02-05 16:21:22,690: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/blogpage/14/ 
+[2016-02-05 16:21:22,690: WARNING/Worker-4] 2016-02-05 16:21:22 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/blogpage/14/
+[2016-02-05 16:21:22,690: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/about/ 
+[2016-02-05 16:21:22,690: WARNING/Worker-4] 2016-02-05 16:21:22 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/about/
+[2016-02-05 16:21:22,690: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/faq/ 
+[2016-02-05 16:21:22,690: WARNING/Worker-4] 2016-02-05 16:21:22 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/faq/
+[2016-02-05 16:21:22,691: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/js_signup/ 
+[2016-02-05 16:21:22,691: WARNING/Worker-4] 2016-02-05 16:21:22 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/js_signup/
+[2016-02-05 16:21:22,691: DEBUG/Worker-4] Ignoring link (depth > 2): https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.upscored.com&text=Finding+Your+Dream+Job+Shouldn%E2%80%99t+Be+A+Second+Job%3A+http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F14%2F&via=upscored 
+[2016-02-05 16:21:22,691: WARNING/Worker-4] 2016-02-05 16:21:22 [scrapy] DEBUG: Ignoring link (depth > 2): https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.upscored.com&text=Finding+Your+Dream+Job+Shouldn%E2%80%99t+Be+A+Second+Job%3A+http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F14%2F&via=upscored
+[2016-02-05 16:21:22,691: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.facebook.com/sharer/sharer.php?u=www.upscored.com%2Fblogpage%2F14%2F 
+[2016-02-05 16:21:22,691: WARNING/Worker-4] 2016-02-05 16:21:22 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.facebook.com/sharer/sharer.php?u=www.upscored.com%2Fblogpage%2F14%2F
+[2016-02-05 16:21:22,692: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.linkedin.com/shareArticle?mini=true&source=http%3A%2F%2Fwww.upscored.com&summary=&title=Finding+Your+Dream+Job+Shouldn%E2%80%99t+Be+A+Second+Job&url=http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F14%2F 
+[2016-02-05 16:21:22,692: WARNING/Worker-4] 2016-02-05 16:21:22 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.linkedin.com/shareArticle?mini=true&source=http%3A%2F%2Fwww.upscored.com&summary=&title=Finding+Your+Dream+Job+Shouldn%E2%80%99t+Be+A+Second+Job&url=http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F14%2F
+[2016-02-05 16:21:22,692: DEBUG/Worker-4] Ignoring link (depth > 2): https://twitter.com/upscored 
+[2016-02-05 16:21:22,692: WARNING/Worker-4] 2016-02-05 16:21:22 [scrapy] DEBUG: Ignoring link (depth > 2): https://twitter.com/upscored
+[2016-02-05 16:21:22,692: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.linkedin.com/company/upscored 
+[2016-02-05 16:21:22,692: WARNING/Worker-4] 2016-02-05 16:21:22 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.linkedin.com/company/upscored
+[2016-02-05 16:21:22,692: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.facebook.com/upscored/ 
+[2016-02-05 16:21:22,693: WARNING/Worker-4] 2016-02-05 16:21:22 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.facebook.com/upscored/
+[2016-02-05 16:21:22,693: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/privacy 
+[2016-02-05 16:21:22,693: WARNING/Worker-4] 2016-02-05 16:21:22 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/privacy
+[2016-02-05 16:21:22,693: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/terms-of-use 
+[2016-02-05 16:21:22,693: WARNING/Worker-4] 2016-02-05 16:21:22 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/terms-of-use
+[2016-02-05 16:21:26,610: DEBUG/Worker-4] Scraped from <200 http://www.upscored.com/blogpage/11/>
+None
+[2016-02-05 16:21:26,611: WARNING/Worker-4] 2016-02-05 16:21:26 [scrapy] DEBUG: Scraped from <200 http://www.upscored.com/blogpage/11/>
+None
+[2016-02-05 16:21:27,938: DEBUG/Worker-4] Scraped from <200 http://www.upscored.com/blogpage/18/>
+None
+[2016-02-05 16:21:27,938: WARNING/Worker-4] 2016-02-05 16:21:27 [scrapy] DEBUG: Scraped from <200 http://www.upscored.com/blogpage/18/>
+None
+[2016-02-05 16:21:28,527: DEBUG/Worker-4] Scraped from <200 http://www.upscored.com/blogpage/17/>
+None
+[2016-02-05 16:21:28,528: WARNING/Worker-4] 2016-02-05 16:21:28 [scrapy] DEBUG: Scraped from <200 http://www.upscored.com/blogpage/17/>
+None
+[2016-02-05 16:21:28,610: DEBUG/Worker-4] Scraped from <200 http://www.upscored.com/blogpage/22/>
+None
+[2016-02-05 16:21:28,611: WARNING/Worker-4] 2016-02-05 16:21:28 [scrapy] DEBUG: Scraped from <200 http://www.upscored.com/blogpage/22/>
+None
+[2016-02-05 16:21:30,464: DEBUG/Worker-4] Scraped from <200 http://www.upscored.com/blogpage/25/>
+None
+[2016-02-05 16:21:30,464: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Scraped from <200 http://www.upscored.com/blogpage/25/>
+None
+[2016-02-05 16:21:30,475: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/ 
+[2016-02-05 16:21:30,475: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/
+[2016-02-05 16:21:30,475: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/blog/ 
+[2016-02-05 16:21:30,475: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/blog/
+[2016-02-05 16:21:30,475: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/blogpage/11/ 
+[2016-02-05 16:21:30,476: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/blogpage/11/
+[2016-02-05 16:21:30,476: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/about/ 
+[2016-02-05 16:21:30,476: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/about/
+[2016-02-05 16:21:30,476: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/faq/ 
+[2016-02-05 16:21:30,476: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/faq/
+[2016-02-05 16:21:30,476: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/js_signup/ 
+[2016-02-05 16:21:30,476: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/js_signup/
+[2016-02-05 16:21:30,477: DEBUG/Worker-4] Ignoring link (depth > 2): https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.upscored.com&text=5+Tips+For+Job-Seeking+Veterans+From+A+Veteran%3A+http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F11%2F&via=upscored 
+[2016-02-05 16:21:30,477: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.upscored.com&text=5+Tips+For+Job-Seeking+Veterans+From+A+Veteran%3A+http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F11%2F&via=upscored
+[2016-02-05 16:21:30,477: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.facebook.com/sharer/sharer.php?u=www.upscored.com%2Fblogpage%2F11%2F 
+[2016-02-05 16:21:30,477: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.facebook.com/sharer/sharer.php?u=www.upscored.com%2Fblogpage%2F11%2F
+[2016-02-05 16:21:30,477: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.linkedin.com/shareArticle?mini=true&source=http%3A%2F%2Fwww.upscored.com&summary=&title=5+Tips+For+Job-Seeking+Veterans+From+A+Veteran&url=http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F11%2F 
+[2016-02-05 16:21:30,477: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.linkedin.com/shareArticle?mini=true&source=http%3A%2F%2Fwww.upscored.com&summary=&title=5+Tips+For+Job-Seeking+Veterans+From+A+Veteran&url=http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F11%2F
+[2016-02-05 16:21:30,478: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.acp-usa.org/ 
+[2016-02-05 16:21:30,478: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.acp-usa.org/
+[2016-02-05 16:21:30,478: DEBUG/Worker-4] Ignoring link (depth > 2): https://hbr.org/2015/09/what-i-learned-from-a-year-of-job-rejections 
+[2016-02-05 16:21:30,478: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://hbr.org/2015/09/what-i-learned-from-a-year-of-job-rejections
+[2016-02-05 16:21:30,478: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.nina4airbnb.com/ 
+[2016-02-05 16:21:30,478: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.nina4airbnb.com/
+[2016-02-05 16:21:30,478: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.nytimes.com/2015/05/10/jobs/veterans-battle-for-jobs-on-the-home-front.html 
+[2016-02-05 16:21:30,479: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.nytimes.com/2015/05/10/jobs/veterans-battle-for-jobs-on-the-home-front.html
+[2016-02-05 16:21:30,479: DEBUG/Worker-4] Ignoring link (depth > 2): https://twitter.com/upscored 
+[2016-02-05 16:21:30,479: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://twitter.com/upscored
+[2016-02-05 16:21:30,479: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.linkedin.com/company/upscored 
+[2016-02-05 16:21:30,479: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.linkedin.com/company/upscored
+[2016-02-05 16:21:30,479: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.facebook.com/upscored/ 
+[2016-02-05 16:21:30,480: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.facebook.com/upscored/
+[2016-02-05 16:21:30,480: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/privacy 
+[2016-02-05 16:21:30,480: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/privacy
+[2016-02-05 16:21:30,480: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/terms-of-use 
+[2016-02-05 16:21:30,480: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/terms-of-use
+[2016-02-05 16:21:30,485: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/ 
+[2016-02-05 16:21:30,485: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/
+[2016-02-05 16:21:30,485: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/blog/ 
+[2016-02-05 16:21:30,485: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/blog/
+[2016-02-05 16:21:30,486: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/blogpage/18/ 
+[2016-02-05 16:21:30,486: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/blogpage/18/
+[2016-02-05 16:21:30,486: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/about/ 
+[2016-02-05 16:21:30,486: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/about/
+[2016-02-05 16:21:30,486: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/faq/ 
+[2016-02-05 16:21:30,486: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/faq/
+[2016-02-05 16:21:30,487: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/js_signup/ 
+[2016-02-05 16:21:30,487: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/js_signup/
+[2016-02-05 16:21:30,487: DEBUG/Worker-4] Ignoring link (depth > 2): https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.upscored.com&text=We+Need+More+Women+in+Tech+%28And+Diversity+in+All+Workplaces%29%3A+http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F18%2F&via=upscored 
+[2016-02-05 16:21:30,487: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.upscored.com&text=We+Need+More+Women+in+Tech+%28And+Diversity+in+All+Workplaces%29%3A+http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F18%2F&via=upscored
+[2016-02-05 16:21:30,487: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.facebook.com/sharer/sharer.php?u=www.upscored.com%2Fblogpage%2F18%2F 
+[2016-02-05 16:21:30,487: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.facebook.com/sharer/sharer.php?u=www.upscored.com%2Fblogpage%2F18%2F
+[2016-02-05 16:21:30,487: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.linkedin.com/shareArticle?mini=true&source=http%3A%2F%2Fwww.upscored.com&summary=&title=We+Need+More+Women+in+Tech+%28And+Diversity+in+All+Workplaces%29&url=http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F18%2F 
+[2016-02-05 16:21:30,488: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.linkedin.com/shareArticle?mini=true&source=http%3A%2F%2Fwww.upscored.com&summary=&title=We+Need+More+Women+in+Tech+%28And+Diversity+in+All+Workplaces%29&url=http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F18%2F
+[2016-02-05 16:21:30,488: DEBUG/Worker-4] Ignoring link (depth > 2): http://womenwhotech.com/ 
+[2016-02-05 16:21:30,488: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://womenwhotech.com/
+[2016-02-05 16:21:30,488: DEBUG/Worker-4] Ignoring link (depth > 2): https://twitter.com/karaswisher 
+[2016-02-05 16:21:30,488: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://twitter.com/karaswisher
+[2016-02-05 16:21:30,488: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.grandcentraltech.com/gct-blog/ 
+[2016-02-05 16:21:30,488: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.grandcentraltech.com/gct-blog/
+[2016-02-05 16:21:30,489: DEBUG/Worker-4] Ignoring link (depth > 2): http://womenwhotech.com/women-startup-challenge 
+[2016-02-05 16:21:30,489: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://womenwhotech.com/women-startup-challenge
+[2016-02-05 16:21:30,489: DEBUG/Worker-4] Ignoring link (depth > 2): https://twitter.com/RundeVoss 
+[2016-02-05 16:21:30,489: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://twitter.com/RundeVoss
+[2016-02-05 16:21:30,489: DEBUG/Worker-4] Ignoring link (depth > 2): https://twitter.com/AmyVernon 
+[2016-02-05 16:21:30,489: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://twitter.com/AmyVernon
+[2016-02-05 16:21:30,490: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.inc.com/amy-vernon/finding-and-funding-the-next-generation-of-female-founders.html 
+[2016-02-05 16:21:30,490: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.inc.com/amy-vernon/finding-and-funding-the-next-generation-of-female-founders.html
+[2016-02-05 16:21:30,490: DEBUG/Worker-4] Ignoring link (depth > 2): https://twitter.com/upscored 
+[2016-02-05 16:21:30,490: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://twitter.com/upscored
+[2016-02-05 16:21:30,490: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.linkedin.com/company/upscored 
+[2016-02-05 16:21:30,490: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.linkedin.com/company/upscored
+[2016-02-05 16:21:30,490: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.facebook.com/upscored/ 
+[2016-02-05 16:21:30,491: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.facebook.com/upscored/
+[2016-02-05 16:21:30,491: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/privacy 
+[2016-02-05 16:21:30,491: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/privacy
+[2016-02-05 16:21:30,491: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/terms-of-use 
+[2016-02-05 16:21:30,491: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/terms-of-use
+[2016-02-05 16:21:30,494: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/ 
+[2016-02-05 16:21:30,495: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/
+[2016-02-05 16:21:30,495: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/blog/ 
+[2016-02-05 16:21:30,495: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/blog/
+[2016-02-05 16:21:30,495: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/blogpage/17/ 
+[2016-02-05 16:21:30,495: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/blogpage/17/
+[2016-02-05 16:21:30,496: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/about/ 
+[2016-02-05 16:21:30,496: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/about/
+[2016-02-05 16:21:30,496: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/faq/ 
+[2016-02-05 16:21:30,496: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/faq/
+[2016-02-05 16:21:30,496: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/js_signup/ 
+[2016-02-05 16:21:30,497: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/js_signup/
+[2016-02-05 16:21:30,497: DEBUG/Worker-4] Ignoring link (depth > 2): https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.upscored.com&text=When+Your+Job+Title+Doesn%27t+Tell+The+Full+Story%3A+http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F17%2F&via=upscored 
+[2016-02-05 16:21:30,497: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.upscored.com&text=When+Your+Job+Title+Doesn%27t+Tell+The+Full+Story%3A+http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F17%2F&via=upscored
+[2016-02-05 16:21:30,497: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.facebook.com/sharer/sharer.php?u=www.upscored.com%2Fblogpage%2F17%2F 
+[2016-02-05 16:21:30,497: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.facebook.com/sharer/sharer.php?u=www.upscored.com%2Fblogpage%2F17%2F
+[2016-02-05 16:21:30,497: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.linkedin.com/shareArticle?mini=true&source=http%3A%2F%2Fwww.upscored.com&summary=&title=When+Your+Job+Title+Doesn%27t+Tell+The+Full+Story&url=http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F17%2F 
+[2016-02-05 16:21:30,497: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.linkedin.com/shareArticle?mini=true&source=http%3A%2F%2Fwww.upscored.com&summary=&title=When+Your+Job+Title+Doesn%27t+Tell+The+Full+Story&url=http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F17%2F
+[2016-02-05 16:21:30,498: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.prepary.com/ 
+[2016-02-05 16:21:30,498: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.prepary.com/
+[2016-02-05 16:21:30,498: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.prepary.com/resume-tip-job-title 
+[2016-02-05 16:21:30,498: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.prepary.com/resume-tip-job-title
+[2016-02-05 16:21:30,498: DEBUG/Worker-4] Ignoring link (depth > 2): https://twitter.com/upscored 
+[2016-02-05 16:21:30,498: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://twitter.com/upscored
+[2016-02-05 16:21:30,499: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.linkedin.com/company/upscored 
+[2016-02-05 16:21:30,499: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.linkedin.com/company/upscored
+[2016-02-05 16:21:30,499: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.facebook.com/upscored/ 
+[2016-02-05 16:21:30,499: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.facebook.com/upscored/
+[2016-02-05 16:21:30,499: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/privacy 
+[2016-02-05 16:21:30,499: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/privacy
+[2016-02-05 16:21:30,499: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/terms-of-use 
+[2016-02-05 16:21:30,500: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/terms-of-use
+[2016-02-05 16:21:30,505: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/ 
+[2016-02-05 16:21:30,505: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/
+[2016-02-05 16:21:30,505: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/blog/ 
+[2016-02-05 16:21:30,505: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/blog/
+[2016-02-05 16:21:30,505: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/blogpage/22/ 
+[2016-02-05 16:21:30,506: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/blogpage/22/
+[2016-02-05 16:21:30,506: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/about/ 
+[2016-02-05 16:21:30,506: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/about/
+[2016-02-05 16:21:30,506: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/faq/ 
+[2016-02-05 16:21:30,506: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/faq/
+[2016-02-05 16:21:30,506: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/js_signup/ 
+[2016-02-05 16:21:30,506: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/js_signup/
+[2016-02-05 16:21:30,507: DEBUG/Worker-4] Ignoring link (depth > 2): https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.upscored.com&text=How+Hiring+Veterans+Can+Give+Your+Company+A+Competitive+Edge%3A+http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F22%2F&via=upscored 
+[2016-02-05 16:21:30,507: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.upscored.com&text=How+Hiring+Veterans+Can+Give+Your+Company+A+Competitive+Edge%3A+http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F22%2F&via=upscored
+[2016-02-05 16:21:30,507: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.facebook.com/sharer/sharer.php?u=www.upscored.com%2Fblogpage%2F22%2F 
+[2016-02-05 16:21:30,507: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.facebook.com/sharer/sharer.php?u=www.upscored.com%2Fblogpage%2F22%2F
+[2016-02-05 16:21:30,507: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.linkedin.com/shareArticle?mini=true&source=http%3A%2F%2Fwww.upscored.com&summary=&title=How+Hiring+Veterans+Can+Give+Your+Company+A+Competitive+Edge&url=http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F22%2F 
+[2016-02-05 16:21:30,507: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.linkedin.com/shareArticle?mini=true&source=http%3A%2F%2Fwww.upscored.com&summary=&title=How+Hiring+Veterans+Can+Give+Your+Company+A+Competitive+Edge&url=http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F22%2F
+[2016-02-05 16:21:30,508: DEBUG/Worker-4] Ignoring link (depth > 2): http://techcrunch.com/2015/11/03/twitter-engineering-manager-leslie-miley-leaves-company-because-of-diversity-issues/ 
+[2016-02-05 16:21:30,508: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://techcrunch.com/2015/11/03/twitter-engineering-manager-leslie-miley-leaves-company-because-of-diversity-issues/
+[2016-02-05 16:21:30,508: DEBUG/Worker-4] Ignoring link (depth > 2): http://hbswk.hbs.edu/item/in-venture-capital-birds-of-a-feather-lose-money-together 
+[2016-02-05 16:21:30,508: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://hbswk.hbs.edu/item/in-venture-capital-birds-of-a-feather-lose-money-together
+[2016-02-05 16:21:30,508: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.citigroup.com/citi/citizen/community/citisalutes/working-jobs.html 
+[2016-02-05 16:21:30,508: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.citigroup.com/citi/citizen/community/citisalutes/working-jobs.html
+[2016-02-05 16:21:30,508: DEBUG/Worker-4] Ignoring link (depth > 2): https://twitter.com/upscored 
+[2016-02-05 16:21:30,509: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://twitter.com/upscored
+[2016-02-05 16:21:30,509: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.linkedin.com/company/upscored 
+[2016-02-05 16:21:30,509: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.linkedin.com/company/upscored
+[2016-02-05 16:21:30,509: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.facebook.com/upscored/ 
+[2016-02-05 16:21:30,509: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.facebook.com/upscored/
+[2016-02-05 16:21:30,509: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/privacy 
+[2016-02-05 16:21:30,509: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/privacy
+[2016-02-05 16:21:30,510: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/terms-of-use 
+[2016-02-05 16:21:30,510: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/terms-of-use
+[2016-02-05 16:21:30,515: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/ 
+[2016-02-05 16:21:30,515: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/
+[2016-02-05 16:21:30,515: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/blog/ 
+[2016-02-05 16:21:30,515: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/blog/
+[2016-02-05 16:21:30,516: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/blogpage/25/ 
+[2016-02-05 16:21:30,516: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/blogpage/25/
+[2016-02-05 16:21:30,516: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/about/ 
+[2016-02-05 16:21:30,516: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/about/
+[2016-02-05 16:21:30,516: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/faq/ 
+[2016-02-05 16:21:30,516: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/faq/
+[2016-02-05 16:21:30,517: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/js_signup/ 
+[2016-02-05 16:21:30,517: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/js_signup/
+[2016-02-05 16:21:30,517: DEBUG/Worker-4] Ignoring link (depth > 2): https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.upscored.com&text=So+You+Want+to+Work+in+Corporate+Strategy%3F+Learn+What+It+Takes%3A+http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F25%2F&via=upscored 
+[2016-02-05 16:21:30,517: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.upscored.com&text=So+You+Want+to+Work+in+Corporate+Strategy%3F+Learn+What+It+Takes%3A+http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F25%2F&via=upscored
+[2016-02-05 16:21:30,517: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.facebook.com/sharer/sharer.php?u=www.upscored.com%2Fblogpage%2F25%2F 
+[2016-02-05 16:21:30,517: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.facebook.com/sharer/sharer.php?u=www.upscored.com%2Fblogpage%2F25%2F
+[2016-02-05 16:21:30,518: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.linkedin.com/shareArticle?mini=true&source=http%3A%2F%2Fwww.upscored.com&summary=&title=So+You+Want+to+Work+in+Corporate+Strategy%3F+Learn+What+It+Takes&url=http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F25%2F 
+[2016-02-05 16:21:30,518: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.linkedin.com/shareArticle?mini=true&source=http%3A%2F%2Fwww.upscored.com&summary=&title=So+You+Want+to+Work+in+Corporate+Strategy%3F+Learn+What+It+Takes&url=http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F25%2F
+[2016-02-05 16:21:30,518: DEBUG/Worker-4] Ignoring link (depth > 2): http://womenforhire.com/uncategorized/so-you-want-to-work-in-corporate-strategy-learn-what-it-takes/ 
+[2016-02-05 16:21:30,518: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://womenforhire.com/uncategorized/so-you-want-to-work-in-corporate-strategy-learn-what-it-takes/
+[2016-02-05 16:21:30,518: DEBUG/Worker-4] Ignoring link (depth > 2): https://twitter.com/upscored 
+[2016-02-05 16:21:30,518: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://twitter.com/upscored
+[2016-02-05 16:21:30,518: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.linkedin.com/company/upscored 
+[2016-02-05 16:21:30,519: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.linkedin.com/company/upscored
+[2016-02-05 16:21:30,519: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.facebook.com/upscored/ 
+[2016-02-05 16:21:30,519: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.facebook.com/upscored/
+[2016-02-05 16:21:30,519: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/privacy 
+[2016-02-05 16:21:30,519: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/privacy
+[2016-02-05 16:21:30,519: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/terms-of-use 
+[2016-02-05 16:21:30,519: WARNING/Worker-4] 2016-02-05 16:21:30 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/terms-of-use
+[2016-02-05 16:21:31,731: DEBUG/Worker-4] Scraped from <200 http://www.upscored.com/blogpage/21/>
+None
+[2016-02-05 16:21:31,732: WARNING/Worker-4] 2016-02-05 16:21:31 [scrapy] DEBUG: Scraped from <200 http://www.upscored.com/blogpage/21/>
+None
+[2016-02-05 16:21:32,677: DEBUG/Worker-4] STREAM IHDR 16 13
+[2016-02-05 16:21:32,677: WARNING/Worker-4] 2016-02-05 16:21:32 [PIL.PngImagePlugin] DEBUG: STREAM IHDR 16 13
+[2016-02-05 16:21:32,677: DEBUG/Worker-4] STREAM bKGD 41 6
+[2016-02-05 16:21:32,677: WARNING/Worker-4] 2016-02-05 16:21:32 [PIL.PngImagePlugin] DEBUG: STREAM bKGD 41 6
+[2016-02-05 16:21:32,678: DEBUG/Worker-4] bKGD 41 6 (unknown)
+[2016-02-05 16:21:32,678: WARNING/Worker-4] 2016-02-05 16:21:32 [PIL.PngImagePlugin] DEBUG: bKGD 41 6 (unknown)
+[2016-02-05 16:21:32,678: DEBUG/Worker-4] STREAM pHYs 59 9
+[2016-02-05 16:21:32,678: WARNING/Worker-4] 2016-02-05 16:21:32 [PIL.PngImagePlugin] DEBUG: STREAM pHYs 59 9
+[2016-02-05 16:21:32,678: DEBUG/Worker-4] STREAM tIME 80 7
+[2016-02-05 16:21:32,678: WARNING/Worker-4] 2016-02-05 16:21:32 [PIL.PngImagePlugin] DEBUG: STREAM tIME 80 7
+[2016-02-05 16:21:32,679: DEBUG/Worker-4] tIME 80 7 (unknown)
+[2016-02-05 16:21:32,679: WARNING/Worker-4] 2016-02-05 16:21:32 [PIL.PngImagePlugin] DEBUG: tIME 80 7 (unknown)
+[2016-02-05 16:21:32,679: DEBUG/Worker-4] STREAM IDAT 99 8192
+[2016-02-05 16:21:32,679: WARNING/Worker-4] 2016-02-05 16:21:32 [PIL.PngImagePlugin] DEBUG: STREAM IDAT 99 8192
+[2016-02-05 16:21:32,680: DEBUG/Worker-4] STREAM IHDR 16 13
+[2016-02-05 16:21:32,680: WARNING/Worker-4] 2016-02-05 16:21:32 [PIL.PngImagePlugin] DEBUG: STREAM IHDR 16 13
+[2016-02-05 16:21:32,680: DEBUG/Worker-4] STREAM bKGD 41 6
+[2016-02-05 16:21:32,680: WARNING/Worker-4] 2016-02-05 16:21:32 [PIL.PngImagePlugin] DEBUG: STREAM bKGD 41 6
+[2016-02-05 16:21:32,680: DEBUG/Worker-4] bKGD 41 6 (unknown)
+[2016-02-05 16:21:32,681: WARNING/Worker-4] 2016-02-05 16:21:32 [PIL.PngImagePlugin] DEBUG: bKGD 41 6 (unknown)
+[2016-02-05 16:21:32,681: DEBUG/Worker-4] STREAM pHYs 59 9
+[2016-02-05 16:21:32,681: WARNING/Worker-4] 2016-02-05 16:21:32 [PIL.PngImagePlugin] DEBUG: STREAM pHYs 59 9
+[2016-02-05 16:21:32,681: DEBUG/Worker-4] STREAM tIME 80 7
+[2016-02-05 16:21:32,681: WARNING/Worker-4] 2016-02-05 16:21:32 [PIL.PngImagePlugin] DEBUG: STREAM tIME 80 7
+[2016-02-05 16:21:32,681: DEBUG/Worker-4] tIME 80 7 (unknown)
+[2016-02-05 16:21:32,681: WARNING/Worker-4] 2016-02-05 16:21:32 [PIL.PngImagePlugin] DEBUG: tIME 80 7 (unknown)
+[2016-02-05 16:21:32,681: DEBUG/Worker-4] STREAM IDAT 99 8192
+[2016-02-05 16:21:32,682: WARNING/Worker-4] 2016-02-05 16:21:32 [PIL.PngImagePlugin] DEBUG: STREAM IDAT 99 8192
+[2016-02-05 16:21:32,690: DEBUG/Worker-4] Scraped from <200 http://www.upscored.com/blogpage/24/>
+None
+[2016-02-05 16:21:32,690: WARNING/Worker-4] 2016-02-05 16:21:32 [scrapy] DEBUG: Scraped from <200 http://www.upscored.com/blogpage/24/>
+None
+[2016-02-05 16:21:32,795: DEBUG/Worker-4] Scraped from <200 http://upscored.com/accounts/login/?next=/js_account/>
+None
+[2016-02-05 16:21:32,795: WARNING/Worker-4] 2016-02-05 16:21:32 [scrapy] DEBUG: Scraped from <200 http://upscored.com/accounts/login/?next=/js_account/>
+None
+[2016-02-05 16:21:33,682: DEBUG/Worker-4] Scraped from <200 http://www.upscored.com/blogpage/26/>
+None
+[2016-02-05 16:21:33,682: WARNING/Worker-4] 2016-02-05 16:21:33 [scrapy] DEBUG: Scraped from <200 http://www.upscored.com/blogpage/26/>
+None
+[2016-02-05 16:21:33,758: DEBUG/Worker-4] Scraped from <200 http://www.upscored.com/accounts/login/>
+None
+[2016-02-05 16:21:33,759: WARNING/Worker-4] 2016-02-05 16:21:33 [scrapy] DEBUG: Scraped from <200 http://www.upscored.com/accounts/login/>
+None
+[2016-02-05 16:21:34,396: DEBUG/Worker-4] Scraped from <200 http://www.upscored.com/blogpage/15/>
+None
+[2016-02-05 16:21:34,397: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Scraped from <200 http://www.upscored.com/blogpage/15/>
+None
+[2016-02-05 16:21:34,403: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/ 
+[2016-02-05 16:21:34,404: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/
+[2016-02-05 16:21:34,404: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/blog/ 
+[2016-02-05 16:21:34,404: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/blog/
+[2016-02-05 16:21:34,404: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/blogpage/21/ 
+[2016-02-05 16:21:34,404: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/blogpage/21/
+[2016-02-05 16:21:34,404: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/about/ 
+[2016-02-05 16:21:34,405: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/about/
+[2016-02-05 16:21:34,405: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/faq/ 
+[2016-02-05 16:21:34,405: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/faq/
+[2016-02-05 16:21:34,405: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/js_signup/ 
+[2016-02-05 16:21:34,405: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/js_signup/
+[2016-02-05 16:21:34,405: DEBUG/Worker-4] Ignoring link (depth > 2): https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.upscored.com&text=Leave+the+Job+Search+Behind%E2%80%A6+UpScored+is+Live%21%3A+http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F21%2F&via=upscored 
+[2016-02-05 16:21:34,406: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.upscored.com&text=Leave+the+Job+Search+Behind%E2%80%A6+UpScored+is+Live%21%3A+http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F21%2F&via=upscored
+[2016-02-05 16:21:34,406: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.facebook.com/sharer/sharer.php?u=www.upscored.com%2Fblogpage%2F21%2F 
+[2016-02-05 16:21:34,406: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.facebook.com/sharer/sharer.php?u=www.upscored.com%2Fblogpage%2F21%2F
+[2016-02-05 16:21:34,406: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.linkedin.com/shareArticle?mini=true&source=http%3A%2F%2Fwww.upscored.com&summary=&title=Leave+the+Job+Search+Behind%E2%80%A6+UpScored+is+Live%21&url=http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F21%2F 
+[2016-02-05 16:21:34,406: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.linkedin.com/shareArticle?mini=true&source=http%3A%2F%2Fwww.upscored.com&summary=&title=Leave+the+Job+Search+Behind%E2%80%A6+UpScored+is+Live%21&url=http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F21%2F
+[2016-02-05 16:21:34,406: DEBUG/Worker-4] Ignoring link (depth > 2): http://upscored.com/js_signup 
+[2016-02-05 16:21:34,406: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://upscored.com/js_signup
+[2016-02-05 16:21:34,407: DEBUG/Worker-4] Ignoring link (depth > 2): https://twitter.com/upscored 
+[2016-02-05 16:21:34,407: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://twitter.com/upscored
+[2016-02-05 16:21:34,407: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.linkedin.com/company/upscored 
+[2016-02-05 16:21:34,407: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.linkedin.com/company/upscored
+[2016-02-05 16:21:34,407: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.facebook.com/upscored/ 
+[2016-02-05 16:21:34,407: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.facebook.com/upscored/
+[2016-02-05 16:21:34,407: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/privacy 
+[2016-02-05 16:21:34,408: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/privacy
+[2016-02-05 16:21:34,408: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/terms-of-use 
+[2016-02-05 16:21:34,408: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/terms-of-use
+[2016-02-05 16:21:34,414: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/ 
+[2016-02-05 16:21:34,415: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/
+[2016-02-05 16:21:34,415: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/blog/ 
+[2016-02-05 16:21:34,415: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/blog/
+[2016-02-05 16:21:34,415: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/blogpage/24/ 
+[2016-02-05 16:21:34,415: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/blogpage/24/
+[2016-02-05 16:21:34,416: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/about/ 
+[2016-02-05 16:21:34,416: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/about/
+[2016-02-05 16:21:34,416: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/faq/ 
+[2016-02-05 16:21:34,416: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/faq/
+[2016-02-05 16:21:34,416: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/js_signup/ 
+[2016-02-05 16:21:34,416: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/js_signup/
+[2016-02-05 16:21:34,417: DEBUG/Worker-4] Ignoring link (depth > 2): https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.upscored.com&text=Capitalize+on+the+Most+Sought-After+Technical+Skills%3A+http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F24%2F&via=upscored 
+[2016-02-05 16:21:34,417: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.upscored.com&text=Capitalize+on+the+Most+Sought-After+Technical+Skills%3A+http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F24%2F&via=upscored
+[2016-02-05 16:21:34,417: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.facebook.com/sharer/sharer.php?u=www.upscored.com%2Fblogpage%2F24%2F 
+[2016-02-05 16:21:34,417: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.facebook.com/sharer/sharer.php?u=www.upscored.com%2Fblogpage%2F24%2F
+[2016-02-05 16:21:34,417: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.linkedin.com/shareArticle?mini=true&source=http%3A%2F%2Fwww.upscored.com&summary=&title=Capitalize+on+the+Most+Sought-After+Technical+Skills&url=http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F24%2F 
+[2016-02-05 16:21:34,417: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.linkedin.com/shareArticle?mini=true&source=http%3A%2F%2Fwww.upscored.com&summary=&title=Capitalize+on+the+Most+Sought-After+Technical+Skills&url=http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F24%2F
+[2016-02-05 16:21:34,418: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.google.com/url?q=http%3A%2F%2Fwww.businessinsider.com%2Fmind-blowing-growth-and-power-of-big-data-2015-6&sa=D&usg=AFQjCNEKk9tnB5ivLU4bW8IwoeY7GYpR1Q 
+[2016-02-05 16:21:34,418: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.google.com/url?q=http%3A%2F%2Fwww.businessinsider.com%2Fmind-blowing-growth-and-power-of-big-data-2015-6&sa=D&usg=AFQjCNEKk9tnB5ivLU4bW8IwoeY7GYpR1Q
+[2016-02-05 16:21:34,418: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.thisismetis.com/data-science 
+[2016-02-05 16:21:34,418: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.thisismetis.com/data-science
+[2016-02-05 16:21:34,418: DEBUG/Worker-4] Ignoring link (depth > 2): https://generalassemb.ly/education/data-science 
+[2016-02-05 16:21:34,418: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://generalassemb.ly/education/data-science
+[2016-02-05 16:21:34,419: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.datasciencecentral.com/profiles/blogs/top-five-data-science-masters-programs 
+[2016-02-05 16:21:34,419: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.datasciencecentral.com/profiles/blogs/top-five-data-science-masters-programs
+[2016-02-05 16:21:34,419: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.coursera.org/course/datasci 
+[2016-02-05 16:21:34,419: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.coursera.org/course/datasci
+[2016-02-05 16:21:34,419: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.udacity.com/course/intro-to-hadoop-and-mapreduce--ud617 
+[2016-02-05 16:21:34,419: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.udacity.com/course/intro-to-hadoop-and-mapreduce--ud617
+[2016-02-05 16:21:34,419: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.edx.org/course/data-science-machine-learning-essentials-microsoft-dat203x-0 
+[2016-02-05 16:21:34,420: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.edx.org/course/data-science-machine-learning-essentials-microsoft-dat203x-0
+[2016-02-05 16:21:34,420: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.kaggle.com/competitions 
+[2016-02-05 16:21:34,420: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.kaggle.com/competitions
+[2016-02-05 16:21:34,420: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.google.com/publicdata/directory# 
+[2016-02-05 16:21:34,420: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.google.com/publicdata/directory#
+[2016-02-05 16:21:34,420: DEBUG/Worker-4] Ignoring link (depth > 2): http://archive.ics.uci.edu/ml/index.html 
+[2016-02-05 16:21:34,421: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://archive.ics.uci.edu/ml/index.html
+[2016-02-05 16:21:34,421: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/js_signup 
+[2016-02-05 16:21:34,421: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/js_signup
+[2016-02-05 16:21:34,421: DEBUG/Worker-4] Ignoring link (depth > 2): https://twitter.com/upscored 
+[2016-02-05 16:21:34,421: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://twitter.com/upscored
+[2016-02-05 16:21:34,421: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.linkedin.com/company/upscored 
+[2016-02-05 16:21:34,421: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.linkedin.com/company/upscored
+[2016-02-05 16:21:34,422: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.facebook.com/upscored/ 
+[2016-02-05 16:21:34,422: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.facebook.com/upscored/
+[2016-02-05 16:21:34,422: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/privacy 
+[2016-02-05 16:21:34,422: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/privacy
+[2016-02-05 16:21:34,422: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/terms-of-use 
+[2016-02-05 16:21:34,422: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/terms-of-use
+[2016-02-05 16:21:34,425: DEBUG/Worker-4] Ignoring link (depth > 2): http://upscored.com/ 
+[2016-02-05 16:21:34,425: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://upscored.com/
+[2016-02-05 16:21:34,425: DEBUG/Worker-4] Ignoring link (depth > 2): http://upscored.com/blog/ 
+[2016-02-05 16:21:34,425: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://upscored.com/blog/
+[2016-02-05 16:21:34,425: DEBUG/Worker-4] Ignoring link (depth > 2): http://upscored.com/accounts/login/?next=%2Fjs_account%2F 
+[2016-02-05 16:21:34,425: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://upscored.com/accounts/login/?next=%2Fjs_account%2F
+[2016-02-05 16:21:34,425: DEBUG/Worker-4] Ignoring link (depth > 2): http://upscored.com/about/ 
+[2016-02-05 16:21:34,426: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://upscored.com/about/
+[2016-02-05 16:21:34,426: DEBUG/Worker-4] Ignoring link (depth > 2): http://upscored.com/faq/ 
+[2016-02-05 16:21:34,426: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://upscored.com/faq/
+[2016-02-05 16:21:34,426: DEBUG/Worker-4] Ignoring link (depth > 2): http://upscored.com/js_signup/ 
+[2016-02-05 16:21:34,426: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://upscored.com/js_signup/
+[2016-02-05 16:21:34,426: DEBUG/Worker-4] Ignoring link (depth > 2): http://upscored.com/accounts/password/reset/ 
+[2016-02-05 16:21:34,427: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://upscored.com/accounts/password/reset/
+[2016-02-05 16:21:34,427: DEBUG/Worker-4] Ignoring link (depth > 2): https://twitter.com/upscored 
+[2016-02-05 16:21:34,427: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://twitter.com/upscored
+[2016-02-05 16:21:34,427: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.linkedin.com/company/upscored 
+[2016-02-05 16:21:34,427: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.linkedin.com/company/upscored
+[2016-02-05 16:21:34,427: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.facebook.com/upscored/ 
+[2016-02-05 16:21:34,427: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.facebook.com/upscored/
+[2016-02-05 16:21:34,428: DEBUG/Worker-4] Ignoring link (depth > 2): http://upscored.com/privacy 
+[2016-02-05 16:21:34,428: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://upscored.com/privacy
+[2016-02-05 16:21:34,428: DEBUG/Worker-4] Ignoring link (depth > 2): http://upscored.com/terms-of-use 
+[2016-02-05 16:21:34,428: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://upscored.com/terms-of-use
+[2016-02-05 16:21:34,434: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/ 
+[2016-02-05 16:21:34,434: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/
+[2016-02-05 16:21:34,434: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/blog/ 
+[2016-02-05 16:21:34,434: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/blog/
+[2016-02-05 16:21:34,434: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/blogpage/26/ 
+[2016-02-05 16:21:34,435: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/blogpage/26/
+[2016-02-05 16:21:34,435: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/about/ 
+[2016-02-05 16:21:34,435: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/about/
+[2016-02-05 16:21:34,435: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/faq/ 
+[2016-02-05 16:21:34,435: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/faq/
+[2016-02-05 16:21:34,435: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/js_signup/ 
+[2016-02-05 16:21:34,435: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/js_signup/
+[2016-02-05 16:21:34,436: DEBUG/Worker-4] Ignoring link (depth > 2): https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.upscored.com&text=Career+Inspiration%3A+4+Books+To+Help+You+Chart+Your+Course+in+2016%3A+http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F26%2F&via=upscored 
+[2016-02-05 16:21:34,436: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.upscored.com&text=Career+Inspiration%3A+4+Books+To+Help+You+Chart+Your+Course+in+2016%3A+http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F26%2F&via=upscored
+[2016-02-05 16:21:34,436: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.facebook.com/sharer/sharer.php?u=www.upscored.com%2Fblogpage%2F26%2F 
+[2016-02-05 16:21:34,436: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.facebook.com/sharer/sharer.php?u=www.upscored.com%2Fblogpage%2F26%2F
+[2016-02-05 16:21:34,436: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.linkedin.com/shareArticle?mini=true&source=http%3A%2F%2Fwww.upscored.com&summary=&title=Career+Inspiration%3A+4+Books+To+Help+You+Chart+Your+Course+in+2016&url=http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F26%2F 
+[2016-02-05 16:21:34,436: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.linkedin.com/shareArticle?mini=true&source=http%3A%2F%2Fwww.upscored.com&summary=&title=Career+Inspiration%3A+4+Books+To+Help+You+Chart+Your+Course+in+2016&url=http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F26%2F
+[2016-02-05 16:21:34,437: DEBUG/Worker-4] Ignoring link (depth > 2): http://carolinedowdhiggins.com/ 
+[2016-02-05 16:21:34,437: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://carolinedowdhiggins.com/
+[2016-02-05 16:21:34,437: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.amazon.com/This-Not-Career-Ordered-Empowering/dp/0982731817/ref=sr_1_1?ie=UTF8&keywords=This+Is+Not+The+Career+I+Ordered&qid=1451396861&sr=8-1 
+[2016-02-05 16:21:34,437: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.amazon.com/This-Not-Career-Ordered-Empowering/dp/0982731817/ref=sr_1_1?ie=UTF8&keywords=This+Is+Not+The+Career+I+Ordered&qid=1451396861&sr=8-1
+[2016-02-05 16:21:34,437: DEBUG/Worker-4] Ignoring link (depth > 2): http://carolinedowdhiggins.com/career-inspiration-4-books-to-help-you-chart-your-course-in-2016/ 
+[2016-02-05 16:21:34,437: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://carolinedowdhiggins.com/career-inspiration-4-books-to-help-you-chart-your-course-in-2016/
+[2016-02-05 16:21:34,438: DEBUG/Worker-4] Ignoring link (depth > 2): https://twitter.com/upscored 
+[2016-02-05 16:21:34,438: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://twitter.com/upscored
+[2016-02-05 16:21:34,438: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.linkedin.com/company/upscored 
+[2016-02-05 16:21:34,438: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.linkedin.com/company/upscored
+[2016-02-05 16:21:34,438: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.facebook.com/upscored/ 
+[2016-02-05 16:21:34,438: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.facebook.com/upscored/
+[2016-02-05 16:21:34,438: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/privacy 
+[2016-02-05 16:21:34,439: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/privacy
+[2016-02-05 16:21:34,439: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/terms-of-use 
+[2016-02-05 16:21:34,439: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/terms-of-use
+[2016-02-05 16:21:34,443: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/ 
+[2016-02-05 16:21:34,443: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/
+[2016-02-05 16:21:34,443: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/blog/ 
+[2016-02-05 16:21:34,443: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/blog/
+[2016-02-05 16:21:34,443: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/accounts/login/ 
+[2016-02-05 16:21:34,443: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/accounts/login/
+[2016-02-05 16:21:34,444: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/about/ 
+[2016-02-05 16:21:34,444: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/about/
+[2016-02-05 16:21:34,444: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/faq/ 
+[2016-02-05 16:21:34,444: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/faq/
+[2016-02-05 16:21:34,444: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/js_signup/ 
+[2016-02-05 16:21:34,444: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/js_signup/
+[2016-02-05 16:21:34,445: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/accounts/password/reset/ 
+[2016-02-05 16:21:34,445: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/accounts/password/reset/
+[2016-02-05 16:21:34,445: DEBUG/Worker-4] Ignoring link (depth > 2): https://twitter.com/upscored 
+[2016-02-05 16:21:34,445: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://twitter.com/upscored
+[2016-02-05 16:21:34,445: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.linkedin.com/company/upscored 
+[2016-02-05 16:21:34,445: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.linkedin.com/company/upscored
+[2016-02-05 16:21:34,445: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.facebook.com/upscored/ 
+[2016-02-05 16:21:34,446: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.facebook.com/upscored/
+[2016-02-05 16:21:34,446: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/privacy 
+[2016-02-05 16:21:34,446: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/privacy
+[2016-02-05 16:21:34,446: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/terms-of-use 
+[2016-02-05 16:21:34,446: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/terms-of-use
+[2016-02-05 16:21:34,452: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/ 
+[2016-02-05 16:21:34,452: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/
+[2016-02-05 16:21:34,452: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/blog/ 
+[2016-02-05 16:21:34,452: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/blog/
+[2016-02-05 16:21:34,453: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/blogpage/15/ 
+[2016-02-05 16:21:34,453: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/blogpage/15/
+[2016-02-05 16:21:34,453: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/about/ 
+[2016-02-05 16:21:34,453: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/about/
+[2016-02-05 16:21:34,453: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/faq/ 
+[2016-02-05 16:21:34,453: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/faq/
+[2016-02-05 16:21:34,453: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/js_signup/ 
+[2016-02-05 16:21:34,454: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/js_signup/
+[2016-02-05 16:21:34,454: DEBUG/Worker-4] Ignoring link (depth > 2): https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.upscored.com&text=UpScored%E2%80%99s+NYC+Neighborhood+Series%3A+Chelsea%3A+http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F15%2F&via=upscored 
+[2016-02-05 16:21:34,454: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.upscored.com&text=UpScored%E2%80%99s+NYC+Neighborhood+Series%3A+Chelsea%3A+http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F15%2F&via=upscored
+[2016-02-05 16:21:34,454: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.facebook.com/sharer/sharer.php?u=www.upscored.com%2Fblogpage%2F15%2F 
+[2016-02-05 16:21:34,454: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.facebook.com/sharer/sharer.php?u=www.upscored.com%2Fblogpage%2F15%2F
+[2016-02-05 16:21:34,454: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.linkedin.com/shareArticle?mini=true&source=http%3A%2F%2Fwww.upscored.com&summary=&title=UpScored%E2%80%99s+NYC+Neighborhood+Series%3A+Chelsea&url=http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F15%2F 
+[2016-02-05 16:21:34,455: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.linkedin.com/shareArticle?mini=true&source=http%3A%2F%2Fwww.upscored.com&summary=&title=UpScored%E2%80%99s+NYC+Neighborhood+Series%3A+Chelsea&url=http%3A%2F%2Fwww.upscored.com%2Fblogpage%2F15%2F
+[2016-02-05 16:21:34,455: DEBUG/Worker-4] Ignoring link (depth > 2): http://chelseagallerymap.com/ 
+[2016-02-05 16:21:34,455: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://chelseagallerymap.com/
+[2016-02-05 16:21:34,455: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.pushcartcoffee.com/locations/north-chelsea 
+[2016-02-05 16:21:34,455: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.pushcartcoffee.com/locations/north-chelsea
+[2016-02-05 16:21:34,455: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.yelp.com/biz/the-grey-dog-new-york-5 
+[2016-02-05 16:21:34,455: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.yelp.com/biz/the-grey-dog-new-york-5
+[2016-02-05 16:21:34,456: DEBUG/Worker-4] Ignoring link (depth > 2): http://thetippler.com/ 
+[2016-02-05 16:21:34,456: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://thetippler.com/
+[2016-02-05 16:21:34,456: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.bathtubginnyc.com/ 
+[2016-02-05 16:21:34,456: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.bathtubginnyc.com/
+[2016-02-05 16:21:34,456: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.thehighline.org/ 
+[2016-02-05 16:21:34,456: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.thehighline.org/
+[2016-02-05 16:21:34,457: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.chelseamarket.com/ 
+[2016-02-05 16:21:34,457: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.chelseamarket.com/
+[2016-02-05 16:21:34,457: DEBUG/Worker-4] Ignoring link (depth > 2): https://twitter.com/upscored 
+[2016-02-05 16:21:34,457: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://twitter.com/upscored
+[2016-02-05 16:21:34,457: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.linkedin.com/company/upscored 
+[2016-02-05 16:21:34,457: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.linkedin.com/company/upscored
+[2016-02-05 16:21:34,457: DEBUG/Worker-4] Ignoring link (depth > 2): https://www.facebook.com/upscored/ 
+[2016-02-05 16:21:34,457: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.facebook.com/upscored/
+[2016-02-05 16:21:34,458: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/privacy 
+[2016-02-05 16:21:34,458: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/privacy
+[2016-02-05 16:21:34,458: DEBUG/Worker-4] Ignoring link (depth > 2): http://www.upscored.com/terms-of-use 
+[2016-02-05 16:21:34,458: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] DEBUG: Ignoring link (depth > 2): http://www.upscored.com/terms-of-use
+[2016-02-05 16:21:34,464: INFO/Worker-4] Closing spider (finished)
+[2016-02-05 16:21:34,464: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] INFO: Closing spider (finished)
+[2016-02-05 16:21:34,593: INFO/Worker-4] Dumping Scrapy stats:
+{'downloader/request_bytes': 10109,
+ 'downloader/request_count': 31,
+ 'downloader/request_method_count/GET': 31,
+ 'downloader/response_bytes': 120606,
+ 'downloader/response_count': 31,
+ 'downloader/response_status_count/200': 20,
+ 'downloader/response_status_count/301': 10,
+ 'downloader/response_status_count/302': 1,
+ 'dupefilter/filtered': 49,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 2, 5, 16, 21, 34, 464835),
+ 'item_scraped_count': 19,
+ 'log_count/DEBUG': 316,
+ 'log_count/INFO': 7,
+ 'log_count/WARNING': 323,
+ 'offsite/domains': 4,
+ 'offsite/filtered': 31,
+ 'request_depth_max': 2,
+ 'response_received_count': 20,
+ 'scheduler/dequeued': 31,
+ 'scheduler/dequeued/memory': 31,
+ 'scheduler/enqueued': 31,
+ 'scheduler/enqueued/memory': 31,
+ 'start_time': datetime.datetime(2016, 2, 5, 16, 21, 16, 364856)}
+[2016-02-05 16:21:34,593: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 10109,
+ 'downloader/request_count': 31,
+ 'downloader/request_method_count/GET': 31,
+ 'downloader/response_bytes': 120606,
+ 'downloader/response_count': 31,
+ 'downloader/response_status_count/200': 20,
+ 'downloader/response_status_count/301': 10,
+ 'downloader/response_status_count/302': 1,
+ 'dupefilter/filtered': 49,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 2, 5, 16, 21, 34, 464835),
+ 'item_scraped_count': 19,
+ 'log_count/DEBUG': 316,
+ 'log_count/INFO': 7,
+ 'log_count/WARNING': 323,
+ 'offsite/domains': 4,
+ 'offsite/filtered': 31,
+ 'request_depth_max': 2,
+ 'response_received_count': 20,
+ 'scheduler/dequeued': 31,
+ 'scheduler/dequeued/memory': 31,
+ 'scheduler/enqueued': 31,
+ 'scheduler/enqueued/memory': 31,
+ 'start_time': datetime.datetime(2016, 2, 5, 16, 21, 16, 364856)}
+[2016-02-05 16:21:34,594: INFO/Worker-4] Spider closed (finished)
+[2016-02-05 16:21:34,594: WARNING/Worker-4] 2016-02-05 16:21:34 [scrapy] INFO: Spider closed (finished)
+[2016-02-05 16:21:34,604: WARNING/Worker-4] /home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py:365: RuntimeWarning: Exception raised outside body: TypeError("__init__() got an unexpected keyword argument 'socket_connect_timeout'",):
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py", line 283, in trace_task
+    uuid, retval, SUCCESS, request=task_request,
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 257, in store_result
+    request=request, **kwargs)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 491, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/client.py", line 2149, in execute
+    self.shard_hint)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 455, in get_connection
+    connection = self.make_connection()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 464, in make_connection
+    return self.connection_class(**self.connection_kwargs)
+TypeError: __init__() got an unexpected keyword argument 'socket_connect_timeout'
+
+  exc, exc_info.traceback)))
+
+[2016-02-05 16:21:34,604: WARNING/Worker-4] 2016-02-05 16:21:34 [py.warnings] WARNING: /home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py:365: RuntimeWarning: Exception raised outside body: TypeError("__init__() got an unexpected keyword argument 'socket_connect_timeout'",):
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py", line 283, in trace_task
+    uuid, retval, SUCCESS, request=task_request,
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 257, in store_result
+    request=request, **kwargs)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 491, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/client.py", line 2149, in execute
+    self.shard_hint)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 455, in get_connection
+    connection = self.make_connection()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 464, in make_connection
+    return self.connection_class(**self.connection_kwargs)
+TypeError: __init__() got an unexpected keyword argument 'socket_connect_timeout'
+
+  exc, exc_info.traceback)))
+[2016-02-05 16:21:34,605: CRITICAL/MainProcess] Task app.scrape[cff256af-9ad5-4bc9-8dfa-2ec620cff2f5] INTERNAL ERROR: TypeError("__init__() got an unexpected keyword argument 'socket_connect_timeout'",)
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py", line 283, in trace_task
+    uuid, retval, SUCCESS, request=task_request,
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 257, in store_result
+    request=request, **kwargs)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 491, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/client.py", line 2149, in execute
+    self.shard_hint)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 455, in get_connection
+    connection = self.make_connection()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 464, in make_connection
+    return self.connection_class(**self.connection_kwargs)
+TypeError: __init__() got an unexpected keyword argument 'socket_connect_timeout'
+[2016-02-05 16:23:54,886: INFO/MainProcess] Received task: app.scrape[a3c71d95-4e8b-4122-bddd-e5cd8abec018]
+[2016-02-05 16:23:54,893: INFO/Worker-2] Scrapy 1.0.3 started (bot: scrapybot)
+[2016-02-05 16:23:54,893: WARNING/Worker-2] 2016-02-05 16:23:54 [scrapy] INFO: Scrapy 1.0.3 started (bot: scrapybot)
+[2016-02-05 16:23:54,894: INFO/Worker-2] Optional features available: ssl, http11, boto
+[2016-02-05 16:23:54,894: WARNING/Worker-2] 2016-02-05 16:23:54 [scrapy] INFO: Optional features available: ssl, http11, boto
+[2016-02-05 16:23:54,894: INFO/Worker-2] Overridden settings: {'CLOSESPIDER_TIMEOUT': 30, 'DEPTH_LIMIT': 2, 'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'}
+[2016-02-05 16:23:54,894: WARNING/Worker-2] 2016-02-05 16:23:54 [scrapy] INFO: Overridden settings: {'CLOSESPIDER_TIMEOUT': 30, 'DEPTH_LIMIT': 2, 'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'}
+[2016-02-05 16:23:54,949: INFO/Worker-2] Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+[2016-02-05 16:23:54,949: WARNING/Worker-2] 2016-02-05 16:23:54 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+[2016-02-05 16:23:54,986: INFO/Worker-2] Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+[2016-02-05 16:23:54,987: WARNING/Worker-2] 2016-02-05 16:23:54 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+[2016-02-05 16:23:54,988: INFO/Worker-2] Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+[2016-02-05 16:23:54,988: WARNING/Worker-2] 2016-02-05 16:23:54 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+[2016-02-05 16:23:55,202: INFO/Worker-2] Enabled item pipelines: UserInputPipeline
+[2016-02-05 16:23:55,202: WARNING/Worker-2] 2016-02-05 16:23:55 [scrapy] INFO: Enabled item pipelines: UserInputPipeline
+[2016-02-05 16:23:55,202: INFO/Worker-2] Spider opened
+[2016-02-05 16:23:55,203: WARNING/Worker-2] 2016-02-05 16:23:55 [scrapy] INFO: Spider opened
+[2016-02-05 16:23:55,204: INFO/Worker-2] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+[2016-02-05 16:23:55,204: WARNING/Worker-2] 2016-02-05 16:23:55 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+[2016-02-05 16:23:55,205: DEBUG/Worker-2] Telnet console listening on 127.0.0.1:6023
+[2016-02-05 16:23:55,206: WARNING/Worker-2] 2016-02-05 16:23:55 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+[2016-02-05 16:23:55,240: DEBUG/Worker-2] Redirecting (301) to <GET https://www.wayup.com/> from <GET http://www.wayup.com>
+[2016-02-05 16:23:55,241: WARNING/Worker-2] 2016-02-05 16:23:55 [scrapy] DEBUG: Redirecting (301) to <GET https://www.wayup.com/> from <GET http://www.wayup.com>
+[2016-02-05 16:23:55,345: DEBUG/Worker-2] Crawled (200) <GET https://www.wayup.com/> (referer: None)
+[2016-02-05 16:23:55,346: WARNING/Worker-2] 2016-02-05 16:23:55 [scrapy] DEBUG: Crawled (200) <GET https://www.wayup.com/> (referer: None)
+[2016-02-05 16:23:55,452: INFO/Worker-2] Closing spider (finished)
+[2016-02-05 16:23:55,452: WARNING/Worker-2] 2016-02-05 16:23:55 [scrapy] INFO: Closing spider (finished)
+[2016-02-05 16:23:55,453: ERROR/Worker-2] Error caught on signal handler: <bound method ?.spider_closed of <app.vcspider.vcspider.pipelines.UserInputPipeline object at 0x7efd27af0f90>>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/twisted/internet/defer.py", line 150, in maybeDeferred
+    result = f(*args, **kw)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/scrapy/xlib/pydispatch/robustapply.py", line 57, in robustApply
+    return receiver(*arguments, **named)
+  File "/home/ubuntu/programming/banker.ai/mcubed/app/vcspider/vcspider/pipelines.py", line 39, in spider_closed
+    self.cur.execute(sql, sitekv[0]) # keeping tuple comprehension for if i do multiple sites
+IndexError: list index out of range
+[2016-02-05 16:23:55,456: WARNING/Worker-2] 2016-02-05 16:23:55 [scrapy] ERROR: Error caught on signal handler: <bound method ?.spider_closed of <app.vcspider.vcspider.pipelines.UserInputPipeline object at 0x7efd27af0f90>>
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/twisted/internet/defer.py", line 150, in maybeDeferred
+    result = f(*args, **kw)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/scrapy/xlib/pydispatch/robustapply.py", line 57, in robustApply
+    return receiver(*arguments, **named)
+  File "/home/ubuntu/programming/banker.ai/mcubed/app/vcspider/vcspider/pipelines.py", line 39, in spider_closed
+    self.cur.execute(sql, sitekv[0]) # keeping tuple comprehension for if i do multiple sites
+IndexError: list index out of range
+[2016-02-05 16:23:55,457: INFO/Worker-2] Dumping Scrapy stats:
+{'downloader/request_bytes': 456,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 17572,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/301': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 2, 5, 16, 23, 55, 453063),
+ 'log_count/DEBUG': 3,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'log_count/WARNING': 11,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2016, 2, 5, 16, 23, 55, 204553)}
+[2016-02-05 16:23:55,457: WARNING/Worker-2] 2016-02-05 16:23:55 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 456,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 17572,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/301': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 2, 5, 16, 23, 55, 453063),
+ 'log_count/DEBUG': 3,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'log_count/WARNING': 11,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2016, 2, 5, 16, 23, 55, 204553)}
+[2016-02-05 16:23:55,457: INFO/Worker-2] Spider closed (finished)
+[2016-02-05 16:23:55,457: WARNING/Worker-2] 2016-02-05 16:23:55 [scrapy] INFO: Spider closed (finished)
+[2016-02-05 16:23:55,463: WARNING/Worker-2] /home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py:365: RuntimeWarning: Exception raised outside body: TypeError("__init__() got an unexpected keyword argument 'socket_connect_timeout'",):
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py", line 283, in trace_task
+    uuid, retval, SUCCESS, request=task_request,
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 257, in store_result
+    request=request, **kwargs)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 491, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/client.py", line 2149, in execute
+    self.shard_hint)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 455, in get_connection
+    connection = self.make_connection()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 464, in make_connection
+    return self.connection_class(**self.connection_kwargs)
+TypeError: __init__() got an unexpected keyword argument 'socket_connect_timeout'
+
+  exc, exc_info.traceback)))
+
+[2016-02-05 16:23:55,464: WARNING/Worker-2] 2016-02-05 16:23:55 [py.warnings] WARNING: /home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py:365: RuntimeWarning: Exception raised outside body: TypeError("__init__() got an unexpected keyword argument 'socket_connect_timeout'",):
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py", line 283, in trace_task
+    uuid, retval, SUCCESS, request=task_request,
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 257, in store_result
+    request=request, **kwargs)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 491, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/client.py", line 2149, in execute
+    self.shard_hint)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 455, in get_connection
+    connection = self.make_connection()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 464, in make_connection
+    return self.connection_class(**self.connection_kwargs)
+TypeError: __init__() got an unexpected keyword argument 'socket_connect_timeout'
+
+  exc, exc_info.traceback)))
+[2016-02-05 16:23:55,465: CRITICAL/MainProcess] Task app.scrape[a3c71d95-4e8b-4122-bddd-e5cd8abec018] INTERNAL ERROR: TypeError("__init__() got an unexpected keyword argument 'socket_connect_timeout'",)
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py", line 283, in trace_task
+    uuid, retval, SUCCESS, request=task_request,
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 257, in store_result
+    request=request, **kwargs)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 491, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/client.py", line 2149, in execute
+    self.shard_hint)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 455, in get_connection
+    connection = self.make_connection()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 464, in make_connection
+    return self.connection_class(**self.connection_kwargs)
+TypeError: __init__() got an unexpected keyword argument 'socket_connect_timeout'
+[2016-02-06 01:06:08,299: INFO/MainProcess] Received task: app.scrape[06bbfac9-2c08-45b6-b469-7e14caae8425]
+[2016-02-06 01:06:08,306: INFO/Worker-1] Scrapy 1.0.3 started (bot: scrapybot)
+[2016-02-06 01:06:08,306: WARNING/Worker-1] 2016-02-06 01:06:08 [scrapy] INFO: Scrapy 1.0.3 started (bot: scrapybot)
+[2016-02-06 01:06:08,306: INFO/Worker-1] Optional features available: ssl, http11, boto
+[2016-02-06 01:06:08,306: WARNING/Worker-1] 2016-02-06 01:06:08 [scrapy] INFO: Optional features available: ssl, http11, boto
+[2016-02-06 01:06:08,307: INFO/Worker-1] Overridden settings: {'CLOSESPIDER_TIMEOUT': 30, 'DEPTH_LIMIT': 2, 'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'}
+[2016-02-06 01:06:08,307: WARNING/Worker-1] 2016-02-06 01:06:08 [scrapy] INFO: Overridden settings: {'CLOSESPIDER_TIMEOUT': 30, 'DEPTH_LIMIT': 2, 'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'}
+[2016-02-06 01:06:08,361: INFO/Worker-1] Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+[2016-02-06 01:06:08,361: WARNING/Worker-1] 2016-02-06 01:06:08 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+[2016-02-06 01:06:08,399: INFO/Worker-1] Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+[2016-02-06 01:06:08,399: WARNING/Worker-1] 2016-02-06 01:06:08 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+[2016-02-06 01:06:08,400: INFO/Worker-1] Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+[2016-02-06 01:06:08,400: WARNING/Worker-1] 2016-02-06 01:06:08 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+[2016-02-06 01:06:08,615: INFO/Worker-1] Enabled item pipelines: UserInputPipeline
+[2016-02-06 01:06:08,615: WARNING/Worker-1] 2016-02-06 01:06:08 [scrapy] INFO: Enabled item pipelines: UserInputPipeline
+[2016-02-06 01:06:08,615: INFO/Worker-1] Spider opened
+[2016-02-06 01:06:08,615: WARNING/Worker-1] 2016-02-06 01:06:08 [scrapy] INFO: Spider opened
+[2016-02-06 01:06:08,616: INFO/Worker-1] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+[2016-02-06 01:06:08,617: WARNING/Worker-1] 2016-02-06 01:06:08 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+[2016-02-06 01:06:08,618: DEBUG/Worker-1] Telnet console listening on 127.0.0.1:6023
+[2016-02-06 01:06:08,618: WARNING/Worker-1] 2016-02-06 01:06:08 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+[2016-02-06 01:06:08,955: DEBUG/Worker-1] Redirecting (301) to <GET https://www.picassolabs.com/> from <GET http://www.picassolabs.com>
+[2016-02-06 01:06:08,955: WARNING/Worker-1] 2016-02-06 01:06:08 [scrapy] DEBUG: Redirecting (301) to <GET https://www.picassolabs.com/> from <GET http://www.picassolabs.com>
+[2016-02-06 01:06:09,092: DEBUG/Worker-1] Crawled (200) <GET https://www.picassolabs.com/> (referer: None)
+[2016-02-06 01:06:09,092: WARNING/Worker-1] 2016-02-06 01:06:09 [scrapy] DEBUG: Crawled (200) <GET https://www.picassolabs.com/> (referer: None)
+[2016-02-06 01:06:09,268: DEBUG/Worker-1] Crawled (200) <GET https://www.picassolabs.com/privacy> (referer: https://www.picassolabs.com/)
+[2016-02-06 01:06:09,268: WARNING/Worker-1] 2016-02-06 01:06:09 [scrapy] DEBUG: Crawled (200) <GET https://www.picassolabs.com/privacy> (referer: https://www.picassolabs.com/)
+[2016-02-06 01:06:09,421: DEBUG/Worker-1] Scraped from <200 https://www.picassolabs.com/privacy>
+None
+[2016-02-06 01:06:09,421: WARNING/Worker-1] 2016-02-06 01:06:09 [scrapy] DEBUG: Scraped from <200 https://www.picassolabs.com/privacy>
+None
+[2016-02-06 01:06:09,423: DEBUG/Worker-1] Filtered duplicate request: <GET https://www.picassolabs.com/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+[2016-02-06 01:06:09,423: WARNING/Worker-1] 2016-02-06 01:06:09 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.picassolabs.com/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+[2016-02-06 01:06:09,472: DEBUG/Worker-1] Crawled (200) <GET https://www.picassolabs.com/> (referer: https://www.picassolabs.com/)
+[2016-02-06 01:06:09,472: WARNING/Worker-1] 2016-02-06 01:06:09 [scrapy] DEBUG: Crawled (200) <GET https://www.picassolabs.com/> (referer: https://www.picassolabs.com/)
+[2016-02-06 01:06:09,474: DEBUG/Worker-1] Crawled (200) <GET https://www.picassolabs.com/users/sign_in> (referer: https://www.picassolabs.com/)
+[2016-02-06 01:06:09,475: WARNING/Worker-1] 2016-02-06 01:06:09 [scrapy] DEBUG: Crawled (200) <GET https://www.picassolabs.com/users/sign_in> (referer: https://www.picassolabs.com/)
+[2016-02-06 01:06:09,606: DEBUG/Worker-1] Scraped from <200 https://www.picassolabs.com/>
+None
+[2016-02-06 01:06:09,606: WARNING/Worker-1] 2016-02-06 01:06:09 [scrapy] DEBUG: Scraped from <200 https://www.picassolabs.com/>
+None
+[2016-02-06 01:06:09,641: DEBUG/Worker-1] Scraped from <200 https://www.picassolabs.com/users/sign_in>
+None
+[2016-02-06 01:06:09,641: WARNING/Worker-1] 2016-02-06 01:06:09 [scrapy] DEBUG: Scraped from <200 https://www.picassolabs.com/users/sign_in>
+None
+[2016-02-06 01:06:09,678: DEBUG/Worker-1] Crawled (200) <GET https://www.picassolabs.com/users/password/new> (referer: https://www.picassolabs.com/users/sign_in)
+[2016-02-06 01:06:09,678: WARNING/Worker-1] 2016-02-06 01:06:09 [scrapy] DEBUG: Crawled (200) <GET https://www.picassolabs.com/users/password/new> (referer: https://www.picassolabs.com/users/sign_in)
+[2016-02-06 01:06:09,809: DEBUG/Worker-1] Scraped from <200 https://www.picassolabs.com/users/password/new>
+None
+[2016-02-06 01:06:09,809: WARNING/Worker-1] 2016-02-06 01:06:09 [scrapy] DEBUG: Scraped from <200 https://www.picassolabs.com/users/password/new>
+None
+[2016-02-06 01:06:09,810: DEBUG/Worker-1] Ignoring link (depth > 2): https://www.picassolabs.com/ 
+[2016-02-06 01:06:09,810: WARNING/Worker-1] 2016-02-06 01:06:09 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.picassolabs.com/
+[2016-02-06 01:06:09,810: DEBUG/Worker-1] Ignoring link (depth > 2): https://www.picassolabs.com/users/sign_in 
+[2016-02-06 01:06:09,810: WARNING/Worker-1] 2016-02-06 01:06:09 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.picassolabs.com/users/sign_in
+[2016-02-06 01:06:09,811: DEBUG/Worker-1] Ignoring link (depth > 2): https://www.picassolabs.com/privacy 
+[2016-02-06 01:06:09,811: WARNING/Worker-1] 2016-02-06 01:06:09 [scrapy] DEBUG: Ignoring link (depth > 2): https://www.picassolabs.com/privacy
+[2016-02-06 01:06:09,813: INFO/Worker-1] Closing spider (finished)
+[2016-02-06 01:06:09,813: WARNING/Worker-1] 2016-02-06 01:06:09 [scrapy] INFO: Closing spider (finished)
+[2016-02-06 01:06:09,879: INFO/Worker-1] Dumping Scrapy stats:
+{'downloader/request_bytes': 2855,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 31413,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 5,
+ 'downloader/response_status_count/301': 1,
+ 'dupefilter/filtered': 9,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 2, 6, 1, 6, 9, 814350),
+ 'item_scraped_count': 4,
+ 'log_count/DEBUG': 15,
+ 'log_count/INFO': 7,
+ 'log_count/WARNING': 22,
+ 'request_depth_max': 2,
+ 'response_received_count': 5,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2016, 2, 6, 1, 6, 8, 617301)}
+[2016-02-06 01:06:09,880: WARNING/Worker-1] 2016-02-06 01:06:09 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2855,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 31413,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 5,
+ 'downloader/response_status_count/301': 1,
+ 'dupefilter/filtered': 9,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 2, 6, 1, 6, 9, 814350),
+ 'item_scraped_count': 4,
+ 'log_count/DEBUG': 15,
+ 'log_count/INFO': 7,
+ 'log_count/WARNING': 22,
+ 'request_depth_max': 2,
+ 'response_received_count': 5,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2016, 2, 6, 1, 6, 8, 617301)}
+[2016-02-06 01:06:09,880: INFO/Worker-1] Spider closed (finished)
+[2016-02-06 01:06:09,880: WARNING/Worker-1] 2016-02-06 01:06:09 [scrapy] INFO: Spider closed (finished)
+[2016-02-06 01:06:09,894: WARNING/Worker-1] /home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py:365: RuntimeWarning: Exception raised outside body: TypeError("__init__() got an unexpected keyword argument 'socket_connect_timeout'",):
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py", line 283, in trace_task
+    uuid, retval, SUCCESS, request=task_request,
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 257, in store_result
+    request=request, **kwargs)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 491, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/client.py", line 2149, in execute
+    self.shard_hint)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 455, in get_connection
+    connection = self.make_connection()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 464, in make_connection
+    return self.connection_class(**self.connection_kwargs)
+TypeError: __init__() got an unexpected keyword argument 'socket_connect_timeout'
+
+  exc, exc_info.traceback)))
+
+[2016-02-06 01:06:09,894: WARNING/Worker-1] 2016-02-06 01:06:09 [py.warnings] WARNING: /home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py:365: RuntimeWarning: Exception raised outside body: TypeError("__init__() got an unexpected keyword argument 'socket_connect_timeout'",):
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py", line 283, in trace_task
+    uuid, retval, SUCCESS, request=task_request,
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 257, in store_result
+    request=request, **kwargs)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 491, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/client.py", line 2149, in execute
+    self.shard_hint)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 455, in get_connection
+    connection = self.make_connection()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 464, in make_connection
+    return self.connection_class(**self.connection_kwargs)
+TypeError: __init__() got an unexpected keyword argument 'socket_connect_timeout'
+
+  exc, exc_info.traceback)))
+[2016-02-06 01:06:09,896: CRITICAL/MainProcess] Task app.scrape[06bbfac9-2c08-45b6-b469-7e14caae8425] INTERNAL ERROR: TypeError("__init__() got an unexpected keyword argument 'socket_connect_timeout'",)
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/app/trace.py", line 283, in trace_task
+    uuid, retval, SUCCESS, request=task_request,
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 257, in store_result
+    request=request, **kwargs)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/base.py", line 491, in _store_result
+    self.set(self.get_key_for_task(task_id), self.encode(meta))
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 160, in set
+    return self.ensure(self._set, (key, value), **retry_policy)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 149, in ensure
+    **retry_policy
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/kombu/utils/__init__.py", line 243, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/celery/backends/redis.py", line 169, in _set
+    pipe.execute()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/client.py", line 2149, in execute
+    self.shard_hint)
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 455, in get_connection
+    connection = self.make_connection()
+  File "/home/ubuntu/anaconda/lib/python2.7/site-packages/redis/connection.py", line 464, in make_connection
+    return self.connection_class(**self.connection_kwargs)
+TypeError: __init__() got an unexpected keyword argument 'socket_connect_timeout'
