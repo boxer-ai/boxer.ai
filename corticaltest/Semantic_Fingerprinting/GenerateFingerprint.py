@@ -4,9 +4,7 @@
 import os
 # Adding cortical client to Python path
 import sys
-#client_path = '%s/CorticalPython_client/' % os.path.dirname(os.path.realpath(__file__))
-client_path = '%s/CorticalPython_client/' % os.path.dirname(os.path.realpath("GenerateFingerprint.py"))
-
+client_path = '%s/CorticalPython_client/' % os.path.dirname(os.path.realpath(__file__))
 sys.path.append(client_path)
 
 # Importing cortical API to script
@@ -17,11 +15,8 @@ from cortical.textApi import TextApi
 
 #import ImageApi for generating fingerprint image
 from cortical.imageApi import ImageApi
-
-corticalio_key = open("cortical.io.key").readline()
-corticalio_key = corticalio_key.replace("YOUR KEY: ", "").replace("\n", "")
-
-client = ApiClient(apiKey=corticalio_key, apiServer="http://api.cortical.io/rest")
+apiKey = os.environ.get('CORTICAL_API_KEY')
+client = ApiClient(apiKey, apiServer="http://api.cortical.io/rest")
 
 # Body contains string of text to be analysed
 
@@ -29,9 +24,9 @@ client = ApiClient(apiKey=corticalio_key, apiServer="http://api.cortical.io/rest
 # Body = "Semantic fingerprints are cool."
 
 # Code to get fingerprints from a .txt file put filename
-file_name = "15_AA.txt"
+file_name = "15_UTX.txt"
 
-with open('Company_Descriptions/'+file_name, "r") as myfile:
+with open ('Company_Descriptions/'+file_name, "r") as myfile:
     body = myfile.read().replace('\n', '')
 
 ####################################################
@@ -57,14 +52,14 @@ print terms
 body = '{"text":"%s"}' % body
 
 # Chose either en_synonymous or en_associative (default) retina, image scalar (default: 2), square or circle (default) image, encoding type, and sparsity
-terms = ImageApi(client).getImageForExpression("en_synonymous", body, 2, "square", "base64/png", '1.0')
+terms = ImageApi(client).getImageForExpression("en_synonymous", body, 2, "square","base64/png", '1.0')
 
 # Chose image name
-image_name = file_name.replace(".txt", "")
+image_name = file_name.replace(".txt","")
 fh = open(image_name + "_fpImage.png", "wb")
 fh.write(terms.decode('base64'))
 fh.close()
-print(image_name + ' fingerprint image saved to %s') % os.path.dirname(os.path.realpath(__file__))
+#print(image_name + ' fingerprint image saved to %s') % os.path.dirname(os.path.realpath(__file__))
 
 #####################################################
 ################## End of Script ####################

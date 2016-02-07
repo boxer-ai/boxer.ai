@@ -1,6 +1,6 @@
 # Create the category with some positive (and negative) examples, and a name.
 pos = [
-    "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.",
+    "Always `de as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.",
     "To iterate is human, to recurse divine.",
     "First learn computer science and all the theory. Next develop a programming style. Then forget all that and just hack."
     ]
