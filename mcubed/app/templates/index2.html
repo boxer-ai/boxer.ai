@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+
+	<div class="inner cover" style = "margin-top: 50%;position:relative;top:-230px;">
+		<h2 class="cover-heading">Welcome to M3.</h1>
+		<br>
+		<p style = "margin-bottom:20px;font-size:14px;font-weight:300;line-height:1.4; position:relative; top: -20px;">
+			M3 empowers you to find the perfect investor for your startup.
+
+You give us your startup's site or a brief description - we generate a sophisticated "fingerprint" of your startup, and compare that fingerprint to potential investors. <br></bt>Product descriptions are okay too. Just let us know with the check box below.
+		</p><br><br><br>
+      <a href=" {{ url_for('input') }}" class="btn btn-warning btn-fill">
+        Get Started!
+      </a>
+	</div>
+
+{% endblock %}
+
