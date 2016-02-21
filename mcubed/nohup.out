@@ -3432,3 +3432,2428 @@
 [3410] 07 Feb 02:22:44.627 * DB saved on disk
 [3410] 07 Feb 02:22:44.627 * RDB: 6 MB of memory used by copy-on-write
 [2920] 07 Feb 02:22:44.633 * Background saving terminated with success
+[2920] 07 Feb 03:04:24.762 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 03:04:24.763 * Background saving started by pid 21295
+[21295] 07 Feb 03:04:24.768 * DB saved on disk
+[21295] 07 Feb 03:04:24.768 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 03:04:24.774 * Background saving terminated with success
+[2920] 07 Feb 03:46:04.920 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 03:46:04.921 * Background saving started by pid 21637
+[21637] 07 Feb 03:46:04.924 * DB saved on disk
+[21637] 07 Feb 03:46:04.925 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 03:46:04.931 * Background saving terminated with success
+[2920] 07 Feb 04:27:45.109 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 04:27:45.110 * Background saving started by pid 21901
+[21901] 07 Feb 04:27:45.113 * DB saved on disk
+[21901] 07 Feb 04:27:45.114 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 04:27:45.120 * Background saving terminated with success
+[2920] 07 Feb 05:09:25.300 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 05:09:25.301 * Background saving started by pid 20592
+[20592] 07 Feb 05:09:25.305 * DB saved on disk
+[20592] 07 Feb 05:09:25.305 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 05:09:25.311 * Background saving terminated with success
+[2920] 07 Feb 05:51:05.533 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 05:51:05.534 * Background saving started by pid 25380
+[25380] 07 Feb 05:51:05.538 * DB saved on disk
+[25380] 07 Feb 05:51:05.538 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 05:51:05.545 * Background saving terminated with success
+[2920] 07 Feb 06:32:45.830 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 06:32:45.831 * Background saving started by pid 25121
+[25121] 07 Feb 06:32:45.834 * DB saved on disk
+[25121] 07 Feb 06:32:45.835 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 06:32:45.842 * Background saving terminated with success
+[2920] 07 Feb 07:14:26.034 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 07:14:26.034 * Background saving started by pid 24923
+[24923] 07 Feb 07:14:26.038 * DB saved on disk
+[24923] 07 Feb 07:14:26.038 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 07:14:26.045 * Background saving terminated with success
+[2920] 07 Feb 07:56:06.094 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 07:56:06.095 * Background saving started by pid 24238
+[24238] 07 Feb 07:56:06.100 * DB saved on disk
+[24238] 07 Feb 07:56:06.100 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 07:56:06.105 * Background saving terminated with success
+[2920] 07 Feb 08:37:46.166 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 08:37:46.167 * Background saving started by pid 25288
+[25288] 07 Feb 08:37:46.170 * DB saved on disk
+[25288] 07 Feb 08:37:46.171 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 08:37:46.177 * Background saving terminated with success
+[2920] 07 Feb 09:19:26.241 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 09:19:26.241 * Background saving started by pid 26466
+[26466] 07 Feb 09:19:26.245 * DB saved on disk
+[26466] 07 Feb 09:19:26.245 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 09:19:26.251 * Background saving terminated with success
+[2920] 07 Feb 10:01:06.322 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 10:01:06.323 * Background saving started by pid 27571
+[27571] 07 Feb 10:01:06.414 * DB saved on disk
+[27571] 07 Feb 10:01:06.414 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 10:01:06.415 * Background saving terminated with success
+[2920] 07 Feb 10:42:46.420 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 10:42:46.421 * Background saving started by pid 28538
+[28538] 07 Feb 10:42:46.425 * DB saved on disk
+[28538] 07 Feb 10:42:46.425 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 10:42:46.431 * Background saving terminated with success
+[2920] 07 Feb 11:24:26.518 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 11:24:26.519 * Background saving started by pid 29591
+[29591] 07 Feb 11:24:26.522 * DB saved on disk
+[29591] 07 Feb 11:24:26.523 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 11:24:26.529 * Background saving terminated with success
+[2920] 07 Feb 12:06:06.636 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 12:06:06.637 * Background saving started by pid 30638
+[30638] 07 Feb 12:06:06.640 * DB saved on disk
+[30638] 07 Feb 12:06:06.640 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 12:06:06.647 * Background saving terminated with success
+[2920] 07 Feb 12:47:46.798 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 12:47:46.799 * Background saving started by pid 31667
+[31667] 07 Feb 12:47:46.802 * DB saved on disk
+[31667] 07 Feb 12:47:46.803 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 12:47:46.809 * Background saving terminated with success
+[2920] 07 Feb 13:29:26.955 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 13:29:26.956 * Background saving started by pid 15105
+[15105] 07 Feb 13:29:26.959 * DB saved on disk
+[15105] 07 Feb 13:29:26.960 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 13:29:26.966 * Background saving terminated with success
+[2920] 07 Feb 14:11:07.103 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 14:11:07.103 * Background saving started by pid 24494
+[24494] 07 Feb 14:11:07.107 * DB saved on disk
+[24494] 07 Feb 14:11:07.107 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 14:11:07.114 * Background saving terminated with success
+[2920] 07 Feb 14:52:47.356 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 14:52:47.357 * Background saving started by pid 25504
+[25504] 07 Feb 14:52:47.360 * DB saved on disk
+[25504] 07 Feb 14:52:47.360 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 14:52:47.367 * Background saving terminated with success
+[2920] 07 Feb 15:34:27.602 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 15:34:27.602 * Background saving started by pid 878
+[878] 07 Feb 15:34:27.606 * DB saved on disk
+[878] 07 Feb 15:34:27.607 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 15:34:27.612 * Background saving terminated with success
+[2920] 07 Feb 16:16:07.800 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 16:16:07.801 * Background saving started by pid 32511
+[32511] 07 Feb 16:16:07.805 * DB saved on disk
+[32511] 07 Feb 16:16:07.805 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 16:16:07.811 * Background saving terminated with success
+[2920] 07 Feb 16:57:48.037 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 16:57:48.038 * Background saving started by pid 32539
+[32539] 07 Feb 16:57:48.044 * DB saved on disk
+[32539] 07 Feb 16:57:48.044 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 16:57:48.048 * Background saving terminated with success
+[2920] 07 Feb 17:39:28.104 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 17:39:28.105 * Background saving started by pid 31777
+[31777] 07 Feb 17:39:28.109 * DB saved on disk
+[31777] 07 Feb 17:39:28.109 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 17:39:28.115 * Background saving terminated with success
+[2920] 07 Feb 18:21:08.182 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 18:21:08.183 * Background saving started by pid 31070
+[31070] 07 Feb 18:21:08.186 * DB saved on disk
+[31070] 07 Feb 18:21:08.186 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 18:21:08.193 * Background saving terminated with success
+[2920] 07 Feb 19:02:48.252 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 19:02:48.252 * Background saving started by pid 10554
+[10554] 07 Feb 19:02:48.256 * DB saved on disk
+[10554] 07 Feb 19:02:48.256 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 19:02:48.263 * Background saving terminated with success
+[2920] 07 Feb 19:44:28.337 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 19:44:28.338 * Background saving started by pid 11685
+[11685] 07 Feb 19:44:28.341 * DB saved on disk
+[11685] 07 Feb 19:44:28.342 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 19:44:28.348 * Background saving terminated with success
+[2920] 07 Feb 20:26:08.425 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 20:26:08.426 * Background saving started by pid 12736
+[12736] 07 Feb 20:26:08.429 * DB saved on disk
+[12736] 07 Feb 20:26:08.429 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 20:26:08.436 * Background saving terminated with success
+[2920] 07 Feb 21:07:48.515 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 21:07:48.515 * Background saving started by pid 13825
+[13825] 07 Feb 21:07:48.519 * DB saved on disk
+[13825] 07 Feb 21:07:48.519 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 21:07:48.525 * Background saving terminated with success
+[2920] 07 Feb 21:49:28.580 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 21:49:28.580 * Background saving started by pid 14842
+[14842] 07 Feb 21:49:28.583 * DB saved on disk
+[14842] 07 Feb 21:49:28.584 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 21:49:28.590 * Background saving terminated with success
+[2920] 07 Feb 22:31:08.702 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 22:31:08.702 * Background saving started by pid 15885
+[15885] 07 Feb 22:31:08.706 * DB saved on disk
+[15885] 07 Feb 22:31:08.706 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 22:31:08.712 * Background saving terminated with success
+[2920] 07 Feb 23:12:48.860 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 23:12:48.861 * Background saving started by pid 16906
+[16906] 07 Feb 23:12:48.865 * DB saved on disk
+[16906] 07 Feb 23:12:48.865 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 23:12:48.871 * Background saving terminated with success
+[2920] 07 Feb 23:54:29.041 * 100 changes in 300 seconds. Saving...
+[2920] 07 Feb 23:54:29.042 * Background saving started by pid 17943
+[17943] 07 Feb 23:54:29.045 * DB saved on disk
+[17943] 07 Feb 23:54:29.045 * RDB: 6 MB of memory used by copy-on-write
+[2920] 07 Feb 23:54:29.052 * Background saving terminated with success
+[2920] 08 Feb 00:36:09.204 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 00:36:09.205 * Background saving started by pid 19027
+[19027] 08 Feb 00:36:09.208 * DB saved on disk
+[19027] 08 Feb 00:36:09.208 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 00:36:09.215 * Background saving terminated with success
+[2920] 08 Feb 01:17:49.442 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 01:17:49.443 * Background saving started by pid 20134
+[20134] 08 Feb 01:17:49.446 * DB saved on disk
+[20134] 08 Feb 01:17:49.446 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 01:17:49.453 * Background saving terminated with success
+[2920] 08 Feb 01:59:29.708 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 01:59:29.709 * Background saving started by pid 21200
+[21200] 08 Feb 01:59:29.712 * DB saved on disk
+[21200] 08 Feb 01:59:29.713 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 01:59:29.719 * Background saving terminated with success
+[2920] 08 Feb 02:41:09.928 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 02:41:09.928 * Background saving started by pid 22289
+[22289] 08 Feb 02:41:09.932 * DB saved on disk
+[22289] 08 Feb 02:41:09.932 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 02:41:09.939 * Background saving terminated with success
+[2920] 08 Feb 03:22:50.063 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 03:22:50.064 * Background saving started by pid 23307
+[23307] 08 Feb 03:22:50.068 * DB saved on disk
+[23307] 08 Feb 03:22:50.068 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 03:22:50.074 * Background saving terminated with success
+[2920] 08 Feb 04:04:30.120 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 04:04:30.121 * Background saving started by pid 24331
+[24331] 08 Feb 04:04:30.124 * DB saved on disk
+[24331] 08 Feb 04:04:30.124 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 04:04:30.132 * Background saving terminated with success
+[2920] 08 Feb 04:46:10.187 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 04:46:10.187 * Background saving started by pid 25371
+[25371] 08 Feb 04:46:10.191 * DB saved on disk
+[25371] 08 Feb 04:46:10.191 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 04:46:10.197 * Background saving terminated with success
+[2920] 08 Feb 05:27:50.262 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 05:27:50.263 * Background saving started by pid 26447
+[26447] 08 Feb 05:27:50.266 * DB saved on disk
+[26447] 08 Feb 05:27:50.266 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 05:27:50.273 * Background saving terminated with success
+[2920] 08 Feb 06:09:30.344 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 06:09:30.345 * Background saving started by pid 27498
+[27498] 08 Feb 06:09:30.348 * DB saved on disk
+[27498] 08 Feb 06:09:30.348 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 06:09:30.355 * Background saving terminated with success
+[2920] 08 Feb 06:51:10.438 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 06:51:10.439 * Background saving started by pid 28746
+[28746] 08 Feb 06:51:10.442 * DB saved on disk
+[28746] 08 Feb 06:51:10.442 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 06:51:10.449 * Background saving terminated with success
+[2920] 08 Feb 07:32:50.555 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 07:32:50.555 * Background saving started by pid 29794
+[29794] 08 Feb 07:32:50.559 * DB saved on disk
+[29794] 08 Feb 07:32:50.560 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 07:32:50.565 * Background saving terminated with success
+[2920] 08 Feb 08:14:30.690 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 08:14:30.691 * Background saving started by pid 30790
+[30790] 08 Feb 08:14:30.694 * DB saved on disk
+[30790] 08 Feb 08:14:30.694 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 08:14:30.702 * Background saving terminated with success
+[2920] 08 Feb 08:56:10.814 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 08:56:10.815 * Background saving started by pid 31787
+[31787] 08 Feb 08:56:10.818 * DB saved on disk
+[31787] 08 Feb 08:56:10.818 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 08:56:10.825 * Background saving terminated with success
+[2920] 08 Feb 09:37:51.012 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 09:37:51.012 * Background saving started by pid 376
+[376] 08 Feb 09:37:51.017 * DB saved on disk
+[376] 08 Feb 09:37:51.017 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 09:37:51.023 * Background saving terminated with success
+[2920] 08 Feb 10:19:31.187 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 10:19:31.187 * Background saving started by pid 1491
+[1491] 08 Feb 10:19:31.191 * DB saved on disk
+[1491] 08 Feb 10:19:31.191 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 10:19:31.198 * Background saving terminated with success
+[2920] 08 Feb 11:01:11.364 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 11:01:11.365 * Background saving started by pid 2576
+[2576] 08 Feb 11:01:11.368 * DB saved on disk
+[2576] 08 Feb 11:01:11.368 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 11:01:11.376 * Background saving terminated with success
+[2920] 08 Feb 11:42:51.670 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 11:42:51.671 * Background saving started by pid 3652
+[3652] 08 Feb 11:42:51.675 * DB saved on disk
+[3652] 08 Feb 11:42:51.675 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 11:42:51.681 * Background saving terminated with success
+[2920] 08 Feb 12:24:31.900 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 12:24:31.900 * Background saving started by pid 4716
+[4716] 08 Feb 12:24:31.903 * DB saved on disk
+[4716] 08 Feb 12:24:31.904 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 12:24:31.910 * Background saving terminated with success
+[2920] 08 Feb 13:06:12.048 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 13:06:12.048 * Background saving started by pid 5747
+[5747] 08 Feb 13:06:12.052 * DB saved on disk
+[5747] 08 Feb 13:06:12.053 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 13:06:12.058 * Background saving terminated with success
+[2920] 08 Feb 13:47:52.121 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 13:47:52.122 * Background saving started by pid 6893
+[6893] 08 Feb 13:47:52.125 * DB saved on disk
+[6893] 08 Feb 13:47:52.125 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 13:47:52.132 * Background saving terminated with success
+[2920] 08 Feb 14:29:32.178 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 14:29:32.179 * Background saving started by pid 7938
+[7938] 08 Feb 14:29:32.183 * DB saved on disk
+[7938] 08 Feb 14:29:32.183 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 14:29:32.189 * Background saving terminated with success
+[2920] 08 Feb 15:11:12.252 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 15:11:12.253 * Background saving started by pid 8993
+[8993] 08 Feb 15:11:12.256 * DB saved on disk
+[8993] 08 Feb 15:11:12.257 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 15:11:12.263 * Background saving terminated with success
+[2920] 08 Feb 15:52:52.339 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 15:52:52.340 * Background saving started by pid 10060
+[10060] 08 Feb 15:52:52.343 * DB saved on disk
+[10060] 08 Feb 15:52:52.343 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 15:52:52.350 * Background saving terminated with success
+[2920] 08 Feb 16:34:32.416 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 16:34:32.417 * Background saving started by pid 11136
+[11136] 08 Feb 16:34:32.422 * DB saved on disk
+[11136] 08 Feb 16:34:32.423 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 16:34:32.428 * Background saving terminated with success
+[2920] 08 Feb 17:16:12.531 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 17:16:12.532 * Background saving started by pid 12192
+[12192] 08 Feb 17:16:12.536 * DB saved on disk
+[12192] 08 Feb 17:16:12.536 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 17:16:12.542 * Background saving terminated with success
+[2920] 08 Feb 17:57:52.645 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 17:57:52.645 * Background saving started by pid 13210
+[13210] 08 Feb 17:57:52.649 * DB saved on disk
+[13210] 08 Feb 17:57:52.649 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 17:57:52.655 * Background saving terminated with success
+[2920] 08 Feb 18:39:32.765 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 18:39:32.766 * Background saving started by pid 14310
+[14310] 08 Feb 18:39:32.769 * DB saved on disk
+[14310] 08 Feb 18:39:32.770 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 18:39:32.777 * Background saving terminated with success
+[2920] 08 Feb 19:21:12.936 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 19:21:12.936 * Background saving started by pid 15344
+[15344] 08 Feb 19:21:12.939 * DB saved on disk
+[15344] 08 Feb 19:21:12.940 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 19:21:12.946 * Background saving terminated with success
+[2920] 08 Feb 20:02:53.133 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 20:02:53.134 * Background saving started by pid 16387
+[16387] 08 Feb 20:02:53.137 * DB saved on disk
+[16387] 08 Feb 20:02:53.137 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 20:02:53.144 * Background saving terminated with success
+[2920] 08 Feb 20:44:33.295 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 20:44:33.296 * Background saving started by pid 17419
+[17419] 08 Feb 20:44:33.299 * DB saved on disk
+[17419] 08 Feb 20:44:33.299 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 20:44:33.306 * Background saving terminated with success
+[2920] 08 Feb 21:26:13.542 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 21:26:13.543 * Background saving started by pid 18437
+[18437] 08 Feb 21:26:13.546 * DB saved on disk
+[18437] 08 Feb 21:26:13.546 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 21:26:13.553 * Background saving terminated with success
+[2920] 08 Feb 22:07:53.703 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 22:07:53.704 * Background saving started by pid 19507
+[19507] 08 Feb 22:07:53.707 * DB saved on disk
+[19507] 08 Feb 22:07:53.708 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 22:07:53.714 * Background saving terminated with success
+[2920] 08 Feb 22:49:33.859 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 22:49:33.859 * Background saving started by pid 20566
+[20566] 08 Feb 22:49:33.862 * DB saved on disk
+[20566] 08 Feb 22:49:33.863 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 22:49:33.869 * Background saving terminated with success
+[2920] 08 Feb 23:31:13.999 * 100 changes in 300 seconds. Saving...
+[2920] 08 Feb 23:31:13.999 * Background saving started by pid 21627
+[21627] 08 Feb 23:31:14.003 * DB saved on disk
+[21627] 08 Feb 23:31:14.003 * RDB: 6 MB of memory used by copy-on-write
+[2920] 08 Feb 23:31:14.010 * Background saving terminated with success
+[2920] 09 Feb 00:12:54.065 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 00:12:54.065 * Background saving started by pid 22753
+[22753] 09 Feb 00:12:54.069 * DB saved on disk
+[22753] 09 Feb 00:12:54.069 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 00:12:54.075 * Background saving terminated with success
+[2920] 09 Feb 00:54:34.129 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 00:54:34.130 * Background saving started by pid 26152
+[26152] 09 Feb 00:54:34.133 * DB saved on disk
+[26152] 09 Feb 00:54:34.133 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 00:54:34.141 * Background saving terminated with success
+[2920] 09 Feb 01:36:14.187 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 01:36:14.188 * Background saving started by pid 29835
+[29835] 09 Feb 01:36:14.191 * DB saved on disk
+[29835] 09 Feb 01:36:14.191 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 01:36:14.199 * Background saving terminated with success
+[2920] 09 Feb 02:17:54.266 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 02:17:54.266 * Background saving started by pid 1312
+[1312] 09 Feb 02:17:54.270 * DB saved on disk
+[1312] 09 Feb 02:17:54.270 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 02:17:54.276 * Background saving terminated with success
+[2920] 09 Feb 02:59:34.346 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 02:59:34.347 * Background saving started by pid 12034
+[12034] 09 Feb 02:59:34.351 * DB saved on disk
+[12034] 09 Feb 02:59:34.351 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 02:59:34.357 * Background saving terminated with success
+[2920] 09 Feb 03:41:14.444 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 03:41:14.445 * Background saving started by pid 14963
+[14963] 09 Feb 03:41:14.453 * DB saved on disk
+[14963] 09 Feb 03:41:14.453 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 03:41:14.455 * Background saving terminated with success
+[2920] 09 Feb 04:22:54.546 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 04:22:54.547 * Background saving started by pid 17713
+[17713] 09 Feb 04:22:54.550 * DB saved on disk
+[17713] 09 Feb 04:22:54.551 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 04:22:54.557 * Background saving terminated with success
+[2920] 09 Feb 05:04:34.657 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 05:04:34.658 * Background saving started by pid 20535
+[20535] 09 Feb 05:04:34.661 * DB saved on disk
+[20535] 09 Feb 05:04:34.661 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 05:04:34.669 * Background saving terminated with success
+[2920] 09 Feb 05:46:14.805 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 05:46:14.806 * Background saving started by pid 23267
+[23267] 09 Feb 05:46:14.809 * DB saved on disk
+[23267] 09 Feb 05:46:14.809 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 05:46:14.816 * Background saving terminated with success
+[2920] 09 Feb 06:27:54.971 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 06:27:54.972 * Background saving started by pid 5738
+[5738] 09 Feb 06:27:54.976 * DB saved on disk
+[5738] 09 Feb 06:27:54.976 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 06:27:54.982 * Background saving terminated with success
+[2920] 09 Feb 07:09:35.121 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 07:09:35.121 * Background saving started by pid 7085
+[7085] 09 Feb 07:09:35.125 * DB saved on disk
+[7085] 09 Feb 07:09:35.125 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 07:09:35.131 * Background saving terminated with success
+[2920] 09 Feb 07:51:15.372 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 07:51:15.373 * Background saving started by pid 8258
+[8258] 09 Feb 07:51:15.377 * DB saved on disk
+[8258] 09 Feb 07:51:15.378 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 07:51:15.383 * Background saving terminated with success
+[2920] 09 Feb 08:32:55.627 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 08:32:55.628 * Background saving started by pid 9297
+[9297] 09 Feb 08:32:55.632 * DB saved on disk
+[9297] 09 Feb 08:32:55.632 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 08:32:55.638 * Background saving terminated with success
+[2920] 09 Feb 09:14:35.831 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 09:14:35.832 * Background saving started by pid 10317
+[10317] 09 Feb 09:14:35.835 * DB saved on disk
+[10317] 09 Feb 09:14:35.835 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 09:14:35.842 * Background saving terminated with success
+[2920] 09 Feb 09:56:16.043 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 09:56:16.044 * Background saving started by pid 422
+[422] 09 Feb 09:56:16.047 * DB saved on disk
+[422] 09 Feb 09:56:16.047 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 09:56:16.054 * Background saving terminated with success
+[2920] 09 Feb 10:37:56.102 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 10:37:56.103 * Background saving started by pid 464
+[464] 09 Feb 10:37:56.106 * DB saved on disk
+[464] 09 Feb 10:37:56.106 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 10:37:56.114 * Background saving terminated with success
+[2920] 09 Feb 11:19:36.176 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 11:19:36.177 * Background saving started by pid 503
+[503] 09 Feb 11:19:36.180 * DB saved on disk
+[503] 09 Feb 11:19:36.181 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 11:19:36.188 * Background saving terminated with success
+[2920] 09 Feb 12:01:16.248 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 12:01:16.249 * Background saving started by pid 628
+[628] 09 Feb 12:01:16.252 * DB saved on disk
+[628] 09 Feb 12:01:16.252 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 12:01:16.259 * Background saving terminated with success
+[2920] 09 Feb 12:42:56.324 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 12:42:56.325 * Background saving started by pid 1114
+[1114] 09 Feb 12:42:56.330 * DB saved on disk
+[1114] 09 Feb 12:42:56.330 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 12:42:56.336 * Background saving terminated with success
+[2920] 09 Feb 13:24:36.413 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 13:24:36.414 * Background saving started by pid 1214
+[1214] 09 Feb 13:24:36.418 * DB saved on disk
+[1214] 09 Feb 13:24:36.418 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 13:24:36.424 * Background saving terminated with success
+[2920] 09 Feb 14:06:16.519 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 14:06:16.519 * Background saving started by pid 1254
+[1254] 09 Feb 14:06:16.523 * DB saved on disk
+[1254] 09 Feb 14:06:16.523 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 14:06:16.529 * Background saving terminated with success
+[2920] 09 Feb 14:47:56.633 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 14:47:56.633 * Background saving started by pid 1298
+[1298] 09 Feb 14:47:56.636 * DB saved on disk
+[1298] 09 Feb 14:47:56.637 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 14:47:56.643 * Background saving terminated with success
+[2920] 09 Feb 15:29:36.750 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 15:29:36.751 * Background saving started by pid 1501
+[1501] 09 Feb 15:29:36.755 * DB saved on disk
+[1501] 09 Feb 15:29:36.755 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 15:29:36.762 * Background saving terminated with success
+[2920] 09 Feb 16:11:16.937 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 16:11:16.938 * Background saving started by pid 1543
+[1543] 09 Feb 16:11:16.941 * DB saved on disk
+[1543] 09 Feb 16:11:16.941 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 16:11:16.948 * Background saving terminated with success
+[2920] 09 Feb 16:52:57.095 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 16:52:57.096 * Background saving started by pid 1659
+[1659] 09 Feb 16:52:57.100 * DB saved on disk
+[1659] 09 Feb 16:52:57.100 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 16:52:57.107 * Background saving terminated with success
+[2920] 09 Feb 17:34:37.310 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 17:34:37.311 * Background saving started by pid 1845
+[1845] 09 Feb 17:34:37.314 * DB saved on disk
+[1845] 09 Feb 17:34:37.315 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 17:34:37.321 * Background saving terminated with success
+[2920] 09 Feb 18:16:17.581 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 18:16:17.581 * Background saving started by pid 2039
+[2039] 09 Feb 18:16:17.585 * DB saved on disk
+[2039] 09 Feb 18:16:17.585 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 18:16:17.591 * Background saving terminated with success
+[2920] 09 Feb 18:57:57.779 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 18:57:57.780 * Background saving started by pid 2089
+[2089] 09 Feb 18:57:57.783 * DB saved on disk
+[2089] 09 Feb 18:57:57.783 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 18:57:57.790 * Background saving terminated with success
+[2920] 09 Feb 19:39:38.036 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 19:39:38.036 * Background saving started by pid 2139
+[2139] 09 Feb 19:39:38.041 * DB saved on disk
+[2139] 09 Feb 19:39:38.041 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 19:39:38.046 * Background saving terminated with success
+[2920] 09 Feb 20:21:18.087 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 20:21:18.088 * Background saving started by pid 2182
+[2182] 09 Feb 20:21:18.091 * DB saved on disk
+[2182] 09 Feb 20:21:18.091 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 20:21:18.098 * Background saving terminated with success
+[2920] 09 Feb 21:02:58.159 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 21:02:58.159 * Background saving started by pid 2240
+[2240] 09 Feb 21:02:58.163 * DB saved on disk
+[2240] 09 Feb 21:02:58.163 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 21:02:58.170 * Background saving terminated with success
+[2920] 09 Feb 21:44:38.231 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 21:44:38.232 * Background saving started by pid 2329
+[2329] 09 Feb 21:44:38.235 * DB saved on disk
+[2329] 09 Feb 21:44:38.235 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 21:44:38.242 * Background saving terminated with success
+[2920] 09 Feb 22:26:18.309 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 22:26:18.310 * Background saving started by pid 2373
+[2373] 09 Feb 22:26:18.313 * DB saved on disk
+[2373] 09 Feb 22:26:18.313 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 22:26:18.320 * Background saving terminated with success
+[2920] 09 Feb 23:07:58.403 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 23:07:58.404 * Background saving started by pid 2403
+[2403] 09 Feb 23:07:58.407 * DB saved on disk
+[2403] 09 Feb 23:07:58.407 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 23:07:58.414 * Background saving terminated with success
+[2920] 09 Feb 23:49:38.494 * 100 changes in 300 seconds. Saving...
+[2920] 09 Feb 23:49:38.494 * Background saving started by pid 2455
+[2455] 09 Feb 23:49:38.497 * DB saved on disk
+[2455] 09 Feb 23:49:38.498 * RDB: 6 MB of memory used by copy-on-write
+[2920] 09 Feb 23:49:38.504 * Background saving terminated with success
+[2920] 10 Feb 00:31:18.568 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 00:31:18.568 * Background saving started by pid 2486
+[2486] 10 Feb 00:31:18.571 * DB saved on disk
+[2486] 10 Feb 00:31:18.572 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 00:31:18.578 * Background saving terminated with success
+[2920] 10 Feb 01:12:58.656 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 01:12:58.656 * Background saving started by pid 2542
+[2542] 10 Feb 01:12:58.660 * DB saved on disk
+[2542] 10 Feb 01:12:58.660 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 01:12:58.666 * Background saving terminated with success
+[2920] 10 Feb 01:54:38.804 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 01:54:38.805 * Background saving started by pid 2589
+[2589] 10 Feb 01:54:38.808 * DB saved on disk
+[2589] 10 Feb 01:54:38.808 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 01:54:38.815 * Background saving terminated with success
+[2920] 10 Feb 02:36:18.984 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 02:36:18.985 * Background saving started by pid 2629
+[2629] 10 Feb 02:36:18.989 * DB saved on disk
+[2629] 10 Feb 02:36:18.989 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 02:36:18.995 * Background saving terminated with success
+[2920] 10 Feb 03:17:59.152 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 03:17:59.153 * Background saving started by pid 2693
+[2693] 10 Feb 03:17:59.156 * DB saved on disk
+[2693] 10 Feb 03:17:59.156 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 03:17:59.164 * Background saving terminated with success
+[2920] 10 Feb 03:59:39.375 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 03:59:39.376 * Background saving started by pid 2728
+[2728] 10 Feb 03:59:39.380 * DB saved on disk
+[2728] 10 Feb 03:59:39.380 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 03:59:39.386 * Background saving terminated with success
+[2920] 10 Feb 04:41:19.643 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 04:41:19.643 * Background saving started by pid 2813
+[2813] 10 Feb 04:41:19.647 * DB saved on disk
+[2813] 10 Feb 04:41:19.648 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 04:41:19.653 * Background saving terminated with success
+[2920] 10 Feb 05:22:59.878 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 05:22:59.879 * Background saving started by pid 2859
+[2859] 10 Feb 05:22:59.882 * DB saved on disk
+[2859] 10 Feb 05:22:59.882 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 05:22:59.889 * Background saving terminated with success
+[2920] 10 Feb 06:04:40.050 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 06:04:40.050 * Background saving started by pid 2894
+[2894] 10 Feb 06:04:40.054 * DB saved on disk
+[2894] 10 Feb 06:04:40.054 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 06:04:40.060 * Background saving terminated with success
+[2920] 10 Feb 06:46:20.108 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 06:46:20.109 * Background saving started by pid 3070
+[3070] 10 Feb 06:46:20.112 * DB saved on disk
+[3070] 10 Feb 06:46:20.113 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 06:46:20.119 * Background saving terminated with success
+[2920] 10 Feb 07:28:00.178 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 07:28:00.179 * Background saving started by pid 3184
+[3184] 10 Feb 07:28:00.182 * DB saved on disk
+[3184] 10 Feb 07:28:00.182 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 07:28:00.189 * Background saving terminated with success
+[2920] 10 Feb 08:09:40.257 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 08:09:40.258 * Background saving started by pid 3245
+[3245] 10 Feb 08:09:40.262 * DB saved on disk
+[3245] 10 Feb 08:09:40.262 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 08:09:40.268 * Background saving terminated with success
+[2920] 10 Feb 08:51:20.337 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 08:51:20.337 * Background saving started by pid 3290
+[3290] 10 Feb 08:51:20.341 * DB saved on disk
+[3290] 10 Feb 08:51:20.342 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 08:51:20.347 * Background saving terminated with success
+[2920] 10 Feb 09:33:00.426 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 09:33:00.427 * Background saving started by pid 3324
+[3324] 10 Feb 09:33:00.430 * DB saved on disk
+[3324] 10 Feb 09:33:00.430 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 09:33:00.437 * Background saving terminated with success
+[2920] 10 Feb 10:14:40.533 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 10:14:40.534 * Background saving started by pid 3375
+[3375] 10 Feb 10:14:40.538 * DB saved on disk
+[3375] 10 Feb 10:14:40.538 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 10:14:40.544 * Background saving terminated with success
+[2920] 10 Feb 10:56:20.661 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 10:56:20.661 * Background saving started by pid 3404
+[3404] 10 Feb 10:56:20.665 * DB saved on disk
+[3404] 10 Feb 10:56:20.665 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 10:56:20.671 * Background saving terminated with success
+[2920] 10 Feb 11:38:00.783 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 11:38:00.783 * Background saving started by pid 3450
+[3450] 10 Feb 11:38:00.787 * DB saved on disk
+[3450] 10 Feb 11:38:00.787 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 11:38:00.793 * Background saving terminated with success
+[2920] 10 Feb 12:19:40.966 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 12:19:40.966 * Background saving started by pid 3504
+[3504] 10 Feb 12:19:40.969 * DB saved on disk
+[3504] 10 Feb 12:19:40.969 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 12:19:40.976 * Background saving terminated with success
+[2920] 10 Feb 13:01:21.158 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 13:01:21.159 * Background saving started by pid 3544
+[3544] 10 Feb 13:01:21.162 * DB saved on disk
+[3544] 10 Feb 13:01:21.162 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 13:01:21.169 * Background saving terminated with success
+[2920] 10 Feb 13:43:01.331 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 13:43:01.332 * Background saving started by pid 3950
+[3950] 10 Feb 13:43:01.335 * DB saved on disk
+[3950] 10 Feb 13:43:01.336 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 13:43:01.342 * Background saving terminated with success
+[2920] 10 Feb 14:24:41.617 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 14:24:41.618 * Background saving started by pid 4003
+[4003] 10 Feb 14:24:41.622 * DB saved on disk
+[4003] 10 Feb 14:24:41.622 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 14:24:41.629 * Background saving terminated with success
+[2920] 10 Feb 15:06:21.869 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 15:06:21.869 * Background saving started by pid 4039
+[4039] 10 Feb 15:06:21.873 * DB saved on disk
+[4039] 10 Feb 15:06:21.874 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 15:06:21.879 * Background saving terminated with success
+[2920] 10 Feb 15:48:02.038 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 15:48:02.039 * Background saving started by pid 4820
+[4820] 10 Feb 15:48:02.042 * DB saved on disk
+[4820] 10 Feb 15:48:02.042 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 15:48:02.050 * Background saving terminated with success
+[2920] 10 Feb 16:29:42.101 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 16:29:42.101 * Background saving started by pid 5040
+[5040] 10 Feb 16:29:42.105 * DB saved on disk
+[5040] 10 Feb 16:29:42.105 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 16:29:42.111 * Background saving terminated with success
+[2920] 10 Feb 17:11:22.161 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 17:11:22.162 * Background saving started by pid 5249
+[5249] 10 Feb 17:11:22.171 * DB saved on disk
+[5249] 10 Feb 17:11:22.171 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 17:11:22.172 * Background saving terminated with success
+[2920] 10 Feb 17:53:02.219 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 17:53:02.220 * Background saving started by pid 5293
+[5293] 10 Feb 17:53:02.224 * DB saved on disk
+[5293] 10 Feb 17:53:02.224 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 17:53:02.230 * Background saving terminated with success
+[2920] 10 Feb 18:34:42.279 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 18:34:42.280 * Background saving started by pid 5348
+[5348] 10 Feb 18:34:42.283 * DB saved on disk
+[5348] 10 Feb 18:34:42.283 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 18:34:42.290 * Background saving terminated with success
+[2920] 10 Feb 19:16:22.356 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 19:16:22.357 * Background saving started by pid 5560
+[5560] 10 Feb 19:16:22.360 * DB saved on disk
+[5560] 10 Feb 19:16:22.361 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 19:16:22.367 * Background saving terminated with success
+[2920] 10 Feb 19:58:02.450 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 19:58:02.450 * Background saving started by pid 5610
+[5610] 10 Feb 19:58:02.454 * DB saved on disk
+[5610] 10 Feb 19:58:02.454 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 19:58:02.460 * Background saving terminated with success
+[2920] 10 Feb 20:39:42.535 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 20:39:42.535 * Background saving started by pid 5673
+[5673] 10 Feb 20:39:42.538 * DB saved on disk
+[5673] 10 Feb 20:39:42.539 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 20:39:42.545 * Background saving terminated with success
+[2920] 10 Feb 21:21:22.663 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 21:21:22.664 * Background saving started by pid 5712
+[5712] 10 Feb 21:21:22.667 * DB saved on disk
+[5712] 10 Feb 21:21:22.667 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 21:21:22.674 * Background saving terminated with success
+[2920] 10 Feb 22:03:02.803 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 22:03:02.804 * Background saving started by pid 5750
+[5750] 10 Feb 22:03:02.815 * DB saved on disk
+[5750] 10 Feb 22:03:02.815 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 22:03:02.824 * Background saving terminated with success
+[2920] 10 Feb 22:44:42.953 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 22:44:42.953 * Background saving started by pid 5790
+[5790] 10 Feb 22:44:42.957 * DB saved on disk
+[5790] 10 Feb 22:44:42.957 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 22:44:42.963 * Background saving terminated with success
+[2920] 10 Feb 23:26:23.160 * 100 changes in 300 seconds. Saving...
+[2920] 10 Feb 23:26:23.161 * Background saving started by pid 5833
+[5833] 10 Feb 23:26:23.164 * DB saved on disk
+[5833] 10 Feb 23:26:23.164 * RDB: 6 MB of memory used by copy-on-write
+[2920] 10 Feb 23:26:23.171 * Background saving terminated with success
+[2920] 11 Feb 00:08:03.346 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 00:08:03.347 * Background saving started by pid 5885
+[5885] 11 Feb 00:08:03.351 * DB saved on disk
+[5885] 11 Feb 00:08:03.352 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 00:08:03.357 * Background saving terminated with success
+[2920] 11 Feb 00:49:43.515 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 00:49:43.515 * Background saving started by pid 5947
+[5947] 11 Feb 00:49:43.519 * DB saved on disk
+[5947] 11 Feb 00:49:43.519 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 00:49:43.525 * Background saving terminated with success
+[2920] 11 Feb 01:31:23.679 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 01:31:23.680 * Background saving started by pid 5985
+[5985] 11 Feb 01:31:23.683 * DB saved on disk
+[5985] 11 Feb 01:31:23.683 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 01:31:23.690 * Background saving terminated with success
+[2920] 11 Feb 02:13:03.803 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 02:13:03.803 * Background saving started by pid 6044
+[6044] 11 Feb 02:13:03.808 * DB saved on disk
+[6044] 11 Feb 02:13:03.808 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 02:13:03.813 * Background saving terminated with success
+[2920] 11 Feb 02:54:43.906 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 02:54:43.907 * Background saving started by pid 6092
+[6092] 11 Feb 02:54:43.910 * DB saved on disk
+[6092] 11 Feb 02:54:43.910 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 02:54:43.917 * Background saving terminated with success
+[2920] 11 Feb 03:36:23.983 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 03:36:23.983 * Background saving started by pid 6131
+[6131] 11 Feb 03:36:23.987 * DB saved on disk
+[6131] 11 Feb 03:36:23.987 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 03:36:23.993 * Background saving terminated with success
+[2920] 11 Feb 04:18:04.057 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 04:18:04.058 * Background saving started by pid 6190
+[6190] 11 Feb 04:18:04.061 * DB saved on disk
+[6190] 11 Feb 04:18:04.061 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 04:18:04.068 * Background saving terminated with success
+[2920] 11 Feb 04:59:44.127 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 04:59:44.128 * Background saving started by pid 6225
+[6225] 11 Feb 04:59:44.131 * DB saved on disk
+[6225] 11 Feb 04:59:44.131 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 04:59:44.138 * Background saving terminated with success
+[2920] 11 Feb 05:41:24.187 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 05:41:24.188 * Background saving started by pid 6287
+[6287] 11 Feb 05:41:24.191 * DB saved on disk
+[6287] 11 Feb 05:41:24.191 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 05:41:24.198 * Background saving terminated with success
+[2920] 11 Feb 06:23:04.246 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 06:23:04.247 * Background saving started by pid 6372
+[6372] 11 Feb 06:23:04.250 * DB saved on disk
+[6372] 11 Feb 06:23:04.250 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 06:23:04.257 * Background saving terminated with success
+[2920] 11 Feb 07:04:44.318 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 07:04:44.319 * Background saving started by pid 6657
+[6657] 11 Feb 07:04:44.322 * DB saved on disk
+[6657] 11 Feb 07:04:44.322 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 07:04:44.329 * Background saving terminated with success
+[2920] 11 Feb 07:46:24.390 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 07:46:24.391 * Background saving started by pid 6702
+[6702] 11 Feb 07:46:24.394 * DB saved on disk
+[6702] 11 Feb 07:46:24.394 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 07:46:24.401 * Background saving terminated with success
+[2920] 11 Feb 08:28:04.481 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 08:28:04.482 * Background saving started by pid 6760
+[6760] 11 Feb 08:28:04.485 * DB saved on disk
+[6760] 11 Feb 08:28:04.486 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 08:28:04.492 * Background saving terminated with success
+[2920] 11 Feb 09:09:44.576 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 09:09:44.577 * Background saving started by pid 6817
+[6817] 11 Feb 09:09:44.580 * DB saved on disk
+[6817] 11 Feb 09:09:44.580 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 09:09:44.587 * Background saving terminated with success
+[2920] 11 Feb 09:51:24.697 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 09:51:24.698 * Background saving started by pid 7060
+[7060] 11 Feb 09:51:24.701 * DB saved on disk
+[7060] 11 Feb 09:51:24.702 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 09:51:24.708 * Background saving terminated with success
+[2920] 11 Feb 10:33:04.804 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 10:33:04.805 * Background saving started by pid 7096
+[7096] 11 Feb 10:33:04.808 * DB saved on disk
+[7096] 11 Feb 10:33:04.808 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 10:33:04.815 * Background saving terminated with success
+[2920] 11 Feb 11:14:44.996 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 11:14:44.996 * Background saving started by pid 7160
+[7160] 11 Feb 11:14:44.999 * DB saved on disk
+[7160] 11 Feb 11:14:45.000 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 11:14:45.006 * Background saving terminated with success
+[2920] 11 Feb 11:56:25.161 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 11:56:25.162 * Background saving started by pid 7202
+[7202] 11 Feb 11:56:25.165 * DB saved on disk
+[7202] 11 Feb 11:56:25.166 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 11:56:25.172 * Background saving terminated with success
+[2920] 11 Feb 12:38:05.384 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 12:38:05.384 * Background saving started by pid 7254
+[7254] 11 Feb 12:38:05.388 * DB saved on disk
+[7254] 11 Feb 12:38:05.388 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 12:38:05.394 * Background saving terminated with success
+[2920] 11 Feb 13:19:45.629 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 13:19:45.630 * Background saving started by pid 7486
+[7486] 11 Feb 13:19:45.633 * DB saved on disk
+[7486] 11 Feb 13:19:45.634 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 13:19:45.640 * Background saving terminated with success
+[2920] 11 Feb 14:01:25.827 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 14:01:25.827 * Background saving started by pid 7600
+[7600] 11 Feb 14:01:25.831 * DB saved on disk
+[7600] 11 Feb 14:01:25.831 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 14:01:25.837 * Background saving terminated with success
+[2920] 11 Feb 14:43:06.045 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 14:43:06.046 * Background saving started by pid 7680
+[7680] 11 Feb 14:43:06.049 * DB saved on disk
+[7680] 11 Feb 14:43:06.049 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 14:43:06.057 * Background saving terminated with success
+[2920] 11 Feb 15:23:06.098 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 15:23:06.099 * Background saving started by pid 7719
+[7719] 11 Feb 15:23:06.103 * DB saved on disk
+[7719] 11 Feb 15:23:06.103 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 15:23:06.109 * Background saving terminated with success
+[2920] 11 Feb 16:04:46.158 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 16:04:46.159 * Background saving started by pid 9838
+[9838] 11 Feb 16:04:46.162 * DB saved on disk
+[9838] 11 Feb 16:04:46.162 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 16:04:46.169 * Background saving terminated with success
+[2920] 11 Feb 16:46:26.224 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 16:46:26.224 * Background saving started by pid 11625
+[11625] 11 Feb 16:46:26.228 * DB saved on disk
+[11625] 11 Feb 16:46:26.228 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 16:46:26.234 * Background saving terminated with success
+[2920] 11 Feb 17:28:06.298 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 17:28:06.298 * Background saving started by pid 12899
+[12899] 11 Feb 17:28:06.302 * DB saved on disk
+[12899] 11 Feb 17:28:06.302 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 17:28:06.308 * Background saving terminated with success
+[2920] 11 Feb 18:09:46.394 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 18:09:46.395 * Background saving started by pid 13647
+[13647] 11 Feb 18:09:46.398 * DB saved on disk
+[13647] 11 Feb 18:09:46.399 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 18:09:46.406 * Background saving terminated with success
+[2920] 11 Feb 18:51:26.498 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 18:51:26.498 * Background saving started by pid 13683
+[13683] 11 Feb 18:51:26.501 * DB saved on disk
+[13683] 11 Feb 18:51:26.502 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 18:51:26.508 * Background saving terminated with success
+[2920] 11 Feb 19:33:06.602 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 19:33:06.603 * Background saving started by pid 13925
+[13925] 11 Feb 19:33:06.606 * DB saved on disk
+[13925] 11 Feb 19:33:06.606 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 19:33:06.613 * Background saving terminated with success
+[2920] 11 Feb 20:14:46.739 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 20:14:46.740 * Background saving started by pid 14988
+[14988] 11 Feb 20:14:46.744 * DB saved on disk
+[14988] 11 Feb 20:14:46.744 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 20:14:46.750 * Background saving terminated with success
+[2920] 11 Feb 20:56:26.890 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 20:56:26.890 * Background saving started by pid 15550
+[15550] 11 Feb 20:56:26.893 * DB saved on disk
+[15550] 11 Feb 20:56:26.894 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 20:56:26.901 * Background saving terminated with success
+[2920] 11 Feb 21:38:07.035 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 21:38:07.036 * Background saving started by pid 16111
+[16111] 11 Feb 21:38:07.039 * DB saved on disk
+[16111] 11 Feb 21:38:07.039 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 21:38:07.046 * Background saving terminated with success
+[2920] 11 Feb 22:19:47.252 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 22:19:47.253 * Background saving started by pid 16605
+[16605] 11 Feb 22:19:47.257 * DB saved on disk
+[16605] 11 Feb 22:19:47.257 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 22:19:47.263 * Background saving terminated with success
+[2920] 11 Feb 23:01:27.388 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 23:01:27.388 * Background saving started by pid 16680
+[16680] 11 Feb 23:01:27.391 * DB saved on disk
+[16680] 11 Feb 23:01:27.392 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 23:01:27.398 * Background saving terminated with success
+[2920] 11 Feb 23:43:07.543 * 100 changes in 300 seconds. Saving...
+[2920] 11 Feb 23:43:07.544 * Background saving started by pid 16835
+[16835] 11 Feb 23:43:07.547 * DB saved on disk
+[16835] 11 Feb 23:43:07.547 * RDB: 6 MB of memory used by copy-on-write
+[2920] 11 Feb 23:43:07.554 * Background saving terminated with success
+[2920] 12 Feb 00:24:47.637 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 00:24:47.637 * Background saving started by pid 17197
+[17197] 12 Feb 00:24:47.640 * DB saved on disk
+[17197] 12 Feb 00:24:47.641 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 00:24:47.647 * Background saving terminated with success
+[2920] 12 Feb 01:06:27.734 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 01:06:27.734 * Background saving started by pid 17226
+[17226] 12 Feb 01:06:27.737 * DB saved on disk
+[17226] 12 Feb 01:06:27.738 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 01:06:27.744 * Background saving terminated with success
+[2920] 12 Feb 01:48:07.799 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 01:48:07.800 * Background saving started by pid 17341
+[17341] 12 Feb 01:48:07.803 * DB saved on disk
+[17341] 12 Feb 01:48:07.803 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 01:48:07.810 * Background saving terminated with success
+[2920] 12 Feb 02:29:48.022 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 02:29:48.023 * Background saving started by pid 17538
+[17538] 12 Feb 02:29:48.026 * DB saved on disk
+[17538] 12 Feb 02:29:48.026 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 02:29:48.033 * Background saving terminated with success
+[2920] 12 Feb 03:11:28.066 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 03:11:28.066 * Background saving started by pid 17598
+[17598] 12 Feb 03:11:28.072 * DB saved on disk
+[17598] 12 Feb 03:11:28.072 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 03:11:28.077 * Background saving terminated with success
+[2920] 12 Feb 03:53:08.115 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 03:53:08.116 * Background saving started by pid 17636
+[17636] 12 Feb 03:53:08.119 * DB saved on disk
+[17636] 12 Feb 03:53:08.119 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 03:53:08.126 * Background saving terminated with success
+[2920] 12 Feb 04:34:48.178 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 04:34:48.179 * Background saving started by pid 17691
+[17691] 12 Feb 04:34:48.182 * DB saved on disk
+[17691] 12 Feb 04:34:48.183 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 04:34:48.189 * Background saving terminated with success
+[2920] 12 Feb 05:16:28.231 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 05:16:28.231 * Background saving started by pid 17906
+[17906] 12 Feb 05:16:28.234 * DB saved on disk
+[17906] 12 Feb 05:16:28.235 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 05:16:28.241 * Background saving terminated with success
+[2920] 12 Feb 05:58:08.300 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 05:58:08.300 * Background saving started by pid 17943
+[17943] 12 Feb 05:58:08.304 * DB saved on disk
+[17943] 12 Feb 05:58:08.304 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 05:58:08.310 * Background saving terminated with success
+[2920] 12 Feb 06:39:48.374 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 06:39:48.375 * Background saving started by pid 18127
+[18127] 12 Feb 06:39:48.379 * DB saved on disk
+[18127] 12 Feb 06:39:48.379 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 06:39:48.386 * Background saving terminated with success
+[2920] 12 Feb 07:21:28.487 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 07:21:28.487 * Background saving started by pid 18275
+[18275] 12 Feb 07:21:28.491 * DB saved on disk
+[18275] 12 Feb 07:21:28.491 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 07:21:28.497 * Background saving terminated with success
+[2920] 12 Feb 08:03:08.595 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 08:03:08.595 * Background saving started by pid 18326
+[18326] 12 Feb 08:03:08.599 * DB saved on disk
+[18326] 12 Feb 08:03:08.600 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 08:03:08.606 * Background saving terminated with success
+[2920] 12 Feb 08:44:48.691 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 08:44:48.691 * Background saving started by pid 18544
+[18544] 12 Feb 08:44:48.695 * DB saved on disk
+[18544] 12 Feb 08:44:48.695 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 08:44:48.701 * Background saving terminated with success
+[2920] 12 Feb 09:26:28.846 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 09:26:28.847 * Background saving started by pid 18727
+[18727] 12 Feb 09:26:28.882 * DB saved on disk
+[18727] 12 Feb 09:26:28.882 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 09:26:28.888 * Background saving terminated with success
+[2920] 12 Feb 10:08:09.014 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 10:08:09.015 * Background saving started by pid 18765
+[18765] 12 Feb 10:08:09.018 * DB saved on disk
+[18765] 12 Feb 10:08:09.019 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 10:08:09.025 * Background saving terminated with success
+[2920] 12 Feb 10:49:49.173 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 10:49:49.173 * Background saving started by pid 18831
+[18831] 12 Feb 10:49:49.177 * DB saved on disk
+[18831] 12 Feb 10:49:49.177 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 10:49:49.183 * Background saving terminated with success
+[2920] 12 Feb 11:29:49.381 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 11:29:49.381 * Background saving started by pid 18882
+[18882] 12 Feb 11:29:49.384 * DB saved on disk
+[18882] 12 Feb 11:29:49.385 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 11:29:49.391 * Background saving terminated with success
+[2920] 12 Feb 12:11:29.466 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 12:11:29.467 * Background saving started by pid 18932
+[18932] 12 Feb 12:11:29.470 * DB saved on disk
+[18932] 12 Feb 12:11:29.471 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 12:11:29.477 * Background saving terminated with success
+[2920] 12 Feb 12:53:09.562 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 12:53:09.562 * Background saving started by pid 18998
+[18998] 12 Feb 12:53:09.565 * DB saved on disk
+[18998] 12 Feb 12:53:09.565 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 12:53:09.572 * Background saving terminated with success
+[2920] 12 Feb 13:34:49.703 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 13:34:49.704 * Background saving started by pid 19056
+[19056] 12 Feb 13:34:49.707 * DB saved on disk
+[19056] 12 Feb 13:34:49.707 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 13:34:49.714 * Background saving terminated with success
+[2920] 12 Feb 14:16:29.833 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 14:16:29.834 * Background saving started by pid 19120
+[19120] 12 Feb 14:16:29.851 * DB saved on disk
+[19120] 12 Feb 14:16:29.851 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 14:16:29.854 * Background saving terminated with success
+[2920] 12 Feb 14:58:10.011 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 14:58:10.012 * Background saving started by pid 19169
+[19169] 12 Feb 14:58:10.015 * DB saved on disk
+[19169] 12 Feb 14:58:10.015 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 14:58:10.022 * Background saving terminated with success
+[2920] 12 Feb 15:39:50.219 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 15:39:50.220 * Background saving started by pid 19391
+[19391] 12 Feb 15:39:50.224 * DB saved on disk
+[19391] 12 Feb 15:39:50.224 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 15:39:50.230 * Background saving terminated with success
+[2920] 12 Feb 16:21:30.403 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 16:21:30.404 * Background saving started by pid 19465
+[19465] 12 Feb 16:21:30.408 * DB saved on disk
+[19465] 12 Feb 16:21:30.408 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 16:21:30.414 * Background saving terminated with success
+[2920] 12 Feb 17:03:10.687 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 17:03:10.688 * Background saving started by pid 26410
+[26410] 12 Feb 17:03:10.691 * DB saved on disk
+[26410] 12 Feb 17:03:10.691 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 17:03:10.698 * Background saving terminated with success
+[2920] 12 Feb 17:44:50.963 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 17:44:50.964 * Background saving started by pid 27689
+[27689] 12 Feb 17:44:50.968 * DB saved on disk
+[27689] 12 Feb 17:44:50.968 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 17:44:50.974 * Background saving terminated with success
+[2920] 12 Feb 18:26:31.058 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 18:26:31.059 * Background saving started by pid 29413
+[29413] 12 Feb 18:26:31.062 * DB saved on disk
+[29413] 12 Feb 18:26:31.063 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 18:26:31.069 * Background saving terminated with success
+[2920] 12 Feb 19:08:11.113 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 19:08:11.114 * Background saving started by pid 30918
+[30918] 12 Feb 19:08:11.117 * DB saved on disk
+[30918] 12 Feb 19:08:11.117 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 19:08:11.124 * Background saving terminated with success
+[2920] 12 Feb 19:49:51.174 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 19:49:51.175 * Background saving started by pid 32539
+[32539] 12 Feb 19:49:51.179 * DB saved on disk
+[32539] 12 Feb 19:49:51.179 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 19:49:51.185 * Background saving terminated with success
+[2920] 12 Feb 20:31:31.233 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 20:31:31.234 * Background saving started by pid 1132
+[1132] 12 Feb 20:31:31.238 * DB saved on disk
+[1132] 12 Feb 20:31:31.238 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 20:31:31.244 * Background saving terminated with success
+[2920] 12 Feb 21:13:11.295 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 21:13:11.295 * Background saving started by pid 1834
+[1834] 12 Feb 21:13:11.299 * DB saved on disk
+[1834] 12 Feb 21:13:11.299 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 21:13:11.306 * Background saving terminated with success
+[2920] 12 Feb 21:54:51.366 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 21:54:51.366 * Background saving started by pid 1878
+[1878] 12 Feb 21:54:51.370 * DB saved on disk
+[1878] 12 Feb 21:54:51.371 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 21:54:51.376 * Background saving terminated with success
+[2920] 12 Feb 22:36:31.449 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 22:36:31.450 * Background saving started by pid 2012
+[2012] 12 Feb 22:36:31.454 * DB saved on disk
+[2012] 12 Feb 22:36:31.454 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 22:36:31.460 * Background saving terminated with success
+[2920] 12 Feb 23:18:11.522 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 23:18:11.522 * Background saving started by pid 2067
+[2067] 12 Feb 23:18:11.525 * DB saved on disk
+[2067] 12 Feb 23:18:11.526 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 23:18:11.532 * Background saving terminated with success
+[2920] 12 Feb 23:59:51.585 * 100 changes in 300 seconds. Saving...
+[2920] 12 Feb 23:59:51.586 * Background saving started by pid 2119
+[2119] 12 Feb 23:59:51.589 * DB saved on disk
+[2119] 12 Feb 23:59:51.590 * RDB: 6 MB of memory used by copy-on-write
+[2920] 12 Feb 23:59:51.596 * Background saving terminated with success
+[2920] 13 Feb 00:41:31.647 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 00:41:31.648 * Background saving started by pid 2177
+[2177] 13 Feb 00:41:31.653 * DB saved on disk
+[2177] 13 Feb 00:41:31.653 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 00:41:31.658 * Background saving terminated with success
+[2920] 13 Feb 01:23:11.737 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 01:23:11.738 * Background saving started by pid 2229
+[2229] 13 Feb 01:23:11.741 * DB saved on disk
+[2229] 13 Feb 01:23:11.741 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 01:23:11.748 * Background saving terminated with success
+[2920] 13 Feb 02:04:51.887 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 02:04:51.887 * Background saving started by pid 2285
+[2285] 13 Feb 02:04:51.891 * DB saved on disk
+[2285] 13 Feb 02:04:51.891 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 02:04:51.897 * Background saving terminated with success
+[2920] 13 Feb 02:46:32.067 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 02:46:32.067 * Background saving started by pid 2339
+[2339] 13 Feb 02:46:32.070 * DB saved on disk
+[2339] 13 Feb 02:46:32.071 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 02:46:32.078 * Background saving terminated with success
+[2920] 13 Feb 03:28:12.227 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 03:28:12.227 * Background saving started by pid 2387
+[2387] 13 Feb 03:28:12.230 * DB saved on disk
+[2387] 13 Feb 03:28:12.230 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 03:28:12.237 * Background saving terminated with success
+[2920] 13 Feb 04:09:52.491 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 04:09:52.492 * Background saving started by pid 2439
+[2439] 13 Feb 04:09:52.496 * DB saved on disk
+[2439] 13 Feb 04:09:52.496 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 04:09:52.502 * Background saving terminated with success
+[2920] 13 Feb 04:51:32.667 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 04:51:32.667 * Background saving started by pid 2491
+[2491] 13 Feb 04:51:32.671 * DB saved on disk
+[2491] 13 Feb 04:51:32.671 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 04:51:32.677 * Background saving terminated with success
+[2920] 13 Feb 05:33:13.011 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 05:33:13.012 * Background saving started by pid 2528
+[2528] 13 Feb 05:33:13.016 * DB saved on disk
+[2528] 13 Feb 05:33:13.016 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 05:33:13.022 * Background saving terminated with success
+[2920] 13 Feb 06:14:53.063 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 06:14:53.064 * Background saving started by pid 2588
+[2588] 13 Feb 06:14:53.071 * DB saved on disk
+[2588] 13 Feb 06:14:53.071 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 06:14:53.074 * Background saving terminated with success
+[2920] 13 Feb 06:56:33.112 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 06:56:33.112 * Background saving started by pid 2825
+[2825] 13 Feb 06:56:33.123 * DB saved on disk
+[2825] 13 Feb 06:56:33.123 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 06:56:33.132 * Background saving terminated with success
+[2920] 13 Feb 07:38:13.168 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 07:38:13.169 * Background saving started by pid 2903
+[2903] 13 Feb 07:38:13.172 * DB saved on disk
+[2903] 13 Feb 07:38:13.172 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 07:38:13.180 * Background saving terminated with success
+[2920] 13 Feb 08:19:53.223 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 08:19:53.224 * Background saving started by pid 2974
+[2974] 13 Feb 08:19:53.227 * DB saved on disk
+[2974] 13 Feb 08:19:53.227 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 08:19:53.234 * Background saving terminated with success
+[2920] 13 Feb 09:01:33.292 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 09:01:33.292 * Background saving started by pid 3013
+[3013] 13 Feb 09:01:33.296 * DB saved on disk
+[3013] 13 Feb 09:01:33.296 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 09:01:33.302 * Background saving terminated with success
+[2920] 13 Feb 09:43:13.352 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 09:43:13.352 * Background saving started by pid 3078
+[3078] 13 Feb 09:43:13.406 * DB saved on disk
+[3078] 13 Feb 09:43:13.406 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 09:43:13.414 * Background saving terminated with success
+[2920] 13 Feb 10:24:53.427 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 10:24:53.428 * Background saving started by pid 3118
+[3118] 13 Feb 10:24:53.434 * DB saved on disk
+[3118] 13 Feb 10:24:53.435 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 10:24:53.438 * Background saving terminated with success
+[2920] 13 Feb 11:06:33.519 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 11:06:33.520 * Background saving started by pid 3167
+[3167] 13 Feb 11:06:33.523 * DB saved on disk
+[3167] 13 Feb 11:06:33.523 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 11:06:33.531 * Background saving terminated with success
+[2920] 13 Feb 11:48:13.595 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 11:48:13.595 * Background saving started by pid 3227
+[3227] 13 Feb 11:48:13.598 * DB saved on disk
+[3227] 13 Feb 11:48:13.599 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 11:48:13.605 * Background saving terminated with success
+[2920] 13 Feb 12:29:53.723 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 12:29:53.723 * Background saving started by pid 3459
+[3459] 13 Feb 12:29:53.726 * DB saved on disk
+[3459] 13 Feb 12:29:53.727 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 12:29:53.733 * Background saving terminated with success
+[2920] 13 Feb 13:11:33.835 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 13:11:33.835 * Background saving started by pid 3580
+[3580] 13 Feb 13:11:33.838 * DB saved on disk
+[3580] 13 Feb 13:11:33.839 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 13:11:33.845 * Background saving terminated with success
+[2920] 13 Feb 13:53:14.006 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 13:53:14.006 * Background saving started by pid 3645
+[3645] 13 Feb 13:53:14.010 * DB saved on disk
+[3645] 13 Feb 13:53:14.010 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 13:53:14.016 * Background saving terminated with success
+[2920] 13 Feb 14:34:54.180 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 14:34:54.180 * Background saving started by pid 3687
+[3687] 13 Feb 14:34:54.184 * DB saved on disk
+[3687] 13 Feb 14:34:54.184 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 14:34:54.191 * Background saving terminated with success
+[2920] 13 Feb 15:16:34.350 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 15:16:34.351 * Background saving started by pid 3748
+[3748] 13 Feb 15:16:34.354 * DB saved on disk
+[3748] 13 Feb 15:16:34.354 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 15:16:34.361 * Background saving terminated with success
+[2920] 13 Feb 15:58:14.636 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 15:58:14.636 * Background saving started by pid 3788
+[3788] 13 Feb 15:58:14.640 * DB saved on disk
+[3788] 13 Feb 15:58:14.640 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 15:58:14.646 * Background saving terminated with success
+[2920] 13 Feb 16:39:54.833 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 16:39:54.834 * Background saving started by pid 3859
+[3859] 13 Feb 16:39:54.837 * DB saved on disk
+[3859] 13 Feb 16:39:54.837 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 16:39:54.844 * Background saving terminated with success
+[2920] 13 Feb 17:21:35.047 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 17:21:35.048 * Background saving started by pid 3903
+[3903] 13 Feb 17:21:35.051 * DB saved on disk
+[3903] 13 Feb 17:21:35.052 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 17:21:35.058 * Background saving terminated with success
+[2920] 13 Feb 18:03:15.099 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 18:03:15.099 * Background saving started by pid 3948
+[3948] 13 Feb 18:03:15.102 * DB saved on disk
+[3948] 13 Feb 18:03:15.103 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 18:03:15.109 * Background saving terminated with success
+[2920] 13 Feb 18:44:55.144 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 18:44:55.144 * Background saving started by pid 4028
+[4028] 13 Feb 18:44:55.148 * DB saved on disk
+[4028] 13 Feb 18:44:55.148 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 18:44:55.154 * Background saving terminated with success
+[2920] 13 Feb 19:26:35.204 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 19:26:35.205 * Background saving started by pid 5042
+[5042] 13 Feb 19:26:35.208 * DB saved on disk
+[5042] 13 Feb 19:26:35.208 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 19:26:35.215 * Background saving terminated with success
+[2920] 13 Feb 20:08:15.265 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 20:08:15.265 * Background saving started by pid 5172
+[5172] 13 Feb 20:08:15.269 * DB saved on disk
+[5172] 13 Feb 20:08:15.269 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 20:08:15.275 * Background saving terminated with success
+[2920] 13 Feb 20:49:55.344 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 20:49:55.345 * Background saving started by pid 5458
+[5458] 13 Feb 20:49:55.348 * DB saved on disk
+[5458] 13 Feb 20:49:55.348 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 20:49:55.355 * Background saving terminated with success
+[2920] 13 Feb 21:31:35.415 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 21:31:35.416 * Background saving started by pid 5598
+[5598] 13 Feb 21:31:35.419 * DB saved on disk
+[5598] 13 Feb 21:31:35.419 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 21:31:35.426 * Background saving terminated with success
+[2920] 13 Feb 22:13:15.503 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 22:13:15.504 * Background saving started by pid 5842
+[5842] 13 Feb 22:13:15.507 * DB saved on disk
+[5842] 13 Feb 22:13:15.507 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 22:13:15.515 * Background saving terminated with success
+[2920] 13 Feb 22:54:55.585 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 22:54:55.586 * Background saving started by pid 6109
+[6109] 13 Feb 22:54:55.594 * DB saved on disk
+[6109] 13 Feb 22:54:55.594 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 22:54:55.596 * Background saving terminated with success
+[2920] 13 Feb 23:36:35.672 * 100 changes in 300 seconds. Saving...
+[2920] 13 Feb 23:36:35.673 * Background saving started by pid 6201
+[6201] 13 Feb 23:36:35.676 * DB saved on disk
+[6201] 13 Feb 23:36:35.677 * RDB: 6 MB of memory used by copy-on-write
+[2920] 13 Feb 23:36:35.683 * Background saving terminated with success
+[2920] 14 Feb 00:18:15.825 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 00:18:15.825 * Background saving started by pid 6338
+[6338] 14 Feb 00:18:15.829 * DB saved on disk
+[6338] 14 Feb 00:18:15.829 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 00:18:15.835 * Background saving terminated with success
+[2920] 14 Feb 00:59:55.920 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 00:59:55.921 * Background saving started by pid 6574
+[6574] 14 Feb 00:59:55.925 * DB saved on disk
+[6574] 14 Feb 00:59:55.925 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 00:59:55.931 * Background saving terminated with success
+[2920] 14 Feb 01:41:36.068 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 01:41:36.069 * Background saving started by pid 6687
+[6687] 14 Feb 01:41:36.072 * DB saved on disk
+[6687] 14 Feb 01:41:36.073 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 01:41:36.079 * Background saving terminated with success
+[2920] 14 Feb 02:23:16.165 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 02:23:16.166 * Background saving started by pid 6766
+[6766] 14 Feb 02:23:16.169 * DB saved on disk
+[6766] 14 Feb 02:23:16.170 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 02:23:16.176 * Background saving terminated with success
+[2920] 14 Feb 03:04:56.235 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 03:04:56.236 * Background saving started by pid 7025
+[7025] 14 Feb 03:04:56.239 * DB saved on disk
+[7025] 14 Feb 03:04:56.239 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 03:04:56.246 * Background saving terminated with success
+[2920] 14 Feb 03:46:36.290 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 03:46:36.291 * Background saving started by pid 7167
+[7167] 14 Feb 03:46:36.294 * DB saved on disk
+[7167] 14 Feb 03:46:36.294 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 03:46:36.301 * Background saving terminated with success
+[2920] 14 Feb 04:28:16.436 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 04:28:16.437 * Background saving started by pid 7263
+[7263] 14 Feb 04:28:16.441 * DB saved on disk
+[7263] 14 Feb 04:28:16.441 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 04:28:16.447 * Background saving terminated with success
+[2920] 14 Feb 05:09:56.681 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 05:09:56.682 * Background saving started by pid 7371
+[7371] 14 Feb 05:09:56.685 * DB saved on disk
+[7371] 14 Feb 05:09:56.685 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 05:09:56.692 * Background saving terminated with success
+[2920] 14 Feb 05:51:36.966 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 05:51:36.967 * Background saving started by pid 7462
+[7462] 14 Feb 05:51:36.970 * DB saved on disk
+[7462] 14 Feb 05:51:36.970 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 05:51:36.978 * Background saving terminated with success
+[2920] 14 Feb 06:33:17.055 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 06:33:17.056 * Background saving started by pid 7594
+[7594] 14 Feb 06:33:17.059 * DB saved on disk
+[7594] 14 Feb 06:33:17.059 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 06:33:17.067 * Background saving terminated with success
+[2920] 14 Feb 07:14:57.104 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 07:14:57.105 * Background saving started by pid 7898
+[7898] 14 Feb 07:14:57.108 * DB saved on disk
+[7898] 14 Feb 07:14:57.108 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 07:14:57.115 * Background saving terminated with success
+[2920] 14 Feb 07:56:37.156 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 07:56:37.157 * Background saving started by pid 8048
+[8048] 14 Feb 07:56:37.162 * DB saved on disk
+[8048] 14 Feb 07:56:37.163 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 07:56:37.167 * Background saving terminated with success
+[2920] 14 Feb 08:38:17.220 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 08:38:17.221 * Background saving started by pid 8150
+[8150] 14 Feb 08:38:17.224 * DB saved on disk
+[8150] 14 Feb 08:38:17.224 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 08:38:17.232 * Background saving terminated with success
+[2920] 14 Feb 09:19:57.280 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 09:19:57.281 * Background saving started by pid 8229
+[8229] 14 Feb 09:19:57.284 * DB saved on disk
+[8229] 14 Feb 09:19:57.284 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 09:19:57.292 * Background saving terminated with success
+[2920] 14 Feb 10:01:37.345 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 10:01:37.345 * Background saving started by pid 8280
+[8280] 14 Feb 10:01:37.348 * DB saved on disk
+[8280] 14 Feb 10:01:37.349 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 10:01:37.355 * Background saving terminated with success
+[2920] 14 Feb 10:43:17.426 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 10:43:17.427 * Background saving started by pid 8498
+[8498] 14 Feb 10:43:17.430 * DB saved on disk
+[8498] 14 Feb 10:43:17.431 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 10:43:17.437 * Background saving terminated with success
+[2920] 14 Feb 11:24:57.510 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 11:24:57.510 * Background saving started by pid 8565
+[8565] 14 Feb 11:24:57.513 * DB saved on disk
+[8565] 14 Feb 11:24:57.513 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 11:24:57.520 * Background saving terminated with success
+[2920] 14 Feb 12:06:37.622 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 12:06:37.623 * Background saving started by pid 8615
+[8615] 14 Feb 12:06:37.626 * DB saved on disk
+[8615] 14 Feb 12:06:37.626 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 12:06:37.633 * Background saving terminated with success
+[2920] 14 Feb 12:48:17.729 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 12:48:17.729 * Background saving started by pid 8670
+[8670] 14 Feb 12:48:17.737 * DB saved on disk
+[8670] 14 Feb 12:48:17.737 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 12:48:17.740 * Background saving terminated with success
+[2920] 14 Feb 13:29:57.845 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 13:29:57.845 * Background saving started by pid 8727
+[8727] 14 Feb 13:29:57.849 * DB saved on disk
+[8727] 14 Feb 13:29:57.849 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 13:29:57.855 * Background saving terminated with success
+[2920] 14 Feb 14:11:38.023 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 14:11:38.024 * Background saving started by pid 9599
+[9599] 14 Feb 14:11:38.029 * DB saved on disk
+[9599] 14 Feb 14:11:38.029 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 14:11:38.034 * Background saving terminated with success
+[2920] 14 Feb 14:53:18.162 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 14:53:18.163 * Background saving started by pid 9652
+[9652] 14 Feb 14:53:18.166 * DB saved on disk
+[9652] 14 Feb 14:53:18.166 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 14:53:18.173 * Background saving terminated with success
+[2920] 14 Feb 15:34:58.427 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 15:34:58.427 * Background saving started by pid 9689
+[9689] 14 Feb 15:34:58.430 * DB saved on disk
+[9689] 14 Feb 15:34:58.431 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 15:34:58.437 * Background saving terminated with success
+[2920] 14 Feb 16:16:38.629 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 16:16:38.630 * Background saving started by pid 9753
+[9753] 14 Feb 16:16:38.633 * DB saved on disk
+[9753] 14 Feb 16:16:38.633 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 16:16:38.640 * Background saving terminated with success
+[2920] 14 Feb 16:58:18.915 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 16:58:18.915 * Background saving started by pid 9809
+[9809] 14 Feb 16:58:18.919 * DB saved on disk
+[9809] 14 Feb 16:58:18.920 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 16:58:18.925 * Background saving terminated with success
+[2920] 14 Feb 17:39:59.038 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 17:39:59.038 * Background saving started by pid 9868
+[9868] 14 Feb 17:39:59.044 * DB saved on disk
+[9868] 14 Feb 17:39:59.044 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 17:39:59.049 * Background saving terminated with success
+[2920] 14 Feb 18:21:39.099 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 18:21:39.099 * Background saving started by pid 10081
+[10081] 14 Feb 18:21:39.103 * DB saved on disk
+[10081] 14 Feb 18:21:39.103 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 18:21:39.109 * Background saving terminated with success
+[2920] 14 Feb 19:03:19.153 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 19:03:19.153 * Background saving started by pid 10118
+[10118] 14 Feb 19:03:19.157 * DB saved on disk
+[10118] 14 Feb 19:03:19.157 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 19:03:19.163 * Background saving terminated with success
+[2920] 14 Feb 19:44:59.226 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 19:44:59.227 * Background saving started by pid 10505
+[10505] 14 Feb 19:44:59.231 * DB saved on disk
+[10505] 14 Feb 19:44:59.231 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 19:44:59.237 * Background saving terminated with success
+[2920] 14 Feb 20:26:39.288 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 20:26:39.289 * Background saving started by pid 10740
+[10740] 14 Feb 20:26:39.293 * DB saved on disk
+[10740] 14 Feb 20:26:39.293 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 20:26:39.299 * Background saving terminated with success
+[2920] 14 Feb 21:08:19.379 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 21:08:19.380 * Background saving started by pid 10821
+[10821] 14 Feb 21:08:19.383 * DB saved on disk
+[10821] 14 Feb 21:08:19.383 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 21:08:19.390 * Background saving terminated with success
+[2920] 14 Feb 21:49:59.456 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 21:49:59.456 * Background saving started by pid 10886
+[10886] 14 Feb 21:49:59.466 * DB saved on disk
+[10886] 14 Feb 21:49:59.466 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 21:49:59.476 * Background saving terminated with success
+[2920] 14 Feb 22:31:39.554 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 22:31:39.555 * Background saving started by pid 10922
+[10922] 14 Feb 22:31:39.558 * DB saved on disk
+[10922] 14 Feb 22:31:39.558 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 22:31:39.565 * Background saving terminated with success
+[2920] 14 Feb 23:13:19.664 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 23:13:19.664 * Background saving started by pid 10978
+[10978] 14 Feb 23:13:19.667 * DB saved on disk
+[10978] 14 Feb 23:13:19.668 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 23:13:19.674 * Background saving terminated with success
+[2920] 14 Feb 23:54:59.768 * 100 changes in 300 seconds. Saving...
+[2920] 14 Feb 23:54:59.769 * Background saving started by pid 11010
+[11010] 14 Feb 23:54:59.772 * DB saved on disk
+[11010] 14 Feb 23:54:59.772 * RDB: 6 MB of memory used by copy-on-write
+[2920] 14 Feb 23:54:59.779 * Background saving terminated with success
+[2920] 15 Feb 00:36:39.945 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 00:36:39.946 * Background saving started by pid 11121
+[11121] 15 Feb 00:36:39.949 * DB saved on disk
+[11121] 15 Feb 00:36:39.949 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 00:36:39.956 * Background saving terminated with success
+[2920] 15 Feb 01:18:20.075 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 01:18:20.076 * Background saving started by pid 11181
+[11181] 15 Feb 01:18:20.079 * DB saved on disk
+[11181] 15 Feb 01:18:20.079 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 01:18:20.086 * Background saving terminated with success
+[2920] 15 Feb 02:00:00.263 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 02:00:00.263 * Background saving started by pid 11207
+[11207] 15 Feb 02:00:00.267 * DB saved on disk
+[11207] 15 Feb 02:00:00.267 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 02:00:00.273 * Background saving terminated with success
+[2920] 15 Feb 02:41:40.382 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 02:41:40.383 * Background saving started by pid 11265
+[11265] 15 Feb 02:41:40.386 * DB saved on disk
+[11265] 15 Feb 02:41:40.386 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 02:41:40.393 * Background saving terminated with success
+[2920] 15 Feb 03:23:20.477 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 03:23:20.478 * Background saving started by pid 11294
+[11294] 15 Feb 03:23:20.481 * DB saved on disk
+[11294] 15 Feb 03:23:20.481 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 03:23:20.489 * Background saving terminated with success
+[2920] 15 Feb 04:05:00.564 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 04:05:00.565 * Background saving started by pid 11335
+[11335] 15 Feb 04:05:00.568 * DB saved on disk
+[11335] 15 Feb 04:05:00.568 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 04:05:00.576 * Background saving terminated with success
+[2920] 15 Feb 04:46:40.726 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 04:46:40.726 * Background saving started by pid 11383
+[11383] 15 Feb 04:46:40.729 * DB saved on disk
+[11383] 15 Feb 04:46:40.730 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 04:46:40.736 * Background saving terminated with success
+[2920] 15 Feb 05:28:20.984 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 05:28:20.985 * Background saving started by pid 11423
+[11423] 15 Feb 05:28:20.989 * DB saved on disk
+[11423] 15 Feb 05:28:20.989 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 05:28:20.996 * Background saving terminated with success
+[2920] 15 Feb 06:10:01.072 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 06:10:01.072 * Background saving started by pid 11466
+[11466] 15 Feb 06:10:01.076 * DB saved on disk
+[11466] 15 Feb 06:10:01.076 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 06:10:01.082 * Background saving terminated with success
+[2920] 15 Feb 06:51:41.130 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 06:51:41.131 * Background saving started by pid 11693
+[11693] 15 Feb 06:51:41.135 * DB saved on disk
+[11693] 15 Feb 06:51:41.135 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 06:51:41.141 * Background saving terminated with success
+[2920] 15 Feb 07:33:21.190 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 07:33:21.191 * Background saving started by pid 11726
+[11726] 15 Feb 07:33:21.194 * DB saved on disk
+[11726] 15 Feb 07:33:21.194 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 07:33:21.201 * Background saving terminated with success
+[2920] 15 Feb 08:15:01.263 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 08:15:01.263 * Background saving started by pid 11789
+[11789] 15 Feb 08:15:01.266 * DB saved on disk
+[11789] 15 Feb 08:15:01.267 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 08:15:01.273 * Background saving terminated with success
+[2920] 15 Feb 08:56:41.351 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 08:56:41.351 * Background saving started by pid 11816
+[11816] 15 Feb 08:56:41.355 * DB saved on disk
+[11816] 15 Feb 08:56:41.355 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 08:56:41.361 * Background saving terminated with success
+[2920] 15 Feb 09:38:21.421 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 09:38:21.422 * Background saving started by pid 11860
+[11860] 15 Feb 09:38:21.425 * DB saved on disk
+[11860] 15 Feb 09:38:21.425 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 09:38:21.432 * Background saving terminated with success
+[2920] 15 Feb 10:20:01.522 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 10:20:01.523 * Background saving started by pid 11901
+[11901] 15 Feb 10:20:01.527 * DB saved on disk
+[11901] 15 Feb 10:20:01.527 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 10:20:01.534 * Background saving terminated with success
+[2920] 15 Feb 11:01:41.618 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 11:01:41.618 * Background saving started by pid 11942
+[11942] 15 Feb 11:01:41.621 * DB saved on disk
+[11942] 15 Feb 11:01:41.622 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 11:01:41.628 * Background saving terminated with success
+[2920] 15 Feb 11:43:21.720 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 11:43:21.721 * Background saving started by pid 11992
+[11992] 15 Feb 11:43:21.724 * DB saved on disk
+[11992] 15 Feb 11:43:21.724 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 11:43:21.731 * Background saving terminated with success
+[2920] 15 Feb 12:25:01.890 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 12:25:01.891 * Background saving started by pid 12040
+[12040] 15 Feb 12:25:01.894 * DB saved on disk
+[12040] 15 Feb 12:25:01.894 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 12:25:01.901 * Background saving terminated with success
+[2920] 15 Feb 13:06:42.050 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 13:06:42.051 * Background saving started by pid 12070
+[12070] 15 Feb 13:06:42.055 * DB saved on disk
+[12070] 15 Feb 13:06:42.055 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 13:06:42.061 * Background saving terminated with success
+[2920] 15 Feb 13:48:22.248 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 13:48:22.249 * Background saving started by pid 12136
+[12136] 15 Feb 13:48:22.252 * DB saved on disk
+[12136] 15 Feb 13:48:22.253 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 13:48:22.260 * Background saving terminated with success
+[2920] 15 Feb 14:30:02.503 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 14:30:02.504 * Background saving started by pid 12198
+[12198] 15 Feb 14:30:02.526 * DB saved on disk
+[12198] 15 Feb 14:30:02.526 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 14:30:02.535 * Background saving terminated with success
+[2920] 15 Feb 15:11:42.699 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 15:11:42.700 * Background saving started by pid 12403
+[12403] 15 Feb 15:11:42.704 * DB saved on disk
+[12403] 15 Feb 15:11:42.704 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 15:11:42.710 * Background saving terminated with success
+[2920] 15 Feb 15:53:23.012 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 15:53:23.012 * Background saving started by pid 12651
+[12651] 15 Feb 15:53:23.016 * DB saved on disk
+[12651] 15 Feb 15:53:23.016 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 15:53:23.022 * Background saving terminated with success
+[2920] 15 Feb 16:35:03.069 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 16:35:03.070 * Background saving started by pid 12678
+[12678] 15 Feb 16:35:03.073 * DB saved on disk
+[12678] 15 Feb 16:35:03.074 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 16:35:03.080 * Background saving terminated with success
+[2920] 15 Feb 17:16:43.128 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 17:16:43.128 * Background saving started by pid 12925
+[12925] 15 Feb 17:16:43.132 * DB saved on disk
+[12925] 15 Feb 17:16:43.132 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 17:16:43.139 * Background saving terminated with success
+[2920] 15 Feb 17:58:23.195 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 17:58:23.196 * Background saving started by pid 8547
+[8547] 15 Feb 17:58:23.199 * DB saved on disk
+[8547] 15 Feb 17:58:23.200 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 17:58:23.206 * Background saving terminated with success
+[2920] 15 Feb 18:40:03.263 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 18:40:03.264 * Background saving started by pid 9417
+[9417] 15 Feb 18:40:03.267 * DB saved on disk
+[9417] 15 Feb 18:40:03.267 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 18:40:03.274 * Background saving terminated with success
+[2920] 15 Feb 19:21:43.337 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 19:21:43.338 * Background saving started by pid 9612
+[9612] 15 Feb 19:21:43.341 * DB saved on disk
+[9612] 15 Feb 19:21:43.341 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 19:21:43.348 * Background saving terminated with success
+[2920] 15 Feb 20:03:23.429 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 20:03:23.430 * Background saving started by pid 9644
+[9644] 15 Feb 20:03:23.433 * DB saved on disk
+[9644] 15 Feb 20:03:23.433 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 20:03:23.440 * Background saving terminated with success
+[2920] 15 Feb 20:45:03.533 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 20:45:03.533 * Background saving started by pid 9726
+[9726] 15 Feb 20:45:03.537 * DB saved on disk
+[9726] 15 Feb 20:45:03.537 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 20:45:03.543 * Background saving terminated with success
+[2920] 15 Feb 21:26:43.670 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 21:26:43.671 * Background saving started by pid 9794
+[9794] 15 Feb 21:26:43.675 * DB saved on disk
+[9794] 15 Feb 21:26:43.675 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 21:26:43.681 * Background saving terminated with success
+[2920] 15 Feb 22:08:23.796 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 22:08:23.796 * Background saving started by pid 9934
+[9934] 15 Feb 22:08:23.801 * DB saved on disk
+[9934] 15 Feb 22:08:23.801 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 22:08:23.806 * Background saving terminated with success
+[2920] 15 Feb 22:50:03.916 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 22:50:03.917 * Background saving started by pid 10189
+[10189] 15 Feb 22:50:03.920 * DB saved on disk
+[10189] 15 Feb 22:50:03.920 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 22:50:03.927 * Background saving terminated with success
+[2920] 15 Feb 23:31:44.135 * 100 changes in 300 seconds. Saving...
+[2920] 15 Feb 23:31:44.136 * Background saving started by pid 10247
+[10247] 15 Feb 23:31:44.140 * DB saved on disk
+[10247] 15 Feb 23:31:44.140 * RDB: 6 MB of memory used by copy-on-write
+[2920] 15 Feb 23:31:44.146 * Background saving terminated with success
+[2920] 16 Feb 00:13:24.276 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 00:13:24.277 * Background saving started by pid 10299
+[10299] 16 Feb 00:13:24.280 * DB saved on disk
+[10299] 16 Feb 00:13:24.280 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 00:13:24.287 * Background saving terminated with success
+[2920] 16 Feb 00:55:04.491 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 00:55:04.491 * Background saving started by pid 10330
+[10330] 16 Feb 00:55:04.495 * DB saved on disk
+[10330] 16 Feb 00:55:04.495 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 00:55:04.501 * Background saving terminated with success
+[2920] 16 Feb 01:36:44.632 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 01:36:44.632 * Background saving started by pid 10434
+[10434] 16 Feb 01:36:44.637 * DB saved on disk
+[10434] 16 Feb 01:36:44.637 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 01:36:44.642 * Background saving terminated with success
+[2920] 16 Feb 02:18:24.744 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 02:18:24.744 * Background saving started by pid 10473
+[10473] 16 Feb 02:18:24.748 * DB saved on disk
+[10473] 16 Feb 02:18:24.748 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 02:18:24.755 * Background saving terminated with success
+[2920] 16 Feb 03:00:04.867 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 03:00:04.868 * Background saving started by pid 10509
+[10509] 16 Feb 03:00:04.871 * DB saved on disk
+[10509] 16 Feb 03:00:04.871 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 03:00:04.878 * Background saving terminated with success
+[2920] 16 Feb 03:41:44.938 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 03:41:44.939 * Background saving started by pid 10552
+[10552] 16 Feb 03:41:44.942 * DB saved on disk
+[10552] 16 Feb 03:41:44.942 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 03:41:44.950 * Background saving terminated with success
+[2920] 16 Feb 04:23:25.019 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 04:23:25.019 * Background saving started by pid 10590
+[10590] 16 Feb 04:23:25.022 * DB saved on disk
+[10590] 16 Feb 04:23:25.022 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 04:23:25.029 * Background saving terminated with success
+[2920] 16 Feb 05:05:05.076 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 05:05:05.076 * Background saving started by pid 10626
+[10626] 16 Feb 05:05:05.080 * DB saved on disk
+[10626] 16 Feb 05:05:05.080 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 05:05:05.086 * Background saving terminated with success
+[2920] 16 Feb 05:46:45.124 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 05:46:45.125 * Background saving started by pid 10665
+[10665] 16 Feb 05:46:45.129 * DB saved on disk
+[10665] 16 Feb 05:46:45.129 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 05:46:45.135 * Background saving terminated with success
+[2920] 16 Feb 06:28:25.185 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 06:28:25.186 * Background saving started by pid 10747
+[10747] 16 Feb 06:28:25.189 * DB saved on disk
+[10747] 16 Feb 06:28:25.189 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 06:28:25.197 * Background saving terminated with success
+[2920] 16 Feb 07:10:05.248 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 07:10:05.249 * Background saving started by pid 10943
+[10943] 16 Feb 07:10:05.252 * DB saved on disk
+[10943] 16 Feb 07:10:05.253 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 07:10:05.259 * Background saving terminated with success
+[2920] 16 Feb 07:51:45.310 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 07:51:45.311 * Background saving started by pid 10973
+[10973] 16 Feb 07:51:45.314 * DB saved on disk
+[10973] 16 Feb 07:51:45.314 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 07:51:45.321 * Background saving terminated with success
+[2920] 16 Feb 08:33:25.390 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 08:33:25.391 * Background saving started by pid 11013
+[11013] 16 Feb 08:33:25.394 * DB saved on disk
+[11013] 16 Feb 08:33:25.394 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 08:33:25.401 * Background saving terminated with success
+[2920] 16 Feb 09:15:05.477 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 09:15:05.478 * Background saving started by pid 11064
+[11064] 16 Feb 09:15:05.481 * DB saved on disk
+[11064] 16 Feb 09:15:05.481 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 09:15:05.488 * Background saving terminated with success
+[2920] 16 Feb 09:56:45.556 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 09:56:45.557 * Background saving started by pid 11096
+[11096] 16 Feb 09:56:45.597 * DB saved on disk
+[11096] 16 Feb 09:56:45.597 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 09:56:45.598 * Background saving terminated with success
+[2920] 16 Feb 10:38:25.684 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 10:38:25.685 * Background saving started by pid 11137
+[11137] 16 Feb 10:38:25.688 * DB saved on disk
+[11137] 16 Feb 10:38:25.688 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 10:38:25.695 * Background saving terminated with success
+[2920] 16 Feb 11:20:05.785 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 11:20:05.785 * Background saving started by pid 11233
+[11233] 16 Feb 11:20:05.789 * DB saved on disk
+[11233] 16 Feb 11:20:05.789 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 11:20:05.796 * Background saving terminated with success
+[2920] 16 Feb 12:01:45.962 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 12:01:45.962 * Background saving started by pid 11273
+[11273] 16 Feb 12:01:45.967 * DB saved on disk
+[11273] 16 Feb 12:01:45.967 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 12:01:45.972 * Background saving terminated with success
+[2920] 16 Feb 12:43:26.141 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 12:43:26.141 * Background saving started by pid 11314
+[11314] 16 Feb 12:43:26.144 * DB saved on disk
+[11314] 16 Feb 12:43:26.145 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 12:43:26.151 * Background saving terminated with success
+[2920] 16 Feb 13:25:06.323 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 13:25:06.323 * Background saving started by pid 11355
+[11355] 16 Feb 13:25:06.326 * DB saved on disk
+[11355] 16 Feb 13:25:06.327 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 13:25:06.333 * Background saving terminated with success
+[2920] 16 Feb 14:06:46.598 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 14:06:46.599 * Background saving started by pid 11381
+[11381] 16 Feb 14:06:46.602 * DB saved on disk
+[11381] 16 Feb 14:06:46.602 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 14:06:46.609 * Background saving terminated with success
+[2920] 16 Feb 14:48:26.818 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 14:48:26.819 * Background saving started by pid 11433
+[11433] 16 Feb 14:48:26.822 * DB saved on disk
+[11433] 16 Feb 14:48:26.822 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 14:48:26.829 * Background saving terminated with success
+[2920] 16 Feb 15:30:07.035 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 15:30:07.035 * Background saving started by pid 11473
+[11473] 16 Feb 15:30:07.038 * DB saved on disk
+[11473] 16 Feb 15:30:07.039 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 15:30:07.045 * Background saving terminated with success
+[2920] 16 Feb 16:11:47.090 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 16:11:47.091 * Background saving started by pid 11731
+[11731] 16 Feb 16:11:47.094 * DB saved on disk
+[11731] 16 Feb 16:11:47.094 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 16:11:47.101 * Background saving terminated with success
+[2920] 16 Feb 16:53:27.147 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 16:53:27.147 * Background saving started by pid 11868
+[11868] 16 Feb 16:53:27.153 * DB saved on disk
+[11868] 16 Feb 16:53:27.153 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 16:53:27.158 * Background saving terminated with success
+[2920] 16 Feb 17:35:07.204 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 17:35:07.204 * Background saving started by pid 12022
+[12022] 16 Feb 17:35:07.207 * DB saved on disk
+[12022] 16 Feb 17:35:07.208 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 17:35:07.214 * Background saving terminated with success
+[2920] 16 Feb 18:16:47.264 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 18:16:47.265 * Background saving started by pid 12237
+[12237] 16 Feb 18:16:47.268 * DB saved on disk
+[12237] 16 Feb 18:16:47.268 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 18:16:47.275 * Background saving terminated with success
+[2920] 16 Feb 18:58:27.337 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 18:58:27.338 * Background saving started by pid 12506
+[12506] 16 Feb 18:58:27.341 * DB saved on disk
+[12506] 16 Feb 18:58:27.341 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 18:58:27.348 * Background saving terminated with success
+[2920] 16 Feb 19:40:07.424 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 19:40:07.424 * Background saving started by pid 12572
+[12572] 16 Feb 19:40:07.428 * DB saved on disk
+[12572] 16 Feb 19:40:07.428 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 19:40:07.434 * Background saving terminated with success
+[2920] 16 Feb 20:21:47.499 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 20:21:47.500 * Background saving started by pid 12610
+[12610] 16 Feb 20:21:47.503 * DB saved on disk
+[12610] 16 Feb 20:21:47.503 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 20:21:47.510 * Background saving terminated with success
+[2920] 16 Feb 21:03:27.615 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 21:03:27.616 * Background saving started by pid 12660
+[12660] 16 Feb 21:03:27.619 * DB saved on disk
+[12660] 16 Feb 21:03:27.619 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 21:03:27.626 * Background saving terminated with success
+[2920] 16 Feb 21:45:07.725 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 21:45:07.725 * Background saving started by pid 12701
+[12701] 16 Feb 21:45:07.728 * DB saved on disk
+[12701] 16 Feb 21:45:07.728 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 21:45:07.735 * Background saving terminated with success
+[2920] 16 Feb 22:26:47.859 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 22:26:47.860 * Background saving started by pid 12742
+[12742] 16 Feb 22:26:47.863 * DB saved on disk
+[12742] 16 Feb 22:26:47.863 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 22:26:47.870 * Background saving terminated with success
+[2920] 16 Feb 23:08:28.032 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 23:08:28.033 * Background saving started by pid 12962
+[12962] 16 Feb 23:08:28.036 * DB saved on disk
+[12962] 16 Feb 23:08:28.036 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 23:08:28.043 * Background saving terminated with success
+[2920] 16 Feb 23:50:08.156 * 100 changes in 300 seconds. Saving...
+[2920] 16 Feb 23:50:08.156 * Background saving started by pid 13015
+[13015] 16 Feb 23:50:08.160 * DB saved on disk
+[13015] 16 Feb 23:50:08.160 * RDB: 6 MB of memory used by copy-on-write
+[2920] 16 Feb 23:50:08.166 * Background saving terminated with success
+[2920] 17 Feb 00:31:48.267 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 00:31:48.268 * Background saving started by pid 13042
+[13042] 17 Feb 00:31:48.273 * DB saved on disk
+[13042] 17 Feb 00:31:48.273 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 00:31:48.278 * Background saving terminated with success
+[2920] 17 Feb 01:13:28.335 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 01:13:28.336 * Background saving started by pid 13099
+[13099] 17 Feb 01:13:28.339 * DB saved on disk
+[13099] 17 Feb 01:13:28.339 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 01:13:28.346 * Background saving terminated with success
+[2920] 17 Feb 01:55:08.388 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 01:55:08.389 * Background saving started by pid 13141
+[13141] 17 Feb 01:55:08.392 * DB saved on disk
+[13141] 17 Feb 01:55:08.392 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 01:55:08.400 * Background saving terminated with success
+[2920] 17 Feb 02:36:48.568 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 02:36:48.569 * Background saving started by pid 13168
+[13168] 17 Feb 02:36:48.573 * DB saved on disk
+[13168] 17 Feb 02:36:48.573 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 02:36:48.579 * Background saving terminated with success
+[2920] 17 Feb 03:18:28.839 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 03:18:28.840 * Background saving started by pid 13218
+[13218] 17 Feb 03:18:28.844 * DB saved on disk
+[13218] 17 Feb 03:18:28.844 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 03:18:28.850 * Background saving terminated with success
+[2920] 17 Feb 04:00:09.033 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 04:00:09.033 * Background saving started by pid 13242
+[13242] 17 Feb 04:00:09.037 * DB saved on disk
+[13242] 17 Feb 04:00:09.037 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 04:00:09.043 * Background saving terminated with success
+[2920] 17 Feb 04:41:49.079 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 04:41:49.079 * Background saving started by pid 13299
+[13299] 17 Feb 04:41:49.098 * DB saved on disk
+[13299] 17 Feb 04:41:49.098 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 04:41:49.100 * Background saving terminated with success
+[2920] 17 Feb 05:23:29.134 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 05:23:29.134 * Background saving started by pid 13367
+[13367] 17 Feb 05:23:29.138 * DB saved on disk
+[13367] 17 Feb 05:23:29.138 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 05:23:29.144 * Background saving terminated with success
+[2920] 17 Feb 06:05:09.191 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 06:05:09.191 * Background saving started by pid 13597
+[13597] 17 Feb 06:05:09.194 * DB saved on disk
+[13597] 17 Feb 06:05:09.195 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 06:05:09.201 * Background saving terminated with success
+[2920] 17 Feb 06:46:49.259 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 06:46:49.260 * Background saving started by pid 14429
+[14429] 17 Feb 06:46:49.263 * DB saved on disk
+[14429] 17 Feb 06:46:49.263 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 06:46:49.270 * Background saving terminated with success
+[2920] 17 Feb 07:28:29.339 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 07:28:29.340 * Background saving started by pid 14457
+[14457] 17 Feb 07:28:29.343 * DB saved on disk
+[14457] 17 Feb 07:28:29.343 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 07:28:29.350 * Background saving terminated with success
+[2920] 17 Feb 08:10:09.431 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 08:10:09.431 * Background saving started by pid 14504
+[14504] 17 Feb 08:10:09.435 * DB saved on disk
+[14504] 17 Feb 08:10:09.435 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 08:10:09.442 * Background saving terminated with success
+[2920] 17 Feb 08:51:49.518 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 08:51:49.518 * Background saving started by pid 14535
+[14535] 17 Feb 08:51:49.524 * DB saved on disk
+[14535] 17 Feb 08:51:49.525 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 08:51:49.528 * Background saving terminated with success
+[2920] 17 Feb 09:33:29.615 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 09:33:29.616 * Background saving started by pid 14575
+[14575] 17 Feb 09:33:29.619 * DB saved on disk
+[14575] 17 Feb 09:33:29.619 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 09:33:29.626 * Background saving terminated with success
+[2920] 17 Feb 10:15:09.765 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 10:15:09.765 * Background saving started by pid 14615
+[14615] 17 Feb 10:15:09.769 * DB saved on disk
+[14615] 17 Feb 10:15:09.769 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 10:15:09.775 * Background saving terminated with success
+[2920] 17 Feb 10:56:49.887 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 10:56:49.888 * Background saving started by pid 14660
+[14660] 17 Feb 10:56:49.891 * DB saved on disk
+[14660] 17 Feb 10:56:49.891 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 10:56:49.898 * Background saving terminated with success
+[2920] 17 Feb 11:38:30.072 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 11:38:30.073 * Background saving started by pid 14705
+[14705] 17 Feb 11:38:30.076 * DB saved on disk
+[14705] 17 Feb 11:38:30.076 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 11:38:30.083 * Background saving terminated with success
+[2920] 17 Feb 12:20:10.291 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 12:20:10.292 * Background saving started by pid 14755
+[14755] 17 Feb 12:20:10.295 * DB saved on disk
+[14755] 17 Feb 12:20:10.295 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 12:20:10.302 * Background saving terminated with success
+[2920] 17 Feb 13:01:50.471 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 13:01:50.471 * Background saving started by pid 14802
+[14802] 17 Feb 13:01:50.474 * DB saved on disk
+[14802] 17 Feb 13:01:50.475 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 13:01:50.481 * Background saving terminated with success
+[2920] 17 Feb 13:43:30.791 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 13:43:30.791 * Background saving started by pid 15155
+[15155] 17 Feb 13:43:30.794 * DB saved on disk
+[15155] 17 Feb 13:43:30.795 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 13:43:30.801 * Background saving terminated with success
+[2920] 17 Feb 14:25:11.016 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 14:25:11.016 * Background saving started by pid 15801
+[15801] 17 Feb 14:25:11.019 * DB saved on disk
+[15801] 17 Feb 14:25:11.019 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 14:25:11.026 * Background saving terminated with success
+[2920] 17 Feb 15:01:51.105 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 15:01:51.105 * Background saving started by pid 16402
+[16402] 17 Feb 15:01:51.108 * DB saved on disk
+[16402] 17 Feb 15:01:51.109 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 15:01:51.115 * Background saving terminated with success
+[2920] 17 Feb 15:43:31.260 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 15:43:31.260 * Background saving started by pid 16719
+[16719] 17 Feb 15:43:31.264 * DB saved on disk
+[16719] 17 Feb 15:43:31.264 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 15:43:31.270 * Background saving terminated with success
+[2920] 17 Feb 16:25:11.540 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 16:25:11.541 * Background saving started by pid 17598
+[17598] 17 Feb 16:25:11.544 * DB saved on disk
+[17598] 17 Feb 16:25:11.544 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 16:25:11.551 * Background saving terminated with success
+[2920] 17 Feb 17:06:51.783 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 17:06:51.784 * Background saving started by pid 18486
+[18486] 17 Feb 17:06:51.787 * DB saved on disk
+[18486] 17 Feb 17:06:51.787 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 17:06:51.795 * Background saving terminated with success
+[2920] 17 Feb 17:48:32.015 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 17:48:32.016 * Background saving started by pid 19345
+[19345] 17 Feb 17:48:32.019 * DB saved on disk
+[19345] 17 Feb 17:48:32.019 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 17:48:32.026 * Background saving terminated with success
+[2920] 17 Feb 18:30:12.067 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 18:30:12.067 * Background saving started by pid 19965
+[19965] 17 Feb 18:30:12.071 * DB saved on disk
+[19965] 17 Feb 18:30:12.071 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 18:30:12.077 * Background saving terminated with success
+[2920] 17 Feb 19:11:52.124 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 19:11:52.124 * Background saving started by pid 20319
+[20319] 17 Feb 19:11:52.127 * DB saved on disk
+[20319] 17 Feb 19:11:52.128 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 19:11:52.134 * Background saving terminated with success
+[2920] 17 Feb 19:53:32.181 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 19:53:32.182 * Background saving started by pid 20581
+[20581] 17 Feb 19:53:32.185 * DB saved on disk
+[20581] 17 Feb 19:53:32.185 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 19:53:32.192 * Background saving terminated with success
+[2920] 17 Feb 20:35:12.241 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 20:35:12.242 * Background saving started by pid 20875
+[20875] 17 Feb 20:35:12.245 * DB saved on disk
+[20875] 17 Feb 20:35:12.245 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 20:35:12.252 * Background saving terminated with success
+[2920] 17 Feb 21:16:52.305 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 21:16:52.305 * Background saving started by pid 21405
+[21405] 17 Feb 21:16:52.308 * DB saved on disk
+[21405] 17 Feb 21:16:52.309 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 21:16:52.315 * Background saving terminated with success
+[2920] 17 Feb 21:58:32.389 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 21:58:32.389 * Background saving started by pid 21434
+[21434] 17 Feb 21:58:32.392 * DB saved on disk
+[21434] 17 Feb 21:58:32.393 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 21:58:32.399 * Background saving terminated with success
+[2920] 17 Feb 22:40:12.465 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 22:40:12.465 * Background saving started by pid 21532
+[21532] 17 Feb 22:40:12.469 * DB saved on disk
+[21532] 17 Feb 22:40:12.469 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 22:40:12.475 * Background saving terminated with success
+[2920] 17 Feb 23:21:52.562 * 100 changes in 300 seconds. Saving...
+[2920] 17 Feb 23:21:52.562 * Background saving started by pid 21562
+[21562] 17 Feb 23:21:52.565 * DB saved on disk
+[21562] 17 Feb 23:21:52.566 * RDB: 6 MB of memory used by copy-on-write
+[2920] 17 Feb 23:21:52.572 * Background saving terminated with success
+[2920] 18 Feb 00:03:32.681 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 00:03:32.682 * Background saving started by pid 21598
+[21598] 18 Feb 00:03:32.685 * DB saved on disk
+[21598] 18 Feb 00:03:32.685 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 00:03:32.692 * Background saving terminated with success
+[2920] 18 Feb 00:45:12.780 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 00:45:12.780 * Background saving started by pid 21651
+[21651] 18 Feb 00:45:12.784 * DB saved on disk
+[21651] 18 Feb 00:45:12.784 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 00:45:12.791 * Background saving terminated with success
+[2920] 18 Feb 01:26:52.898 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 01:26:52.899 * Background saving started by pid 21678
+[21678] 18 Feb 01:26:52.902 * DB saved on disk
+[21678] 18 Feb 01:26:52.902 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 01:26:52.909 * Background saving terminated with success
+[2920] 18 Feb 02:08:32.977 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 02:08:32.978 * Background saving started by pid 21713
+[21713] 18 Feb 02:08:32.981 * DB saved on disk
+[21713] 18 Feb 02:08:32.981 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 02:08:32.988 * Background saving terminated with success
+[2920] 18 Feb 02:50:13.043 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 02:50:13.044 * Background saving started by pid 21770
+[21770] 18 Feb 02:50:13.047 * DB saved on disk
+[21770] 18 Feb 02:50:13.047 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 02:50:13.054 * Background saving terminated with success
+[2920] 18 Feb 03:31:53.250 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 03:31:53.250 * Background saving started by pid 21810
+[21810] 18 Feb 03:31:53.253 * DB saved on disk
+[21810] 18 Feb 03:31:53.254 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 03:31:53.260 * Background saving terminated with success
+[2920] 18 Feb 04:13:33.424 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 04:13:33.424 * Background saving started by pid 21860
+[21860] 18 Feb 04:13:33.428 * DB saved on disk
+[21860] 18 Feb 04:13:33.428 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 04:13:33.434 * Background saving terminated with success
+[2920] 18 Feb 04:55:13.687 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 04:55:13.687 * Background saving started by pid 21889
+[21889] 18 Feb 04:55:13.691 * DB saved on disk
+[21889] 18 Feb 04:55:13.691 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 04:55:13.697 * Background saving terminated with success
+[2920] 18 Feb 05:36:53.969 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 05:36:53.969 * Background saving started by pid 21928
+[21928] 18 Feb 05:36:53.973 * DB saved on disk
+[21928] 18 Feb 05:36:53.973 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 05:36:53.979 * Background saving terminated with success
+[2920] 18 Feb 06:18:34.059 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 06:18:34.060 * Background saving started by pid 22025
+[22025] 18 Feb 06:18:34.063 * DB saved on disk
+[22025] 18 Feb 06:18:34.063 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 06:18:34.070 * Background saving terminated with success
+[2920] 18 Feb 07:00:14.106 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 07:00:14.106 * Background saving started by pid 22256
+[22256] 18 Feb 07:00:14.110 * DB saved on disk
+[22256] 18 Feb 07:00:14.110 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 07:00:14.116 * Background saving terminated with success
+[2920] 18 Feb 07:41:54.166 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 07:41:54.167 * Background saving started by pid 24842
+[24842] 18 Feb 07:41:54.170 * DB saved on disk
+[24842] 18 Feb 07:41:54.170 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 07:41:54.177 * Background saving terminated with success
+[2920] 18 Feb 08:23:34.224 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 08:23:34.225 * Background saving started by pid 27658
+[27658] 18 Feb 08:23:34.228 * DB saved on disk
+[27658] 18 Feb 08:23:34.228 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 08:23:34.235 * Background saving terminated with success
+[2920] 18 Feb 09:05:14.292 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 09:05:14.292 * Background saving started by pid 27766
+[27766] 18 Feb 09:05:14.295 * DB saved on disk
+[27766] 18 Feb 09:05:14.296 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 09:05:14.302 * Background saving terminated with success
+[2920] 18 Feb 09:46:54.356 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 09:46:54.357 * Background saving started by pid 27834
+[27834] 18 Feb 09:46:54.360 * DB saved on disk
+[27834] 18 Feb 09:46:54.361 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 09:46:54.368 * Background saving terminated with success
+[2920] 18 Feb 10:28:34.448 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 10:28:34.448 * Background saving started by pid 27908
+[27908] 18 Feb 10:28:34.452 * DB saved on disk
+[27908] 18 Feb 10:28:34.452 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 10:28:34.458 * Background saving terminated with success
+[2920] 18 Feb 11:10:14.532 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 11:10:14.533 * Background saving started by pid 28003
+[28003] 18 Feb 11:10:14.536 * DB saved on disk
+[28003] 18 Feb 11:10:14.536 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 11:10:14.544 * Background saving terminated with success
+[2920] 18 Feb 11:51:54.626 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 11:51:54.627 * Background saving started by pid 28080
+[28080] 18 Feb 11:51:54.630 * DB saved on disk
+[28080] 18 Feb 11:51:54.630 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 11:51:54.637 * Background saving terminated with success
+[2920] 18 Feb 12:33:34.770 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 12:33:34.770 * Background saving started by pid 28197
+[28197] 18 Feb 12:33:34.775 * DB saved on disk
+[28197] 18 Feb 12:33:34.775 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 12:33:34.780 * Background saving terminated with success
+[2920] 18 Feb 13:15:14.877 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 13:15:14.877 * Background saving started by pid 28282
+[28282] 18 Feb 13:15:14.880 * DB saved on disk
+[28282] 18 Feb 13:15:14.881 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 13:15:14.887 * Background saving terminated with success
+[2920] 18 Feb 13:56:55.075 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 13:56:55.076 * Background saving started by pid 28478
+[28478] 18 Feb 13:56:55.079 * DB saved on disk
+[28478] 18 Feb 13:56:55.080 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 13:56:55.086 * Background saving terminated with success
+[2920] 18 Feb 14:38:35.283 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 14:38:35.284 * Background saving started by pid 28527
+[28527] 18 Feb 14:38:35.287 * DB saved on disk
+[28527] 18 Feb 14:38:35.287 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 14:38:35.294 * Background saving terminated with success
+[2920] 18 Feb 15:20:15.464 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 15:20:15.464 * Background saving started by pid 32528
+[32528] 18 Feb 15:20:15.468 * DB saved on disk
+[32528] 18 Feb 15:20:15.468 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 15:20:15.475 * Background saving terminated with success
+[2920] 18 Feb 16:01:55.775 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 16:01:55.775 * Background saving started by pid 1963
+[1963] 18 Feb 16:01:55.779 * DB saved on disk
+[1963] 18 Feb 16:01:55.779 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 16:01:55.786 * Background saving terminated with success
+[2920] 18 Feb 16:43:36.019 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 16:43:36.019 * Background saving started by pid 2026
+[2026] 18 Feb 16:43:36.023 * DB saved on disk
+[2026] 18 Feb 16:43:36.023 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 16:43:36.030 * Background saving terminated with success
+[2920] 18 Feb 17:25:16.069 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 17:25:16.070 * Background saving started by pid 2076
+[2076] 18 Feb 17:25:16.073 * DB saved on disk
+[2076] 18 Feb 17:25:16.074 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 17:25:16.080 * Background saving terminated with success
+[2920] 18 Feb 18:06:56.122 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 18:06:56.123 * Background saving started by pid 2108
+[2108] 18 Feb 18:06:56.126 * DB saved on disk
+[2108] 18 Feb 18:06:56.127 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 18:06:56.133 * Background saving terminated with success
+[2920] 18 Feb 18:48:36.179 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 18:48:36.180 * Background saving started by pid 2516
+[2516] 18 Feb 18:48:36.184 * DB saved on disk
+[2516] 18 Feb 18:48:36.184 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 18:48:36.190 * Background saving terminated with success
+[2920] 18 Feb 19:30:16.239 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 19:30:16.239 * Background saving started by pid 2582
+[2582] 18 Feb 19:30:16.243 * DB saved on disk
+[2582] 18 Feb 19:30:16.243 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 19:30:16.250 * Background saving terminated with success
+[2920] 18 Feb 20:11:56.297 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 20:11:56.298 * Background saving started by pid 2654
+[2654] 18 Feb 20:11:56.301 * DB saved on disk
+[2654] 18 Feb 20:11:56.301 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 20:11:56.308 * Background saving terminated with success
+[2920] 18 Feb 20:53:36.377 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 20:53:36.378 * Background saving started by pid 2696
+[2696] 18 Feb 20:53:36.381 * DB saved on disk
+[2696] 18 Feb 20:53:36.381 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 20:53:36.388 * Background saving terminated with success
+[2920] 18 Feb 21:35:16.478 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 21:35:16.479 * Background saving started by pid 2967
+[2967] 18 Feb 21:35:16.482 * DB saved on disk
+[2967] 18 Feb 21:35:16.482 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 21:35:16.489 * Background saving terminated with success
+[2920] 18 Feb 22:16:56.560 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 22:16:56.560 * Background saving started by pid 3023
+[3023] 18 Feb 22:16:56.563 * DB saved on disk
+[3023] 18 Feb 22:16:56.564 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 22:16:56.570 * Background saving terminated with success
+[2920] 18 Feb 22:58:36.687 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 22:58:36.687 * Background saving started by pid 3069
+[3069] 18 Feb 22:58:36.691 * DB saved on disk
+[3069] 18 Feb 22:58:36.691 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 22:58:36.698 * Background saving terminated with success
+[2920] 18 Feb 23:40:16.797 * 100 changes in 300 seconds. Saving...
+[2920] 18 Feb 23:40:16.798 * Background saving started by pid 3701
+[3701] 18 Feb 23:40:16.801 * DB saved on disk
+[3701] 18 Feb 23:40:16.801 * RDB: 6 MB of memory used by copy-on-write
+[2920] 18 Feb 23:40:16.808 * Background saving terminated with success
+[2920] 19 Feb 00:21:56.941 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 00:21:56.941 * Background saving started by pid 4253
+[4253] 19 Feb 00:21:56.944 * DB saved on disk
+[4253] 19 Feb 00:21:56.945 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 00:21:56.951 * Background saving terminated with success
+[2920] 19 Feb 01:03:37.089 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 01:03:37.090 * Background saving started by pid 4704
+[4704] 19 Feb 01:03:37.093 * DB saved on disk
+[4704] 19 Feb 01:03:37.094 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 01:03:37.100 * Background saving terminated with success
+[2920] 19 Feb 01:45:17.197 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 01:45:17.198 * Background saving started by pid 5148
+[5148] 19 Feb 01:45:17.201 * DB saved on disk
+[5148] 19 Feb 01:45:17.202 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 01:45:17.208 * Background saving terminated with success
+[2920] 19 Feb 02:26:57.279 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 02:26:57.280 * Background saving started by pid 5883
+[5883] 19 Feb 02:26:57.285 * DB saved on disk
+[5883] 19 Feb 02:26:57.285 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 02:26:57.290 * Background saving terminated with success
+[2920] 19 Feb 03:08:37.340 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 03:08:37.341 * Background saving started by pid 6617
+[6617] 19 Feb 03:08:37.345 * DB saved on disk
+[6617] 19 Feb 03:08:37.345 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 03:08:37.351 * Background saving terminated with success
+[2920] 19 Feb 03:50:17.443 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 03:50:17.444 * Background saving started by pid 6669
+[6669] 19 Feb 03:50:17.447 * DB saved on disk
+[6669] 19 Feb 03:50:17.447 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 03:50:17.454 * Background saving terminated with success
+[2920] 19 Feb 04:31:57.734 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 04:31:57.734 * Background saving started by pid 6713
+[6713] 19 Feb 04:31:57.737 * DB saved on disk
+[6713] 19 Feb 04:31:57.738 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 04:31:57.744 * Background saving terminated with success
+[2920] 19 Feb 05:13:38.001 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 05:13:38.002 * Background saving started by pid 6762
+[6762] 19 Feb 05:13:38.005 * DB saved on disk
+[6762] 19 Feb 05:13:38.006 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 05:13:38.012 * Background saving terminated with success
+[2920] 19 Feb 05:55:18.067 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 05:55:18.068 * Background saving started by pid 6920
+[6920] 19 Feb 05:55:18.073 * DB saved on disk
+[6920] 19 Feb 05:55:18.073 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 05:55:18.078 * Background saving terminated with success
+[2920] 19 Feb 06:36:58.116 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 06:36:58.117 * Background saving started by pid 6989
+[6989] 19 Feb 06:36:58.120 * DB saved on disk
+[6989] 19 Feb 06:36:58.120 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 06:36:58.127 * Background saving terminated with success
+[2920] 19 Feb 07:18:38.177 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 07:18:38.177 * Background saving started by pid 7184
+[7184] 19 Feb 07:18:38.180 * DB saved on disk
+[7184] 19 Feb 07:18:38.181 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 07:18:38.187 * Background saving terminated with success
+[2920] 19 Feb 08:00:18.231 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 08:00:18.232 * Background saving started by pid 7219
+[7219] 19 Feb 08:00:18.235 * DB saved on disk
+[7219] 19 Feb 08:00:18.236 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 08:00:18.242 * Background saving terminated with success
+[2920] 19 Feb 08:41:58.297 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 08:41:58.298 * Background saving started by pid 7259
+[7259] 19 Feb 08:41:58.301 * DB saved on disk
+[7259] 19 Feb 08:41:58.301 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 08:41:58.308 * Background saving terminated with success
+[2920] 19 Feb 09:23:38.378 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 09:23:38.379 * Background saving started by pid 7300
+[7300] 19 Feb 09:23:38.438 * DB saved on disk
+[7300] 19 Feb 09:23:38.438 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 09:23:38.440 * Background saving terminated with success
+[2920] 19 Feb 10:05:18.470 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 10:05:18.471 * Background saving started by pid 7335
+[7335] 19 Feb 10:05:18.476 * DB saved on disk
+[7335] 19 Feb 10:05:18.477 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 10:05:18.481 * Background saving terminated with success
+[2920] 19 Feb 10:46:58.567 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 10:46:58.568 * Background saving started by pid 7618
+[7618] 19 Feb 10:46:58.571 * DB saved on disk
+[7618] 19 Feb 10:46:58.571 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 10:46:58.578 * Background saving terminated with success
+[2920] 19 Feb 11:28:38.680 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 11:28:38.681 * Background saving started by pid 7738
+[7738] 19 Feb 11:28:38.684 * DB saved on disk
+[7738] 19 Feb 11:28:38.685 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 11:28:38.691 * Background saving terminated with success
+[2920] 19 Feb 12:10:18.835 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 12:10:18.836 * Background saving started by pid 7786
+[7786] 19 Feb 12:10:18.839 * DB saved on disk
+[7786] 19 Feb 12:10:18.839 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 12:10:18.846 * Background saving terminated with success
+[2920] 19 Feb 12:51:58.952 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 12:51:58.952 * Background saving started by pid 7814
+[7814] 19 Feb 12:51:58.956 * DB saved on disk
+[7814] 19 Feb 12:51:58.956 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 12:51:58.962 * Background saving terminated with success
+[2920] 19 Feb 13:33:39.181 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 13:33:39.181 * Background saving started by pid 7898
+[7898] 19 Feb 13:33:39.184 * DB saved on disk
+[7898] 19 Feb 13:33:39.184 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 13:33:39.191 * Background saving terminated with success
+[2920] 19 Feb 14:15:19.364 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 14:15:19.365 * Background saving started by pid 7945
+[7945] 19 Feb 14:15:19.368 * DB saved on disk
+[7945] 19 Feb 14:15:19.368 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 14:15:19.376 * Background saving terminated with success
+[2920] 19 Feb 14:56:31.514 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 14:56:31.514 * Background saving started by pid 7972
+[7972] 19 Feb 14:56:31.518 * DB saved on disk
+[7972] 19 Feb 14:56:31.518 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 14:56:31.524 * Background saving terminated with success
+[2920] 19 Feb 15:36:59.692 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 15:36:59.693 * Background saving started by pid 8026
+[8026] 19 Feb 15:36:59.696 * DB saved on disk
+[8026] 19 Feb 15:36:59.696 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 15:36:59.703 * Background saving terminated with success
+[2920] 19 Feb 16:18:39.845 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 16:18:39.845 * Background saving started by pid 8066
+[8066] 19 Feb 16:18:39.849 * DB saved on disk
+[8066] 19 Feb 16:18:39.849 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 16:18:39.855 * Background saving terminated with success
+[2920] 19 Feb 17:00:20.000 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 17:00:20.000 * Background saving started by pid 8405
+[8405] 19 Feb 17:00:20.004 * DB saved on disk
+[8405] 19 Feb 17:00:20.004 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 17:00:20.011 * Background saving terminated with success
+[2920] 19 Feb 17:42:00.129 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 17:42:00.130 * Background saving started by pid 8457
+[8457] 19 Feb 17:42:00.133 * DB saved on disk
+[8457] 19 Feb 17:42:00.133 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 17:42:00.140 * Background saving terminated with success
+[2920] 19 Feb 18:23:40.403 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 18:23:40.404 * Background saving started by pid 8485
+[8485] 19 Feb 18:23:40.407 * DB saved on disk
+[8485] 19 Feb 18:23:40.407 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 18:23:40.414 * Background saving terminated with success
+[2920] 19 Feb 19:05:20.582 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 19:05:20.583 * Background saving started by pid 8522
+[8522] 19 Feb 19:05:20.586 * DB saved on disk
+[8522] 19 Feb 19:05:20.586 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 19:05:20.593 * Background saving terminated with success
+[2920] 19 Feb 19:47:00.860 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 19:47:00.860 * Background saving started by pid 8564
+[8564] 19 Feb 19:47:00.863 * DB saved on disk
+[8564] 19 Feb 19:47:00.864 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 19:47:00.870 * Background saving terminated with success
+[2920] 19 Feb 20:28:41.031 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 20:28:41.032 * Background saving started by pid 8607
+[8607] 19 Feb 20:28:41.035 * DB saved on disk
+[8607] 19 Feb 20:28:41.036 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 20:28:41.043 * Background saving terminated with success
+[2920] 19 Feb 21:10:21.083 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 21:10:21.084 * Background saving started by pid 8646
+[8646] 19 Feb 21:10:21.087 * DB saved on disk
+[8646] 19 Feb 21:10:21.087 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 21:10:21.095 * Background saving terminated with success
+[2920] 19 Feb 21:52:01.135 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 21:52:01.135 * Background saving started by pid 8686
+[8686] 19 Feb 21:52:01.142 * DB saved on disk
+[8686] 19 Feb 21:52:01.142 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 21:52:01.145 * Background saving terminated with success
+[2920] 19 Feb 22:33:41.192 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 22:33:41.192 * Background saving started by pid 8730
+[8730] 19 Feb 22:33:41.195 * DB saved on disk
+[8730] 19 Feb 22:33:41.196 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 22:33:41.202 * Background saving terminated with success
+[2920] 19 Feb 23:15:21.258 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 23:15:21.258 * Background saving started by pid 8800
+[8800] 19 Feb 23:15:21.262 * DB saved on disk
+[8800] 19 Feb 23:15:21.262 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 23:15:21.268 * Background saving terminated with success
+[2920] 19 Feb 23:57:01.330 * 100 changes in 300 seconds. Saving...
+[2920] 19 Feb 23:57:01.331 * Background saving started by pid 8844
+[8844] 19 Feb 23:57:01.338 * DB saved on disk
+[8844] 19 Feb 23:57:01.339 * RDB: 6 MB of memory used by copy-on-write
+[2920] 19 Feb 23:57:01.341 * Background saving terminated with success
+[2920] 20 Feb 00:38:41.402 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 00:38:41.402 * Background saving started by pid 8897
+[8897] 20 Feb 00:38:41.405 * DB saved on disk
+[8897] 20 Feb 00:38:41.405 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 00:38:41.412 * Background saving terminated with success
+[2920] 20 Feb 01:20:21.501 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 01:20:21.502 * Background saving started by pid 8939
+[8939] 20 Feb 01:20:21.507 * DB saved on disk
+[8939] 20 Feb 01:20:21.507 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 01:20:21.512 * Background saving terminated with success
+[2920] 20 Feb 02:02:01.590 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 02:02:01.590 * Background saving started by pid 8974
+[8974] 20 Feb 02:02:01.593 * DB saved on disk
+[8974] 20 Feb 02:02:01.594 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 02:02:01.600 * Background saving terminated with success
+[2920] 20 Feb 02:43:41.700 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 02:43:41.701 * Background saving started by pid 9027
+[9027] 20 Feb 02:43:41.704 * DB saved on disk
+[9027] 20 Feb 02:43:41.705 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 02:43:41.712 * Background saving terminated with success
+[2920] 20 Feb 03:25:21.793 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 03:25:21.794 * Background saving started by pid 9055
+[9055] 20 Feb 03:25:21.797 * DB saved on disk
+[9055] 20 Feb 03:25:21.797 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 03:25:21.804 * Background saving terminated with success
+[2920] 20 Feb 04:07:01.851 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 04:07:01.851 * Background saving started by pid 9090
+[9090] 20 Feb 04:07:01.855 * DB saved on disk
+[9090] 20 Feb 04:07:01.855 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 04:07:01.861 * Background saving terminated with success
+[2920] 20 Feb 04:48:41.960 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 04:48:41.961 * Background saving started by pid 9136
+[9136] 20 Feb 04:48:41.964 * DB saved on disk
+[9136] 20 Feb 04:48:41.964 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 04:48:41.971 * Background saving terminated with success
+[2920] 20 Feb 05:30:22.158 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 05:30:22.158 * Background saving started by pid 9174
+[9174] 20 Feb 05:30:22.161 * DB saved on disk
+[9174] 20 Feb 05:30:22.162 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 05:30:22.168 * Background saving terminated with success
+[2920] 20 Feb 06:12:02.309 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 06:12:02.309 * Background saving started by pid 9227
+[9227] 20 Feb 06:12:02.313 * DB saved on disk
+[9227] 20 Feb 06:12:02.314 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 06:12:02.319 * Background saving terminated with success
+[2920] 20 Feb 06:53:42.603 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 06:53:42.604 * Background saving started by pid 9445
+[9445] 20 Feb 06:53:42.607 * DB saved on disk
+[9445] 20 Feb 06:53:42.607 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 06:53:42.614 * Background saving terminated with success
+[2920] 20 Feb 07:35:22.833 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 07:35:22.833 * Background saving started by pid 9485
+[9485] 20 Feb 07:35:22.837 * DB saved on disk
+[9485] 20 Feb 07:35:22.837 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 07:35:22.843 * Background saving terminated with success
+[2920] 20 Feb 08:17:03.036 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 08:17:03.036 * Background saving started by pid 9528
+[9528] 20 Feb 08:17:03.040 * DB saved on disk
+[9528] 20 Feb 08:17:03.040 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 08:17:03.046 * Background saving terminated with success
+[2920] 20 Feb 08:58:43.085 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 08:58:43.086 * Background saving started by pid 9566
+[9566] 20 Feb 08:58:43.089 * DB saved on disk
+[9566] 20 Feb 08:58:43.089 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 08:58:43.096 * Background saving terminated with success
+[2920] 20 Feb 09:40:23.140 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 09:40:23.140 * Background saving started by pid 9626
+[9626] 20 Feb 09:40:23.144 * DB saved on disk
+[9626] 20 Feb 09:40:23.145 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 09:40:23.150 * Background saving terminated with success
+[2920] 20 Feb 10:22:03.207 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 10:22:03.208 * Background saving started by pid 9673
+[9673] 20 Feb 10:22:03.211 * DB saved on disk
+[9673] 20 Feb 10:22:03.211 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 10:22:03.218 * Background saving terminated with success
+[2920] 20 Feb 11:03:43.272 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 11:03:43.272 * Background saving started by pid 9710
+[9710] 20 Feb 11:03:43.275 * DB saved on disk
+[9710] 20 Feb 11:03:43.276 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 11:03:43.282 * Background saving terminated with success
+[2920] 20 Feb 11:45:23.341 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 11:45:23.341 * Background saving started by pid 9778
+[9778] 20 Feb 11:45:23.344 * DB saved on disk
+[9778] 20 Feb 11:45:23.345 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 11:45:23.351 * Background saving terminated with success
+[2920] 20 Feb 12:27:03.428 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 12:27:03.429 * Background saving started by pid 9820
+[9820] 20 Feb 12:27:03.432 * DB saved on disk
+[9820] 20 Feb 12:27:03.432 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 12:27:03.439 * Background saving terminated with success
+[2920] 20 Feb 13:08:43.522 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 13:08:43.523 * Background saving started by pid 9849
+[9849] 20 Feb 13:08:43.526 * DB saved on disk
+[9849] 20 Feb 13:08:43.526 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 13:08:43.533 * Background saving terminated with success
+[2920] 20 Feb 13:50:23.649 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 13:50:23.650 * Background saving started by pid 9899
+[9899] 20 Feb 13:50:23.653 * DB saved on disk
+[9899] 20 Feb 13:50:23.653 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 13:50:23.660 * Background saving terminated with success
+[2920] 20 Feb 14:32:03.778 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 14:32:03.778 * Background saving started by pid 9926
+[9926] 20 Feb 14:32:03.781 * DB saved on disk
+[9926] 20 Feb 14:32:03.782 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 14:32:03.788 * Background saving terminated with success
+[2920] 20 Feb 15:13:43.892 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 15:13:43.893 * Background saving started by pid 9975
+[9975] 20 Feb 15:13:43.896 * DB saved on disk
+[9975] 20 Feb 15:13:43.897 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 15:13:43.903 * Background saving terminated with success
+[2920] 20 Feb 15:55:24.114 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 15:55:24.114 * Background saving started by pid 10008
+[10008] 20 Feb 15:55:24.117 * DB saved on disk
+[10008] 20 Feb 15:55:24.118 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 15:55:24.124 * Background saving terminated with success
+[2920] 20 Feb 16:37:04.276 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 16:37:04.276 * Background saving started by pid 10074
+[10074] 20 Feb 16:37:04.280 * DB saved on disk
+[10074] 20 Feb 16:37:04.280 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 16:37:04.286 * Background saving terminated with success
+[2920] 20 Feb 17:18:44.529 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 17:18:44.529 * Background saving started by pid 10130
+[10130] 20 Feb 17:18:44.532 * DB saved on disk
+[10130] 20 Feb 17:18:44.532 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 17:18:44.539 * Background saving terminated with success
+[2920] 20 Feb 18:00:24.802 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 18:00:24.802 * Background saving started by pid 10169
+[10169] 20 Feb 18:00:24.806 * DB saved on disk
+[10169] 20 Feb 18:00:24.806 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 18:00:24.812 * Background saving terminated with success
+[2920] 20 Feb 18:42:05.015 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 18:42:05.016 * Background saving started by pid 10218
+[10218] 20 Feb 18:42:05.019 * DB saved on disk
+[10218] 20 Feb 18:42:05.019 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 18:42:05.026 * Background saving terminated with success
+[2920] 20 Feb 19:23:45.070 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 19:23:45.071 * Background saving started by pid 10261
+[10261] 20 Feb 19:23:45.074 * DB saved on disk
+[10261] 20 Feb 19:23:45.075 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 19:23:45.081 * Background saving terminated with success
+[2920] 20 Feb 20:05:25.125 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 20:05:25.126 * Background saving started by pid 10300
+[10300] 20 Feb 20:05:25.129 * DB saved on disk
+[10300] 20 Feb 20:05:25.129 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 20:05:25.137 * Background saving terminated with success
+[2920] 20 Feb 20:47:05.186 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 20:47:05.186 * Background saving started by pid 10345
+[10345] 20 Feb 20:47:05.189 * DB saved on disk
+[10345] 20 Feb 20:47:05.190 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 20:47:05.196 * Background saving terminated with success
+[2920] 20 Feb 21:27:05.264 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 21:27:05.265 * Background saving started by pid 10419
+[10419] 20 Feb 21:27:05.268 * DB saved on disk
+[10419] 20 Feb 21:27:05.269 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 21:27:05.276 * Background saving terminated with success
+[2920] 20 Feb 22:08:45.345 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 22:08:45.345 * Background saving started by pid 10458
+[10458] 20 Feb 22:08:45.349 * DB saved on disk
+[10458] 20 Feb 22:08:45.349 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 22:08:45.355 * Background saving terminated with success
+[2920] 20 Feb 22:46:58.624 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 22:46:58.625 * Background saving started by pid 11324
+[11324] 20 Feb 22:46:58.628 * DB saved on disk
+[11324] 20 Feb 22:46:58.629 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 22:46:58.635 * Background saving terminated with success
+[2920] 20 Feb 23:18:45.548 * 100 changes in 300 seconds. Saving...
+[2920] 20 Feb 23:18:45.549 * Background saving started by pid 11700
+[11700] 20 Feb 23:18:45.552 * DB saved on disk
+[11700] 20 Feb 23:18:45.553 * RDB: 6 MB of memory used by copy-on-write
+[2920] 20 Feb 23:18:45.559 * Background saving terminated with success
+[2920] 21 Feb 00:00:25.743 * 100 changes in 300 seconds. Saving...
+[2920] 21 Feb 00:00:25.744 * Background saving started by pid 11747
+[11747] 21 Feb 00:00:25.747 * DB saved on disk
+[11747] 21 Feb 00:00:25.748 * RDB: 6 MB of memory used by copy-on-write
+[2920] 21 Feb 00:00:25.754 * Background saving terminated with success
+[2920] 21 Feb 00:42:06.016 * 100 changes in 300 seconds. Saving...
+[2920] 21 Feb 00:42:06.016 * Background saving started by pid 11794
+[11794] 21 Feb 00:42:06.020 * DB saved on disk
+[11794] 21 Feb 00:42:06.020 * RDB: 6 MB of memory used by copy-on-write
+[2920] 21 Feb 00:42:06.027 * Background saving terminated with success
+[2920] 21 Feb 01:23:46.073 * 100 changes in 300 seconds. Saving...
+[2920] 21 Feb 01:23:46.073 * Background saving started by pid 12004
+[12004] 21 Feb 01:23:46.078 * DB saved on disk
+[12004] 21 Feb 01:23:46.078 * RDB: 6 MB of memory used by copy-on-write
+[2920] 21 Feb 01:23:46.083 * Background saving terminated with success
+[2920] 21 Feb 02:05:26.121 * 100 changes in 300 seconds. Saving...
+[2920] 21 Feb 02:05:26.121 * Background saving started by pid 12047
+[12047] 21 Feb 02:05:26.125 * DB saved on disk
+[12047] 21 Feb 02:05:26.125 * RDB: 6 MB of memory used by copy-on-write
+[2920] 21 Feb 02:05:26.131 * Background saving terminated with success
+[2920] 21 Feb 02:47:06.189 * 100 changes in 300 seconds. Saving...
+[2920] 21 Feb 02:47:06.190 * Background saving started by pid 12278
+[12278] 21 Feb 02:47:06.193 * DB saved on disk
+[12278] 21 Feb 02:47:06.194 * RDB: 6 MB of memory used by copy-on-write
+[2920] 21 Feb 02:47:06.200 * Background saving terminated with success
