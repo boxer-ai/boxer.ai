@@ -1,4 +1,4 @@
-# banker.ai
+# banker.ai - Semantic Matchmaking with Deep Learning
 The startup world is not for the faint of heart. Behind every success story lies a dozen failures, and the odds can still turn for even the most robust startup. Countless resources have been poured into aiding would-be founders - websites like CrunchBase or AngelList, new podcasts like StartUp, not to mention countless how-to guides and videos.
 
 <span style="font-weight: 400;">All well and good, but what remains largely unaddressed is the question of funding. The general process is known - line up your investors, hone your pitch, and be prepared for rejection. But that first crucial step: how do you find would-be investors? There are resources available, but it often still feels like a stab in the dark. Perhaps we can do better.</span>
@@ -61,7 +61,7 @@ This procedure was broken into several stages:
 
 Stage 1 - how do we get this data? We scrape. Lots and lots and lot of websites. 5000+ websites, to be more specific. We do this with lots of infrastructure, and a powerful enough scraper / crawler to take care of most of the dirty work. Simultaneously, we begin to analyze the text that comes in. Jumping straight into it, our workflow for stage 1:
 
-[![Screen Shot 2015-12-12 at 3.20.23 PM](http://2igww43ul7xe3nor5h2ah1yq.wpengine.netdna-cdn.com/wp-content/uploads/2015/12/Screen-Shot-2015-12-12-at-3.20.23-PM-1024x625.png)](http://2igww43ul7xe3nor5h2ah1yq.wpengine.netdna-cdn.com/wp-content/uploads/2015/12/Screen-Shot-2015-12-12-at-3.20.23-PM.png)
+![Screen Shot 2015-12-12 at 3.20.23 PM](http://2igww43ul7xe3nor5h2ah1yq.wpengine.netdna-cdn.com/wp-content/uploads/2015/12/Screen-Shot-2015-12-12-at-3.20.23-PM-1024x625.png)](http://2igww43ul7xe3nor5h2ah1yq.wpengine.netdna-cdn.com/wp-content/uploads/2015/12/Screen-Shot-2015-12-12-at-3.20.23-PM.png)
 
 Without lingering too long, the gist is: Scrapy goes out and scrapes lots of pages on lots of websites. We used Goose for text extraction as well as some generic XPath / CSS selector manipulations. A few cleaning functions were defined, and pages were consolidated into one body of text per website. A Scrapy pipeline was built to dump into a MySQL database, hosted on Google Cloud Services.
 
@@ -100,21 +100,19 @@ To be honest, there's simply too much code to go into here. You're welcome to ex
 
 How it works in the end is simple - enter your website OR a text description of your product, and we'll find the top 3 best matches based on a variety of metrics and return them to you That's it. We'll be working on a brief video tour of our product in the near future.
 
-<div id="attachment_8571" style="width: 539px" class="wp-caption aligncenter">[![M3 Results.](http://2igww43ul7xe3nor5h2ah1yq.wpengine.netdna-cdn.com/wp-content/uploads/2015/12/Screen-Shot-2015-12-12-at-5.52.30-PM-1024x704.png)](http://2igww43ul7xe3nor5h2ah1yq.wpengine.netdna-cdn.com/wp-content/uploads/2015/12/Screen-Shot-2015-12-12-at-5.52.30-PM.png)
+[![M3 Results](http://2igww43ul7xe3nor5h2ah1yq.wpengine.netdna-cdn.com/wp-content/uploads/2015/12/Screen-Shot-2015-12-12-at-5.52.30-PM-1024x704.png)]
 
 M3 Results.
 
-</div>
 
 # So what?
 
 Does it work? Yes (mostly). The algorithm works very well, and the data is all there. We're working on getting better representative texts as discussed above - subtract out boilerplate, scrape supplementary sites, and so on. One success story is the company kaplancleantech.com - enter in that site, and your best bets for VC funding all come from VCs with a history of clean tech entrepreneurship.
 
-<div id="attachment_8570" style="width: 578px" class="wp-caption aligncenter">[![Example M3 results, with keywords](http://2igww43ul7xe3nor5h2ah1yq.wpengine.netdna-cdn.com/wp-content/uploads/2015/12/Screen-Shot-2015-12-12-at-5.50.40-PM-1024x660.png)](http://2igww43ul7xe3nor5h2ah1yq.wpengine.netdna-cdn.com/wp-content/uploads/2015/12/Screen-Shot-2015-12-12-at-5.50.40-PM.png)
+[![Example M3 results, with keywords](http://2igww43ul7xe3nor5h2ah1yq.wpengine.netdna-cdn.com/wp-content/uploads/2015/12/Screen-Shot-2015-12-12-at-5.50.40-PM-1024x660.png)]
 
 Example M3 results for kaplancleantech.com, with keywords
 
-</div>
 
 This technology is incredibly powerful if used well. We've used it, but we too have a lot of work to do before the algorithm is truly robust. But once it is, this matching algorithm could be used in any industry, on any two bodies of text, for any time there are buyers and sellers. Site content creation, medical community, fiction - the sky's the limit.
 
