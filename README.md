@@ -100,7 +100,7 @@ To be honest, there's simply too much code to go into here. You're welcome to ex
 
 How it works in the end is simple - enter your website OR a text description of your product, and we'll find the top 3 best matches based on a variety of metrics and return them to you That's it. We'll be working on a brief video tour of our product in the near future.
 
-[![M3 Results](http://2igww43ul7xe3nor5h2ah1yq.wpengine.netdna-cdn.com/wp-content/uploads/2015/12/Screen-Shot-2015-12-12-at-5.52.30-PM-1024x704.png)]
+![M3 Results](http://2igww43ul7xe3nor5h2ah1yq.wpengine.netdna-cdn.com/wp-content/uploads/2015/12/Screen-Shot-2015-12-12-at-5.52.30-PM-1024x704.png)
 
 M3 Results.
 
@@ -109,7 +109,7 @@ M3 Results.
 
 Does it work? Yes (mostly). The algorithm works very well, and the data is all there. We're working on getting better representative texts as discussed above - subtract out boilerplate, scrape supplementary sites, and so on. One success story is the company kaplancleantech.com - enter in that site, and your best bets for VC funding all come from VCs with a history of clean tech entrepreneurship.
 
-[![Example M3 results, with keywords](http://2igww43ul7xe3nor5h2ah1yq.wpengine.netdna-cdn.com/wp-content/uploads/2015/12/Screen-Shot-2015-12-12-at-5.50.40-PM-1024x660.png)]
+![Example M3 results, with keywords](http://2igww43ul7xe3nor5h2ah1yq.wpengine.netdna-cdn.com/wp-content/uploads/2015/12/Screen-Shot-2015-12-12-at-5.50.40-PM-1024x660.png)
 
 Example M3 results for kaplancleantech.com, with keywords
 
