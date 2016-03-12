@@ -42,5 +42,8 @@ Thumbs.db
 
 # MISC #
 ########
-.pyc
-.xlsx
+*.pyc
+*.xlsx
+*.xls
+*.csv
+*.txt
